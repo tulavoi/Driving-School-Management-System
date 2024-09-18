@@ -28,5 +28,10 @@ namespace GUI
             this.Hide();
             form.Show();
         }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+            this.shadowLoginForm.SetShadowForm(this);
+        }
     }
 }
