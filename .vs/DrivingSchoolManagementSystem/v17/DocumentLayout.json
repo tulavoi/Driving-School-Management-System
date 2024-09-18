@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 193,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,6 +50,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\Program.cs",
+              "RelativeDocumentMoniker": "GUI\\Program.cs",
+              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\Program.cs",
+              "RelativeToolTip": "GUI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T07:49:08.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\LoginForm.cs",
@@ -57,33 +70,8 @@
               "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\LoginForm.cs [Design]",
               "RelativeToolTip": "GUI\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T03:30:46.977Z",
+              "WhenOpened": "2024-09-18T07:44:45.623Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DashBoardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\DashBoardForm.cs",
-              "RelativeDocumentMoniker": "GUI\\DashBoardForm.cs",
-              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\DashBoardForm.cs [Design]",
-              "RelativeToolTip": "GUI\\DashBoardForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T03:30:23.718Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\MainForm.cs",
-              "RelativeDocumentMoniker": "GUI\\MainForm.cs",
-              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\MainForm.cs",
-              "RelativeToolTip": "GUI\\MainForm.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAIA5wC4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T02:42:17.699Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -94,8 +82,21 @@
               "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\MainForm.cs [Design]",
               "RelativeToolTip": "GUI\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T09:03:57.836Z",
+              "WhenOpened": "2024-09-18T07:13:42.873Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\MainForm.cs",
+              "RelativeDocumentMoniker": "GUI\\MainForm.cs",
+              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\MainForm.cs",
+              "RelativeToolTip": "GUI\\MainForm.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAkwB8AAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T02:42:17.699Z",
+              "EditorCaption": ""
             }
           ]
         }

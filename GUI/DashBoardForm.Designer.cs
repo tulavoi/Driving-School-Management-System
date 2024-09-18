@@ -37,14 +37,14 @@
             this.pnlTopPerformer.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlTopPerformer.Location = new System.Drawing.Point(0, 0);
             this.pnlTopPerformer.Name = "pnlTopPerformer";
-            this.pnlTopPerformer.Size = new System.Drawing.Size(560, 765);
+            this.pnlTopPerformer.Size = new System.Drawing.Size(560, 776);
             this.pnlTopPerformer.TabIndex = 43;
             // 
             // DashBoardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1325, 765);
+            this.ClientSize = new System.Drawing.Size(1325, 776);
             this.Controls.Add(this.pnlTopPerformer);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DashBoardForm";
