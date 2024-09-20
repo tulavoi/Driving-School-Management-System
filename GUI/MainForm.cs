@@ -44,7 +44,49 @@ namespace GUI
 
         private void btnDashBoard_Click(object sender, EventArgs e)
         {
+            SetNameLabel(btnDashboard.Text);
 
+            Container(new DashBoardForm());
+        }
+
+        private void SetNameLabel(string nameButton)
+        {
+            lblNameForm.Text = nameButton;
+        }
+
+        public bool Container(object form)
+        {
+            try
+            {
+                if (pnlContainer.Controls.Count > 0) pnlContainer.Controls.Clear();
+
+                Form frm = (Form)form;
+                frm.TopLevel = false;
+                frm.FormBorderStyle = FormBorderStyle.None;
+                frm.Dock = DockStyle.Fill;
+                Control parent = pnlContainer.Parent;
+                while (parent != null)
+                {
+                    if (parent is MainForm mainForm)
+                    {
+                        mainForm.pnlContainer.Controls.Add(frm);
+                        mainForm.pnlContainer.Tag = frm;
+                        frm.Show();
+                        return frm.Dock == DockStyle.Fill;
+                    }
+                }
+
+                //panelContainer.Controls.Add(frm);
+                //panelContainer.Tag = frm;
+                //frm.Show();
+                //return frm.Dock == DockStyle.Fill;
+                return false;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
         }
     }
 }
