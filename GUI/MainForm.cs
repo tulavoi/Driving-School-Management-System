@@ -44,9 +44,7 @@ namespace GUI
 
         private void btnDashBoard_Click(object sender, EventArgs e)
         {
-            SetNameLabel(btnDashboard.Text);
-
-            Container(new DashBoardForm());
+            Container(new DashBoardForm(), btnDashboard.Text);
         }
 
         private void SetNameLabel(string nameButton)
@@ -54,10 +52,17 @@ namespace GUI
             lblNameForm.Text = nameButton;
         }
 
-        public bool Container(object form)
+        private void btnStudents_Click(object sender, EventArgs e)
+        {
+            Container(new StudentsForm(), btnStudents.Text);
+        }
+
+        public bool Container(object form, string nameButton)
         {
             try
             {
+                this.SetNameLabel(nameButton);
+
                 if (pnlContainer.Controls.Count > 0) pnlContainer.Controls.Clear();
 
                 Form frm = (Form)form;
@@ -75,11 +80,6 @@ namespace GUI
                         return frm.Dock == DockStyle.Fill;
                     }
                 }
-
-                //panelContainer.Controls.Add(frm);
-                //panelContainer.Tag = frm;
-                //frm.Show();
-                //return frm.Dock == DockStyle.Fill;
                 return false;
             }
             catch (Exception ex)
