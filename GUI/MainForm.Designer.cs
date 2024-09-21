@@ -38,13 +38,10 @@
             this.btnCloseForm = new Guna.UI2.WinForms.Guna2ControlBox();
             this.pnlMenu = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pnlLogo = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlSpace2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlSpace10 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace9 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlTop = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pnlSearchBox = new Guna.UI2.WinForms.Guna2Panel();
             this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
-            this.pnlSpace8 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace11 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace7 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlLabelNameForm = new Guna.UI2.WinForms.Guna2Panel();
@@ -57,13 +54,14 @@
             this.pnlSpace1 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlContainer = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnSearch = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.btnSearch = new Guna.UI2.WinForms.Guna2Button();
             this.btnInvoice = new Guna.UI2.WinForms.Guna2Button();
             this.btnCourses = new Guna.UI2.WinForms.Guna2Button();
             this.btnTeachers = new Guna.UI2.WinForms.Guna2Button();
             this.btnStudents = new Guna.UI2.WinForms.Guna2Button();
             this.btnDashboard = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBoxLogo = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pnlSpace2 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlLineTop.SuspendLayout();
             this.pnlMenu.SuspendLayout();
             this.pnlLogo.SuspendLayout();
@@ -159,7 +157,6 @@
             this.pnlLogo.BorderRadius = 15;
             this.pnlLogo.Controls.Add(this.pictureBoxLogo);
             this.pnlLogo.Controls.Add(this.pnlSpace2);
-            this.pnlLogo.Controls.Add(this.pnlSpace10);
             this.pnlLogo.Controls.Add(this.pnlSpace9);
             this.pnlLogo.CustomizableEdges.BottomLeft = false;
             this.pnlLogo.CustomizableEdges.BottomRight = false;
@@ -169,24 +166,6 @@
             this.pnlLogo.Name = "pnlLogo";
             this.pnlLogo.Size = new System.Drawing.Size(240, 172);
             this.pnlLogo.TabIndex = 24;
-            // 
-            // pnlSpace2
-            // 
-            this.pnlSpace2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlSpace2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
-            this.pnlSpace2.Location = new System.Drawing.Point(139, 33);
-            this.pnlSpace2.Name = "pnlSpace2";
-            this.pnlSpace2.Size = new System.Drawing.Size(101, 139);
-            this.pnlSpace2.TabIndex = 41;
-            // 
-            // pnlSpace10
-            // 
-            this.pnlSpace10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSpace10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
-            this.pnlSpace10.Location = new System.Drawing.Point(0, 33);
-            this.pnlSpace10.Name = "pnlSpace10";
-            this.pnlSpace10.Size = new System.Drawing.Size(14, 139);
-            this.pnlSpace10.TabIndex = 40;
             // 
             // pnlSpace9
             // 
@@ -198,7 +177,7 @@
             this.pnlSpace9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
             this.pnlSpace9.Location = new System.Drawing.Point(0, 0);
             this.pnlSpace9.Name = "pnlSpace9";
-            this.pnlSpace9.Size = new System.Drawing.Size(240, 33);
+            this.pnlSpace9.Size = new System.Drawing.Size(240, 27);
             this.pnlSpace9.TabIndex = 0;
             // 
             // pnlTop
@@ -219,7 +198,6 @@
             // 
             this.pnlSearchBox.Controls.Add(this.txtSearch);
             this.pnlSearchBox.Controls.Add(this.btnSearch);
-            this.pnlSearchBox.Controls.Add(this.pnlSpace8);
             this.pnlSearchBox.Controls.Add(this.pnlSpace11);
             this.pnlSearchBox.Controls.Add(this.pnlSpace7);
             this.pnlSearchBox.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -250,17 +228,8 @@
             this.txtSearch.PasswordChar = '\0';
             this.txtSearch.PlaceholderText = "Search";
             this.txtSearch.SelectedText = "";
-            this.txtSearch.Size = new System.Drawing.Size(598, 48);
+            this.txtSearch.Size = new System.Drawing.Size(633, 48);
             this.txtSearch.TabIndex = 0;
-            // 
-            // pnlSpace8
-            // 
-            this.pnlSpace8.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlSpace8.FillColor = System.Drawing.Color.White;
-            this.pnlSpace8.Location = new System.Drawing.Point(656, 45);
-            this.pnlSpace8.Name = "pnlSpace8";
-            this.pnlSpace8.Size = new System.Drawing.Size(61, 48);
-            this.pnlSpace8.TabIndex = 0;
             // 
             // pnlSpace11
             // 
@@ -388,17 +357,22 @@
             // btnSearch
             // 
             this.btnSearch.BackColor = System.Drawing.Color.White;
-            this.btnSearch.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSearch.BorderRadius = 20;
+            this.btnSearch.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSearch.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnSearch.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.ImageOffset = new System.Drawing.Point(0, 0);
-            this.btnSearch.ImageRotate = 0F;
-            this.btnSearch.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnSearch.Location = new System.Drawing.Point(598, 45);
+            this.btnSearch.FillColor = System.Drawing.Color.White;
+            this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSearch.ForeColor = System.Drawing.Color.White;
+            this.btnSearch.Image = global::GUI.Properties.Resources.search;
+            this.btnSearch.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnSearch.Location = new System.Drawing.Point(633, 45);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(58, 48);
-            this.btnSearch.TabIndex = 3;
+            this.btnSearch.PressedDepth = 10;
+            this.btnSearch.Size = new System.Drawing.Size(84, 48);
+            this.btnSearch.TabIndex = 0;
             // 
             // btnInvoice
             // 
@@ -555,12 +529,21 @@
             this.pictureBoxLogo.FillColor = System.Drawing.Color.Empty;
             this.pictureBoxLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogo.Image")));
             this.pictureBoxLogo.ImageRotate = 0F;
-            this.pictureBoxLogo.Location = new System.Drawing.Point(14, 33);
+            this.pictureBoxLogo.Location = new System.Drawing.Point(0, 27);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(125, 139);
+            this.pictureBoxLogo.Size = new System.Drawing.Size(153, 145);
             this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxLogo.TabIndex = 23;
             this.pictureBoxLogo.TabStop = false;
+            // 
+            // pnlSpace2
+            // 
+            this.pnlSpace2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlSpace2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+            this.pnlSpace2.Location = new System.Drawing.Point(153, 27);
+            this.pnlSpace2.Name = "pnlSpace2";
+            this.pnlSpace2.Size = new System.Drawing.Size(87, 145);
+            this.pnlSpace2.TabIndex = 41;
             // 
             // MainForm
             // 
@@ -618,17 +601,15 @@
         private Guna.UI2.WinForms.Guna2Panel pnlSearchBox;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace7;
         private Guna.UI2.WinForms.Guna2TextBox txtSearch;
-        private Guna.UI2.WinForms.Guna2ImageButton btnSearch;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace11;
-        private Guna.UI2.WinForms.Guna2Panel pnlSpace8;
         private Guna.UI2.WinForms.Guna2PictureBox pictureBoxLogo;
         private Guna.UI2.WinForms.Guna2Panel pnlLogo;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace9;
-        private Guna.UI2.WinForms.Guna2Panel pnlSpace10;
-        private Guna.UI2.WinForms.Guna2Panel pnlSpace2;
         private Guna.UI2.WinForms.Guna2Button btnInvoice;
         private Guna.UI2.WinForms.Guna2Button btnCourses;
         private Guna.UI2.WinForms.Guna2Button btnTeachers;
         private Guna.UI2.WinForms.Guna2Button btnStudents;
+        private Guna.UI2.WinForms.Guna2Button btnSearch;
+        private Guna.UI2.WinForms.Guna2Panel pnlSpace2;
     }
 }

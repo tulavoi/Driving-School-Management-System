@@ -13,3 +13,5 @@ C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.MainForm.resources
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.DashBoardForm.resources
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.StudentsForm.resources
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\bin\Debug\Guna.Charts.WinForms.dll
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\bin\Debug\Guna.Charts.WinForms.xml
