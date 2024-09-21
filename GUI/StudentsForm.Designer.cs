@@ -44,7 +44,7 @@
             this.pnlStudentList.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlStudentList.Location = new System.Drawing.Point(0, 0);
             this.pnlStudentList.Name = "pnlStudentList";
-            this.pnlStudentList.Size = new System.Drawing.Size(450, 688);
+            this.pnlStudentList.Size = new System.Drawing.Size(450, 678);
             this.pnlStudentList.TabIndex = 44;
             // 
             // pnlSpace1
@@ -53,7 +53,7 @@
             this.pnlSpace1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlSpace1.Location = new System.Drawing.Point(450, 0);
             this.pnlSpace1.Name = "pnlSpace1";
-            this.pnlSpace1.Size = new System.Drawing.Size(20, 688);
+            this.pnlSpace1.Size = new System.Drawing.Size(20, 678);
             this.pnlSpace1.TabIndex = 45;
             // 
             // pnlStudentDetails
@@ -63,7 +63,7 @@
             this.pnlStudentDetails.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlStudentDetails.Location = new System.Drawing.Point(470, 0);
             this.pnlStudentDetails.Name = "pnlStudentDetails";
-            this.pnlStudentDetails.Size = new System.Drawing.Size(430, 688);
+            this.pnlStudentDetails.Size = new System.Drawing.Size(430, 678);
             this.pnlStudentDetails.TabIndex = 46;
             // 
             // pnlSpace3
@@ -72,7 +72,7 @@
             this.pnlSpace3.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlSpace3.Location = new System.Drawing.Point(900, 0);
             this.pnlSpace3.Name = "pnlSpace3";
-            this.pnlSpace3.Size = new System.Drawing.Size(20, 688);
+            this.pnlSpace3.Size = new System.Drawing.Size(20, 678);
             this.pnlSpace3.TabIndex = 47;
             // 
             // pnl
@@ -82,7 +82,7 @@
             this.pnl.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnl.Location = new System.Drawing.Point(920, 0);
             this.pnl.Name = "pnl";
-            this.pnl.Size = new System.Drawing.Size(320, 315);
+            this.pnl.Size = new System.Drawing.Size(372, 315);
             this.pnl.TabIndex = 48;
             // 
             // pnlSpace2
@@ -91,7 +91,7 @@
             this.pnlSpace2.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSpace2.Location = new System.Drawing.Point(920, 315);
             this.pnlSpace2.Name = "pnlSpace2";
-            this.pnlSpace2.Size = new System.Drawing.Size(320, 20);
+            this.pnlSpace2.Size = new System.Drawing.Size(372, 20);
             this.pnlSpace2.TabIndex = 49;
             // 
             // pnlSpace4
@@ -101,14 +101,14 @@
             this.pnlSpace4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlSpace4.Location = new System.Drawing.Point(920, 335);
             this.pnlSpace4.Name = "pnlSpace4";
-            this.pnlSpace4.Size = new System.Drawing.Size(320, 353);
+            this.pnlSpace4.Size = new System.Drawing.Size(372, 343);
             this.pnlSpace4.TabIndex = 50;
             // 
             // StudentsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1240, 688);
+            this.ClientSize = new System.Drawing.Size(1292, 678);
             this.Controls.Add(this.pnlSpace4);
             this.Controls.Add(this.pnlSpace2);
             this.Controls.Add(this.pnl);
