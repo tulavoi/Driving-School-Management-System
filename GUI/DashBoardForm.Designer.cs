@@ -46,21 +46,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            Guna.Charts.WinForms.ChartFont chartFont9 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont10 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont11 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont12 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid4 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick4 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont13 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid5 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick5 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont14 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid6 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.PointLabel pointLabel2 = new Guna.Charts.WinForms.PointLabel();
-            Guna.Charts.WinForms.ChartFont chartFont15 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Tick tick6 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont16 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.ChartFont chartFont1 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.ChartFont chartFont2 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.ChartFont chartFont3 = new Guna.Charts.WinForms.ChartFont();
@@ -76,6 +61,21 @@
             Guna.Charts.WinForms.ChartFont chartFont7 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.Tick tick3 = new Guna.Charts.WinForms.Tick();
             Guna.Charts.WinForms.ChartFont chartFont8 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont9 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont10 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont11 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont12 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid4 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick4 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont13 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid5 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick5 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont14 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid6 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.PointLabel pointLabel2 = new Guna.Charts.WinForms.PointLabel();
+            Guna.Charts.WinForms.ChartFont chartFont15 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Tick tick6 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont16 = new Guna.Charts.WinForms.ChartFont();
             this.pnlTopPerformer = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pnlPerformerList = new Guna.UI2.WinForms.Guna2Panel();
             this.tabControlTopPerformer = new Guna.UI2.WinForms.Guna2TabControl();
@@ -120,8 +120,8 @@
             this.iconTotalEarning = new Guna.UI2.WinForms.Guna2Button();
             this.pnlSpace3 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlStatistic_Left = new Guna.UI2.WinForms.Guna2Panel();
-            this.lblTotalStudents_Value = new System.Windows.Forms.Label();
-            this.lblTotalStudents_Title = new System.Windows.Forms.Label();
+            this.lblTotalLearners_Value = new System.Windows.Forms.Label();
+            this.lblTotalLearners_Title = new System.Windows.Forms.Label();
             this.pnlIconStudent = new Guna.UI2.WinForms.Guna2Panel();
             this.iconTotalStudents = new Guna.UI2.WinForms.Guna2Button();
             this.pnlSpace6 = new Guna.UI2.WinForms.Guna2Panel();
@@ -134,13 +134,13 @@
             this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlChart = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
-            this.pnlStudentChart = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlSpace11 = new Guna.UI2.WinForms.Guna2Panel();
-            this.studentsChart = new Guna.Charts.WinForms.GunaChart();
-            this.lblStudentsChart = new System.Windows.Forms.Label();
             this.teachersChart = new Guna.Charts.WinForms.GunaChart();
             this.lblTeachersChart = new System.Windows.Forms.Label();
+            this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
+            this.pnlStudentChart = new Guna.UI2.WinForms.Guna2Panel();
+            this.learnersChart = new Guna.Charts.WinForms.GunaChart();
+            this.lblLearnersChart = new System.Windows.Forms.Label();
+            this.pnlSpace11 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlTopPerformer.SuspendLayout();
             this.pnlPerformerList.SuspendLayout();
             this.tabControlTopPerformer.SuspendLayout();
@@ -891,8 +891,8 @@
             // 
             // pnlStatistic_Left
             // 
-            this.pnlStatistic_Left.Controls.Add(this.lblTotalStudents_Value);
-            this.pnlStatistic_Left.Controls.Add(this.lblTotalStudents_Title);
+            this.pnlStatistic_Left.Controls.Add(this.lblTotalLearners_Value);
+            this.pnlStatistic_Left.Controls.Add(this.lblTotalLearners_Title);
             this.pnlStatistic_Left.Controls.Add(this.pnlIconStudent);
             this.pnlStatistic_Left.Controls.Add(this.pnlSpace6);
             this.pnlStatistic_Left.CustomizableEdges.BottomRight = false;
@@ -904,30 +904,30 @@
             this.pnlStatistic_Left.Size = new System.Drawing.Size(260, 125);
             this.pnlStatistic_Left.TabIndex = 11;
             // 
-            // lblTotalStudents_Value
+            // lblTotalLearners_Value
             // 
-            this.lblTotalStudents_Value.BackColor = System.Drawing.Color.White;
-            this.lblTotalStudents_Value.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTotalStudents_Value.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalStudents_Value.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.lblTotalStudents_Value.Location = new System.Drawing.Point(30, 75);
-            this.lblTotalStudents_Value.Name = "lblTotalStudents_Value";
-            this.lblTotalStudents_Value.Size = new System.Drawing.Size(230, 50);
-            this.lblTotalStudents_Value.TabIndex = 8;
-            this.lblTotalStudents_Value.Text = "2.5K";
+            this.lblTotalLearners_Value.BackColor = System.Drawing.Color.White;
+            this.lblTotalLearners_Value.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblTotalLearners_Value.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalLearners_Value.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+            this.lblTotalLearners_Value.Location = new System.Drawing.Point(30, 75);
+            this.lblTotalLearners_Value.Name = "lblTotalLearners_Value";
+            this.lblTotalLearners_Value.Size = new System.Drawing.Size(230, 50);
+            this.lblTotalLearners_Value.TabIndex = 8;
+            this.lblTotalLearners_Value.Text = "2.5K";
             // 
-            // lblTotalStudents_Title
+            // lblTotalLearners_Title
             // 
-            this.lblTotalStudents_Title.BackColor = System.Drawing.Color.White;
-            this.lblTotalStudents_Title.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblTotalStudents_Title.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalStudents_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
-            this.lblTotalStudents_Title.Location = new System.Drawing.Point(30, 45);
-            this.lblTotalStudents_Title.Name = "lblTotalStudents_Title";
-            this.lblTotalStudents_Title.Size = new System.Drawing.Size(230, 30);
-            this.lblTotalStudents_Title.TabIndex = 7;
-            this.lblTotalStudents_Title.Text = "Total Students";
-            this.lblTotalStudents_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTotalLearners_Title.BackColor = System.Drawing.Color.White;
+            this.lblTotalLearners_Title.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblTotalLearners_Title.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalLearners_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
+            this.lblTotalLearners_Title.Location = new System.Drawing.Point(30, 45);
+            this.lblTotalLearners_Title.Name = "lblTotalLearners_Title";
+            this.lblTotalLearners_Title.Size = new System.Drawing.Size(230, 30);
+            this.lblTotalLearners_Title.TabIndex = 7;
+            this.lblTotalLearners_Title.Text = "Total Learners";
+            this.lblTotalLearners_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pnlIconStudent
             // 
@@ -1078,86 +1078,6 @@
             this.pnlSpace5.Size = new System.Drawing.Size(392, 405);
             this.pnlSpace5.TabIndex = 7;
             // 
-            // guna2VSeparator1
-            // 
-            this.guna2VSeparator1.BackColor = System.Drawing.Color.White;
-            this.guna2VSeparator1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2VSeparator1.Location = new System.Drawing.Point(0, 0);
-            this.guna2VSeparator1.Name = "guna2VSeparator1";
-            this.guna2VSeparator1.Size = new System.Drawing.Size(10, 405);
-            this.guna2VSeparator1.TabIndex = 6;
-            // 
-            // pnlStudentChart
-            // 
-            this.pnlStudentChart.Controls.Add(this.studentsChart);
-            this.pnlStudentChart.Controls.Add(this.lblStudentsChart);
-            this.pnlStudentChart.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlStudentChart.Location = new System.Drawing.Point(0, 0);
-            this.pnlStudentChart.Name = "pnlStudentChart";
-            this.pnlStudentChart.Size = new System.Drawing.Size(392, 405);
-            this.pnlStudentChart.TabIndex = 6;
-            // 
-            // pnlSpace11
-            // 
-            this.pnlSpace11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.pnlSpace11.BorderRadius = 15;
-            this.pnlSpace11.CustomizableEdges.TopLeft = false;
-            this.pnlSpace11.CustomizableEdges.TopRight = false;
-            this.pnlSpace11.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSpace11.FillColor = System.Drawing.Color.White;
-            this.pnlSpace11.Location = new System.Drawing.Point(0, 405);
-            this.pnlSpace11.Name = "pnlSpace11";
-            this.pnlSpace11.Size = new System.Drawing.Size(784, 20);
-            this.pnlSpace11.TabIndex = 8;
-            // 
-            // studentsChart
-            // 
-            this.studentsChart.Dock = System.Windows.Forms.DockStyle.Fill;
-            chartFont9.FontName = "Arial";
-            this.studentsChart.Legend.LabelFont = chartFont9;
-            this.studentsChart.Location = new System.Drawing.Point(0, 49);
-            this.studentsChart.Name = "studentsChart";
-            this.studentsChart.Size = new System.Drawing.Size(392, 356);
-            this.studentsChart.TabIndex = 8;
-            chartFont10.FontName = "Arial";
-            chartFont10.Size = 12;
-            chartFont10.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.studentsChart.Title.Font = chartFont10;
-            chartFont11.FontName = "Arial";
-            this.studentsChart.Tooltips.BodyFont = chartFont11;
-            chartFont12.FontName = "Arial";
-            chartFont12.Size = 9;
-            chartFont12.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.studentsChart.Tooltips.TitleFont = chartFont12;
-            this.studentsChart.XAxes.GridLines = grid4;
-            chartFont13.FontName = "Arial";
-            tick4.Font = chartFont13;
-            this.studentsChart.XAxes.Ticks = tick4;
-            this.studentsChart.YAxes.GridLines = grid5;
-            chartFont14.FontName = "Arial";
-            tick5.Font = chartFont14;
-            this.studentsChart.YAxes.Ticks = tick5;
-            this.studentsChart.ZAxes.GridLines = grid6;
-            chartFont15.FontName = "Arial";
-            pointLabel2.Font = chartFont15;
-            this.studentsChart.ZAxes.PointLabels = pointLabel2;
-            chartFont16.FontName = "Arial";
-            tick6.Font = chartFont16;
-            this.studentsChart.ZAxes.Ticks = tick6;
-            // 
-            // lblStudentsChart
-            // 
-            this.lblStudentsChart.BackColor = System.Drawing.Color.White;
-            this.lblStudentsChart.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblStudentsChart.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStudentsChart.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.lblStudentsChart.Location = new System.Drawing.Point(0, 0);
-            this.lblStudentsChart.Name = "lblStudentsChart";
-            this.lblStudentsChart.Size = new System.Drawing.Size(392, 49);
-            this.lblStudentsChart.TabIndex = 9;
-            this.lblStudentsChart.Text = "      Students";
-            this.lblStudentsChart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // teachersChart
             // 
             this.teachersChart.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -1205,6 +1125,86 @@
             this.lblTeachersChart.TabIndex = 11;
             this.lblTeachersChart.Text = "      Teachers";
             this.lblTeachersChart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // guna2VSeparator1
+            // 
+            this.guna2VSeparator1.BackColor = System.Drawing.Color.White;
+            this.guna2VSeparator1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2VSeparator1.Location = new System.Drawing.Point(0, 0);
+            this.guna2VSeparator1.Name = "guna2VSeparator1";
+            this.guna2VSeparator1.Size = new System.Drawing.Size(10, 405);
+            this.guna2VSeparator1.TabIndex = 6;
+            // 
+            // pnlStudentChart
+            // 
+            this.pnlStudentChart.Controls.Add(this.learnersChart);
+            this.pnlStudentChart.Controls.Add(this.lblLearnersChart);
+            this.pnlStudentChart.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlStudentChart.Location = new System.Drawing.Point(0, 0);
+            this.pnlStudentChart.Name = "pnlStudentChart";
+            this.pnlStudentChart.Size = new System.Drawing.Size(392, 405);
+            this.pnlStudentChart.TabIndex = 6;
+            // 
+            // learnersChart
+            // 
+            this.learnersChart.Dock = System.Windows.Forms.DockStyle.Fill;
+            chartFont9.FontName = "Arial";
+            this.learnersChart.Legend.LabelFont = chartFont9;
+            this.learnersChart.Location = new System.Drawing.Point(0, 49);
+            this.learnersChart.Name = "learnersChart";
+            this.learnersChart.Size = new System.Drawing.Size(392, 356);
+            this.learnersChart.TabIndex = 8;
+            chartFont10.FontName = "Arial";
+            chartFont10.Size = 12;
+            chartFont10.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.learnersChart.Title.Font = chartFont10;
+            chartFont11.FontName = "Arial";
+            this.learnersChart.Tooltips.BodyFont = chartFont11;
+            chartFont12.FontName = "Arial";
+            chartFont12.Size = 9;
+            chartFont12.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.learnersChart.Tooltips.TitleFont = chartFont12;
+            this.learnersChart.XAxes.GridLines = grid4;
+            chartFont13.FontName = "Arial";
+            tick4.Font = chartFont13;
+            this.learnersChart.XAxes.Ticks = tick4;
+            this.learnersChart.YAxes.GridLines = grid5;
+            chartFont14.FontName = "Arial";
+            tick5.Font = chartFont14;
+            this.learnersChart.YAxes.Ticks = tick5;
+            this.learnersChart.ZAxes.GridLines = grid6;
+            chartFont15.FontName = "Arial";
+            pointLabel2.Font = chartFont15;
+            this.learnersChart.ZAxes.PointLabels = pointLabel2;
+            chartFont16.FontName = "Arial";
+            tick6.Font = chartFont16;
+            this.learnersChart.ZAxes.Ticks = tick6;
+            // 
+            // lblLearnersChart
+            // 
+            this.lblLearnersChart.BackColor = System.Drawing.Color.White;
+            this.lblLearnersChart.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblLearnersChart.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLearnersChart.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+            this.lblLearnersChart.Location = new System.Drawing.Point(0, 0);
+            this.lblLearnersChart.Name = "lblLearnersChart";
+            this.lblLearnersChart.Size = new System.Drawing.Size(392, 49);
+            this.lblLearnersChart.TabIndex = 9;
+            this.lblLearnersChart.Text = "      Learners";
+            this.lblLearnersChart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pnlSpace11
+            // 
+            this.pnlSpace11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSpace11.BorderRadius = 15;
+            this.pnlSpace11.CustomizableEdges.TopLeft = false;
+            this.pnlSpace11.CustomizableEdges.TopRight = false;
+            this.pnlSpace11.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlSpace11.FillColor = System.Drawing.Color.White;
+            this.pnlSpace11.Location = new System.Drawing.Point(0, 405);
+            this.pnlSpace11.Name = "pnlSpace11";
+            this.pnlSpace11.Size = new System.Drawing.Size(784, 20);
+            this.pnlSpace11.TabIndex = 8;
             // 
             // DashBoardForm
             // 
@@ -1286,8 +1286,8 @@
         private System.Windows.Forms.Label lblAttandance;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace9;
         private Guna.UI2.WinForms.Guna2Panel pnlStatistic_Left;
-        private System.Windows.Forms.Label lblTotalStudents_Value;
-        private System.Windows.Forms.Label lblTotalStudents_Title;
+        private System.Windows.Forms.Label lblTotalLearners_Value;
+        private System.Windows.Forms.Label lblTotalLearners_Title;
         private Guna.UI2.WinForms.Guna2Panel pnlIconStudent;
         private Guna.UI2.WinForms.Guna2Button iconTotalStudents;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace6;
@@ -1309,8 +1309,8 @@
         private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator1;
         private Guna.UI2.WinForms.Guna2Panel pnlStudentChart;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace11;
-        private Guna.Charts.WinForms.GunaChart studentsChart;
-        private System.Windows.Forms.Label lblStudentsChart;
+        private Guna.Charts.WinForms.GunaChart learnersChart;
+        private System.Windows.Forms.Label lblLearnersChart;
         private Guna.Charts.WinForms.GunaChart teachersChart;
         private System.Windows.Forms.Label lblTeachersChart;
     }
