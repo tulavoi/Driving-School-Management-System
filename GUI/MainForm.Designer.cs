@@ -37,11 +37,19 @@
             this.pnlSpace3 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnCloseForm = new Guna.UI2.WinForms.Guna2ControlBox();
             this.pnlMenu = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.btnInvoice = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCourses = new Guna.UI2.WinForms.Guna2Button();
+            this.btnTeachers = new Guna.UI2.WinForms.Guna2Button();
+            this.btnStudents = new Guna.UI2.WinForms.Guna2Button();
+            this.btnDashboard = new Guna.UI2.WinForms.Guna2Button();
             this.pnlLogo = new Guna.UI2.WinForms.Guna2Panel();
+            this.pictureBoxLogo = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pnlSpace2 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace9 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlTop = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pnlSearchBox = new Guna.UI2.WinForms.Guna2Panel();
             this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnSearch = new Guna.UI2.WinForms.Guna2Button();
             this.pnlSpace11 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace7 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlLabelNameForm = new Guna.UI2.WinForms.Guna2Panel();
@@ -54,21 +62,13 @@
             this.pnlSpace1 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlContainer = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnSearch = new Guna.UI2.WinForms.Guna2Button();
-            this.btnInvoice = new Guna.UI2.WinForms.Guna2Button();
-            this.btnCourses = new Guna.UI2.WinForms.Guna2Button();
-            this.btnTeachers = new Guna.UI2.WinForms.Guna2Button();
-            this.btnStudents = new Guna.UI2.WinForms.Guna2Button();
-            this.btnDashboard = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBoxLogo = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.pnlSpace2 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlLineTop.SuspendLayout();
             this.pnlMenu.SuspendLayout();
             this.pnlLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.pnlTop.SuspendLayout();
             this.pnlSearchBox.SuspendLayout();
             this.pnlLabelNameForm.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // dragControl
@@ -79,7 +79,7 @@
             // 
             // pnlLineTop
             // 
-            this.pnlLineTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+            this.pnlLineTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlLineTop.Controls.Add(this.btnMinimizeForm);
             this.pnlLineTop.Controls.Add(this.pnlSpace3);
             this.pnlLineTop.Controls.Add(this.btnCloseForm);
@@ -133,7 +133,7 @@
             // 
             // pnlMenu
             // 
-            this.pnlMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+            this.pnlMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlMenu.BorderColor = System.Drawing.Color.White;
             this.pnlMenu.BorderRadius = 15;
             this.pnlMenu.Controls.Add(this.btnInvoice);
@@ -151,228 +151,6 @@
             this.pnlMenu.Name = "pnlMenu";
             this.pnlMenu.Size = new System.Drawing.Size(240, 850);
             this.pnlMenu.TabIndex = 33;
-            // 
-            // pnlLogo
-            // 
-            this.pnlLogo.BorderRadius = 15;
-            this.pnlLogo.Controls.Add(this.pictureBoxLogo);
-            this.pnlLogo.Controls.Add(this.pnlSpace2);
-            this.pnlLogo.Controls.Add(this.pnlSpace9);
-            this.pnlLogo.CustomizableEdges.BottomLeft = false;
-            this.pnlLogo.CustomizableEdges.BottomRight = false;
-            this.pnlLogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLogo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
-            this.pnlLogo.Location = new System.Drawing.Point(0, 0);
-            this.pnlLogo.Name = "pnlLogo";
-            this.pnlLogo.Size = new System.Drawing.Size(240, 172);
-            this.pnlLogo.TabIndex = 24;
-            // 
-            // pnlSpace9
-            // 
-            this.pnlSpace9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            this.pnlSpace9.BorderRadius = 15;
-            this.pnlSpace9.CustomizableEdges.BottomLeft = false;
-            this.pnlSpace9.CustomizableEdges.BottomRight = false;
-            this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSpace9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
-            this.pnlSpace9.Location = new System.Drawing.Point(0, 0);
-            this.pnlSpace9.Name = "pnlSpace9";
-            this.pnlSpace9.Size = new System.Drawing.Size(240, 27);
-            this.pnlSpace9.TabIndex = 0;
-            // 
-            // pnlTop
-            // 
-            this.pnlTop.BorderRadius = 15;
-            this.pnlTop.Controls.Add(this.pnlSearchBox);
-            this.pnlTop.Controls.Add(this.pnlLabelNameForm);
-            this.pnlTop.Controls.Add(this.pnlSpace6);
-            this.pnlTop.Controls.Add(this.pnlSpace5);
-            this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlTop.Font = new System.Drawing.Font("Berlin Sans FB", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnlTop.Location = new System.Drawing.Point(283, 25);
-            this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(1292, 138);
-            this.pnlTop.TabIndex = 34;
-            // 
-            // pnlSearchBox
-            // 
-            this.pnlSearchBox.Controls.Add(this.txtSearch);
-            this.pnlSearchBox.Controls.Add(this.btnSearch);
-            this.pnlSearchBox.Controls.Add(this.pnlSpace11);
-            this.pnlSearchBox.Controls.Add(this.pnlSpace7);
-            this.pnlSearchBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlSearchBox.FillColor = System.Drawing.Color.White;
-            this.pnlSearchBox.Location = new System.Drawing.Point(545, 0);
-            this.pnlSearchBox.Name = "pnlSearchBox";
-            this.pnlSearchBox.Size = new System.Drawing.Size(717, 138);
-            this.pnlSearchBox.TabIndex = 5;
-            // 
-            // txtSearch
-            // 
-            this.txtSearch.BackColor = System.Drawing.Color.White;
-            this.txtSearch.BorderRadius = 15;
-            this.txtSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSearch.DefaultText = "";
-            this.txtSearch.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearch.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearch.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtSearch.FillColor = System.Drawing.SystemColors.Control;
-            this.txtSearch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.txtSearch.Location = new System.Drawing.Point(0, 45);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.txtSearch.Name = "txtSearch";
-            this.txtSearch.PasswordChar = '\0';
-            this.txtSearch.PlaceholderText = "Search";
-            this.txtSearch.SelectedText = "";
-            this.txtSearch.Size = new System.Drawing.Size(633, 48);
-            this.txtSearch.TabIndex = 0;
-            // 
-            // pnlSpace11
-            // 
-            this.pnlSpace11.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSpace11.FillColor = System.Drawing.Color.White;
-            this.pnlSpace11.Location = new System.Drawing.Point(0, 93);
-            this.pnlSpace11.Name = "pnlSpace11";
-            this.pnlSpace11.Size = new System.Drawing.Size(717, 45);
-            this.pnlSpace11.TabIndex = 2;
-            // 
-            // pnlSpace7
-            // 
-            this.pnlSpace7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSpace7.FillColor = System.Drawing.Color.White;
-            this.pnlSpace7.Location = new System.Drawing.Point(0, 0);
-            this.pnlSpace7.Name = "pnlSpace7";
-            this.pnlSpace7.Size = new System.Drawing.Size(717, 45);
-            this.pnlSpace7.TabIndex = 1;
-            // 
-            // pnlLabelNameForm
-            // 
-            this.pnlLabelNameForm.BackColor = System.Drawing.Color.White;
-            this.pnlLabelNameForm.Controls.Add(this.lblNameForm);
-            this.pnlLabelNameForm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlLabelNameForm.FillColor = System.Drawing.Color.White;
-            this.pnlLabelNameForm.Location = new System.Drawing.Point(30, 0);
-            this.pnlLabelNameForm.Name = "pnlLabelNameForm";
-            this.pnlLabelNameForm.Size = new System.Drawing.Size(515, 138);
-            this.pnlLabelNameForm.TabIndex = 4;
-            // 
-            // lblNameForm
-            // 
-            this.lblNameForm.BackColor = System.Drawing.Color.White;
-            this.lblNameForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblNameForm.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNameForm.Location = new System.Drawing.Point(0, 0);
-            this.lblNameForm.Name = "lblNameForm";
-            this.lblNameForm.Size = new System.Drawing.Size(515, 138);
-            this.lblNameForm.TabIndex = 3;
-            this.lblNameForm.Text = "Name Form";
-            this.lblNameForm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pnlSpace6
-            // 
-            this.pnlSpace6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            this.pnlSpace6.BorderRadius = 15;
-            this.pnlSpace6.CustomizableEdges.BottomLeft = false;
-            this.pnlSpace6.CustomizableEdges.TopLeft = false;
-            this.pnlSpace6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlSpace6.FillColor = System.Drawing.Color.White;
-            this.pnlSpace6.Location = new System.Drawing.Point(1262, 0);
-            this.pnlSpace6.Name = "pnlSpace6";
-            this.pnlSpace6.Size = new System.Drawing.Size(30, 138);
-            this.pnlSpace6.TabIndex = 1;
-            // 
-            // pnlSpace5
-            // 
-            this.pnlSpace5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            this.pnlSpace5.BorderRadius = 15;
-            this.pnlSpace5.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, -1, 0);
-            this.pnlSpace5.CustomizableEdges.BottomRight = false;
-            this.pnlSpace5.CustomizableEdges.TopRight = false;
-            this.pnlSpace5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSpace5.FillColor = System.Drawing.Color.White;
-            this.pnlSpace5.Location = new System.Drawing.Point(0, 0);
-            this.pnlSpace5.Name = "pnlSpace5";
-            this.pnlSpace5.Size = new System.Drawing.Size(30, 138);
-            this.pnlSpace5.TabIndex = 0;
-            // 
-            // pnlLineLeft
-            // 
-            this.pnlLineLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            this.pnlLineLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlLineLeft.Location = new System.Drawing.Point(0, 25);
-            this.pnlLineLeft.Name = "pnlLineLeft";
-            this.pnlLineLeft.Size = new System.Drawing.Size(25, 875);
-            this.pnlLineLeft.TabIndex = 36;
-            // 
-            // pnlLineBottom
-            // 
-            this.pnlLineBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            this.pnlLineBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlLineBottom.Location = new System.Drawing.Point(25, 875);
-            this.pnlLineBottom.Name = "pnlLineBottom";
-            this.pnlLineBottom.Size = new System.Drawing.Size(1575, 25);
-            this.pnlLineBottom.TabIndex = 37;
-            // 
-            // pnlLineRight
-            // 
-            this.pnlLineRight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            this.pnlLineRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlLineRight.Location = new System.Drawing.Point(1575, 25);
-            this.pnlLineRight.Name = "pnlLineRight";
-            this.pnlLineRight.Size = new System.Drawing.Size(25, 850);
-            this.pnlLineRight.TabIndex = 38;
-            // 
-            // pnlSpace1
-            // 
-            this.pnlSpace1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            this.pnlSpace1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSpace1.Location = new System.Drawing.Point(265, 25);
-            this.pnlSpace1.Name = "pnlSpace1";
-            this.pnlSpace1.Size = new System.Drawing.Size(18, 850);
-            this.pnlSpace1.TabIndex = 39;
-            // 
-            // pnlSpace4
-            // 
-            this.pnlSpace4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            this.pnlSpace4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSpace4.Location = new System.Drawing.Point(283, 163);
-            this.pnlSpace4.Name = "pnlSpace4";
-            this.pnlSpace4.Size = new System.Drawing.Size(1292, 34);
-            this.pnlSpace4.TabIndex = 40;
-            // 
-            // pnlContainer
-            // 
-            this.pnlContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            this.pnlContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlContainer.Font = new System.Drawing.Font("Berlin Sans FB", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnlContainer.Location = new System.Drawing.Point(283, 197);
-            this.pnlContainer.Name = "pnlContainer";
-            this.pnlContainer.Size = new System.Drawing.Size(1292, 678);
-            this.pnlContainer.TabIndex = 41;
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.BackColor = System.Drawing.Color.White;
-            this.btnSearch.BorderRadius = 20;
-            this.btnSearch.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnSearch.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSearch.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnSearch.FillColor = System.Drawing.Color.White;
-            this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnSearch.ForeColor = System.Drawing.Color.White;
-            this.btnSearch.Image = global::GUI.Properties.Resources.search;
-            this.btnSearch.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnSearch.Location = new System.Drawing.Point(633, 45);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.PressedDepth = 10;
-            this.btnSearch.Size = new System.Drawing.Size(84, 48);
-            this.btnSearch.TabIndex = 0;
             // 
             // btnInvoice
             // 
@@ -521,6 +299,21 @@
             this.btnDashboard.TextOffset = new System.Drawing.Point(25, 0);
             this.btnDashboard.Click += new System.EventHandler(this.btnDashBoard_Click);
             // 
+            // pnlLogo
+            // 
+            this.pnlLogo.BorderRadius = 15;
+            this.pnlLogo.Controls.Add(this.pictureBoxLogo);
+            this.pnlLogo.Controls.Add(this.pnlSpace2);
+            this.pnlLogo.Controls.Add(this.pnlSpace9);
+            this.pnlLogo.CustomizableEdges.BottomLeft = false;
+            this.pnlLogo.CustomizableEdges.BottomRight = false;
+            this.pnlLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlLogo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+            this.pnlLogo.Location = new System.Drawing.Point(0, 0);
+            this.pnlLogo.Name = "pnlLogo";
+            this.pnlLogo.Size = new System.Drawing.Size(240, 172);
+            this.pnlLogo.TabIndex = 24;
+            // 
             // pictureBoxLogo
             // 
             this.pictureBoxLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
@@ -544,6 +337,214 @@
             this.pnlSpace2.Name = "pnlSpace2";
             this.pnlSpace2.Size = new System.Drawing.Size(87, 145);
             this.pnlSpace2.TabIndex = 41;
+            // 
+            // pnlSpace9
+            // 
+            this.pnlSpace9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSpace9.BorderRadius = 15;
+            this.pnlSpace9.CustomizableEdges.BottomLeft = false;
+            this.pnlSpace9.CustomizableEdges.BottomRight = false;
+            this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSpace9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+            this.pnlSpace9.Location = new System.Drawing.Point(0, 0);
+            this.pnlSpace9.Name = "pnlSpace9";
+            this.pnlSpace9.Size = new System.Drawing.Size(240, 27);
+            this.pnlSpace9.TabIndex = 0;
+            // 
+            // pnlTop
+            // 
+            this.pnlTop.BorderRadius = 15;
+            this.pnlTop.Controls.Add(this.pnlSearchBox);
+            this.pnlTop.Controls.Add(this.pnlLabelNameForm);
+            this.pnlTop.Controls.Add(this.pnlSpace6);
+            this.pnlTop.Controls.Add(this.pnlSpace5);
+            this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlTop.Font = new System.Drawing.Font("Berlin Sans FB", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnlTop.Location = new System.Drawing.Point(283, 25);
+            this.pnlTop.Name = "pnlTop";
+            this.pnlTop.Size = new System.Drawing.Size(1292, 138);
+            this.pnlTop.TabIndex = 34;
+            // 
+            // pnlSearchBox
+            // 
+            this.pnlSearchBox.Controls.Add(this.txtSearch);
+            this.pnlSearchBox.Controls.Add(this.btnSearch);
+            this.pnlSearchBox.Controls.Add(this.pnlSpace11);
+            this.pnlSearchBox.Controls.Add(this.pnlSpace7);
+            this.pnlSearchBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlSearchBox.FillColor = System.Drawing.Color.White;
+            this.pnlSearchBox.Location = new System.Drawing.Point(540, 0);
+            this.pnlSearchBox.Name = "pnlSearchBox";
+            this.pnlSearchBox.Size = new System.Drawing.Size(727, 138);
+            this.pnlSearchBox.TabIndex = 5;
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.BackColor = System.Drawing.Color.White;
+            this.txtSearch.BorderRadius = 10;
+            this.txtSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSearch.DefaultText = "";
+            this.txtSearch.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearch.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearch.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtSearch.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
+            this.txtSearch.FocusedState.BorderColor = System.Drawing.SystemColors.ControlLight;
+            this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtSearch.HoverState.BorderColor = System.Drawing.SystemColors.ControlLight;
+            this.txtSearch.Location = new System.Drawing.Point(0, 45);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.PasswordChar = '\0';
+            this.txtSearch.PlaceholderText = "Search";
+            this.txtSearch.SelectedText = "";
+            this.txtSearch.Size = new System.Drawing.Size(643, 48);
+            this.txtSearch.TabIndex = 0;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.BackColor = System.Drawing.Color.White;
+            this.btnSearch.BorderRadius = 15;
+            this.btnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSearch.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSearch.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSearch.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSearch.FillColor = System.Drawing.Color.White;
+            this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSearch.ForeColor = System.Drawing.Color.White;
+            this.btnSearch.Image = global::GUI.Properties.Resources.search;
+            this.btnSearch.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnSearch.Location = new System.Drawing.Point(643, 45);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.PressedDepth = 10;
+            this.btnSearch.Size = new System.Drawing.Size(84, 48);
+            this.btnSearch.TabIndex = 0;
+            // 
+            // pnlSpace11
+            // 
+            this.pnlSpace11.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlSpace11.FillColor = System.Drawing.Color.White;
+            this.pnlSpace11.Location = new System.Drawing.Point(0, 93);
+            this.pnlSpace11.Name = "pnlSpace11";
+            this.pnlSpace11.Size = new System.Drawing.Size(727, 45);
+            this.pnlSpace11.TabIndex = 2;
+            // 
+            // pnlSpace7
+            // 
+            this.pnlSpace7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSpace7.FillColor = System.Drawing.Color.White;
+            this.pnlSpace7.Location = new System.Drawing.Point(0, 0);
+            this.pnlSpace7.Name = "pnlSpace7";
+            this.pnlSpace7.Size = new System.Drawing.Size(727, 45);
+            this.pnlSpace7.TabIndex = 1;
+            // 
+            // pnlLabelNameForm
+            // 
+            this.pnlLabelNameForm.BackColor = System.Drawing.Color.White;
+            this.pnlLabelNameForm.Controls.Add(this.lblNameForm);
+            this.pnlLabelNameForm.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlLabelNameForm.FillColor = System.Drawing.Color.White;
+            this.pnlLabelNameForm.Location = new System.Drawing.Point(25, 0);
+            this.pnlLabelNameForm.Name = "pnlLabelNameForm";
+            this.pnlLabelNameForm.Size = new System.Drawing.Size(515, 138);
+            this.pnlLabelNameForm.TabIndex = 4;
+            // 
+            // lblNameForm
+            // 
+            this.lblNameForm.BackColor = System.Drawing.Color.White;
+            this.lblNameForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblNameForm.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNameForm.Location = new System.Drawing.Point(0, 0);
+            this.lblNameForm.Name = "lblNameForm";
+            this.lblNameForm.Size = new System.Drawing.Size(515, 138);
+            this.lblNameForm.TabIndex = 3;
+            this.lblNameForm.Text = "Name Form";
+            this.lblNameForm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pnlSpace6
+            // 
+            this.pnlSpace6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSpace6.BorderRadius = 15;
+            this.pnlSpace6.CustomizableEdges.BottomLeft = false;
+            this.pnlSpace6.CustomizableEdges.TopLeft = false;
+            this.pnlSpace6.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlSpace6.FillColor = System.Drawing.Color.White;
+            this.pnlSpace6.Location = new System.Drawing.Point(1267, 0);
+            this.pnlSpace6.Name = "pnlSpace6";
+            this.pnlSpace6.Size = new System.Drawing.Size(25, 138);
+            this.pnlSpace6.TabIndex = 1;
+            // 
+            // pnlSpace5
+            // 
+            this.pnlSpace5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSpace5.BorderRadius = 15;
+            this.pnlSpace5.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, -1, 0);
+            this.pnlSpace5.CustomizableEdges.BottomRight = false;
+            this.pnlSpace5.CustomizableEdges.TopRight = false;
+            this.pnlSpace5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlSpace5.FillColor = System.Drawing.Color.White;
+            this.pnlSpace5.Location = new System.Drawing.Point(0, 0);
+            this.pnlSpace5.Name = "pnlSpace5";
+            this.pnlSpace5.Size = new System.Drawing.Size(25, 138);
+            this.pnlSpace5.TabIndex = 0;
+            // 
+            // pnlLineLeft
+            // 
+            this.pnlLineLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlLineLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlLineLeft.Location = new System.Drawing.Point(0, 25);
+            this.pnlLineLeft.Name = "pnlLineLeft";
+            this.pnlLineLeft.Size = new System.Drawing.Size(25, 875);
+            this.pnlLineLeft.TabIndex = 36;
+            // 
+            // pnlLineBottom
+            // 
+            this.pnlLineBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlLineBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlLineBottom.Location = new System.Drawing.Point(25, 875);
+            this.pnlLineBottom.Name = "pnlLineBottom";
+            this.pnlLineBottom.Size = new System.Drawing.Size(1575, 25);
+            this.pnlLineBottom.TabIndex = 37;
+            // 
+            // pnlLineRight
+            // 
+            this.pnlLineRight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlLineRight.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlLineRight.Location = new System.Drawing.Point(1575, 25);
+            this.pnlLineRight.Name = "pnlLineRight";
+            this.pnlLineRight.Size = new System.Drawing.Size(25, 850);
+            this.pnlLineRight.TabIndex = 38;
+            // 
+            // pnlSpace1
+            // 
+            this.pnlSpace1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSpace1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlSpace1.Location = new System.Drawing.Point(265, 25);
+            this.pnlSpace1.Name = "pnlSpace1";
+            this.pnlSpace1.Size = new System.Drawing.Size(18, 850);
+            this.pnlSpace1.TabIndex = 39;
+            // 
+            // pnlSpace4
+            // 
+            this.pnlSpace4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSpace4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSpace4.Location = new System.Drawing.Point(283, 163);
+            this.pnlSpace4.Name = "pnlSpace4";
+            this.pnlSpace4.Size = new System.Drawing.Size(1292, 34);
+            this.pnlSpace4.TabIndex = 40;
+            // 
+            // pnlContainer
+            // 
+            this.pnlContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlContainer.Font = new System.Drawing.Font("Berlin Sans FB", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnlContainer.Location = new System.Drawing.Point(283, 197);
+            this.pnlContainer.Name = "pnlContainer";
+            this.pnlContainer.Size = new System.Drawing.Size(1292, 678);
+            this.pnlContainer.TabIndex = 41;
             // 
             // MainForm
             // 
@@ -569,10 +570,10 @@
             this.pnlLineTop.ResumeLayout(false);
             this.pnlMenu.ResumeLayout(false);
             this.pnlLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.pnlTop.ResumeLayout(false);
             this.pnlSearchBox.ResumeLayout(false);
             this.pnlLabelNameForm.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
 
         }
