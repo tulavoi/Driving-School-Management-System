@@ -166,7 +166,7 @@
             this.btnInvoice.HoverState.Image = global::GUI.Properties.Resources.invoice_2;
             this.btnInvoice.Image = global::GUI.Properties.Resources.invoice_1;
             this.btnInvoice.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnInvoice.ImageOffset = new System.Drawing.Point(25, 0);
+            this.btnInvoice.ImageOffset = new System.Drawing.Point(20, 0);
             this.btnInvoice.Location = new System.Drawing.Point(0, 567);
             this.btnInvoice.Name = "btnInvoice";
             this.btnInvoice.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
@@ -200,7 +200,7 @@
             this.btnVehicles.HoverState.Image = global::GUI.Properties.Resources.car_2;
             this.btnVehicles.Image = global::GUI.Properties.Resources.car_1;
             this.btnVehicles.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnVehicles.ImageOffset = new System.Drawing.Point(25, 0);
+            this.btnVehicles.ImageOffset = new System.Drawing.Point(20, 0);
             this.btnVehicles.Location = new System.Drawing.Point(0, 488);
             this.btnVehicles.Name = "btnVehicles";
             this.btnVehicles.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
@@ -234,7 +234,7 @@
             this.btnCourses.HoverState.Image = global::GUI.Properties.Resources.course_2;
             this.btnCourses.Image = global::GUI.Properties.Resources.course_1;
             this.btnCourses.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnCourses.ImageOffset = new System.Drawing.Point(25, 0);
+            this.btnCourses.ImageOffset = new System.Drawing.Point(20, 0);
             this.btnCourses.Location = new System.Drawing.Point(0, 409);
             this.btnCourses.Name = "btnCourses";
             this.btnCourses.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
@@ -268,7 +268,7 @@
             this.btnTeachers.HoverState.Image = global::GUI.Properties.Resources.teacher_2;
             this.btnTeachers.Image = global::GUI.Properties.Resources.teacher_1;
             this.btnTeachers.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnTeachers.ImageOffset = new System.Drawing.Point(25, 0);
+            this.btnTeachers.ImageOffset = new System.Drawing.Point(20, 0);
             this.btnTeachers.Location = new System.Drawing.Point(0, 330);
             this.btnTeachers.Name = "btnTeachers";
             this.btnTeachers.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
@@ -302,7 +302,7 @@
             this.btnLearners.HoverState.Image = global::GUI.Properties.Resources.students_2;
             this.btnLearners.Image = global::GUI.Properties.Resources.students_1;
             this.btnLearners.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnLearners.ImageOffset = new System.Drawing.Point(25, 0);
+            this.btnLearners.ImageOffset = new System.Drawing.Point(20, 0);
             this.btnLearners.Location = new System.Drawing.Point(0, 251);
             this.btnLearners.Name = "btnLearners";
             this.btnLearners.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
@@ -337,7 +337,7 @@
             this.btnDashboard.HoverState.Image = global::GUI.Properties.Resources.dashboard_2;
             this.btnDashboard.Image = global::GUI.Properties.Resources.dashboard_1;
             this.btnDashboard.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnDashboard.ImageOffset = new System.Drawing.Point(25, 0);
+            this.btnDashboard.ImageOffset = new System.Drawing.Point(20, 0);
             this.btnDashboard.Location = new System.Drawing.Point(0, 172);
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
