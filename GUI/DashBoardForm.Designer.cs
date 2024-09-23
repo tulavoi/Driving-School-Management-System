@@ -28,40 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            Guna.Charts.WinForms.ChartFont chartFont9 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont10 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont11 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont12 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid4 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick4 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont13 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid5 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick5 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont14 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid6 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.PointLabel pointLabel2 = new Guna.Charts.WinForms.PointLabel();
-            Guna.Charts.WinForms.ChartFont chartFont15 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Tick tick6 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont16 = new Guna.Charts.WinForms.ChartFont();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            Guna.Charts.WinForms.ChartFont chartFont1 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont2 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont3 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont4 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid1 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick1 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont5 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid2 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick2 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont6 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid3 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.PointLabel pointLabel1 = new Guna.Charts.WinForms.PointLabel();
+            Guna.Charts.WinForms.ChartFont chartFont7 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Tick tick3 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont8 = new Guna.Charts.WinForms.ChartFont();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlTopPerformer = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.tabControlTopPerformer = new Guna.UI2.WinForms.Guna2TabControl();
+            this.tabPageWeek = new System.Windows.Forms.TabPage();
+            this.dgvTopPerformer_Week = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPageMonth = new System.Windows.Forms.TabPage();
+            this.tabPageYear = new System.Windows.Forms.TabPage();
             this.pnlSpaceInPanelPerformer_1 = new Guna.UI2.WinForms.Guna2Panel();
             this.lblTopPerformer = new System.Windows.Forms.Label();
             this.pnlSpaceInPanelPerformer_2 = new Guna.UI2.WinForms.Guna2Panel();
@@ -71,6 +81,7 @@
             this.lblTotalCourses_Value = new System.Windows.Forms.Label();
             this.lblTotalCourses_Title = new System.Windows.Forms.Label();
             this.pnlIconCourses = new Guna.UI2.WinForms.Guna2Panel();
+            this.iconTotalCourses = new Guna.UI2.WinForms.Guna2Button();
             this.pnlSpace10 = new Guna.UI2.WinForms.Guna2Panel();
             this.VSeparator_2 = new Guna.UI2.WinForms.Guna2VSeparator();
             this.VSeparator_1 = new Guna.UI2.WinForms.Guna2VSeparator();
@@ -78,11 +89,13 @@
             this.lblTotalEarnings_Value = new System.Windows.Forms.Label();
             this.lblTotalEarning_Title = new System.Windows.Forms.Label();
             this.pnlIconEarnings = new Guna.UI2.WinForms.Guna2Panel();
+            this.iconTotalEarning = new Guna.UI2.WinForms.Guna2Button();
             this.pnlSpace3 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlStatistic_Left = new Guna.UI2.WinForms.Guna2Panel();
             this.lblTotalLearners_Value = new System.Windows.Forms.Label();
             this.lblTotalLearners_Title = new System.Windows.Forms.Label();
             this.pnlIconStudent = new Guna.UI2.WinForms.Guna2Panel();
+            this.iconTotalStudents = new Guna.UI2.WinForms.Guna2Button();
             this.pnlSpace6 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace9 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace8 = new Guna.UI2.WinForms.Guna2Panel();
@@ -90,38 +103,30 @@
             this.pnlSpace2 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlAttandance = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pnlChart = new Guna.UI2.WinForms.Guna2Panel();
+            this.learnersChart = new Guna.Charts.WinForms.GunaChart();
+            this.lblLearnersChart = new System.Windows.Forms.Label();
             this.pnlSpace11 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.iconTotalCourses = new Guna.UI2.WinForms.Guna2Button();
-            this.iconTotalEarning = new Guna.UI2.WinForms.Guna2Button();
-            this.iconTotalStudents = new Guna.UI2.WinForms.Guna2Button();
             this.lblAttandance = new System.Windows.Forms.Label();
             this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.tabControlTopPerformer = new Guna.UI2.WinForms.Guna2TabControl();
-            this.tabPageWeek = new System.Windows.Forms.TabPage();
-            this.dgvTopPerformer_Week = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.tabPageMonth = new System.Windows.Forms.TabPage();
             this.dgvTopPerformer_Month = new Guna.UI2.WinForms.Guna2DataGridView();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPageYear = new System.Windows.Forms.TabPage();
             this.dgvTopPerformer_Year = new Guna.UI2.WinForms.Guna2DataGridView();
             this.dataGridViewImageColumn3 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.learnersChart = new Guna.Charts.WinForms.GunaChart();
-            this.lblLearnersChart = new System.Windows.Forms.Label();
             this.pnlTopPerformer.SuspendLayout();
+            this.tabControlTopPerformer.SuspendLayout();
+            this.tabPageWeek.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTopPerformer_Week)).BeginInit();
+            this.tabPageMonth.SuspendLayout();
+            this.tabPageYear.SuspendLayout();
             this.pnlSpaceInPanelPerformer_1.SuspendLayout();
             this.pnlStatistic.SuspendLayout();
             this.pnlStatistic_Mid.SuspendLayout();
@@ -133,12 +138,7 @@
             this.pnlAttandance.SuspendLayout();
             this.pnlChart.SuspendLayout();
             this.pnlSpace5.SuspendLayout();
-            this.tabControlTopPerformer.SuspendLayout();
-            this.tabPageWeek.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvTopPerformer_Week)).BeginInit();
-            this.tabPageMonth.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTopPerformer_Month)).BeginInit();
-            this.tabPageYear.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTopPerformer_Year)).BeginInit();
             this.SuspendLayout();
             // 
@@ -153,6 +153,203 @@
             this.pnlTopPerformer.Name = "pnlTopPerformer";
             this.pnlTopPerformer.Size = new System.Drawing.Size(450, 582);
             this.pnlTopPerformer.TabIndex = 43;
+            // 
+            // tabControlTopPerformer
+            // 
+            this.tabControlTopPerformer.Controls.Add(this.tabPageWeek);
+            this.tabControlTopPerformer.Controls.Add(this.tabPageMonth);
+            this.tabControlTopPerformer.Controls.Add(this.tabPageYear);
+            this.tabControlTopPerformer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tabControlTopPerformer.ItemSize = new System.Drawing.Size(120, 30);
+            this.tabControlTopPerformer.Location = new System.Drawing.Point(0, 70);
+            this.tabControlTopPerformer.Name = "tabControlTopPerformer";
+            this.tabControlTopPerformer.SelectedIndex = 0;
+            this.tabControlTopPerformer.Size = new System.Drawing.Size(450, 464);
+            this.tabControlTopPerformer.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
+            this.tabControlTopPerformer.TabButtonHoverState.FillColor = System.Drawing.Color.Empty;
+            this.tabControlTopPerformer.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
+            this.tabControlTopPerformer.TabButtonHoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
+            this.tabControlTopPerformer.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
+            this.tabControlTopPerformer.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
+            this.tabControlTopPerformer.TabButtonIdleState.FillColor = System.Drawing.Color.White;
+            this.tabControlTopPerformer.TabButtonIdleState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
+            this.tabControlTopPerformer.TabButtonIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
+            this.tabControlTopPerformer.TabButtonIdleState.InnerColor = System.Drawing.Color.White;
+            this.tabControlTopPerformer.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
+            this.tabControlTopPerformer.TabButtonSelectedState.FillColor = System.Drawing.Color.White;
+            this.tabControlTopPerformer.TabButtonSelectedState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
+            this.tabControlTopPerformer.TabButtonSelectedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+            this.tabControlTopPerformer.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+            this.tabControlTopPerformer.TabButtonSize = new System.Drawing.Size(120, 30);
+            this.tabControlTopPerformer.TabIndex = 1;
+            this.tabControlTopPerformer.TabMenuBackColor = System.Drawing.Color.White;
+            this.tabControlTopPerformer.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
+            // 
+            // tabPageWeek
+            // 
+            this.tabPageWeek.BackColor = System.Drawing.Color.White;
+            this.tabPageWeek.Controls.Add(this.dgvTopPerformer_Week);
+            this.tabPageWeek.Location = new System.Drawing.Point(4, 34);
+            this.tabPageWeek.Name = "tabPageWeek";
+            this.tabPageWeek.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageWeek.Size = new System.Drawing.Size(442, 426);
+            this.tabPageWeek.TabIndex = 0;
+            this.tabPageWeek.Text = "Week";
+            // 
+            // dgvTopPerformer_Week
+            // 
+            this.dgvTopPerformer_Week.AllowUserToAddRows = false;
+            this.dgvTopPerformer_Week.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgvTopPerformer_Week.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.DimGray;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTopPerformer_Week.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvTopPerformer_Week.ColumnHeadersHeight = 40;
+            this.dgvTopPerformer_Week.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewImageColumn1,
+            this.dataGridViewTextBoxColumn3,
+            this.Column5,
+            this.Column6,
+            this.Column7});
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle4.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvTopPerformer_Week.DefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvTopPerformer_Week.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvTopPerformer_Week.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+            this.dgvTopPerformer_Week.Location = new System.Drawing.Point(3, 3);
+            this.dgvTopPerformer_Week.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvTopPerformer_Week.Name = "dgvTopPerformer_Week";
+            this.dgvTopPerformer_Week.ReadOnly = true;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTopPerformer_Week.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.dgvTopPerformer_Week.RowHeadersVisible = false;
+            this.dgvTopPerformer_Week.RowHeadersWidth = 50;
+            this.dgvTopPerformer_Week.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.dgvTopPerformer_Week.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            this.dgvTopPerformer_Week.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.dgvTopPerformer_Week.RowTemplate.DividerHeight = 7;
+            this.dgvTopPerformer_Week.RowTemplate.Height = 60;
+            this.dgvTopPerformer_Week.Size = new System.Drawing.Size(436, 420);
+            this.dgvTopPerformer_Week.TabIndex = 26;
+            this.dgvTopPerformer_Week.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgvTopPerformer_Week.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dgvTopPerformer_Week.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.dgvTopPerformer_Week.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.dgvTopPerformer_Week.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.dgvTopPerformer_Week.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.dgvTopPerformer_Week.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+            this.dgvTopPerformer_Week.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+            this.dgvTopPerformer_Week.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgvTopPerformer_Week.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvTopPerformer_Week.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.DimGray;
+            this.dgvTopPerformer_Week.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dgvTopPerformer_Week.ThemeStyle.HeaderStyle.Height = 40;
+            this.dgvTopPerformer_Week.ThemeStyle.ReadOnly = true;
+            this.dgvTopPerformer_Week.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgvTopPerformer_Week.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgvTopPerformer_Week.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dgvTopPerformer_Week.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgvTopPerformer_Week.ThemeStyle.RowsStyle.Height = 60;
+            this.dgvTopPerformer_Week.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dgvTopPerformer_Week.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
+            // 
+            // dataGridViewImageColumn1
+            // 
+            this.dataGridViewImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewImageColumn1.DataPropertyName = "Image";
+            this.dataGridViewImageColumn1.FillWeight = 213.9037F;
+            this.dataGridViewImageColumn1.Frozen = true;
+            this.dataGridViewImageColumn1.HeaderText = "Image";
+            this.dataGridViewImageColumn1.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.dataGridViewImageColumn1.MinimumWidth = 6;
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
+            this.dataGridViewImageColumn1.ReadOnly = true;
+            this.dataGridViewImageColumn1.Width = 70;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "ClubName";
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dataGridViewTextBoxColumn3.FillWeight = 53.63456F;
+            this.dataGridViewTextBoxColumn3.Frozen = true;
+            this.dataGridViewTextBoxColumn3.HeaderText = "Name";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            this.dataGridViewTextBoxColumn3.Width = 120;
+            // 
+            // Column5
+            // 
+            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column5.Frozen = true;
+            this.Column5.HeaderText = "ID Number";
+            this.Column5.MinimumWidth = 6;
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            this.Column5.Width = 125;
+            // 
+            // Column6
+            // 
+            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column6.Frozen = true;
+            this.Column6.HeaderText = "Marks";
+            this.Column6.MinimumWidth = 6;
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            this.Column6.Width = 80;
+            // 
+            // Column7
+            // 
+            this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column7.Frozen = true;
+            this.Column7.HeaderText = "License";
+            this.Column7.MinimumWidth = 6;
+            this.Column7.Name = "Column7";
+            this.Column7.ReadOnly = true;
+            this.Column7.Width = 70;
+            // 
+            // tabPageMonth
+            // 
+            this.tabPageMonth.BackColor = System.Drawing.Color.White;
+            this.tabPageMonth.Controls.Add(this.dgvTopPerformer_Month);
+            this.tabPageMonth.Location = new System.Drawing.Point(4, 34);
+            this.tabPageMonth.Name = "tabPageMonth";
+            this.tabPageMonth.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageMonth.Size = new System.Drawing.Size(442, 426);
+            this.tabPageMonth.TabIndex = 1;
+            this.tabPageMonth.Text = "Month";
+            // 
+            // tabPageYear
+            // 
+            this.tabPageYear.BackColor = System.Drawing.Color.White;
+            this.tabPageYear.Controls.Add(this.dgvTopPerformer_Year);
+            this.tabPageYear.Location = new System.Drawing.Point(4, 34);
+            this.tabPageYear.Name = "tabPageYear";
+            this.tabPageYear.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageYear.Size = new System.Drawing.Size(442, 426);
+            this.tabPageYear.TabIndex = 2;
+            this.tabPageYear.Text = "Year";
             // 
             // pnlSpaceInPanelPerformer_1
             // 
@@ -218,7 +415,7 @@
             this.pnlStatistic.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlStatistic.Location = new System.Drawing.Point(468, 0);
             this.pnlStatistic.Name = "pnlStatistic";
-            this.pnlStatistic.Size = new System.Drawing.Size(472, 180);
+            this.pnlStatistic.Size = new System.Drawing.Size(472, 160);
             this.pnlStatistic.TabIndex = 0;
             // 
             // pnlStatistic_Mid
@@ -231,20 +428,20 @@
             this.pnlStatistic_Mid.Controls.Add(this.VSeparator_1);
             this.pnlStatistic_Mid.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlStatistic_Mid.FillColor = System.Drawing.Color.White;
-            this.pnlStatistic_Mid.Location = new System.Drawing.Point(150, 25);
+            this.pnlStatistic_Mid.Location = new System.Drawing.Point(150, 20);
             this.pnlStatistic_Mid.Name = "pnlStatistic_Mid";
-            this.pnlStatistic_Mid.Size = new System.Drawing.Size(172, 135);
+            this.pnlStatistic_Mid.Size = new System.Drawing.Size(172, 125);
             this.pnlStatistic_Mid.TabIndex = 13;
             // 
             // lblTotalCourses_Value
             // 
             this.lblTotalCourses_Value.BackColor = System.Drawing.Color.White;
             this.lblTotalCourses_Value.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTotalCourses_Value.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalCourses_Value.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalCourses_Value.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.lblTotalCourses_Value.Location = new System.Drawing.Point(20, 75);
+            this.lblTotalCourses_Value.Location = new System.Drawing.Point(20, 70);
             this.lblTotalCourses_Value.Name = "lblTotalCourses_Value";
-            this.lblTotalCourses_Value.Size = new System.Drawing.Size(142, 60);
+            this.lblTotalCourses_Value.Size = new System.Drawing.Size(142, 55);
             this.lblTotalCourses_Value.TabIndex = 13;
             this.lblTotalCourses_Value.Text = "150";
             // 
@@ -254,7 +451,7 @@
             this.lblTotalCourses_Title.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblTotalCourses_Title.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalCourses_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
-            this.lblTotalCourses_Title.Location = new System.Drawing.Point(20, 45);
+            this.lblTotalCourses_Title.Location = new System.Drawing.Point(20, 40);
             this.lblTotalCourses_Title.Name = "lblTotalCourses_Title";
             this.lblTotalCourses_Title.Size = new System.Drawing.Size(142, 30);
             this.lblTotalCourses_Title.TabIndex = 12;
@@ -268,247 +465,8 @@
             this.pnlIconCourses.FillColor = System.Drawing.Color.White;
             this.pnlIconCourses.Location = new System.Drawing.Point(20, 0);
             this.pnlIconCourses.Name = "pnlIconCourses";
-            this.pnlIconCourses.Size = new System.Drawing.Size(142, 45);
+            this.pnlIconCourses.Size = new System.Drawing.Size(142, 40);
             this.pnlIconCourses.TabIndex = 11;
-            // 
-            // pnlSpace10
-            // 
-            this.pnlSpace10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSpace10.FillColor = System.Drawing.Color.White;
-            this.pnlSpace10.Location = new System.Drawing.Point(10, 0);
-            this.pnlSpace10.Name = "pnlSpace10";
-            this.pnlSpace10.Size = new System.Drawing.Size(10, 135);
-            this.pnlSpace10.TabIndex = 4;
-            // 
-            // VSeparator_2
-            // 
-            this.VSeparator_2.BackColor = System.Drawing.Color.White;
-            this.VSeparator_2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.VSeparator_2.Location = new System.Drawing.Point(162, 0);
-            this.VSeparator_2.Name = "VSeparator_2";
-            this.VSeparator_2.Size = new System.Drawing.Size(10, 135);
-            this.VSeparator_2.TabIndex = 1;
-            // 
-            // VSeparator_1
-            // 
-            this.VSeparator_1.BackColor = System.Drawing.Color.White;
-            this.VSeparator_1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.VSeparator_1.Location = new System.Drawing.Point(0, 0);
-            this.VSeparator_1.Name = "VSeparator_1";
-            this.VSeparator_1.Size = new System.Drawing.Size(10, 135);
-            this.VSeparator_1.TabIndex = 0;
-            // 
-            // pnlStatistic_Right
-            // 
-            this.pnlStatistic_Right.Controls.Add(this.lblTotalEarnings_Value);
-            this.pnlStatistic_Right.Controls.Add(this.lblTotalEarning_Title);
-            this.pnlStatistic_Right.Controls.Add(this.pnlIconEarnings);
-            this.pnlStatistic_Right.Controls.Add(this.pnlSpace3);
-            this.pnlStatistic_Right.CustomizableEdges.BottomLeft = false;
-            this.pnlStatistic_Right.CustomizableEdges.TopLeft = false;
-            this.pnlStatistic_Right.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlStatistic_Right.FillColor = System.Drawing.Color.White;
-            this.pnlStatistic_Right.Location = new System.Drawing.Point(322, 25);
-            this.pnlStatistic_Right.Name = "pnlStatistic_Right";
-            this.pnlStatistic_Right.Size = new System.Drawing.Size(150, 135);
-            this.pnlStatistic_Right.TabIndex = 12;
-            // 
-            // lblTotalEarnings_Value
-            // 
-            this.lblTotalEarnings_Value.BackColor = System.Drawing.Color.White;
-            this.lblTotalEarnings_Value.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTotalEarnings_Value.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalEarnings_Value.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.lblTotalEarnings_Value.Location = new System.Drawing.Point(10, 75);
-            this.lblTotalEarnings_Value.Name = "lblTotalEarnings_Value";
-            this.lblTotalEarnings_Value.Size = new System.Drawing.Size(140, 60);
-            this.lblTotalEarnings_Value.TabIndex = 13;
-            this.lblTotalEarnings_Value.Text = "$20K";
-            // 
-            // lblTotalEarning_Title
-            // 
-            this.lblTotalEarning_Title.BackColor = System.Drawing.Color.White;
-            this.lblTotalEarning_Title.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblTotalEarning_Title.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalEarning_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
-            this.lblTotalEarning_Title.Location = new System.Drawing.Point(10, 45);
-            this.lblTotalEarning_Title.Name = "lblTotalEarning_Title";
-            this.lblTotalEarning_Title.Size = new System.Drawing.Size(140, 30);
-            this.lblTotalEarning_Title.TabIndex = 12;
-            this.lblTotalEarning_Title.Text = "Total Earnings";
-            this.lblTotalEarning_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pnlIconEarnings
-            // 
-            this.pnlIconEarnings.Controls.Add(this.iconTotalEarning);
-            this.pnlIconEarnings.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlIconEarnings.FillColor = System.Drawing.Color.White;
-            this.pnlIconEarnings.Location = new System.Drawing.Point(10, 0);
-            this.pnlIconEarnings.Name = "pnlIconEarnings";
-            this.pnlIconEarnings.Size = new System.Drawing.Size(140, 45);
-            this.pnlIconEarnings.TabIndex = 11;
-            // 
-            // pnlSpace3
-            // 
-            this.pnlSpace3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSpace3.FillColor = System.Drawing.Color.White;
-            this.pnlSpace3.Location = new System.Drawing.Point(0, 0);
-            this.pnlSpace3.Name = "pnlSpace3";
-            this.pnlSpace3.Size = new System.Drawing.Size(10, 135);
-            this.pnlSpace3.TabIndex = 3;
-            // 
-            // pnlStatistic_Left
-            // 
-            this.pnlStatistic_Left.Controls.Add(this.lblTotalLearners_Value);
-            this.pnlStatistic_Left.Controls.Add(this.lblTotalLearners_Title);
-            this.pnlStatistic_Left.Controls.Add(this.pnlIconStudent);
-            this.pnlStatistic_Left.Controls.Add(this.pnlSpace6);
-            this.pnlStatistic_Left.CustomizableEdges.BottomRight = false;
-            this.pnlStatistic_Left.CustomizableEdges.TopRight = false;
-            this.pnlStatistic_Left.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlStatistic_Left.FillColor = System.Drawing.Color.White;
-            this.pnlStatistic_Left.Location = new System.Drawing.Point(0, 25);
-            this.pnlStatistic_Left.Name = "pnlStatistic_Left";
-            this.pnlStatistic_Left.Size = new System.Drawing.Size(150, 135);
-            this.pnlStatistic_Left.TabIndex = 11;
-            // 
-            // lblTotalLearners_Value
-            // 
-            this.lblTotalLearners_Value.BackColor = System.Drawing.Color.White;
-            this.lblTotalLearners_Value.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTotalLearners_Value.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalLearners_Value.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.lblTotalLearners_Value.Location = new System.Drawing.Point(10, 75);
-            this.lblTotalLearners_Value.Name = "lblTotalLearners_Value";
-            this.lblTotalLearners_Value.Size = new System.Drawing.Size(140, 60);
-            this.lblTotalLearners_Value.TabIndex = 8;
-            this.lblTotalLearners_Value.Text = "2.5K";
-            // 
-            // lblTotalLearners_Title
-            // 
-            this.lblTotalLearners_Title.BackColor = System.Drawing.Color.White;
-            this.lblTotalLearners_Title.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblTotalLearners_Title.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalLearners_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
-            this.lblTotalLearners_Title.Location = new System.Drawing.Point(10, 45);
-            this.lblTotalLearners_Title.Name = "lblTotalLearners_Title";
-            this.lblTotalLearners_Title.Size = new System.Drawing.Size(140, 30);
-            this.lblTotalLearners_Title.TabIndex = 7;
-            this.lblTotalLearners_Title.Text = "Total Learners";
-            this.lblTotalLearners_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pnlIconStudent
-            // 
-            this.pnlIconStudent.Controls.Add(this.iconTotalStudents);
-            this.pnlIconStudent.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlIconStudent.FillColor = System.Drawing.Color.White;
-            this.pnlIconStudent.Location = new System.Drawing.Point(10, 0);
-            this.pnlIconStudent.Name = "pnlIconStudent";
-            this.pnlIconStudent.Size = new System.Drawing.Size(140, 45);
-            this.pnlIconStudent.TabIndex = 6;
-            // 
-            // pnlSpace6
-            // 
-            this.pnlSpace6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSpace6.FillColor = System.Drawing.Color.White;
-            this.pnlSpace6.Location = new System.Drawing.Point(0, 0);
-            this.pnlSpace6.Name = "pnlSpace6";
-            this.pnlSpace6.Size = new System.Drawing.Size(10, 135);
-            this.pnlSpace6.TabIndex = 2;
-            // 
-            // pnlSpace9
-            // 
-            this.pnlSpace9.BackColor = System.Drawing.Color.White;
-            this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSpace9.Location = new System.Drawing.Point(0, 20);
-            this.pnlSpace9.Name = "pnlSpace9";
-            this.pnlSpace9.Size = new System.Drawing.Size(472, 5);
-            this.pnlSpace9.TabIndex = 10;
-            // 
-            // pnlSpace8
-            // 
-            this.pnlSpace8.BorderRadius = 15;
-            this.pnlSpace8.CustomizableEdges.TopLeft = false;
-            this.pnlSpace8.CustomizableEdges.TopRight = false;
-            this.pnlSpace8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSpace8.FillColor = System.Drawing.Color.White;
-            this.pnlSpace8.Location = new System.Drawing.Point(0, 160);
-            this.pnlSpace8.Name = "pnlSpace8";
-            this.pnlSpace8.Size = new System.Drawing.Size(472, 20);
-            this.pnlSpace8.TabIndex = 4;
-            // 
-            // pnlSpace7
-            // 
-            this.pnlSpace7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.pnlSpace7.BorderRadius = 15;
-            this.pnlSpace7.CustomizableEdges.BottomLeft = false;
-            this.pnlSpace7.CustomizableEdges.BottomRight = false;
-            this.pnlSpace7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSpace7.FillColor = System.Drawing.Color.White;
-            this.pnlSpace7.Location = new System.Drawing.Point(0, 0);
-            this.pnlSpace7.Name = "pnlSpace7";
-            this.pnlSpace7.Size = new System.Drawing.Size(472, 20);
-            this.pnlSpace7.TabIndex = 3;
-            // 
-            // pnlSpace2
-            // 
-            this.pnlSpace2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.pnlSpace2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSpace2.Location = new System.Drawing.Point(468, 180);
-            this.pnlSpace2.Name = "pnlSpace2";
-            this.pnlSpace2.Size = new System.Drawing.Size(472, 21);
-            this.pnlSpace2.TabIndex = 45;
-            // 
-            // pnlAttandance
-            // 
-            this.pnlAttandance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.pnlAttandance.BorderRadius = 15;
-            this.pnlAttandance.Controls.Add(this.pnlChart);
-            this.pnlAttandance.Controls.Add(this.pnlSpace5);
-            this.pnlAttandance.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlAttandance.Location = new System.Drawing.Point(468, 201);
-            this.pnlAttandance.Name = "pnlAttandance";
-            this.pnlAttandance.Size = new System.Drawing.Size(472, 381);
-            this.pnlAttandance.TabIndex = 46;
-            // 
-            // pnlChart
-            // 
-            this.pnlChart.BackColor = System.Drawing.Color.White;
-            this.pnlChart.Controls.Add(this.learnersChart);
-            this.pnlChart.Controls.Add(this.lblLearnersChart);
-            this.pnlChart.Controls.Add(this.pnlSpace11);
-            this.pnlChart.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlChart.Location = new System.Drawing.Point(0, 50);
-            this.pnlChart.Name = "pnlChart";
-            this.pnlChart.Size = new System.Drawing.Size(472, 331);
-            this.pnlChart.TabIndex = 0;
-            // 
-            // pnlSpace11
-            // 
-            this.pnlSpace11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.pnlSpace11.BorderRadius = 15;
-            this.pnlSpace11.CustomizableEdges.TopLeft = false;
-            this.pnlSpace11.CustomizableEdges.TopRight = false;
-            this.pnlSpace11.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSpace11.FillColor = System.Drawing.Color.White;
-            this.pnlSpace11.Location = new System.Drawing.Point(0, 311);
-            this.pnlSpace11.Name = "pnlSpace11";
-            this.pnlSpace11.Size = new System.Drawing.Size(472, 20);
-            this.pnlSpace11.TabIndex = 8;
-            // 
-            // pnlSpace5
-            // 
-            this.pnlSpace5.BackColor = System.Drawing.Color.White;
-            this.pnlSpace5.BorderRadius = 15;
-            this.pnlSpace5.Controls.Add(this.lblAttandance);
-            this.pnlSpace5.Controls.Add(this.pnlSpace4);
-            this.pnlSpace5.CustomizableEdges.BottomLeft = false;
-            this.pnlSpace5.CustomizableEdges.BottomRight = false;
-            this.pnlSpace5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSpace5.Location = new System.Drawing.Point(0, 0);
-            this.pnlSpace5.Name = "pnlSpace5";
-            this.pnlSpace5.Size = new System.Drawing.Size(472, 50);
-            this.pnlSpace5.TabIndex = 1;
             // 
             // iconTotalCourses
             // 
@@ -531,8 +489,85 @@
             this.iconTotalCourses.Location = new System.Drawing.Point(0, 0);
             this.iconTotalCourses.Name = "iconTotalCourses";
             this.iconTotalCourses.PressedDepth = 0;
-            this.iconTotalCourses.Size = new System.Drawing.Size(50, 45);
+            this.iconTotalCourses.Size = new System.Drawing.Size(45, 40);
             this.iconTotalCourses.TabIndex = 0;
+            // 
+            // pnlSpace10
+            // 
+            this.pnlSpace10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlSpace10.FillColor = System.Drawing.Color.White;
+            this.pnlSpace10.Location = new System.Drawing.Point(10, 0);
+            this.pnlSpace10.Name = "pnlSpace10";
+            this.pnlSpace10.Size = new System.Drawing.Size(10, 125);
+            this.pnlSpace10.TabIndex = 4;
+            // 
+            // VSeparator_2
+            // 
+            this.VSeparator_2.BackColor = System.Drawing.Color.White;
+            this.VSeparator_2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.VSeparator_2.Location = new System.Drawing.Point(162, 0);
+            this.VSeparator_2.Name = "VSeparator_2";
+            this.VSeparator_2.Size = new System.Drawing.Size(10, 125);
+            this.VSeparator_2.TabIndex = 1;
+            // 
+            // VSeparator_1
+            // 
+            this.VSeparator_1.BackColor = System.Drawing.Color.White;
+            this.VSeparator_1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.VSeparator_1.Location = new System.Drawing.Point(0, 0);
+            this.VSeparator_1.Name = "VSeparator_1";
+            this.VSeparator_1.Size = new System.Drawing.Size(10, 125);
+            this.VSeparator_1.TabIndex = 0;
+            // 
+            // pnlStatistic_Right
+            // 
+            this.pnlStatistic_Right.Controls.Add(this.lblTotalEarnings_Value);
+            this.pnlStatistic_Right.Controls.Add(this.lblTotalEarning_Title);
+            this.pnlStatistic_Right.Controls.Add(this.pnlIconEarnings);
+            this.pnlStatistic_Right.Controls.Add(this.pnlSpace3);
+            this.pnlStatistic_Right.CustomizableEdges.BottomLeft = false;
+            this.pnlStatistic_Right.CustomizableEdges.TopLeft = false;
+            this.pnlStatistic_Right.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlStatistic_Right.FillColor = System.Drawing.Color.White;
+            this.pnlStatistic_Right.Location = new System.Drawing.Point(322, 20);
+            this.pnlStatistic_Right.Name = "pnlStatistic_Right";
+            this.pnlStatistic_Right.Size = new System.Drawing.Size(150, 125);
+            this.pnlStatistic_Right.TabIndex = 12;
+            // 
+            // lblTotalEarnings_Value
+            // 
+            this.lblTotalEarnings_Value.BackColor = System.Drawing.Color.White;
+            this.lblTotalEarnings_Value.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblTotalEarnings_Value.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalEarnings_Value.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+            this.lblTotalEarnings_Value.Location = new System.Drawing.Point(10, 70);
+            this.lblTotalEarnings_Value.Name = "lblTotalEarnings_Value";
+            this.lblTotalEarnings_Value.Size = new System.Drawing.Size(140, 55);
+            this.lblTotalEarnings_Value.TabIndex = 13;
+            this.lblTotalEarnings_Value.Text = "$20K";
+            // 
+            // lblTotalEarning_Title
+            // 
+            this.lblTotalEarning_Title.BackColor = System.Drawing.Color.White;
+            this.lblTotalEarning_Title.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblTotalEarning_Title.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalEarning_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
+            this.lblTotalEarning_Title.Location = new System.Drawing.Point(10, 40);
+            this.lblTotalEarning_Title.Name = "lblTotalEarning_Title";
+            this.lblTotalEarning_Title.Size = new System.Drawing.Size(140, 30);
+            this.lblTotalEarning_Title.TabIndex = 12;
+            this.lblTotalEarning_Title.Text = "Total Earnings";
+            this.lblTotalEarning_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pnlIconEarnings
+            // 
+            this.pnlIconEarnings.Controls.Add(this.iconTotalEarning);
+            this.pnlIconEarnings.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlIconEarnings.FillColor = System.Drawing.Color.White;
+            this.pnlIconEarnings.Location = new System.Drawing.Point(10, 0);
+            this.pnlIconEarnings.Name = "pnlIconEarnings";
+            this.pnlIconEarnings.Size = new System.Drawing.Size(140, 40);
+            this.pnlIconEarnings.TabIndex = 11;
             // 
             // iconTotalEarning
             // 
@@ -555,8 +590,67 @@
             this.iconTotalEarning.Location = new System.Drawing.Point(0, 0);
             this.iconTotalEarning.Name = "iconTotalEarning";
             this.iconTotalEarning.PressedDepth = 0;
-            this.iconTotalEarning.Size = new System.Drawing.Size(50, 45);
+            this.iconTotalEarning.Size = new System.Drawing.Size(45, 40);
             this.iconTotalEarning.TabIndex = 0;
+            // 
+            // pnlSpace3
+            // 
+            this.pnlSpace3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlSpace3.FillColor = System.Drawing.Color.White;
+            this.pnlSpace3.Location = new System.Drawing.Point(0, 0);
+            this.pnlSpace3.Name = "pnlSpace3";
+            this.pnlSpace3.Size = new System.Drawing.Size(10, 125);
+            this.pnlSpace3.TabIndex = 3;
+            // 
+            // pnlStatistic_Left
+            // 
+            this.pnlStatistic_Left.Controls.Add(this.lblTotalLearners_Value);
+            this.pnlStatistic_Left.Controls.Add(this.lblTotalLearners_Title);
+            this.pnlStatistic_Left.Controls.Add(this.pnlIconStudent);
+            this.pnlStatistic_Left.Controls.Add(this.pnlSpace6);
+            this.pnlStatistic_Left.CustomizableEdges.BottomRight = false;
+            this.pnlStatistic_Left.CustomizableEdges.TopRight = false;
+            this.pnlStatistic_Left.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlStatistic_Left.FillColor = System.Drawing.Color.White;
+            this.pnlStatistic_Left.Location = new System.Drawing.Point(0, 20);
+            this.pnlStatistic_Left.Name = "pnlStatistic_Left";
+            this.pnlStatistic_Left.Size = new System.Drawing.Size(150, 125);
+            this.pnlStatistic_Left.TabIndex = 11;
+            // 
+            // lblTotalLearners_Value
+            // 
+            this.lblTotalLearners_Value.BackColor = System.Drawing.Color.White;
+            this.lblTotalLearners_Value.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblTotalLearners_Value.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalLearners_Value.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+            this.lblTotalLearners_Value.Location = new System.Drawing.Point(10, 70);
+            this.lblTotalLearners_Value.Name = "lblTotalLearners_Value";
+            this.lblTotalLearners_Value.Size = new System.Drawing.Size(140, 55);
+            this.lblTotalLearners_Value.TabIndex = 8;
+            this.lblTotalLearners_Value.Text = "2.5K";
+            // 
+            // lblTotalLearners_Title
+            // 
+            this.lblTotalLearners_Title.BackColor = System.Drawing.Color.White;
+            this.lblTotalLearners_Title.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblTotalLearners_Title.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalLearners_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
+            this.lblTotalLearners_Title.Location = new System.Drawing.Point(10, 40);
+            this.lblTotalLearners_Title.Name = "lblTotalLearners_Title";
+            this.lblTotalLearners_Title.Size = new System.Drawing.Size(140, 30);
+            this.lblTotalLearners_Title.TabIndex = 7;
+            this.lblTotalLearners_Title.Text = "Total Learners";
+            this.lblTotalLearners_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pnlIconStudent
+            // 
+            this.pnlIconStudent.Controls.Add(this.iconTotalStudents);
+            this.pnlIconStudent.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlIconStudent.FillColor = System.Drawing.Color.White;
+            this.pnlIconStudent.Location = new System.Drawing.Point(10, 0);
+            this.pnlIconStudent.Name = "pnlIconStudent";
+            this.pnlIconStudent.Size = new System.Drawing.Size(140, 40);
+            this.pnlIconStudent.TabIndex = 6;
             // 
             // iconTotalStudents
             // 
@@ -579,8 +673,159 @@
             this.iconTotalStudents.Location = new System.Drawing.Point(0, 0);
             this.iconTotalStudents.Name = "iconTotalStudents";
             this.iconTotalStudents.PressedDepth = 0;
-            this.iconTotalStudents.Size = new System.Drawing.Size(50, 45);
+            this.iconTotalStudents.Size = new System.Drawing.Size(45, 40);
             this.iconTotalStudents.TabIndex = 0;
+            // 
+            // pnlSpace6
+            // 
+            this.pnlSpace6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlSpace6.FillColor = System.Drawing.Color.White;
+            this.pnlSpace6.Location = new System.Drawing.Point(0, 0);
+            this.pnlSpace6.Name = "pnlSpace6";
+            this.pnlSpace6.Size = new System.Drawing.Size(10, 125);
+            this.pnlSpace6.TabIndex = 2;
+            // 
+            // pnlSpace9
+            // 
+            this.pnlSpace9.BackColor = System.Drawing.Color.White;
+            this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSpace9.Location = new System.Drawing.Point(0, 15);
+            this.pnlSpace9.Name = "pnlSpace9";
+            this.pnlSpace9.Size = new System.Drawing.Size(472, 5);
+            this.pnlSpace9.TabIndex = 10;
+            // 
+            // pnlSpace8
+            // 
+            this.pnlSpace8.BorderRadius = 15;
+            this.pnlSpace8.CustomizableEdges.TopLeft = false;
+            this.pnlSpace8.CustomizableEdges.TopRight = false;
+            this.pnlSpace8.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlSpace8.FillColor = System.Drawing.Color.White;
+            this.pnlSpace8.Location = new System.Drawing.Point(0, 145);
+            this.pnlSpace8.Name = "pnlSpace8";
+            this.pnlSpace8.Size = new System.Drawing.Size(472, 15);
+            this.pnlSpace8.TabIndex = 4;
+            // 
+            // pnlSpace7
+            // 
+            this.pnlSpace7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSpace7.BorderRadius = 15;
+            this.pnlSpace7.CustomizableEdges.BottomLeft = false;
+            this.pnlSpace7.CustomizableEdges.BottomRight = false;
+            this.pnlSpace7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSpace7.FillColor = System.Drawing.Color.White;
+            this.pnlSpace7.Location = new System.Drawing.Point(0, 0);
+            this.pnlSpace7.Name = "pnlSpace7";
+            this.pnlSpace7.Size = new System.Drawing.Size(472, 15);
+            this.pnlSpace7.TabIndex = 3;
+            // 
+            // pnlSpace2
+            // 
+            this.pnlSpace2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSpace2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSpace2.Location = new System.Drawing.Point(468, 160);
+            this.pnlSpace2.Name = "pnlSpace2";
+            this.pnlSpace2.Size = new System.Drawing.Size(472, 21);
+            this.pnlSpace2.TabIndex = 45;
+            // 
+            // pnlAttandance
+            // 
+            this.pnlAttandance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlAttandance.BorderRadius = 15;
+            this.pnlAttandance.Controls.Add(this.pnlChart);
+            this.pnlAttandance.Controls.Add(this.pnlSpace5);
+            this.pnlAttandance.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlAttandance.Location = new System.Drawing.Point(468, 181);
+            this.pnlAttandance.Name = "pnlAttandance";
+            this.pnlAttandance.Size = new System.Drawing.Size(472, 401);
+            this.pnlAttandance.TabIndex = 46;
+            // 
+            // pnlChart
+            // 
+            this.pnlChart.BackColor = System.Drawing.Color.White;
+            this.pnlChart.Controls.Add(this.learnersChart);
+            this.pnlChart.Controls.Add(this.lblLearnersChart);
+            this.pnlChart.Controls.Add(this.pnlSpace11);
+            this.pnlChart.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlChart.Location = new System.Drawing.Point(0, 50);
+            this.pnlChart.Name = "pnlChart";
+            this.pnlChart.Size = new System.Drawing.Size(472, 351);
+            this.pnlChart.TabIndex = 0;
+            // 
+            // learnersChart
+            // 
+            this.learnersChart.Dock = System.Windows.Forms.DockStyle.Fill;
+            chartFont1.FontName = "Arial";
+            this.learnersChart.Legend.LabelFont = chartFont1;
+            this.learnersChart.Location = new System.Drawing.Point(0, 49);
+            this.learnersChart.Name = "learnersChart";
+            this.learnersChart.Size = new System.Drawing.Size(472, 282);
+            this.learnersChart.TabIndex = 10;
+            chartFont2.FontName = "Arial";
+            chartFont2.Size = 12;
+            chartFont2.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.learnersChart.Title.Font = chartFont2;
+            chartFont3.FontName = "Arial";
+            this.learnersChart.Tooltips.BodyFont = chartFont3;
+            chartFont4.FontName = "Arial";
+            chartFont4.Size = 9;
+            chartFont4.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.learnersChart.Tooltips.TitleFont = chartFont4;
+            this.learnersChart.XAxes.GridLines = grid1;
+            chartFont5.FontName = "Arial";
+            tick1.Font = chartFont5;
+            this.learnersChart.XAxes.Ticks = tick1;
+            this.learnersChart.YAxes.GridLines = grid2;
+            chartFont6.FontName = "Arial";
+            tick2.Font = chartFont6;
+            this.learnersChart.YAxes.Ticks = tick2;
+            this.learnersChart.ZAxes.GridLines = grid3;
+            chartFont7.FontName = "Arial";
+            pointLabel1.Font = chartFont7;
+            this.learnersChart.ZAxes.PointLabels = pointLabel1;
+            chartFont8.FontName = "Arial";
+            tick3.Font = chartFont8;
+            this.learnersChart.ZAxes.Ticks = tick3;
+            // 
+            // lblLearnersChart
+            // 
+            this.lblLearnersChart.BackColor = System.Drawing.Color.White;
+            this.lblLearnersChart.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblLearnersChart.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLearnersChart.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+            this.lblLearnersChart.Location = new System.Drawing.Point(0, 0);
+            this.lblLearnersChart.Name = "lblLearnersChart";
+            this.lblLearnersChart.Size = new System.Drawing.Size(472, 49);
+            this.lblLearnersChart.TabIndex = 11;
+            this.lblLearnersChart.Text = "      Learners";
+            this.lblLearnersChart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pnlSpace11
+            // 
+            this.pnlSpace11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSpace11.BorderRadius = 15;
+            this.pnlSpace11.CustomizableEdges.TopLeft = false;
+            this.pnlSpace11.CustomizableEdges.TopRight = false;
+            this.pnlSpace11.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlSpace11.FillColor = System.Drawing.Color.White;
+            this.pnlSpace11.Location = new System.Drawing.Point(0, 331);
+            this.pnlSpace11.Name = "pnlSpace11";
+            this.pnlSpace11.Size = new System.Drawing.Size(472, 20);
+            this.pnlSpace11.TabIndex = 8;
+            // 
+            // pnlSpace5
+            // 
+            this.pnlSpace5.BackColor = System.Drawing.Color.White;
+            this.pnlSpace5.BorderRadius = 15;
+            this.pnlSpace5.Controls.Add(this.lblAttandance);
+            this.pnlSpace5.Controls.Add(this.pnlSpace4);
+            this.pnlSpace5.CustomizableEdges.BottomLeft = false;
+            this.pnlSpace5.CustomizableEdges.BottomRight = false;
+            this.pnlSpace5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSpace5.Location = new System.Drawing.Point(0, 0);
+            this.pnlSpace5.Name = "pnlSpace5";
+            this.pnlSpace5.Size = new System.Drawing.Size(472, 50);
+            this.pnlSpace5.TabIndex = 1;
             // 
             // lblAttandance
             // 
@@ -609,149 +854,20 @@
             this.pnlSpace4.Size = new System.Drawing.Size(30, 50);
             this.pnlSpace4.TabIndex = 5;
             // 
-            // tabControlTopPerformer
-            // 
-            this.tabControlTopPerformer.Controls.Add(this.tabPageWeek);
-            this.tabControlTopPerformer.Controls.Add(this.tabPageMonth);
-            this.tabControlTopPerformer.Controls.Add(this.tabPageYear);
-            this.tabControlTopPerformer.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tabControlTopPerformer.ItemSize = new System.Drawing.Size(120, 30);
-            this.tabControlTopPerformer.Location = new System.Drawing.Point(0, 70);
-            this.tabControlTopPerformer.Name = "tabControlTopPerformer";
-            this.tabControlTopPerformer.SelectedIndex = 0;
-            this.tabControlTopPerformer.Size = new System.Drawing.Size(450, 464);
-            this.tabControlTopPerformer.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
-            this.tabControlTopPerformer.TabButtonHoverState.FillColor = System.Drawing.Color.Empty;
-            this.tabControlTopPerformer.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
-            this.tabControlTopPerformer.TabButtonHoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
-            this.tabControlTopPerformer.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
-            this.tabControlTopPerformer.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
-            this.tabControlTopPerformer.TabButtonIdleState.FillColor = System.Drawing.Color.White;
-            this.tabControlTopPerformer.TabButtonIdleState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
-            this.tabControlTopPerformer.TabButtonIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
-            this.tabControlTopPerformer.TabButtonIdleState.InnerColor = System.Drawing.Color.White;
-            this.tabControlTopPerformer.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
-            this.tabControlTopPerformer.TabButtonSelectedState.FillColor = System.Drawing.Color.White;
-            this.tabControlTopPerformer.TabButtonSelectedState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
-            this.tabControlTopPerformer.TabButtonSelectedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.tabControlTopPerformer.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.tabControlTopPerformer.TabButtonSize = new System.Drawing.Size(120, 30);
-            this.tabControlTopPerformer.TabIndex = 1;
-            this.tabControlTopPerformer.TabMenuBackColor = System.Drawing.Color.White;
-            this.tabControlTopPerformer.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
-            // 
-            // tabPageWeek
-            // 
-            this.tabPageWeek.BackColor = System.Drawing.Color.White;
-            this.tabPageWeek.Controls.Add(this.dgvTopPerformer_Week);
-            this.tabPageWeek.Location = new System.Drawing.Point(4, 34);
-            this.tabPageWeek.Name = "tabPageWeek";
-            this.tabPageWeek.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageWeek.Size = new System.Drawing.Size(442, 426);
-            this.tabPageWeek.TabIndex = 0;
-            this.tabPageWeek.Text = "Week";
-            // 
-            // dgvTopPerformer_Week
-            // 
-            this.dgvTopPerformer_Week.AllowUserToAddRows = false;
-            this.dgvTopPerformer_Week.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
-            this.dgvTopPerformer_Week.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.DimGray;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTopPerformer_Week.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
-            this.dgvTopPerformer_Week.ColumnHeadersHeight = 40;
-            this.dgvTopPerformer_Week.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewImageColumn1,
-            this.dataGridViewTextBoxColumn3,
-            this.Column5,
-            this.Column6,
-            this.Column7});
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle22.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvTopPerformer_Week.DefaultCellStyle = dataGridViewCellStyle22;
-            this.dgvTopPerformer_Week.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvTopPerformer_Week.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            this.dgvTopPerformer_Week.Location = new System.Drawing.Point(3, 3);
-            this.dgvTopPerformer_Week.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dgvTopPerformer_Week.Name = "dgvTopPerformer_Week";
-            this.dgvTopPerformer_Week.ReadOnly = true;
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTopPerformer_Week.RowHeadersDefaultCellStyle = dataGridViewCellStyle23;
-            this.dgvTopPerformer_Week.RowHeadersVisible = false;
-            this.dgvTopPerformer_Week.RowHeadersWidth = 50;
-            this.dgvTopPerformer_Week.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.dgvTopPerformer_Week.RowsDefaultCellStyle = dataGridViewCellStyle24;
-            this.dgvTopPerformer_Week.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.dgvTopPerformer_Week.RowTemplate.DividerHeight = 7;
-            this.dgvTopPerformer_Week.RowTemplate.Height = 60;
-            this.dgvTopPerformer_Week.Size = new System.Drawing.Size(436, 420);
-            this.dgvTopPerformer_Week.TabIndex = 26;
-            this.dgvTopPerformer_Week.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.dgvTopPerformer_Week.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.dgvTopPerformer_Week.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.dgvTopPerformer_Week.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.dgvTopPerformer_Week.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dgvTopPerformer_Week.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.dgvTopPerformer_Week.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            this.dgvTopPerformer_Week.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            this.dgvTopPerformer_Week.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dgvTopPerformer_Week.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvTopPerformer_Week.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.DimGray;
-            this.dgvTopPerformer_Week.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dgvTopPerformer_Week.ThemeStyle.HeaderStyle.Height = 40;
-            this.dgvTopPerformer_Week.ThemeStyle.ReadOnly = true;
-            this.dgvTopPerformer_Week.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.dgvTopPerformer_Week.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgvTopPerformer_Week.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.dgvTopPerformer_Week.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.dgvTopPerformer_Week.ThemeStyle.RowsStyle.Height = 60;
-            this.dgvTopPerformer_Week.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvTopPerformer_Week.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
-            // 
-            // tabPageMonth
-            // 
-            this.tabPageMonth.BackColor = System.Drawing.Color.White;
-            this.tabPageMonth.Controls.Add(this.dgvTopPerformer_Month);
-            this.tabPageMonth.Location = new System.Drawing.Point(4, 34);
-            this.tabPageMonth.Name = "tabPageMonth";
-            this.tabPageMonth.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageMonth.Size = new System.Drawing.Size(442, 426);
-            this.tabPageMonth.TabIndex = 1;
-            this.tabPageMonth.Text = "Month";
-            // 
             // dgvTopPerformer_Month
             // 
             this.dgvTopPerformer_Month.AllowUserToAddRows = false;
             this.dgvTopPerformer_Month.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle25.BackColor = System.Drawing.Color.White;
-            this.dgvTopPerformer_Month.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle26.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.DimGray;
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTopPerformer_Month.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            this.dgvTopPerformer_Month.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.DimGray;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTopPerformer_Month.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvTopPerformer_Month.ColumnHeadersHeight = 40;
             this.dgvTopPerformer_Month.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewImageColumn2,
@@ -759,34 +875,34 @@
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5});
-            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle28.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle28.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle28.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
-            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvTopPerformer_Month.DefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle10.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvTopPerformer_Month.DefaultCellStyle = dataGridViewCellStyle10;
             this.dgvTopPerformer_Month.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvTopPerformer_Month.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
             this.dgvTopPerformer_Month.Location = new System.Drawing.Point(3, 3);
             this.dgvTopPerformer_Month.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvTopPerformer_Month.Name = "dgvTopPerformer_Month";
             this.dgvTopPerformer_Month.ReadOnly = true;
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTopPerformer_Month.RowHeadersDefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTopPerformer_Month.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dgvTopPerformer_Month.RowHeadersVisible = false;
             this.dgvTopPerformer_Month.RowHeadersWidth = 50;
             this.dgvTopPerformer_Month.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle30.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.dgvTopPerformer_Month.RowsDefaultCellStyle = dataGridViewCellStyle30;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.dgvTopPerformer_Month.RowsDefaultCellStyle = dataGridViewCellStyle12;
             this.dgvTopPerformer_Month.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.dgvTopPerformer_Month.RowTemplate.DividerHeight = 7;
             this.dgvTopPerformer_Month.RowTemplate.Height = 60;
@@ -819,38 +935,42 @@
             this.dataGridViewImageColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.dataGridViewImageColumn2.DataPropertyName = "Image";
             this.dataGridViewImageColumn2.FillWeight = 213.9037F;
+            this.dataGridViewImageColumn2.Frozen = true;
             this.dataGridViewImageColumn2.HeaderText = "Image";
             this.dataGridViewImageColumn2.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.dataGridViewImageColumn2.MinimumWidth = 6;
             this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
             this.dataGridViewImageColumn2.ReadOnly = true;
-            this.dataGridViewImageColumn2.Width = 80;
+            this.dataGridViewImageColumn2.Width = 70;
             // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.dataGridViewTextBoxColumn1.DataPropertyName = "ClubName";
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridViewTextBoxColumn1.FillWeight = 53.63456F;
+            this.dataGridViewTextBoxColumn1.Frozen = true;
             this.dataGridViewTextBoxColumn1.HeaderText = "Name";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 125;
+            this.dataGridViewTextBoxColumn1.Width = 120;
             // 
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn2.Frozen = true;
             this.dataGridViewTextBoxColumn2.HeaderText = "ID Number";
             this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            this.dataGridViewTextBoxColumn2.Width = 110;
+            this.dataGridViewTextBoxColumn2.Width = 125;
             // 
             // dataGridViewTextBoxColumn4
             // 
             this.dataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn4.Frozen = true;
             this.dataGridViewTextBoxColumn4.HeaderText = "Marks";
             this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
@@ -860,37 +980,27 @@
             // dataGridViewTextBoxColumn5
             // 
             this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn5.Frozen = true;
             this.dataGridViewTextBoxColumn5.HeaderText = "License";
             this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            this.dataGridViewTextBoxColumn5.Width = 80;
-            // 
-            // tabPageYear
-            // 
-            this.tabPageYear.BackColor = System.Drawing.Color.White;
-            this.tabPageYear.Controls.Add(this.dgvTopPerformer_Year);
-            this.tabPageYear.Location = new System.Drawing.Point(4, 34);
-            this.tabPageYear.Name = "tabPageYear";
-            this.tabPageYear.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageYear.Size = new System.Drawing.Size(442, 426);
-            this.tabPageYear.TabIndex = 2;
-            this.tabPageYear.Text = "Year";
+            this.dataGridViewTextBoxColumn5.Width = 70;
             // 
             // dgvTopPerformer_Year
             // 
             this.dgvTopPerformer_Year.AllowUserToAddRows = false;
             this.dgvTopPerformer_Year.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle31.BackColor = System.Drawing.Color.White;
-            this.dgvTopPerformer_Year.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
-            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle32.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle32.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.DimGray;
-            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTopPerformer_Year.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.White;
+            this.dgvTopPerformer_Year.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.DimGray;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTopPerformer_Year.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.dgvTopPerformer_Year.ColumnHeadersHeight = 40;
             this.dgvTopPerformer_Year.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewImageColumn3,
@@ -898,34 +1008,34 @@
             this.dataGridViewTextBoxColumn7,
             this.dataGridViewTextBoxColumn8,
             this.dataGridViewTextBoxColumn9});
-            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle34.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle34.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle34.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
-            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvTopPerformer_Year.DefaultCellStyle = dataGridViewCellStyle34;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle16.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvTopPerformer_Year.DefaultCellStyle = dataGridViewCellStyle16;
             this.dgvTopPerformer_Year.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvTopPerformer_Year.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
             this.dgvTopPerformer_Year.Location = new System.Drawing.Point(3, 3);
             this.dgvTopPerformer_Year.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvTopPerformer_Year.Name = "dgvTopPerformer_Year";
             this.dgvTopPerformer_Year.ReadOnly = true;
-            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle35.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle35.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle35.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTopPerformer_Year.RowHeadersDefaultCellStyle = dataGridViewCellStyle35;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTopPerformer_Year.RowHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.dgvTopPerformer_Year.RowHeadersVisible = false;
             this.dgvTopPerformer_Year.RowHeadersWidth = 50;
             this.dgvTopPerformer_Year.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle36.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.dgvTopPerformer_Year.RowsDefaultCellStyle = dataGridViewCellStyle36;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.dgvTopPerformer_Year.RowsDefaultCellStyle = dataGridViewCellStyle18;
             this.dgvTopPerformer_Year.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.dgvTopPerformer_Year.RowTemplate.DividerHeight = 7;
             this.dgvTopPerformer_Year.RowTemplate.Height = 60;
@@ -958,38 +1068,42 @@
             this.dataGridViewImageColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.dataGridViewImageColumn3.DataPropertyName = "Image";
             this.dataGridViewImageColumn3.FillWeight = 213.9037F;
+            this.dataGridViewImageColumn3.Frozen = true;
             this.dataGridViewImageColumn3.HeaderText = "Image";
             this.dataGridViewImageColumn3.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.dataGridViewImageColumn3.MinimumWidth = 6;
             this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
             this.dataGridViewImageColumn3.ReadOnly = true;
-            this.dataGridViewImageColumn3.Width = 80;
+            this.dataGridViewImageColumn3.Width = 70;
             // 
             // dataGridViewTextBoxColumn6
             // 
             this.dataGridViewTextBoxColumn6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.dataGridViewTextBoxColumn6.DataPropertyName = "ClubName";
-            dataGridViewCellStyle33.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn6.DefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn6.DefaultCellStyle = dataGridViewCellStyle15;
             this.dataGridViewTextBoxColumn6.FillWeight = 53.63456F;
+            this.dataGridViewTextBoxColumn6.Frozen = true;
             this.dataGridViewTextBoxColumn6.HeaderText = "Name";
             this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            this.dataGridViewTextBoxColumn6.Width = 125;
+            this.dataGridViewTextBoxColumn6.Width = 120;
             // 
             // dataGridViewTextBoxColumn7
             // 
             this.dataGridViewTextBoxColumn7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn7.Frozen = true;
             this.dataGridViewTextBoxColumn7.HeaderText = "ID Number";
             this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            this.dataGridViewTextBoxColumn7.Width = 110;
+            this.dataGridViewTextBoxColumn7.Width = 125;
             // 
             // dataGridViewTextBoxColumn8
             // 
             this.dataGridViewTextBoxColumn8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn8.Frozen = true;
             this.dataGridViewTextBoxColumn8.HeaderText = "Marks";
             this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
@@ -999,115 +1113,12 @@
             // dataGridViewTextBoxColumn9
             // 
             this.dataGridViewTextBoxColumn9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn9.Frozen = true;
             this.dataGridViewTextBoxColumn9.HeaderText = "License";
             this.dataGridViewTextBoxColumn9.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
             this.dataGridViewTextBoxColumn9.ReadOnly = true;
-            this.dataGridViewTextBoxColumn9.Width = 80;
-            // 
-            // dataGridViewImageColumn1
-            // 
-            this.dataGridViewImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dataGridViewImageColumn1.DataPropertyName = "Image";
-            this.dataGridViewImageColumn1.FillWeight = 213.9037F;
-            this.dataGridViewImageColumn1.Frozen = true;
-            this.dataGridViewImageColumn1.HeaderText = "Image";
-            this.dataGridViewImageColumn1.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.dataGridViewImageColumn1.MinimumWidth = 6;
-            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
-            this.dataGridViewImageColumn1.ReadOnly = true;
-            this.dataGridViewImageColumn1.Width = 70;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "ClubName";
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle21;
-            this.dataGridViewTextBoxColumn3.FillWeight = 53.63456F;
-            this.dataGridViewTextBoxColumn3.Frozen = true;
-            this.dataGridViewTextBoxColumn3.HeaderText = "Name";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            this.dataGridViewTextBoxColumn3.Width = 120;
-            // 
-            // Column5
-            // 
-            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column5.Frozen = true;
-            this.Column5.HeaderText = "ID Number";
-            this.Column5.MinimumWidth = 6;
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            // 
-            // Column6
-            // 
-            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column6.Frozen = true;
-            this.Column6.HeaderText = "Marks";
-            this.Column6.MinimumWidth = 6;
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
-            this.Column6.Width = 80;
-            // 
-            // Column7
-            // 
-            this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column7.Frozen = true;
-            this.Column7.HeaderText = "License";
-            this.Column7.MinimumWidth = 6;
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
-            this.Column7.Width = 70;
-            // 
-            // learnersChart
-            // 
-            this.learnersChart.Dock = System.Windows.Forms.DockStyle.Fill;
-            chartFont9.FontName = "Arial";
-            this.learnersChart.Legend.LabelFont = chartFont9;
-            this.learnersChart.Location = new System.Drawing.Point(0, 49);
-            this.learnersChart.Name = "learnersChart";
-            this.learnersChart.Size = new System.Drawing.Size(472, 262);
-            this.learnersChart.TabIndex = 10;
-            chartFont10.FontName = "Arial";
-            chartFont10.Size = 12;
-            chartFont10.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.learnersChart.Title.Font = chartFont10;
-            chartFont11.FontName = "Arial";
-            this.learnersChart.Tooltips.BodyFont = chartFont11;
-            chartFont12.FontName = "Arial";
-            chartFont12.Size = 9;
-            chartFont12.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.learnersChart.Tooltips.TitleFont = chartFont12;
-            this.learnersChart.XAxes.GridLines = grid4;
-            chartFont13.FontName = "Arial";
-            tick4.Font = chartFont13;
-            this.learnersChart.XAxes.Ticks = tick4;
-            this.learnersChart.YAxes.GridLines = grid5;
-            chartFont14.FontName = "Arial";
-            tick5.Font = chartFont14;
-            this.learnersChart.YAxes.Ticks = tick5;
-            this.learnersChart.ZAxes.GridLines = grid6;
-            chartFont15.FontName = "Arial";
-            pointLabel2.Font = chartFont15;
-            this.learnersChart.ZAxes.PointLabels = pointLabel2;
-            chartFont16.FontName = "Arial";
-            tick6.Font = chartFont16;
-            this.learnersChart.ZAxes.Ticks = tick6;
-            // 
-            // lblLearnersChart
-            // 
-            this.lblLearnersChart.BackColor = System.Drawing.Color.White;
-            this.lblLearnersChart.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblLearnersChart.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLearnersChart.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.lblLearnersChart.Location = new System.Drawing.Point(0, 0);
-            this.lblLearnersChart.Name = "lblLearnersChart";
-            this.lblLearnersChart.Size = new System.Drawing.Size(472, 49);
-            this.lblLearnersChart.TabIndex = 11;
-            this.lblLearnersChart.Text = "      Learners";
-            this.lblLearnersChart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.dataGridViewTextBoxColumn9.Width = 70;
             // 
             // DashBoardForm
             // 
@@ -1125,6 +1136,11 @@
             this.Name = "DashBoardForm";
             this.Text = "DashBoardForm";
             this.pnlTopPerformer.ResumeLayout(false);
+            this.tabControlTopPerformer.ResumeLayout(false);
+            this.tabPageWeek.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTopPerformer_Week)).EndInit();
+            this.tabPageMonth.ResumeLayout(false);
+            this.tabPageYear.ResumeLayout(false);
             this.pnlSpaceInPanelPerformer_1.ResumeLayout(false);
             this.pnlStatistic.ResumeLayout(false);
             this.pnlStatistic_Mid.ResumeLayout(false);
@@ -1136,12 +1152,7 @@
             this.pnlAttandance.ResumeLayout(false);
             this.pnlChart.ResumeLayout(false);
             this.pnlSpace5.ResumeLayout(false);
-            this.tabControlTopPerformer.ResumeLayout(false);
-            this.tabPageWeek.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvTopPerformer_Week)).EndInit();
-            this.tabPageMonth.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTopPerformer_Month)).EndInit();
-            this.tabPageYear.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTopPerformer_Year)).EndInit();
             this.ResumeLayout(false);
 
@@ -1189,19 +1200,7 @@
         private System.Windows.Forms.TabPage tabPageWeek;
         private Guna.UI2.WinForms.Guna2DataGridView dgvTopPerformer_Week;
         private System.Windows.Forms.TabPage tabPageMonth;
-        private Guna.UI2.WinForms.Guna2DataGridView dgvTopPerformer_Month;
-        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.TabPage tabPageYear;
-        private Guna.UI2.WinForms.Guna2DataGridView dgvTopPerformer_Year;
-        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
@@ -1209,5 +1208,17 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private Guna.Charts.WinForms.GunaChart learnersChart;
         private System.Windows.Forms.Label lblLearnersChart;
+        private Guna.UI2.WinForms.Guna2DataGridView dgvTopPerformer_Month;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private Guna.UI2.WinForms.Guna2DataGridView dgvTopPerformer_Year;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
     }
 }
