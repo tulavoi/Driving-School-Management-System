@@ -18,6 +18,22 @@ namespace GUI
             InitializeComponent();
         }
 
+        private void ChangeButtonText(string state)
+        {
+            this.btnEditLearner.Text = state;
+        }
+
+        private void EnableTexboxes(bool b)
+        {
+            this.txtLearnerName.Enabled = b;
+            this.txtPhone.Enabled = b;
+            this.txtEmail.Enabled = b;
+            this.cboGender.Enabled = b;
+            this.dtpDOB.Enabled = b;
+            this.txtAddress.Enabled = b;
+            this.txtCitizenId.Enabled = b;
+        }
+
         private void btnEditLearner_Click(object sender, EventArgs e)
         {
             if (!isEditing)
@@ -36,21 +52,6 @@ namespace GUI
 
                 this.isEditing = false;
             }
-        }
-
-        private void ChangeButtonText(string state)
-        {
-            this.btnEditLearner.Text = state;
-        }
-
-        private void EnableTexboxes(bool b)
-        {
-            this.txtLearnerName.Enabled = b;
-            this.txtPhone.Enabled = b;
-            this.txtEmail.Enabled = b;
-            this.cboGender.Enabled = b;
-            this.dtpDOB.Enabled = b;
-            this.txtAddress.Enabled = b;
         }
     }
 }

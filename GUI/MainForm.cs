@@ -14,6 +14,7 @@ namespace GUI
 {
     public partial class MainForm : Form
     {
+        private const AutoScaleMode dpi = AutoScaleMode.Dpi;
         private List<Guna2Button> menuButtons;
 
         // Custom border radius cho form
@@ -35,6 +36,7 @@ namespace GUI
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
 
             this.GenerateButtonList();
+            AutoScaleMode = dpi;
         }
 
         private void GenerateButtonList()

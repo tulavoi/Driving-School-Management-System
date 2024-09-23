@@ -85,7 +85,7 @@
             this.pnlLineTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlLineTop.Location = new System.Drawing.Point(0, 0);
             this.pnlLineTop.Name = "pnlLineTop";
-            this.pnlLineTop.Size = new System.Drawing.Size(1600, 35);
+            this.pnlLineTop.Size = new System.Drawing.Size(1200, 30);
             this.pnlLineTop.TabIndex = 35;
             // 
             // btnMinimizeForm
@@ -100,9 +100,9 @@
             this.btnMinimizeForm.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
             this.btnMinimizeForm.HoverState.IconColor = System.Drawing.Color.Black;
             this.btnMinimizeForm.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.btnMinimizeForm.Location = new System.Drawing.Point(1501, 0);
+            this.btnMinimizeForm.Location = new System.Drawing.Point(1101, 0);
             this.btnMinimizeForm.Name = "btnMinimizeForm";
-            this.btnMinimizeForm.Size = new System.Drawing.Size(49, 35);
+            this.btnMinimizeForm.Size = new System.Drawing.Size(49, 30);
             this.btnMinimizeForm.TabIndex = 31;
             // 
             // btnCloseForm
@@ -116,9 +116,9 @@
             this.btnCloseForm.HoverState.FillColor = System.Drawing.Color.Red;
             this.btnCloseForm.HoverState.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnCloseForm.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.btnCloseForm.Location = new System.Drawing.Point(1550, 0);
+            this.btnCloseForm.Location = new System.Drawing.Point(1150, 0);
             this.btnCloseForm.Name = "btnCloseForm";
-            this.btnCloseForm.Size = new System.Drawing.Size(50, 35);
+            this.btnCloseForm.Size = new System.Drawing.Size(50, 30);
             this.btnCloseForm.TabIndex = 30;
             this.btnCloseForm.Click += new System.EventHandler(this.btnCloseForm_Click);
             // 
@@ -139,9 +139,9 @@
             this.pnlMenu.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
             this.pnlMenu.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
             this.pnlMenu.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
-            this.pnlMenu.Location = new System.Drawing.Point(25, 35);
+            this.pnlMenu.Location = new System.Drawing.Point(20, 30);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(240, 840);
+            this.pnlMenu.Size = new System.Drawing.Size(200, 750);
             this.pnlMenu.TabIndex = 33;
             // 
             // btnInvoice
@@ -171,7 +171,7 @@
             this.btnInvoice.Name = "btnInvoice";
             this.btnInvoice.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnInvoice.PressedDepth = 10;
-            this.btnInvoice.Size = new System.Drawing.Size(240, 79);
+            this.btnInvoice.Size = new System.Drawing.Size(200, 79);
             this.btnInvoice.TabIndex = 30;
             this.btnInvoice.Text = "Invoice";
             this.btnInvoice.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -205,7 +205,7 @@
             this.btnVehicles.Name = "btnVehicles";
             this.btnVehicles.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnVehicles.PressedDepth = 10;
-            this.btnVehicles.Size = new System.Drawing.Size(240, 79);
+            this.btnVehicles.Size = new System.Drawing.Size(200, 79);
             this.btnVehicles.TabIndex = 29;
             this.btnVehicles.Text = "Vehicles";
             this.btnVehicles.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -239,7 +239,7 @@
             this.btnCourses.Name = "btnCourses";
             this.btnCourses.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnCourses.PressedDepth = 10;
-            this.btnCourses.Size = new System.Drawing.Size(240, 79);
+            this.btnCourses.Size = new System.Drawing.Size(200, 79);
             this.btnCourses.TabIndex = 27;
             this.btnCourses.Text = "Courses";
             this.btnCourses.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -273,7 +273,7 @@
             this.btnTeachers.Name = "btnTeachers";
             this.btnTeachers.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnTeachers.PressedDepth = 10;
-            this.btnTeachers.Size = new System.Drawing.Size(240, 79);
+            this.btnTeachers.Size = new System.Drawing.Size(200, 79);
             this.btnTeachers.TabIndex = 26;
             this.btnTeachers.Text = "Teachers";
             this.btnTeachers.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -307,7 +307,7 @@
             this.btnLearners.Name = "btnLearners";
             this.btnLearners.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnLearners.PressedDepth = 10;
-            this.btnLearners.Size = new System.Drawing.Size(240, 79);
+            this.btnLearners.Size = new System.Drawing.Size(200, 79);
             this.btnLearners.TabIndex = 25;
             this.btnLearners.Text = "Learners";
             this.btnLearners.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -342,7 +342,7 @@
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnDashboard.PressedDepth = 10;
-            this.btnDashboard.Size = new System.Drawing.Size(240, 79);
+            this.btnDashboard.Size = new System.Drawing.Size(200, 79);
             this.btnDashboard.TabIndex = 0;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -361,7 +361,7 @@
             this.pnlLogo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
             this.pnlLogo.Location = new System.Drawing.Point(0, 0);
             this.pnlLogo.Name = "pnlLogo";
-            this.pnlLogo.Size = new System.Drawing.Size(240, 172);
+            this.pnlLogo.Size = new System.Drawing.Size(200, 172);
             this.pnlLogo.TabIndex = 24;
             // 
             // pictureBoxLogo
@@ -374,7 +374,7 @@
             this.pictureBoxLogo.ImageRotate = 0F;
             this.pictureBoxLogo.Location = new System.Drawing.Point(0, 27);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(153, 145);
+            this.pictureBoxLogo.Size = new System.Drawing.Size(113, 145);
             this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxLogo.TabIndex = 23;
             this.pictureBoxLogo.TabStop = false;
@@ -383,7 +383,7 @@
             // 
             this.pnlSpace2.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlSpace2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
-            this.pnlSpace2.Location = new System.Drawing.Point(153, 27);
+            this.pnlSpace2.Location = new System.Drawing.Point(113, 27);
             this.pnlSpace2.Name = "pnlSpace2";
             this.pnlSpace2.Size = new System.Drawing.Size(87, 145);
             this.pnlSpace2.TabIndex = 41;
@@ -398,7 +398,7 @@
             this.pnlSpace9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
             this.pnlSpace9.Location = new System.Drawing.Point(0, 0);
             this.pnlSpace9.Name = "pnlSpace9";
-            this.pnlSpace9.Size = new System.Drawing.Size(240, 27);
+            this.pnlSpace9.Size = new System.Drawing.Size(200, 27);
             this.pnlSpace9.TabIndex = 0;
             // 
             // pnlTop
@@ -410,9 +410,9 @@
             this.pnlTop.Controls.Add(this.pnlSpace5);
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Font = new System.Drawing.Font("Berlin Sans FB", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnlTop.Location = new System.Drawing.Point(283, 35);
+            this.pnlTop.Location = new System.Drawing.Point(240, 30);
             this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(1292, 138);
+            this.pnlTop.Size = new System.Drawing.Size(940, 110);
             this.pnlTop.TabIndex = 34;
             // 
             // pnlSearchBox
@@ -423,9 +423,9 @@
             this.pnlSearchBox.Controls.Add(this.pnlSpace7);
             this.pnlSearchBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlSearchBox.FillColor = System.Drawing.Color.White;
-            this.pnlSearchBox.Location = new System.Drawing.Point(540, 0);
+            this.pnlSearchBox.Location = new System.Drawing.Point(535, 0);
             this.pnlSearchBox.Name = "pnlSearchBox";
-            this.pnlSearchBox.Size = new System.Drawing.Size(727, 138);
+            this.pnlSearchBox.Size = new System.Drawing.Size(385, 110);
             this.pnlSearchBox.TabIndex = 5;
             // 
             // txtSearch
@@ -443,13 +443,13 @@
             this.txtSearch.FocusedState.BorderColor = System.Drawing.SystemColors.ControlLight;
             this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSearch.HoverState.BorderColor = System.Drawing.SystemColors.ControlLight;
-            this.txtSearch.Location = new System.Drawing.Point(0, 45);
+            this.txtSearch.Location = new System.Drawing.Point(0, 30);
             this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PasswordChar = '\0';
             this.txtSearch.PlaceholderText = "Search";
             this.txtSearch.SelectedText = "";
-            this.txtSearch.Size = new System.Drawing.Size(643, 48);
+            this.txtSearch.Size = new System.Drawing.Size(307, 50);
             this.txtSearch.TabIndex = 0;
             // 
             // btnSearch
@@ -466,20 +466,20 @@
             this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSearch.ForeColor = System.Drawing.Color.White;
             this.btnSearch.Image = global::GUI.Properties.Resources.search;
-            this.btnSearch.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnSearch.Location = new System.Drawing.Point(643, 45);
+            this.btnSearch.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnSearch.Location = new System.Drawing.Point(307, 30);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.PressedDepth = 10;
-            this.btnSearch.Size = new System.Drawing.Size(84, 48);
+            this.btnSearch.Size = new System.Drawing.Size(78, 50);
             this.btnSearch.TabIndex = 0;
             // 
             // pnlSpace11
             // 
             this.pnlSpace11.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnlSpace11.FillColor = System.Drawing.Color.White;
-            this.pnlSpace11.Location = new System.Drawing.Point(0, 93);
+            this.pnlSpace11.Location = new System.Drawing.Point(0, 80);
             this.pnlSpace11.Name = "pnlSpace11";
-            this.pnlSpace11.Size = new System.Drawing.Size(727, 45);
+            this.pnlSpace11.Size = new System.Drawing.Size(385, 30);
             this.pnlSpace11.TabIndex = 2;
             // 
             // pnlSpace7
@@ -488,7 +488,7 @@
             this.pnlSpace7.FillColor = System.Drawing.Color.White;
             this.pnlSpace7.Location = new System.Drawing.Point(0, 0);
             this.pnlSpace7.Name = "pnlSpace7";
-            this.pnlSpace7.Size = new System.Drawing.Size(727, 45);
+            this.pnlSpace7.Size = new System.Drawing.Size(385, 30);
             this.pnlSpace7.TabIndex = 1;
             // 
             // pnlLabelNameForm
@@ -497,9 +497,9 @@
             this.pnlLabelNameForm.Controls.Add(this.lblNameForm);
             this.pnlLabelNameForm.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlLabelNameForm.FillColor = System.Drawing.Color.White;
-            this.pnlLabelNameForm.Location = new System.Drawing.Point(25, 0);
+            this.pnlLabelNameForm.Location = new System.Drawing.Point(20, 0);
             this.pnlLabelNameForm.Name = "pnlLabelNameForm";
-            this.pnlLabelNameForm.Size = new System.Drawing.Size(515, 138);
+            this.pnlLabelNameForm.Size = new System.Drawing.Size(515, 110);
             this.pnlLabelNameForm.TabIndex = 4;
             // 
             // lblNameForm
@@ -509,7 +509,7 @@
             this.lblNameForm.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNameForm.Location = new System.Drawing.Point(0, 0);
             this.lblNameForm.Name = "lblNameForm";
-            this.lblNameForm.Size = new System.Drawing.Size(515, 138);
+            this.lblNameForm.Size = new System.Drawing.Size(515, 110);
             this.lblNameForm.TabIndex = 3;
             this.lblNameForm.Text = "Name Form";
             this.lblNameForm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -522,9 +522,9 @@
             this.pnlSpace6.CustomizableEdges.TopLeft = false;
             this.pnlSpace6.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlSpace6.FillColor = System.Drawing.Color.White;
-            this.pnlSpace6.Location = new System.Drawing.Point(1267, 0);
+            this.pnlSpace6.Location = new System.Drawing.Point(920, 0);
             this.pnlSpace6.Name = "pnlSpace6";
-            this.pnlSpace6.Size = new System.Drawing.Size(25, 138);
+            this.pnlSpace6.Size = new System.Drawing.Size(20, 110);
             this.pnlSpace6.TabIndex = 1;
             // 
             // pnlSpace5
@@ -538,52 +538,52 @@
             this.pnlSpace5.FillColor = System.Drawing.Color.White;
             this.pnlSpace5.Location = new System.Drawing.Point(0, 0);
             this.pnlSpace5.Name = "pnlSpace5";
-            this.pnlSpace5.Size = new System.Drawing.Size(25, 138);
+            this.pnlSpace5.Size = new System.Drawing.Size(20, 110);
             this.pnlSpace5.TabIndex = 0;
             // 
             // pnlLineLeft
             // 
             this.pnlLineLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlLineLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlLineLeft.Location = new System.Drawing.Point(0, 35);
+            this.pnlLineLeft.Location = new System.Drawing.Point(0, 30);
             this.pnlLineLeft.Name = "pnlLineLeft";
-            this.pnlLineLeft.Size = new System.Drawing.Size(25, 865);
+            this.pnlLineLeft.Size = new System.Drawing.Size(20, 770);
             this.pnlLineLeft.TabIndex = 36;
             // 
             // pnlLineBottom
             // 
             this.pnlLineBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlLineBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlLineBottom.Location = new System.Drawing.Point(25, 875);
+            this.pnlLineBottom.Location = new System.Drawing.Point(20, 780);
             this.pnlLineBottom.Name = "pnlLineBottom";
-            this.pnlLineBottom.Size = new System.Drawing.Size(1575, 25);
+            this.pnlLineBottom.Size = new System.Drawing.Size(1180, 20);
             this.pnlLineBottom.TabIndex = 37;
             // 
             // pnlLineRight
             // 
             this.pnlLineRight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlLineRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlLineRight.Location = new System.Drawing.Point(1575, 35);
+            this.pnlLineRight.Location = new System.Drawing.Point(1180, 30);
             this.pnlLineRight.Name = "pnlLineRight";
-            this.pnlLineRight.Size = new System.Drawing.Size(25, 840);
+            this.pnlLineRight.Size = new System.Drawing.Size(20, 750);
             this.pnlLineRight.TabIndex = 38;
             // 
             // pnlSpace1
             // 
             this.pnlSpace1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlSpace1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSpace1.Location = new System.Drawing.Point(265, 35);
+            this.pnlSpace1.Location = new System.Drawing.Point(220, 30);
             this.pnlSpace1.Name = "pnlSpace1";
-            this.pnlSpace1.Size = new System.Drawing.Size(18, 840);
+            this.pnlSpace1.Size = new System.Drawing.Size(20, 750);
             this.pnlSpace1.TabIndex = 39;
             // 
             // pnlSpace4
             // 
             this.pnlSpace4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlSpace4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSpace4.Location = new System.Drawing.Point(283, 173);
+            this.pnlSpace4.Location = new System.Drawing.Point(240, 140);
             this.pnlSpace4.Name = "pnlSpace4";
-            this.pnlSpace4.Size = new System.Drawing.Size(1292, 34);
+            this.pnlSpace4.Size = new System.Drawing.Size(940, 25);
             this.pnlSpace4.TabIndex = 40;
             // 
             // pnlContainer
@@ -591,9 +591,9 @@
             this.pnlContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContainer.Font = new System.Drawing.Font("Berlin Sans FB", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnlContainer.Location = new System.Drawing.Point(283, 207);
+            this.pnlContainer.Location = new System.Drawing.Point(240, 165);
             this.pnlContainer.Name = "pnlContainer";
-            this.pnlContainer.Size = new System.Drawing.Size(1292, 668);
+            this.pnlContainer.Size = new System.Drawing.Size(940, 615);
             this.pnlContainer.TabIndex = 41;
             // 
             // MainForm
@@ -601,7 +601,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1600, 900);
+            this.ClientSize = new System.Drawing.Size(1200, 800);
             this.Controls.Add(this.pnlContainer);
             this.Controls.Add(this.pnlSpace4);
             this.Controls.Add(this.pnlTop);
