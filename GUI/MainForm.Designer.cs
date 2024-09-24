@@ -38,6 +38,7 @@
             this.pnlMenu = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.btnInvoice = new Guna.UI2.WinForms.Guna2Button();
             this.btnVehicles = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSchedule = new Guna.UI2.WinForms.Guna2Button();
             this.btnCourses = new Guna.UI2.WinForms.Guna2Button();
             this.btnTeachers = new Guna.UI2.WinForms.Guna2Button();
             this.btnLearners = new Guna.UI2.WinForms.Guna2Button();
@@ -129,6 +130,7 @@
             this.pnlMenu.BorderRadius = 15;
             this.pnlMenu.Controls.Add(this.btnInvoice);
             this.pnlMenu.Controls.Add(this.btnVehicles);
+            this.pnlMenu.Controls.Add(this.btnSchedule);
             this.pnlMenu.Controls.Add(this.btnCourses);
             this.pnlMenu.Controls.Add(this.btnTeachers);
             this.pnlMenu.Controls.Add(this.btnLearners);
@@ -167,16 +169,15 @@
             this.btnInvoice.Image = global::GUI.Properties.Resources.invoice_1;
             this.btnInvoice.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnInvoice.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnInvoice.Location = new System.Drawing.Point(0, 567);
+            this.btnInvoice.Location = new System.Drawing.Point(0, 592);
             this.btnInvoice.Name = "btnInvoice";
             this.btnInvoice.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnInvoice.PressedDepth = 10;
-            this.btnInvoice.Size = new System.Drawing.Size(200, 79);
-            this.btnInvoice.TabIndex = 30;
+            this.btnInvoice.Size = new System.Drawing.Size(200, 70);
+            this.btnInvoice.TabIndex = 33;
             this.btnInvoice.Text = "Invoice";
             this.btnInvoice.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnInvoice.TextOffset = new System.Drawing.Point(25, 0);
-            this.btnInvoice.Click += new System.EventHandler(this.btnInvoice_Click);
             // 
             // btnVehicles
             // 
@@ -201,16 +202,48 @@
             this.btnVehicles.Image = global::GUI.Properties.Resources.car_1;
             this.btnVehicles.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnVehicles.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnVehicles.Location = new System.Drawing.Point(0, 488);
+            this.btnVehicles.Location = new System.Drawing.Point(0, 522);
             this.btnVehicles.Name = "btnVehicles";
             this.btnVehicles.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnVehicles.PressedDepth = 10;
-            this.btnVehicles.Size = new System.Drawing.Size(200, 79);
-            this.btnVehicles.TabIndex = 29;
+            this.btnVehicles.Size = new System.Drawing.Size(200, 70);
+            this.btnVehicles.TabIndex = 32;
             this.btnVehicles.Text = "Vehicles";
             this.btnVehicles.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnVehicles.TextOffset = new System.Drawing.Point(25, 0);
-            this.btnVehicles.Click += new System.EventHandler(this.btnVehicles_Click);
+            // 
+            // btnSchedule
+            // 
+            this.btnSchedule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+            this.btnSchedule.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+            this.btnSchedule.BorderThickness = 2;
+            this.btnSchedule.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnSchedule.CheckedState.FillColor = System.Drawing.Color.White;
+            this.btnSchedule.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+            this.btnSchedule.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSchedule.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+            this.btnSchedule.DisabledState.FillColor = System.Drawing.Color.White;
+            this.btnSchedule.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+            this.btnSchedule.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSchedule.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+            this.btnSchedule.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnSchedule.ForeColor = System.Drawing.Color.White;
+            this.btnSchedule.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.btnSchedule.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+            this.btnSchedule.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+            this.btnSchedule.HoverState.Image = global::GUI.Properties.Resources.schedule_2;
+            this.btnSchedule.Image = global::GUI.Properties.Resources.schedule_1;
+            this.btnSchedule.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSchedule.ImageOffset = new System.Drawing.Point(20, 0);
+            this.btnSchedule.Location = new System.Drawing.Point(0, 452);
+            this.btnSchedule.Name = "btnSchedule";
+            this.btnSchedule.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.btnSchedule.PressedDepth = 10;
+            this.btnSchedule.Size = new System.Drawing.Size(200, 70);
+            this.btnSchedule.TabIndex = 31;
+            this.btnSchedule.Text = "Schedule";
+            this.btnSchedule.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSchedule.TextOffset = new System.Drawing.Point(25, 0);
             // 
             // btnCourses
             // 
@@ -235,11 +268,11 @@
             this.btnCourses.Image = global::GUI.Properties.Resources.course_1;
             this.btnCourses.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnCourses.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnCourses.Location = new System.Drawing.Point(0, 409);
+            this.btnCourses.Location = new System.Drawing.Point(0, 382);
             this.btnCourses.Name = "btnCourses";
             this.btnCourses.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnCourses.PressedDepth = 10;
-            this.btnCourses.Size = new System.Drawing.Size(200, 79);
+            this.btnCourses.Size = new System.Drawing.Size(200, 70);
             this.btnCourses.TabIndex = 27;
             this.btnCourses.Text = "Courses";
             this.btnCourses.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -269,11 +302,11 @@
             this.btnTeachers.Image = global::GUI.Properties.Resources.teacher_1;
             this.btnTeachers.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnTeachers.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnTeachers.Location = new System.Drawing.Point(0, 330);
+            this.btnTeachers.Location = new System.Drawing.Point(0, 312);
             this.btnTeachers.Name = "btnTeachers";
             this.btnTeachers.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnTeachers.PressedDepth = 10;
-            this.btnTeachers.Size = new System.Drawing.Size(200, 79);
+            this.btnTeachers.Size = new System.Drawing.Size(200, 70);
             this.btnTeachers.TabIndex = 26;
             this.btnTeachers.Text = "Teachers";
             this.btnTeachers.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -303,11 +336,11 @@
             this.btnLearners.Image = global::GUI.Properties.Resources.students_1;
             this.btnLearners.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnLearners.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnLearners.Location = new System.Drawing.Point(0, 251);
+            this.btnLearners.Location = new System.Drawing.Point(0, 242);
             this.btnLearners.Name = "btnLearners";
             this.btnLearners.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnLearners.PressedDepth = 10;
-            this.btnLearners.Size = new System.Drawing.Size(200, 79);
+            this.btnLearners.Size = new System.Drawing.Size(200, 70);
             this.btnLearners.TabIndex = 25;
             this.btnLearners.Text = "Learners";
             this.btnLearners.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -342,7 +375,7 @@
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnDashboard.PressedDepth = 10;
-            this.btnDashboard.Size = new System.Drawing.Size(200, 79);
+            this.btnDashboard.Size = new System.Drawing.Size(200, 70);
             this.btnDashboard.TabIndex = 0;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -412,7 +445,7 @@
             this.pnlTop.Font = new System.Drawing.Font("Berlin Sans FB", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlTop.Location = new System.Drawing.Point(240, 30);
             this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(940, 110);
+            this.pnlTop.Size = new System.Drawing.Size(960, 110);
             this.pnlTop.TabIndex = 34;
             // 
             // pnlSearchBox
@@ -425,7 +458,7 @@
             this.pnlSearchBox.FillColor = System.Drawing.Color.White;
             this.pnlSearchBox.Location = new System.Drawing.Point(535, 0);
             this.pnlSearchBox.Name = "pnlSearchBox";
-            this.pnlSearchBox.Size = new System.Drawing.Size(385, 110);
+            this.pnlSearchBox.Size = new System.Drawing.Size(405, 110);
             this.pnlSearchBox.TabIndex = 5;
             // 
             // txtSearch
@@ -450,7 +483,7 @@
             this.txtSearch.PasswordChar = '\0';
             this.txtSearch.PlaceholderText = "Search";
             this.txtSearch.SelectedText = "";
-            this.txtSearch.Size = new System.Drawing.Size(307, 50);
+            this.txtSearch.Size = new System.Drawing.Size(327, 50);
             this.txtSearch.TabIndex = 0;
             // 
             // btnSearch
@@ -468,7 +501,7 @@
             this.btnSearch.ForeColor = System.Drawing.Color.White;
             this.btnSearch.Image = global::GUI.Properties.Resources.search;
             this.btnSearch.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnSearch.Location = new System.Drawing.Point(307, 30);
+            this.btnSearch.Location = new System.Drawing.Point(327, 30);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.PressedDepth = 10;
             this.btnSearch.Size = new System.Drawing.Size(78, 50);
@@ -480,7 +513,7 @@
             this.pnlSpace11.FillColor = System.Drawing.Color.White;
             this.pnlSpace11.Location = new System.Drawing.Point(0, 80);
             this.pnlSpace11.Name = "pnlSpace11";
-            this.pnlSpace11.Size = new System.Drawing.Size(385, 30);
+            this.pnlSpace11.Size = new System.Drawing.Size(405, 30);
             this.pnlSpace11.TabIndex = 2;
             // 
             // pnlSpace7
@@ -489,7 +522,7 @@
             this.pnlSpace7.FillColor = System.Drawing.Color.White;
             this.pnlSpace7.Location = new System.Drawing.Point(0, 0);
             this.pnlSpace7.Name = "pnlSpace7";
-            this.pnlSpace7.Size = new System.Drawing.Size(385, 30);
+            this.pnlSpace7.Size = new System.Drawing.Size(405, 30);
             this.pnlSpace7.TabIndex = 1;
             // 
             // pnlLabelNameForm
@@ -523,7 +556,7 @@
             this.pnlSpace6.CustomizableEdges.TopLeft = false;
             this.pnlSpace6.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlSpace6.FillColor = System.Drawing.Color.White;
-            this.pnlSpace6.Location = new System.Drawing.Point(920, 0);
+            this.pnlSpace6.Location = new System.Drawing.Point(940, 0);
             this.pnlSpace6.Name = "pnlSpace6";
             this.pnlSpace6.Size = new System.Drawing.Size(20, 110);
             this.pnlSpace6.TabIndex = 1;
@@ -564,9 +597,9 @@
             // 
             this.pnlLineRight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlLineRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlLineRight.Location = new System.Drawing.Point(1180, 30);
+            this.pnlLineRight.Location = new System.Drawing.Point(1180, 165);
             this.pnlLineRight.Name = "pnlLineRight";
-            this.pnlLineRight.Size = new System.Drawing.Size(20, 750);
+            this.pnlLineRight.Size = new System.Drawing.Size(20, 615);
             this.pnlLineRight.TabIndex = 38;
             // 
             // pnlSpace1
@@ -584,7 +617,7 @@
             this.pnlSpace4.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSpace4.Location = new System.Drawing.Point(240, 140);
             this.pnlSpace4.Name = "pnlSpace4";
-            this.pnlSpace4.Size = new System.Drawing.Size(940, 25);
+            this.pnlSpace4.Size = new System.Drawing.Size(960, 25);
             this.pnlSpace4.TabIndex = 40;
             // 
             // pnlContainer
@@ -594,7 +627,7 @@
             this.pnlContainer.Font = new System.Drawing.Font("Berlin Sans FB", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlContainer.Location = new System.Drawing.Point(240, 165);
             this.pnlContainer.Name = "pnlContainer";
-            this.pnlContainer.Size = new System.Drawing.Size(940, 615);
+            this.pnlContainer.Size = new System.Drawing.Size(960, 615);
             this.pnlContainer.TabIndex = 41;
             // 
             // MainForm
@@ -603,12 +636,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1200, 800);
+            this.Controls.Add(this.pnlLineRight);
             this.Controls.Add(this.pnlContainer);
             this.Controls.Add(this.pnlSpace4);
             this.Controls.Add(this.pnlTop);
             this.Controls.Add(this.pnlSpace1);
             this.Controls.Add(this.pnlMenu);
-            this.Controls.Add(this.pnlLineRight);
             this.Controls.Add(this.pnlLineBottom);
             this.Controls.Add(this.pnlLineLeft);
             this.Controls.Add(this.pnlLineTop);
@@ -661,6 +694,7 @@
         private Guna.UI2.WinForms.Guna2Button btnLearners;
         private Guna.UI2.WinForms.Guna2Button btnSearch;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace2;
+        private Guna.UI2.WinForms.Guna2Button btnSchedule;
         private Guna.UI2.WinForms.Guna2Button btnInvoice;
         private Guna.UI2.WinForms.Guna2Button btnVehicles;
     }

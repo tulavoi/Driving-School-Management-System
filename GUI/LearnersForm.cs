@@ -54,9 +54,12 @@ namespace GUI
             }
         }
 
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        private void btnAdd_Click(object sender, EventArgs e)
         {
-
+            AddLearnerForm frm = new AddLearnerForm();
+            frm.ShowDialog();
         }
+
+        
     }
 }

@@ -55,12 +55,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddLearnerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLearnerForm.Designer.cs">
+      <DependentUpon>AddLearnerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DashBoardForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DashBoardForm.Designer.cs">
       <DependentUpon>DashBoardForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormHelper.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +94,9 @@
     <Compile Include="TeachersForm.Designer.cs">
       <DependentUpon>TeachersForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddLearnerForm.resx">
+      <DependentUpon>AddLearnerForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DashBoardForm.resx">
       <DependentUpon>DashBoardForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,6 +186,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\schedule_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\schedule_1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

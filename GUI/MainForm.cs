@@ -14,29 +14,17 @@ namespace GUI
 {
     public partial class MainForm : Form
     {
-        private const AutoScaleMode dpi = AutoScaleMode.Dpi;
         private List<Guna2Button> menuButtons;
-
-        // Custom border radius cho form
-        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
-        private static extern IntPtr CreateRoundRectRgn
-        (
-           int nLeftRect,     // x-coordinate of upper-left corner
-           int nTopRect,      // y-coordinate of upper-left corner
-           int nRightRect,    // x-coordinate of lower-right corner
-           int nBottomRect,   // y-coordinate of lower-right corner
-           int nWidthEllipse, // width of ellipse
-           int nHeightEllipse // height of ellipse
-        );
 
         public MainForm()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.None;
-            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+
+            FormHelper.ApplyRoundedCorners(this, 20);
 
             this.GenerateButtonList();
-            AutoScaleMode = dpi;
+
+            this.btnDashBoard_Click(this.btnDashboard, EventArgs.Empty);
         }
 
         private void GenerateButtonList()
@@ -80,16 +68,6 @@ namespace GUI
         private void btnCourses_Click(object sender, EventArgs e)
         {
             Container(new LearnersForm(), this.btnCourses.Text, this.btnCourses);
-        }
-
-        private void btnVehicles_Click(object sender, EventArgs e)
-        {
-            Container(new LearnersForm(), this.btnVehicles.Text, this.btnVehicles);
-        }
-
-        private void btnInvoice_Click(object sender, EventArgs e)
-        {
-            Container(new LearnersForm(), this.btnInvoice.Text, this.btnInvoice);
         }
 
         public bool Container(object form, string nameButton, Guna2Button curButton)
@@ -139,11 +117,6 @@ namespace GUI
         private void CheckButtonClicked(Guna2Button curButton)
         {
             curButton.Checked = true;
-        }
-
-        private bool IsChecked(Guna2Button curButton)
-        {
-            return curButton.Checked = true;
         }
 
         private void SetNameLabel(string nameButton)
