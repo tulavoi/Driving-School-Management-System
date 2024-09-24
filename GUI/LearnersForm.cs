@@ -53,5 +53,10 @@ namespace GUI
                 this.isEditing = false;
             }
         }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

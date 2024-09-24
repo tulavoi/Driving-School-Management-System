@@ -432,6 +432,7 @@
             // 
             this.txtSearch.BackColor = System.Drawing.Color.White;
             this.txtSearch.BorderRadius = 10;
+            this.txtSearch.BorderThickness = 0;
             this.txtSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSearch.DefaultText = "";
             this.txtSearch.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
