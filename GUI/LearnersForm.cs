@@ -59,7 +59,5 @@ namespace GUI
             AddLearnerForm frm = new AddLearnerForm();
             frm.ShowDialog();
         }
-
-        
     }
 }

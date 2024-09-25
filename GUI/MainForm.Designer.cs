@@ -627,7 +627,7 @@
             this.pnlContainer.Font = new System.Drawing.Font("Berlin Sans FB", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlContainer.Location = new System.Drawing.Point(240, 165);
             this.pnlContainer.Name = "pnlContainer";
-            this.pnlContainer.Size = new System.Drawing.Size(960, 615);
+            this.pnlContainer.Size = new System.Drawing.Size(940, 615);
             this.pnlContainer.TabIndex = 41;
             // 
             // MainForm
@@ -636,8 +636,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1200, 800);
-            this.Controls.Add(this.pnlLineRight);
             this.Controls.Add(this.pnlContainer);
+            this.Controls.Add(this.pnlLineRight);
             this.Controls.Add(this.pnlSpace4);
             this.Controls.Add(this.pnlTop);
             this.Controls.Add(this.pnlSpace1);

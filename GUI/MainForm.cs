@@ -62,7 +62,7 @@ namespace GUI
 
         private void btnTeachers_Click(object sender, EventArgs e)
         {
-            Container(new LearnersForm(), this.btnTeachers.Text, this.btnTeachers);
+            Container(new TeachersForm(), this.btnTeachers.Text, this.btnTeachers);
         }
 
         private void btnCourses_Click(object sender, EventArgs e)
