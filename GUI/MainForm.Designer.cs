@@ -143,7 +143,7 @@
             this.pnlMenu.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
             this.pnlMenu.Location = new System.Drawing.Point(20, 30);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(200, 750);
+            this.pnlMenu.Size = new System.Drawing.Size(200, 850);
             this.pnlMenu.TabIndex = 33;
             // 
             // btnInvoice
@@ -169,11 +169,11 @@
             this.btnInvoice.Image = global::GUI.Properties.Resources.invoice_1;
             this.btnInvoice.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnInvoice.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnInvoice.Location = new System.Drawing.Point(0, 592);
+            this.btnInvoice.Location = new System.Drawing.Point(0, 525);
             this.btnInvoice.Name = "btnInvoice";
             this.btnInvoice.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnInvoice.PressedDepth = 10;
-            this.btnInvoice.Size = new System.Drawing.Size(200, 70);
+            this.btnInvoice.Size = new System.Drawing.Size(200, 65);
             this.btnInvoice.TabIndex = 33;
             this.btnInvoice.Text = "Invoice";
             this.btnInvoice.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -202,11 +202,11 @@
             this.btnVehicles.Image = global::GUI.Properties.Resources.car_1;
             this.btnVehicles.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnVehicles.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnVehicles.Location = new System.Drawing.Point(0, 522);
+            this.btnVehicles.Location = new System.Drawing.Point(0, 460);
             this.btnVehicles.Name = "btnVehicles";
             this.btnVehicles.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnVehicles.PressedDepth = 10;
-            this.btnVehicles.Size = new System.Drawing.Size(200, 70);
+            this.btnVehicles.Size = new System.Drawing.Size(200, 65);
             this.btnVehicles.TabIndex = 32;
             this.btnVehicles.Text = "Vehicles";
             this.btnVehicles.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -235,11 +235,11 @@
             this.btnSchedule.Image = global::GUI.Properties.Resources.schedule_1;
             this.btnSchedule.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSchedule.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnSchedule.Location = new System.Drawing.Point(0, 452);
+            this.btnSchedule.Location = new System.Drawing.Point(0, 395);
             this.btnSchedule.Name = "btnSchedule";
             this.btnSchedule.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnSchedule.PressedDepth = 10;
-            this.btnSchedule.Size = new System.Drawing.Size(200, 70);
+            this.btnSchedule.Size = new System.Drawing.Size(200, 65);
             this.btnSchedule.TabIndex = 31;
             this.btnSchedule.Text = "Schedule";
             this.btnSchedule.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -268,11 +268,11 @@
             this.btnCourses.Image = global::GUI.Properties.Resources.course_1;
             this.btnCourses.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnCourses.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnCourses.Location = new System.Drawing.Point(0, 382);
+            this.btnCourses.Location = new System.Drawing.Point(0, 330);
             this.btnCourses.Name = "btnCourses";
             this.btnCourses.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnCourses.PressedDepth = 10;
-            this.btnCourses.Size = new System.Drawing.Size(200, 70);
+            this.btnCourses.Size = new System.Drawing.Size(200, 65);
             this.btnCourses.TabIndex = 27;
             this.btnCourses.Text = "Courses";
             this.btnCourses.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -302,11 +302,11 @@
             this.btnTeachers.Image = global::GUI.Properties.Resources.teacher_1;
             this.btnTeachers.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnTeachers.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnTeachers.Location = new System.Drawing.Point(0, 312);
+            this.btnTeachers.Location = new System.Drawing.Point(0, 265);
             this.btnTeachers.Name = "btnTeachers";
             this.btnTeachers.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnTeachers.PressedDepth = 10;
-            this.btnTeachers.Size = new System.Drawing.Size(200, 70);
+            this.btnTeachers.Size = new System.Drawing.Size(200, 65);
             this.btnTeachers.TabIndex = 26;
             this.btnTeachers.Text = "Teachers";
             this.btnTeachers.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -336,11 +336,11 @@
             this.btnLearners.Image = global::GUI.Properties.Resources.students_1;
             this.btnLearners.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnLearners.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnLearners.Location = new System.Drawing.Point(0, 242);
+            this.btnLearners.Location = new System.Drawing.Point(0, 200);
             this.btnLearners.Name = "btnLearners";
             this.btnLearners.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnLearners.PressedDepth = 10;
-            this.btnLearners.Size = new System.Drawing.Size(200, 70);
+            this.btnLearners.Size = new System.Drawing.Size(200, 65);
             this.btnLearners.TabIndex = 25;
             this.btnLearners.Text = "Learners";
             this.btnLearners.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -371,11 +371,11 @@
             this.btnDashboard.Image = global::GUI.Properties.Resources.dashboard_1;
             this.btnDashboard.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnDashboard.ImageOffset = new System.Drawing.Point(20, 0);
-            this.btnDashboard.Location = new System.Drawing.Point(0, 172);
+            this.btnDashboard.Location = new System.Drawing.Point(0, 135);
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnDashboard.PressedDepth = 10;
-            this.btnDashboard.Size = new System.Drawing.Size(200, 70);
+            this.btnDashboard.Size = new System.Drawing.Size(200, 65);
             this.btnDashboard.TabIndex = 0;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -394,7 +394,7 @@
             this.pnlLogo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
             this.pnlLogo.Location = new System.Drawing.Point(0, 0);
             this.pnlLogo.Name = "pnlLogo";
-            this.pnlLogo.Size = new System.Drawing.Size(200, 172);
+            this.pnlLogo.Size = new System.Drawing.Size(200, 135);
             this.pnlLogo.TabIndex = 24;
             // 
             // pictureBoxLogo
@@ -405,9 +405,9 @@
             this.pictureBoxLogo.FillColor = System.Drawing.Color.Empty;
             this.pictureBoxLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogo.Image")));
             this.pictureBoxLogo.ImageRotate = 0F;
-            this.pictureBoxLogo.Location = new System.Drawing.Point(0, 27);
+            this.pictureBoxLogo.Location = new System.Drawing.Point(0, 21);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(113, 145);
+            this.pictureBoxLogo.Size = new System.Drawing.Size(113, 114);
             this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxLogo.TabIndex = 23;
             this.pictureBoxLogo.TabStop = false;
@@ -416,9 +416,9 @@
             // 
             this.pnlSpace2.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlSpace2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
-            this.pnlSpace2.Location = new System.Drawing.Point(113, 27);
+            this.pnlSpace2.Location = new System.Drawing.Point(113, 21);
             this.pnlSpace2.Name = "pnlSpace2";
-            this.pnlSpace2.Size = new System.Drawing.Size(87, 145);
+            this.pnlSpace2.Size = new System.Drawing.Size(87, 114);
             this.pnlSpace2.TabIndex = 41;
             // 
             // pnlSpace9
@@ -431,7 +431,7 @@
             this.pnlSpace9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
             this.pnlSpace9.Location = new System.Drawing.Point(0, 0);
             this.pnlSpace9.Name = "pnlSpace9";
-            this.pnlSpace9.Size = new System.Drawing.Size(200, 27);
+            this.pnlSpace9.Size = new System.Drawing.Size(200, 21);
             this.pnlSpace9.TabIndex = 0;
             // 
             // pnlTop
@@ -456,9 +456,9 @@
             this.pnlSearchBox.Controls.Add(this.pnlSpace7);
             this.pnlSearchBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlSearchBox.FillColor = System.Drawing.Color.White;
-            this.pnlSearchBox.Location = new System.Drawing.Point(535, 0);
+            this.pnlSearchBox.Location = new System.Drawing.Point(528, 0);
             this.pnlSearchBox.Name = "pnlSearchBox";
-            this.pnlSearchBox.Size = new System.Drawing.Size(405, 110);
+            this.pnlSearchBox.Size = new System.Drawing.Size(412, 110);
             this.pnlSearchBox.TabIndex = 5;
             // 
             // txtSearch
@@ -483,7 +483,7 @@
             this.txtSearch.PasswordChar = '\0';
             this.txtSearch.PlaceholderText = "Search";
             this.txtSearch.SelectedText = "";
-            this.txtSearch.Size = new System.Drawing.Size(327, 50);
+            this.txtSearch.Size = new System.Drawing.Size(334, 50);
             this.txtSearch.TabIndex = 0;
             // 
             // btnSearch
@@ -501,7 +501,7 @@
             this.btnSearch.ForeColor = System.Drawing.Color.White;
             this.btnSearch.Image = global::GUI.Properties.Resources.search;
             this.btnSearch.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnSearch.Location = new System.Drawing.Point(327, 30);
+            this.btnSearch.Location = new System.Drawing.Point(334, 30);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.PressedDepth = 10;
             this.btnSearch.Size = new System.Drawing.Size(78, 50);
@@ -513,7 +513,7 @@
             this.pnlSpace11.FillColor = System.Drawing.Color.White;
             this.pnlSpace11.Location = new System.Drawing.Point(0, 80);
             this.pnlSpace11.Name = "pnlSpace11";
-            this.pnlSpace11.Size = new System.Drawing.Size(405, 30);
+            this.pnlSpace11.Size = new System.Drawing.Size(412, 30);
             this.pnlSpace11.TabIndex = 2;
             // 
             // pnlSpace7
@@ -522,7 +522,7 @@
             this.pnlSpace7.FillColor = System.Drawing.Color.White;
             this.pnlSpace7.Location = new System.Drawing.Point(0, 0);
             this.pnlSpace7.Name = "pnlSpace7";
-            this.pnlSpace7.Size = new System.Drawing.Size(405, 30);
+            this.pnlSpace7.Size = new System.Drawing.Size(412, 30);
             this.pnlSpace7.TabIndex = 1;
             // 
             // pnlLabelNameForm
@@ -531,7 +531,7 @@
             this.pnlLabelNameForm.Controls.Add(this.lblNameForm);
             this.pnlLabelNameForm.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlLabelNameForm.FillColor = System.Drawing.Color.White;
-            this.pnlLabelNameForm.Location = new System.Drawing.Point(20, 0);
+            this.pnlLabelNameForm.Location = new System.Drawing.Point(13, 0);
             this.pnlLabelNameForm.Name = "pnlLabelNameForm";
             this.pnlLabelNameForm.Size = new System.Drawing.Size(515, 110);
             this.pnlLabelNameForm.TabIndex = 4;
@@ -572,7 +572,7 @@
             this.pnlSpace5.FillColor = System.Drawing.Color.White;
             this.pnlSpace5.Location = new System.Drawing.Point(0, 0);
             this.pnlSpace5.Name = "pnlSpace5";
-            this.pnlSpace5.Size = new System.Drawing.Size(20, 110);
+            this.pnlSpace5.Size = new System.Drawing.Size(13, 110);
             this.pnlSpace5.TabIndex = 0;
             // 
             // pnlLineLeft
@@ -581,14 +581,14 @@
             this.pnlLineLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlLineLeft.Location = new System.Drawing.Point(0, 30);
             this.pnlLineLeft.Name = "pnlLineLeft";
-            this.pnlLineLeft.Size = new System.Drawing.Size(20, 770);
+            this.pnlLineLeft.Size = new System.Drawing.Size(20, 870);
             this.pnlLineLeft.TabIndex = 36;
             // 
             // pnlLineBottom
             // 
             this.pnlLineBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlLineBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlLineBottom.Location = new System.Drawing.Point(20, 780);
+            this.pnlLineBottom.Location = new System.Drawing.Point(20, 880);
             this.pnlLineBottom.Name = "pnlLineBottom";
             this.pnlLineBottom.Size = new System.Drawing.Size(1180, 20);
             this.pnlLineBottom.TabIndex = 37;
@@ -599,7 +599,7 @@
             this.pnlLineRight.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlLineRight.Location = new System.Drawing.Point(1180, 165);
             this.pnlLineRight.Name = "pnlLineRight";
-            this.pnlLineRight.Size = new System.Drawing.Size(20, 615);
+            this.pnlLineRight.Size = new System.Drawing.Size(20, 715);
             this.pnlLineRight.TabIndex = 38;
             // 
             // pnlSpace1
@@ -608,7 +608,7 @@
             this.pnlSpace1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlSpace1.Location = new System.Drawing.Point(220, 30);
             this.pnlSpace1.Name = "pnlSpace1";
-            this.pnlSpace1.Size = new System.Drawing.Size(20, 750);
+            this.pnlSpace1.Size = new System.Drawing.Size(20, 850);
             this.pnlSpace1.TabIndex = 39;
             // 
             // pnlSpace4
@@ -627,7 +627,7 @@
             this.pnlContainer.Font = new System.Drawing.Font("Berlin Sans FB", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlContainer.Location = new System.Drawing.Point(240, 165);
             this.pnlContainer.Name = "pnlContainer";
-            this.pnlContainer.Size = new System.Drawing.Size(940, 615);
+            this.pnlContainer.Size = new System.Drawing.Size(940, 715);
             this.pnlContainer.TabIndex = 41;
             // 
             // MainForm
@@ -635,7 +635,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1200, 800);
+            this.ClientSize = new System.Drawing.Size(1200, 900);
             this.Controls.Add(this.pnlContainer);
             this.Controls.Add(this.pnlLineRight);
             this.Controls.Add(this.pnlSpace4);

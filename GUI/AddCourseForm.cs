@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class VehiclesForm : Form
+    public partial class AddCourseForm : Form
     {
-        public VehiclesForm()
+        public AddCourseForm()
         {
             InitializeComponent();
+            FormHelper.ApplyRoundedCorners(this, 20);
+        }
+
+        private void AddCourseForm_Load(object sender, EventArgs e)
+        {
+            this.shadowAddCourseForm.SetShadowForm(this);
         }
     }
 }

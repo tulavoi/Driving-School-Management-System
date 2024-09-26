@@ -55,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCourseForm.Designer.cs">
+      <DependentUpon>AddCourseForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddLearnerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,12 @@
     </Compile>
     <Compile Include="AddTeacherForm.Designer.cs">
       <DependentUpon>AddTeacherForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoursesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoursesForm.Designer.cs">
+      <DependentUpon>CoursesForm.cs</DependentUpon>
     </Compile>
     <Compile Include="DashBoardForm.cs">
       <SubType>Form</SubType>
@@ -100,17 +112,29 @@
     <Compile Include="TeachersForm.Designer.cs">
       <DependentUpon>TeachersForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="VehiclesForm.cs">
+    <Compile Include="ucDays.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDays.Designer.cs">
+      <DependentUpon>ucDays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VehiclesForm.Designer.cs">
-      <DependentUpon>VehiclesForm.cs</DependentUpon>
+    <Compile Include="Calendar.Designer.cs">
+      <DependentUpon>Calendar.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddCourseForm.resx">
+      <DependentUpon>AddCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddLearnerForm.resx">
       <DependentUpon>AddLearnerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddTeacherForm.resx">
       <DependentUpon>AddTeacherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoursesForm.resx">
+      <DependentUpon>CoursesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DashBoardForm.resx">
       <DependentUpon>DashBoardForm.cs</DependentUpon>
@@ -137,8 +161,11 @@
     <EmbeddedResource Include="TeachersForm.resx">
       <DependentUpon>TeachersForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VehiclesForm.resx">
-      <DependentUpon>VehiclesForm.cs</DependentUpon>
+    <EmbeddedResource Include="ucDays.resx">
+      <DependentUpon>ucDays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendar.resx">
+      <DependentUpon>Calendar.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

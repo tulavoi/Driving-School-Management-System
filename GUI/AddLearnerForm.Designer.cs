@@ -38,7 +38,7 @@
             this.shadowAddLearnerForm = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.pnlMain = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlButtonAdd = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlButtonAdd_Cancel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnCancel = new Guna.UI2.WinForms.Guna2Button();
             this.btnAdd = new Guna.UI2.WinForms.Guna2Button();
@@ -75,7 +75,7 @@
             this.pnlSpace5 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlLineTop.SuspendLayout();
             this.pnlMain.SuspendLayout();
-            this.pnlButtonAdd.SuspendLayout();
+            this.pnlButtonAdd_Cancel.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.pnlCitizenId_Address.SuspendLayout();
             this.pnlGender_DOB.SuspendLayout();
@@ -163,7 +163,7 @@
             // pnlMain
             // 
             this.pnlMain.BorderRadius = 15;
-            this.pnlMain.Controls.Add(this.pnlButtonAdd);
+            this.pnlMain.Controls.Add(this.pnlButtonAdd_Cancel);
             this.pnlMain.Controls.Add(this.pnlSpace9);
             this.pnlMain.Controls.Add(this.guna2Panel1);
             this.pnlMain.Controls.Add(this.pnlSpace8);
@@ -185,27 +185,27 @@
             this.pnlMain.Size = new System.Drawing.Size(690, 370);
             this.pnlMain.TabIndex = 42;
             // 
-            // pnlButtonAdd
+            // pnlButtonAdd_Cancel
             // 
-            this.pnlButtonAdd.Controls.Add(this.guna2Panel2);
-            this.pnlButtonAdd.Controls.Add(this.btnCancel);
-            this.pnlButtonAdd.Controls.Add(this.btnAdd);
-            this.pnlButtonAdd.Controls.Add(this.pnlSpace15);
-            this.pnlButtonAdd.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlButtonAdd.FillColor = System.Drawing.Color.White;
-            this.pnlButtonAdd.Location = new System.Drawing.Point(0, 315);
-            this.pnlButtonAdd.Name = "pnlButtonAdd";
-            this.pnlButtonAdd.Size = new System.Drawing.Size(673, 40);
-            this.pnlButtonAdd.TabIndex = 129;
+            this.pnlButtonAdd_Cancel.Controls.Add(this.guna2Panel2);
+            this.pnlButtonAdd_Cancel.Controls.Add(this.btnCancel);
+            this.pnlButtonAdd_Cancel.Controls.Add(this.btnAdd);
+            this.pnlButtonAdd_Cancel.Controls.Add(this.pnlSpace15);
+            this.pnlButtonAdd_Cancel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlButtonAdd_Cancel.FillColor = System.Drawing.Color.White;
+            this.pnlButtonAdd_Cancel.Location = new System.Drawing.Point(0, 315);
+            this.pnlButtonAdd_Cancel.Name = "pnlButtonAdd_Cancel";
+            this.pnlButtonAdd_Cancel.Size = new System.Drawing.Size(673, 35);
+            this.pnlButtonAdd_Cancel.TabIndex = 129;
             // 
             // guna2Panel2
             // 
             this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel2.FillColor = System.Drawing.Color.White;
-            this.guna2Panel2.Location = new System.Drawing.Point(195, 0);
+            this.guna2Panel2.Location = new System.Drawing.Point(175, 0);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(308, 40);
+            this.guna2Panel2.Size = new System.Drawing.Size(348, 35);
             this.guna2Panel2.TabIndex = 18;
             // 
             // btnCancel
@@ -220,10 +220,10 @@
             this.btnCancel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(100)))), ((int)(((byte)(119)))));
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(503, 0);
+            this.btnCancel.Location = new System.Drawing.Point(523, 0);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Padding = new System.Windows.Forms.Padding(5);
-            this.btnCancel.Size = new System.Drawing.Size(170, 40);
+            this.btnCancel.Size = new System.Drawing.Size(150, 35);
             this.btnCancel.TabIndex = 19;
             this.btnCancel.Text = "Cancel";
             // 
@@ -242,7 +242,7 @@
             this.btnAdd.Location = new System.Drawing.Point(25, 0);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Padding = new System.Windows.Forms.Padding(5);
-            this.btnAdd.Size = new System.Drawing.Size(170, 40);
+            this.btnAdd.Size = new System.Drawing.Size(150, 35);
             this.btnAdd.TabIndex = 17;
             this.btnAdd.Text = "Enroll";
             // 
@@ -253,7 +253,7 @@
             this.pnlSpace15.FillColor = System.Drawing.Color.White;
             this.pnlSpace15.Location = new System.Drawing.Point(0, 0);
             this.pnlSpace15.Name = "pnlSpace15";
-            this.pnlSpace15.Size = new System.Drawing.Size(25, 40);
+            this.pnlSpace15.Size = new System.Drawing.Size(25, 35);
             this.pnlSpace15.TabIndex = 10;
             // 
             // pnlSpace9
@@ -458,7 +458,7 @@
             this.lblDOB_Title.Name = "lblDOB_Title";
             this.lblDOB_Title.Size = new System.Drawing.Size(135, 40);
             this.lblDOB_Title.TabIndex = 2;
-            this.lblDOB_Title.Text = "  DOB:";
+            this.lblDOB_Title.Text = "  Date Of Birth:";
             this.lblDOB_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // cboGender
@@ -720,7 +720,7 @@
             this.Load += new System.EventHandler(this.AddLearnerForm_Load);
             this.pnlLineTop.ResumeLayout(false);
             this.pnlMain.ResumeLayout(false);
-            this.pnlButtonAdd.ResumeLayout(false);
+            this.pnlButtonAdd_Cancel.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.pnlCitizenId_Address.ResumeLayout(false);
             this.pnlGender_DOB.ResumeLayout(false);
@@ -770,7 +770,7 @@
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpEnrollment;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace9;
-        private Guna.UI2.WinForms.Guna2Panel pnlButtonAdd;
+        private Guna.UI2.WinForms.Guna2Panel pnlButtonAdd_Cancel;
         private Guna.UI2.WinForms.Guna2Button btnAdd;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace15;
         private Guna.UI2.WinForms.Guna2Button btnCancel;

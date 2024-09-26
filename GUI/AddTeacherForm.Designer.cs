@@ -36,7 +36,6 @@
             this.lblCitizenId = new System.Windows.Forms.Label();
             this.pnlSpace7 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlGender_DOB = new Guna.UI2.WinForms.Guna2Panel();
-            this.dtpDOB = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.lblDOB_Title = new System.Windows.Forms.Label();
             this.cboGender = new Guna.UI2.WinForms.Guna2ComboBox();
             this.lblGender_Title = new System.Windows.Forms.Label();
@@ -76,6 +75,7 @@
             this.cboLicense = new Guna.UI2.WinForms.Guna2ComboBox();
             this.lblLicense = new System.Windows.Forms.Label();
             this.pnlSpace8 = new Guna.UI2.WinForms.Guna2Panel();
+            this.dtpDOB = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.pnlCitizenId_Address.SuspendLayout();
             this.pnlGender_DOB.SuspendLayout();
             this.pnlPhone_Email.SuspendLayout();
@@ -196,26 +196,6 @@
             this.pnlGender_DOB.Size = new System.Drawing.Size(673, 40);
             this.pnlGender_DOB.TabIndex = 121;
             // 
-            // dtpDOB
-            // 
-            this.dtpDOB.Animated = true;
-            this.dtpDOB.BorderColor = System.Drawing.Color.White;
-            this.dtpDOB.BorderRadius = 5;
-            this.dtpDOB.Checked = true;
-            this.dtpDOB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dtpDOB.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtpDOB.FillColor = System.Drawing.Color.White;
-            this.dtpDOB.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.dtpDOB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.dtpDOB.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDOB.Location = new System.Drawing.Point(425, 0);
-            this.dtpDOB.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.dtpDOB.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.dtpDOB.Name = "dtpDOB";
-            this.dtpDOB.Size = new System.Drawing.Size(248, 40);
-            this.dtpDOB.TabIndex = 4;
-            this.dtpDOB.Value = new System.DateTime(2024, 9, 22, 18, 8, 37, 767);
-            // 
             // lblDOB_Title
             // 
             this.lblDOB_Title.BackColor = System.Drawing.Color.White;
@@ -226,7 +206,7 @@
             this.lblDOB_Title.Name = "lblDOB_Title";
             this.lblDOB_Title.Size = new System.Drawing.Size(135, 40);
             this.lblDOB_Title.TabIndex = 2;
-            this.lblDOB_Title.Text = "  DOB:";
+            this.lblDOB_Title.Text = "  Date Of Birth:";
             this.lblDOB_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // cboGender
@@ -586,7 +566,7 @@
             this.pnlButtonAdd_Cancel.FillColor = System.Drawing.Color.White;
             this.pnlButtonAdd_Cancel.Location = new System.Drawing.Point(0, 315);
             this.pnlButtonAdd_Cancel.Name = "pnlButtonAdd_Cancel";
-            this.pnlButtonAdd_Cancel.Size = new System.Drawing.Size(673, 40);
+            this.pnlButtonAdd_Cancel.Size = new System.Drawing.Size(673, 35);
             this.pnlButtonAdd_Cancel.TabIndex = 129;
             // 
             // pnlSpace11
@@ -594,9 +574,9 @@
             this.pnlSpace11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlSpace11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlSpace11.FillColor = System.Drawing.Color.White;
-            this.pnlSpace11.Location = new System.Drawing.Point(195, 0);
+            this.pnlSpace11.Location = new System.Drawing.Point(175, 0);
             this.pnlSpace11.Name = "pnlSpace11";
-            this.pnlSpace11.Size = new System.Drawing.Size(308, 40);
+            this.pnlSpace11.Size = new System.Drawing.Size(348, 35);
             this.pnlSpace11.TabIndex = 18;
             // 
             // btnCancel
@@ -611,10 +591,10 @@
             this.btnCancel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(100)))), ((int)(((byte)(119)))));
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(503, 0);
+            this.btnCancel.Location = new System.Drawing.Point(523, 0);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Padding = new System.Windows.Forms.Padding(5);
-            this.btnCancel.Size = new System.Drawing.Size(170, 40);
+            this.btnCancel.Size = new System.Drawing.Size(150, 35);
             this.btnCancel.TabIndex = 19;
             this.btnCancel.Text = "Cancel";
             // 
@@ -633,7 +613,7 @@
             this.btnAdd.Location = new System.Drawing.Point(25, 0);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Padding = new System.Windows.Forms.Padding(5);
-            this.btnAdd.Size = new System.Drawing.Size(170, 40);
+            this.btnAdd.Size = new System.Drawing.Size(150, 35);
             this.btnAdd.TabIndex = 17;
             this.btnAdd.Text = "Add";
             // 
@@ -644,7 +624,7 @@
             this.pnlSpace10.FillColor = System.Drawing.Color.White;
             this.pnlSpace10.Location = new System.Drawing.Point(0, 0);
             this.pnlSpace10.Name = "pnlSpace10";
-            this.pnlSpace10.Size = new System.Drawing.Size(25, 40);
+            this.pnlSpace10.Size = new System.Drawing.Size(25, 35);
             this.pnlSpace10.TabIndex = 10;
             // 
             // pnlSpace9
@@ -779,6 +759,25 @@
             this.pnlSpace8.Size = new System.Drawing.Size(673, 5);
             this.pnlSpace8.TabIndex = 126;
             // 
+            // dtpDOB
+            // 
+            this.dtpDOB.BorderColor = System.Drawing.Color.White;
+            this.dtpDOB.BorderRadius = 5;
+            this.dtpDOB.Checked = true;
+            this.dtpDOB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dtpDOB.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtpDOB.FillColor = System.Drawing.Color.White;
+            this.dtpDOB.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.dtpDOB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+            this.dtpDOB.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDOB.Location = new System.Drawing.Point(425, 0);
+            this.dtpDOB.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtpDOB.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtpDOB.Name = "dtpDOB";
+            this.dtpDOB.Size = new System.Drawing.Size(248, 40);
+            this.dtpDOB.TabIndex = 5;
+            this.dtpDOB.Value = new System.DateTime(2024, 9, 24, 0, 0, 0, 0);
+            // 
             // AddTeacherForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -815,7 +814,6 @@
         private System.Windows.Forms.Label lblCitizenId;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace7;
         private Guna.UI2.WinForms.Guna2Panel pnlGender_DOB;
-        private Guna.UI2.WinForms.Guna2DateTimePicker dtpDOB;
         private System.Windows.Forms.Label lblDOB_Title;
         private Guna.UI2.WinForms.Guna2ComboBox cboGender;
         private System.Windows.Forms.Label lblGender_Title;
@@ -855,5 +853,6 @@
         private System.Windows.Forms.Label lblLicense;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace8;
         private Guna.UI2.WinForms.Guna2TextBox txtGraduateYears;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpDOB;
     }
 }

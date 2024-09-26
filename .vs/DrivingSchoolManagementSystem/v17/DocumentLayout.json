@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\learnersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\learnersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\addlearnerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\addlearnerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\teachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\teachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\teachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\teachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\addteacherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\addteacherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\addcourseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\addcourseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\coursesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\coursesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\coursesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\coursesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 193,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,15 +62,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LearnersForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\LearnersForm.cs",
-              "RelativeDocumentMoniker": "GUI\\LearnersForm.cs",
-              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\LearnersForm.cs [Design]",
-              "RelativeToolTip": "GUI\\LearnersForm.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "TeachersForm.cs",
+              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\TeachersForm.cs",
+              "RelativeDocumentMoniker": "GUI\\TeachersForm.cs",
+              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\TeachersForm.cs",
+              "RelativeToolTip": "GUI\\TeachersForm.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAMwDQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T05:37:36.201Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-26T11:02:34.969Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -61,7 +82,68 @@
               "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\TeachersForm.cs [Design]",
               "RelativeToolTip": "GUI\\TeachersForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T05:35:47.126Z",
+              "WhenOpened": "2024-09-26T11:01:12.184Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddLearnerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\AddLearnerForm.cs",
+              "RelativeDocumentMoniker": "GUI\\AddLearnerForm.cs",
+              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\AddLearnerForm.cs [Design]",
+              "RelativeToolTip": "GUI\\AddLearnerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T11:01:01.157Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddTeacherForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\AddTeacherForm.cs",
+              "RelativeDocumentMoniker": "GUI\\AddTeacherForm.cs",
+              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\AddTeacherForm.cs [Design]",
+              "RelativeToolTip": "GUI\\AddTeacherForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T11:00:21.469Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CoursesForm.cs",
+              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\CoursesForm.cs",
+              "RelativeDocumentMoniker": "GUI\\CoursesForm.cs",
+              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\CoursesForm.cs",
+              "RelativeToolTip": "GUI\\CoursesForm.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAhwDYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:55:40.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddCourseForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\AddCourseForm.cs",
+              "RelativeDocumentMoniker": "GUI\\AddCourseForm.cs",
+              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\AddCourseForm.cs [Design]",
+              "RelativeToolTip": "GUI\\AddCourseForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:48:58.386Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CoursesForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\CoursesForm.cs",
+              "RelativeDocumentMoniker": "GUI\\CoursesForm.cs",
+              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\CoursesForm.cs [Design]",
+              "RelativeToolTip": "GUI\\CoursesForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:43:29.565Z",
               "EditorCaption": " [Design]"
             }
           ]

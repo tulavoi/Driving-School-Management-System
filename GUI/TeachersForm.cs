@@ -53,6 +53,8 @@ namespace GUI
             this.txtAddress.Enabled = b;
             this.txtCitizenId.Enabled = b;
             this.dtpGraduated.Enabled = b;
+            this.cboNationality.Enabled = b;
+            this.cboLicense.Enabled = b;
         }
 
         private void btnOpenAddTeacherForm_Click(object sender, EventArgs e)
@@ -61,9 +63,17 @@ namespace GUI
             frm.ShowDialog();
         }
 
-        private void btnEditTeacher_Click_1(object sender, EventArgs e)
+        private void btnDeleteTeacher_Click(object sender, EventArgs e)
         {
+            DialogResult rs = MessageBox.Show($"Are you sure to delete the teacher '{txtTeacherName.Text}'?",
+                "Confirm",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
 
+            if (rs == DialogResult.Yes)
+            {
+
+            }
         }
     }
 }

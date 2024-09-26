@@ -67,7 +67,7 @@ namespace GUI
 
         private void btnCourses_Click(object sender, EventArgs e)
         {
-            Container(new LearnersForm(), this.btnCourses.Text, this.btnCourses);
+            Container(new CoursesForm(), this.btnCourses.Text, this.btnCourses);
         }
 
         public bool Container(object form, string nameButton, Guna2Button curButton)

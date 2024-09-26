@@ -32,6 +32,7 @@ namespace GUI
             this.dtpDOB.Enabled = b;
             this.txtAddress.Enabled = b;
             this.txtCitizenId.Enabled = b;
+            this.cboNationality.Enabled = b;
         }
 
         private void btnEditLearner_Click(object sender, EventArgs e)
@@ -58,6 +59,19 @@ namespace GUI
         {
             AddLearnerForm frm = new AddLearnerForm();
             frm.ShowDialog();
+        }
+
+        private void btnDeleteLearner_Click(object sender, EventArgs e)
+        {
+            DialogResult rs = MessageBox.Show($"Are you sure to delete the learner '{txtLearnerName.Text}'?",
+                "Confirm",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+
+            if (rs == DialogResult.Yes) 
+            { 
+
+            }
         }
     }
 }
