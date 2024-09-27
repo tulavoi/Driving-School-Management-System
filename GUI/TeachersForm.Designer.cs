@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TeachersForm));
             this.pnlTeachers = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.dgvTeachers = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -55,10 +55,10 @@
             this.pnlSpace1 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlTeacherDetails = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pnlMessage = new Guna.UI2.WinForms.Guna2Panel();
+            this.txtMessage = new Guna.UI2.WinForms.Guna2TextBox();
             this.pnlButtonSMS_Mail = new Guna.UI2.WinForms.Guna2Panel();
             this.btnSendMail = new Guna.UI2.WinForms.Guna2Button();
             this.btnSendSMS = new Guna.UI2.WinForms.Guna2Button();
-            this.txtMessage = new Guna.UI2.WinForms.Guna2TextBox();
             this.pnlSpace20 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace3 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
@@ -149,50 +149,50 @@
             // 
             this.dgvTeachers.AllowUserToAddRows = false;
             this.dgvTeachers.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            this.dgvTeachers.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.DimGray;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTeachers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgvTeachers.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.DimGray;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTeachers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvTeachers.ColumnHeadersHeight = 40;
             this.dgvTeachers.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column2,
             this.dataGridViewTextBoxColumn3,
             this.Column5,
             this.EmploymentDate});
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle10.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvTeachers.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle4.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvTeachers.DefaultCellStyle = dataGridViewCellStyle4;
             this.dgvTeachers.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvTeachers.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
             this.dgvTeachers.Location = new System.Drawing.Point(0, 53);
             this.dgvTeachers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvTeachers.Name = "dgvTeachers";
             this.dgvTeachers.ReadOnly = true;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTeachers.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTeachers.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvTeachers.RowHeadersVisible = false;
             this.dgvTeachers.RowHeadersWidth = 50;
             this.dgvTeachers.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.dgvTeachers.RowsDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.dgvTeachers.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvTeachers.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.dgvTeachers.RowTemplate.DividerHeight = 7;
             this.dgvTeachers.RowTemplate.Height = 60;
@@ -234,8 +234,8 @@
             // 
             this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.dataGridViewTextBoxColumn3.DataPropertyName = "FullName";
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewTextBoxColumn3.FillWeight = 53.63456F;
             this.dataGridViewTextBoxColumn3.Frozen = true;
             this.dataGridViewTextBoxColumn3.HeaderText = "Name";
@@ -356,7 +356,7 @@
             this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PasswordChar = '\0';
-            this.txtSearch.PlaceholderText = "Search for teacher...";
+            this.txtSearch.PlaceholderText = "Search...";
             this.txtSearch.SelectedText = "";
             this.txtSearch.Size = new System.Drawing.Size(275, 31);
             this.txtSearch.TabIndex = 13;
@@ -446,8 +446,8 @@
             // 
             // pnlMessage
             // 
-            this.pnlMessage.Controls.Add(this.pnlButtonSMS_Mail);
             this.pnlMessage.Controls.Add(this.txtMessage);
+            this.pnlMessage.Controls.Add(this.pnlButtonSMS_Mail);
             this.pnlMessage.Controls.Add(this.pnlSpace20);
             this.pnlMessage.Controls.Add(this.pnlSpace3);
             this.pnlMessage.Controls.Add(this.pnlSpace4);
@@ -456,57 +456,8 @@
             this.pnlMessage.FillColor = System.Drawing.Color.White;
             this.pnlMessage.Location = new System.Drawing.Point(0, 435);
             this.pnlMessage.Name = "pnlMessage";
-            this.pnlMessage.Size = new System.Drawing.Size(490, 165);
+            this.pnlMessage.Size = new System.Drawing.Size(490, 230);
             this.pnlMessage.TabIndex = 105;
-            // 
-            // pnlButtonSMS_Mail
-            // 
-            this.pnlButtonSMS_Mail.Controls.Add(this.btnSendMail);
-            this.pnlButtonSMS_Mail.Controls.Add(this.btnSendSMS);
-            this.pnlButtonSMS_Mail.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlButtonSMS_Mail.FillColor = System.Drawing.Color.White;
-            this.pnlButtonSMS_Mail.Location = new System.Drawing.Point(432, 60);
-            this.pnlButtonSMS_Mail.Name = "pnlButtonSMS_Mail";
-            this.pnlButtonSMS_Mail.Size = new System.Drawing.Size(43, 105);
-            this.pnlButtonSMS_Mail.TabIndex = 108;
-            // 
-            // btnSendMail
-            // 
-            this.btnSendMail.BorderRadius = 5;
-            this.btnSendMail.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSendMail.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnSendMail.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnSendMail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSendMail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSendMail.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnSendMail.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
-            this.btnSendMail.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnSendMail.ForeColor = System.Drawing.Color.White;
-            this.btnSendMail.Image = ((System.Drawing.Image)(resources.GetObject("btnSendMail.Image")));
-            this.btnSendMail.Location = new System.Drawing.Point(0, 53);
-            this.btnSendMail.Name = "btnSendMail";
-            this.btnSendMail.Padding = new System.Windows.Forms.Padding(5);
-            this.btnSendMail.Size = new System.Drawing.Size(43, 52);
-            this.btnSendMail.TabIndex = 20;
-            // 
-            // btnSendSMS
-            // 
-            this.btnSendSMS.BorderRadius = 5;
-            this.btnSendSMS.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSendSMS.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnSendSMS.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnSendSMS.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSendSMS.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSendSMS.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSendSMS.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
-            this.btnSendSMS.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnSendSMS.ForeColor = System.Drawing.Color.White;
-            this.btnSendSMS.Image = ((System.Drawing.Image)(resources.GetObject("btnSendSMS.Image")));
-            this.btnSendSMS.Location = new System.Drawing.Point(0, 0);
-            this.btnSendSMS.Name = "btnSendSMS";
-            this.btnSendSMS.Padding = new System.Windows.Forms.Padding(5);
-            this.btnSendSMS.Size = new System.Drawing.Size(43, 52);
-            this.btnSendSMS.TabIndex = 17;
             // 
             // txtMessage
             // 
@@ -519,7 +470,7 @@
             this.txtMessage.DisabledState.FillColor = System.Drawing.Color.White;
             this.txtMessage.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
             this.txtMessage.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
-            this.txtMessage.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtMessage.Dock = System.Windows.Forms.DockStyle.Top;
             this.txtMessage.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.txtMessage.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
             this.txtMessage.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
@@ -531,9 +482,60 @@
             this.txtMessage.PasswordChar = '\0';
             this.txtMessage.PlaceholderText = "Write Message...";
             this.txtMessage.SelectedText = "";
-            this.txtMessage.Size = new System.Drawing.Size(460, 105);
+            this.txtMessage.Size = new System.Drawing.Size(460, 122);
             this.txtMessage.TabIndex = 106;
             this.txtMessage.Tag = "1";
+            // 
+            // pnlButtonSMS_Mail
+            // 
+            this.pnlButtonSMS_Mail.Controls.Add(this.btnSendMail);
+            this.pnlButtonSMS_Mail.Controls.Add(this.btnSendSMS);
+            this.pnlButtonSMS_Mail.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlButtonSMS_Mail.FillColor = System.Drawing.Color.White;
+            this.pnlButtonSMS_Mail.Location = new System.Drawing.Point(15, 189);
+            this.pnlButtonSMS_Mail.Name = "pnlButtonSMS_Mail";
+            this.pnlButtonSMS_Mail.Size = new System.Drawing.Size(460, 41);
+            this.pnlButtonSMS_Mail.TabIndex = 109;
+            // 
+            // btnSendMail
+            // 
+            this.btnSendMail.BorderRadius = 5;
+            this.btnSendMail.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSendMail.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSendMail.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSendMail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSendMail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSendMail.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSendMail.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+            this.btnSendMail.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSendMail.ForeColor = System.Drawing.Color.White;
+            this.btnSendMail.Image = ((System.Drawing.Image)(resources.GetObject("btnSendMail.Image")));
+            this.btnSendMail.Location = new System.Drawing.Point(240, 0);
+            this.btnSendMail.Name = "btnSendMail";
+            this.btnSendMail.Padding = new System.Windows.Forms.Padding(5);
+            this.btnSendMail.Size = new System.Drawing.Size(220, 41);
+            this.btnSendMail.TabIndex = 20;
+            this.btnSendMail.Text = "Send Email";
+            // 
+            // btnSendSMS
+            // 
+            this.btnSendSMS.BorderRadius = 5;
+            this.btnSendSMS.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSendSMS.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSendSMS.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSendSMS.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSendSMS.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSendSMS.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnSendSMS.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+            this.btnSendSMS.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSendSMS.ForeColor = System.Drawing.Color.White;
+            this.btnSendSMS.Image = ((System.Drawing.Image)(resources.GetObject("btnSendSMS.Image")));
+            this.btnSendSMS.Location = new System.Drawing.Point(0, 0);
+            this.btnSendSMS.Name = "btnSendSMS";
+            this.btnSendSMS.Padding = new System.Windows.Forms.Padding(5);
+            this.btnSendSMS.Size = new System.Drawing.Size(220, 41);
+            this.btnSendSMS.TabIndex = 17;
+            this.btnSendSMS.Text = "Send SMS";
             // 
             // pnlSpace20
             // 
@@ -542,7 +544,7 @@
             this.pnlSpace20.FillColor = System.Drawing.Color.White;
             this.pnlSpace20.Location = new System.Drawing.Point(0, 60);
             this.pnlSpace20.Name = "pnlSpace20";
-            this.pnlSpace20.Size = new System.Drawing.Size(15, 105);
+            this.pnlSpace20.Size = new System.Drawing.Size(15, 170);
             this.pnlSpace20.TabIndex = 105;
             // 
             // pnlSpace3
@@ -552,7 +554,7 @@
             this.pnlSpace3.FillColor = System.Drawing.Color.White;
             this.pnlSpace3.Location = new System.Drawing.Point(475, 60);
             this.pnlSpace3.Name = "pnlSpace3";
-            this.pnlSpace3.Size = new System.Drawing.Size(15, 105);
+            this.pnlSpace3.Size = new System.Drawing.Size(15, 170);
             this.pnlSpace3.TabIndex = 104;
             // 
             // pnlSpace4
@@ -1452,9 +1454,6 @@
         private Guna.UI2.WinForms.Guna2Panel pnlSpace23;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace24;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace25;
-        private Guna.UI2.WinForms.Guna2Panel pnlButtonSMS_Mail;
-        private Guna.UI2.WinForms.Guna2Button btnSendMail;
-        private Guna.UI2.WinForms.Guna2Button btnSendSMS;
         private Guna.UI2.WinForms.Guna2TextBox txtCitizenId;
         private System.Windows.Forms.Label lblCitizenId;
         private Guna.UI2.WinForms.Guna2TextBox txtPhone;
@@ -1468,5 +1467,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn EmploymentDate;
+        private Guna.UI2.WinForms.Guna2Panel pnlButtonSMS_Mail;
+        private Guna.UI2.WinForms.Guna2Button btnSendMail;
+        private Guna.UI2.WinForms.Guna2Button btnSendSMS;
     }
 }

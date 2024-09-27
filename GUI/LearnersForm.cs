@@ -55,12 +55,6 @@ namespace GUI
             }
         }
 
-        private void btnAdd_Click(object sender, EventArgs e)
-        {
-            AddLearnerForm frm = new AddLearnerForm();
-            frm.ShowDialog();
-        }
-
         private void btnDeleteLearner_Click(object sender, EventArgs e)
         {
             DialogResult rs = MessageBox.Show($"Are you sure to delete the learner '{txtLearnerName.Text}'?",
@@ -72,6 +66,12 @@ namespace GUI
             { 
 
             }
+        }
+
+        private void btnOpenAddLearnerForm_Click(object sender, EventArgs e)
+        {
+            AddLearnerForm frm = new AddLearnerForm();
+            frm.ShowDialog();
         }
     }
 }

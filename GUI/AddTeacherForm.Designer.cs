@@ -36,6 +36,7 @@
             this.lblCitizenId = new System.Windows.Forms.Label();
             this.pnlSpace7 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlGender_DOB = new Guna.UI2.WinForms.Guna2Panel();
+            this.dtpDOB = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.lblDOB_Title = new System.Windows.Forms.Label();
             this.cboGender = new Guna.UI2.WinForms.Guna2ComboBox();
             this.lblGender_Title = new System.Windows.Forms.Label();
@@ -75,7 +76,6 @@
             this.cboLicense = new Guna.UI2.WinForms.Guna2ComboBox();
             this.lblLicense = new System.Windows.Forms.Label();
             this.pnlSpace8 = new Guna.UI2.WinForms.Guna2Panel();
-            this.dtpDOB = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.pnlCitizenId_Address.SuspendLayout();
             this.pnlGender_DOB.SuspendLayout();
             this.pnlPhone_Email.SuspendLayout();
@@ -195,6 +195,25 @@
             this.pnlGender_DOB.Name = "pnlGender_DOB";
             this.pnlGender_DOB.Size = new System.Drawing.Size(673, 40);
             this.pnlGender_DOB.TabIndex = 121;
+            // 
+            // dtpDOB
+            // 
+            this.dtpDOB.BorderColor = System.Drawing.Color.White;
+            this.dtpDOB.BorderRadius = 5;
+            this.dtpDOB.Checked = true;
+            this.dtpDOB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dtpDOB.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtpDOB.FillColor = System.Drawing.Color.White;
+            this.dtpDOB.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.dtpDOB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+            this.dtpDOB.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDOB.Location = new System.Drawing.Point(425, 0);
+            this.dtpDOB.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtpDOB.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtpDOB.Name = "dtpDOB";
+            this.dtpDOB.Size = new System.Drawing.Size(248, 40);
+            this.dtpDOB.TabIndex = 5;
+            this.dtpDOB.Value = new System.DateTime(2024, 9, 24, 0, 0, 0, 0);
             // 
             // lblDOB_Title
             // 
@@ -758,25 +777,6 @@
             this.pnlSpace8.Name = "pnlSpace8";
             this.pnlSpace8.Size = new System.Drawing.Size(673, 5);
             this.pnlSpace8.TabIndex = 126;
-            // 
-            // dtpDOB
-            // 
-            this.dtpDOB.BorderColor = System.Drawing.Color.White;
-            this.dtpDOB.BorderRadius = 5;
-            this.dtpDOB.Checked = true;
-            this.dtpDOB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dtpDOB.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtpDOB.FillColor = System.Drawing.Color.White;
-            this.dtpDOB.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.dtpDOB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.dtpDOB.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDOB.Location = new System.Drawing.Point(425, 0);
-            this.dtpDOB.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.dtpDOB.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.dtpDOB.Name = "dtpDOB";
-            this.dtpDOB.Size = new System.Drawing.Size(248, 40);
-            this.dtpDOB.TabIndex = 5;
-            this.dtpDOB.Value = new System.DateTime(2024, 9, 24, 0, 0, 0, 0);
             // 
             // AddTeacherForm
             // 

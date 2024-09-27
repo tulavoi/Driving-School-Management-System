@@ -211,6 +211,7 @@
             this.btnVehicles.Text = "Vehicles";
             this.btnVehicles.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnVehicles.TextOffset = new System.Drawing.Point(25, 0);
+            this.btnVehicles.Click += new System.EventHandler(this.btnVehicles_Click);
             // 
             // btnSchedule
             // 

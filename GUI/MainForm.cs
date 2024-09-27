@@ -70,6 +70,10 @@ namespace GUI
             Container(new CoursesForm(), this.btnCourses.Text, this.btnCourses);
         }
 
+        private void btnVehicles_Click(object sender, EventArgs e)
+        {
+            Container(new Vehicles(), this.btnVehicles.Text, this.btnVehicles);
+        }
         public bool Container(object form, string nameButton, Guna2Button curButton)
         {
             this.UncheckOtherButtons(curButton);
@@ -123,5 +127,7 @@ namespace GUI
         {
             this.lblNameForm.Text = nameButton;
         }
+
+        
     }
 }

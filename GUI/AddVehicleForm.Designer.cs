@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class AddCourseForm
+    partial class AddVehicleForm
     {
         /// <summary>
         /// Required designer variable.
@@ -82,7 +82,7 @@
             this.pnlLineLeft.Location = new System.Drawing.Point(0, 30);
             this.pnlLineLeft.Name = "pnlLineLeft";
             this.pnlLineLeft.Size = new System.Drawing.Size(30, 330);
-            this.pnlLineLeft.TabIndex = 48;
+            this.pnlLineLeft.TabIndex = 52;
             // 
             // pnlLineRight
             // 
@@ -91,7 +91,7 @@
             this.pnlLineRight.Location = new System.Drawing.Point(430, 30);
             this.pnlLineRight.Name = "pnlLineRight";
             this.pnlLineRight.Size = new System.Drawing.Size(30, 330);
-            this.pnlLineRight.TabIndex = 50;
+            this.pnlLineRight.TabIndex = 54;
             // 
             // pnlLineTop
             // 
@@ -102,7 +102,7 @@
             this.pnlLineTop.Location = new System.Drawing.Point(0, 0);
             this.pnlLineTop.Name = "pnlLineTop";
             this.pnlLineTop.Size = new System.Drawing.Size(460, 30);
-            this.pnlLineTop.TabIndex = 47;
+            this.pnlLineTop.TabIndex = 51;
             // 
             // btnMinimizeForm
             // 
@@ -144,7 +144,7 @@
             this.pnlLineBottom.Location = new System.Drawing.Point(0, 360);
             this.pnlLineBottom.Name = "pnlLineBottom";
             this.pnlLineBottom.Size = new System.Drawing.Size(460, 30);
-            this.pnlLineBottom.TabIndex = 49;
+            this.pnlLineBottom.TabIndex = 53;
             // 
             // guna2DragControl1
             // 
@@ -174,7 +174,7 @@
             this.pnlMain.Location = new System.Drawing.Point(30, 30);
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.Size = new System.Drawing.Size(400, 330);
-            this.pnlMain.TabIndex = 51;
+            this.pnlMain.TabIndex = 55;
             // 
             // pnlButtonAdd_Cancel
             // 
@@ -579,7 +579,7 @@
             this.lblAdd.Name = "lblAdd";
             this.lblAdd.Size = new System.Drawing.Size(400, 40);
             this.lblAdd.TabIndex = 114;
-            this.lblAdd.Text = "   Add Course";
+            this.lblAdd.Text = "   Add Vehicle";
             // 
             // pnlSpace5
             // 
@@ -594,7 +594,7 @@
             this.pnlSpace5.Size = new System.Drawing.Size(400, 15);
             this.pnlSpace5.TabIndex = 15;
             // 
-            // AddCourseForm
+            // AddVehicleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -605,10 +605,8 @@
             this.Controls.Add(this.pnlLineTop);
             this.Controls.Add(this.pnlLineBottom);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "AddCourseForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "AddCourseForm";
-            this.Load += new System.EventHandler(this.AddCourseForm_Load);
+            this.Name = "AddVehicleForm";
+            this.Text = "AddVehicleForm";
             this.pnlLineTop.ResumeLayout(false);
             this.pnlMain.ResumeLayout(false);
             this.pnlButtonAdd_Cancel.ResumeLayout(false);
@@ -639,25 +637,25 @@
         private Guna.UI2.WinForms.Guna2Panel pnlSpace9;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace8;
         private Guna.UI2.WinForms.Guna2Panel pnlName;
+        private Guna.UI2.WinForms.Guna2TextBox txtName;
+        private System.Windows.Forms.Label lblName;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace7;
         private Guna.UI2.WinForms.Guna2Panel pnlDuration;
+        private Guna.UI2.WinForms.Guna2TextBox txtDurationInHours;
+        private Guna.UI2.WinForms.Guna2TextBox txtHour;
+        private System.Windows.Forms.Label lblDurationInHours;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace3;
         private Guna.UI2.WinForms.Guna2Panel pnlFee;
+        private Guna.UI2.WinForms.Guna2TextBox txtFee;
+        private Guna.UI2.WinForms.Guna2TextBox txtVND;
+        private System.Windows.Forms.Label lblFee;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace2;
         private Guna.UI2.WinForms.Guna2Panel pnlLicense;
+        private Guna.UI2.WinForms.Guna2ComboBox cboLicense;
+        private System.Windows.Forms.Label lblLicense;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace1;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace6;
         private System.Windows.Forms.Label lblAdd;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace5;
-        private Guna.UI2.WinForms.Guna2ComboBox cboLicense;
-        private System.Windows.Forms.Label lblLicense;
-        private Guna.UI2.WinForms.Guna2TextBox txtHour;
-        private Guna.UI2.WinForms.Guna2TextBox txtDurationInHours;
-        private System.Windows.Forms.Label lblDurationInHours;
-        private Guna.UI2.WinForms.Guna2TextBox txtFee;
-        private Guna.UI2.WinForms.Guna2TextBox txtVND;
-        private System.Windows.Forms.Label lblFee;
-        private Guna.UI2.WinForms.Guna2TextBox txtName;
-        private System.Windows.Forms.Label lblName;
     }
 }
