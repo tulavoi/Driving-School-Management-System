@@ -136,11 +136,11 @@
     <Compile Include="Calendar.Designer.cs">
       <DependentUpon>Calendar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vehicles.cs">
+    <Compile Include="VehiclesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vehicles.Designer.cs">
-      <DependentUpon>Vehicles.cs</DependentUpon>
+    <Compile Include="VehiclesForm.Designer.cs">
+      <DependentUpon>VehiclesForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AddCourseForm.resx">
       <DependentUpon>AddCourseForm.cs</DependentUpon>
@@ -191,8 +191,8 @@
     <EmbeddedResource Include="Calendar.resx">
       <DependentUpon>Calendar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Vehicles.resx">
-      <DependentUpon>Vehicles.cs</DependentUpon>
+    <EmbeddedResource Include="VehiclesForm.resx">
+      <DependentUpon>VehiclesForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -264,6 +264,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\schedule_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{3a994c3b-c8c6-4733-9238-1de3c7fc031a}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

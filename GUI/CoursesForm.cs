@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +14,11 @@ namespace GUI
     public partial class CoursesForm : Form
     {
         private bool isEditing = false;
-        public CoursesForm()
+
+		private const string EDIT_MODE = "Edit";
+		private const string SAVE_MODE = "Save";
+
+		public CoursesForm()
         {
             InitializeComponent();
         }
@@ -21,33 +26,24 @@ namespace GUI
         private void btnEdit_Click(object sender, EventArgs e)
         {
             if (!isEditing)
-            {
-                this.EnableTexboxes(true);
+				this.ToggleEditMode(ref this.isEditing, this.btnEdit, txtFee, cboLicenses);
 
-                this.ChangeButtonText("Save");
+			else
+				this.ToggleEditMode(ref this.isEditing, this.btnEdit, txtFee, cboLicenses);
+		}
 
-                this.isEditing = true;
-            }
-            else
-            {
-                this.EnableTexboxes(false);
+		private void ToggleEditMode(ref bool isEditing, Guna2Button button, params Control[] controls)
+		{
+			isEditing = !isEditing;
+			this.EnableControls(isEditing, controls);
+			button.Text = isEditing ? SAVE_MODE : EDIT_MODE;
+		}
 
-                this.ChangeButtonText("Edit");
-
-                this.isEditing = false;
-            }
-        }
-
-        private void ChangeButtonText(string state)
-        {
-            this.btnEdit.Text = state;
-        }
-
-        private void EnableTexboxes(bool b)
-        {
-            this.txtFee.Enabled = b;
-            this.cboLicenses.Enabled = b;
-        }
+		private void EnableControls(bool b, params Control[] controls)
+		{
+			foreach (var control in controls)
+				control.Enabled = b;
+		}
 
         private void btnOpenAddCourseForm_Click(object sender, EventArgs e)
         {

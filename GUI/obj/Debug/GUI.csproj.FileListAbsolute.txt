@@ -22,6 +22,8 @@ C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.ucDays.resources
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.Calendar.resources
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.AddCourseForm.resources
-C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.Vehicles.resources
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.ScheduleForm.resources
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.AddVehicleForm.resources
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\bin\Debug\BLL.dll
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\bin\Debug\BLL.pdb
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.VehiclesForm.resources

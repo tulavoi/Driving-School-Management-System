@@ -72,7 +72,7 @@ namespace GUI
 
         private void btnVehicles_Click(object sender, EventArgs e)
         {
-            Container(new Vehicles(), this.btnVehicles.Text, this.btnVehicles);
+            Container(new VehiclesForm(), this.btnVehicles.Text, this.btnVehicles);
         }
         public bool Container(object form, string nameButton, Guna2Button curButton)
         {

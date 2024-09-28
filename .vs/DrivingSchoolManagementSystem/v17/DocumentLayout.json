@@ -3,30 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\gui\\coursesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\coursesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\addvehicleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\addvehicleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\vehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\vehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\addvehicleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\addvehicleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\vehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\vehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\addcourseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\addcourseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\vehiclesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\vehiclesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 193,
-          "SelectedChildIndex": 8,
+          "DockedHeight": 328,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,10 +31,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
@@ -51,51 +43,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Vehicles.cs",
-              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\Vehicles.cs",
-              "RelativeDocumentMoniker": "GUI\\Vehicles.cs",
-              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\Vehicles.cs",
-              "RelativeToolTip": "GUI\\Vehicles.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAmwBwAAABKAAAA",
+              "Title": "VehiclesForm.cs",
+              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\VehiclesForm.cs",
+              "RelativeDocumentMoniker": "GUI\\VehiclesForm.cs",
+              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\VehiclesForm.cs",
+              "RelativeToolTip": "GUI\\VehiclesForm.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAiwIEAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T07:04:01.841Z",
+              "WhenOpened": "2024-09-28T09:38:27.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Vehicles.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\Vehicles.cs",
-              "RelativeDocumentMoniker": "GUI\\Vehicles.cs",
-              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\Vehicles.cs [Design]",
-              "RelativeToolTip": "GUI\\Vehicles.cs [Design]",
+              "Title": "AddVehicleForm.cs",
+              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\AddVehicleForm.cs",
+              "RelativeDocumentMoniker": "GUI\\AddVehicleForm.cs",
+              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\AddVehicleForm.cs",
+              "RelativeToolTip": "GUI\\AddVehicleForm.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAiwDAAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T03:04:24.712Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddCourseForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\AddCourseForm.cs",
-              "RelativeDocumentMoniker": "GUI\\AddCourseForm.cs",
-              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\AddCourseForm.cs [Design]",
-              "RelativeToolTip": "GUI\\AddCourseForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T07:27:05.381Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-28T09:39:05.163Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CoursesForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\CoursesForm.cs",
-              "RelativeDocumentMoniker": "GUI\\CoursesForm.cs",
-              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\CoursesForm.cs [Design]",
-              "RelativeToolTip": "GUI\\CoursesForm.cs [Design]",
+              "Title": "AddVehicleForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\AddVehicleForm.cs",
+              "RelativeDocumentMoniker": "GUI\\AddVehicleForm.cs",
+              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\AddVehicleForm.cs [Design]",
+              "RelativeToolTip": "GUI\\AddVehicleForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T02:47:45.277Z",
+              "WhenOpened": "2024-09-28T09:29:39.341Z",
               "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 52,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

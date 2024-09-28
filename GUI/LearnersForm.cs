@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,49 +14,38 @@ namespace GUI
     public partial class LearnersForm : Form
     {
         private bool isEditing = false;
-        public LearnersForm()
+
+		private const string EDIT_MODE = "Edit";
+		private const string SAVE_MODE = "Save";
+
+		public LearnersForm()
         {
             InitializeComponent();
-        }
-
-        private void ChangeButtonText(string state)
-        {
-            this.btnEditLearner.Text = state;
-        }
-
-        private void EnableTexboxes(bool b)
-        {
-            this.txtLearnerName.Enabled = b;
-            this.txtPhone.Enabled = b;
-            this.txtEmail.Enabled = b;
-            this.cboGender.Enabled = b;
-            this.dtpDOB.Enabled = b;
-            this.txtAddress.Enabled = b;
-            this.txtCitizenId.Enabled = b;
-            this.cboNationality.Enabled = b;
         }
 
         private void btnEditLearner_Click(object sender, EventArgs e)
         {
             if (!isEditing)
-            {
-                this.EnableTexboxes(true);
+                this.ToggleEditMode(ref this.isEditing, this.btnEditLearner, txtLearnerName, txtPhone, txtEmail, cboGender, dtpDOB, txtAddress, txtCitizenId, cboNationality);
 
-                this.ChangeButtonText("Save");
+			else
+                this.ToggleEditMode(ref this.isEditing, this.btnEditLearner, txtLearnerName, txtPhone, txtEmail, cboGender, dtpDOB, txtAddress, txtCitizenId, cboNationality);
+		}
 
-                this.isEditing = true;
-            }
-            else
-            {
-                this.EnableTexboxes(false);
+		private void ToggleEditMode(ref bool isEditing, Guna2Button button, params Control[] controls)
+		{
+			isEditing = !isEditing;
+			this.EnableControls(isEditing, controls);
+			button.Text = isEditing ? SAVE_MODE : EDIT_MODE;
+		}
 
-                this.ChangeButtonText("Edit");
+		private void EnableControls(bool b, params Control[] controls)
+		{
+			foreach (var control in controls)
+				control.Enabled = b;
+		}
 
-                this.isEditing = false;
-            }
-        }
-
-        private void btnDeleteLearner_Click(object sender, EventArgs e)
+		private void btnDeleteLearner_Click(object sender, EventArgs e)
         {
             DialogResult rs = MessageBox.Show($"Are you sure to delete the learner '{txtLearnerName.Text}'?",
                 "Confirm",
