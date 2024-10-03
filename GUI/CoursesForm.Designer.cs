@@ -278,7 +278,7 @@
 			this.btnOpenAddCourseForm.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
 			this.btnOpenAddCourseForm.Dock = System.Windows.Forms.DockStyle.Left;
 			this.btnOpenAddCourseForm.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
-			this.btnOpenAddCourseForm.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.btnOpenAddCourseForm.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnOpenAddCourseForm.ForeColor = System.Drawing.Color.White;
 			this.btnOpenAddCourseForm.Location = new System.Drawing.Point(13, 0);
 			this.btnOpenAddCourseForm.Name = "btnOpenAddCourseForm";
@@ -339,9 +339,9 @@
 			this.pnlSearch.Controls.Add(this.pnlSpace4);
 			this.pnlSearch.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.pnlSearch.FillColor = System.Drawing.Color.White;
-			this.pnlSearch.Location = new System.Drawing.Point(113, 8);
+			this.pnlSearch.Location = new System.Drawing.Point(115, 8);
 			this.pnlSearch.Name = "pnlSearch";
-			this.pnlSearch.Size = new System.Drawing.Size(214, 78);
+			this.pnlSearch.Size = new System.Drawing.Size(210, 78);
 			this.pnlSearch.TabIndex = 23;
 			// 
 			// txtSearchCourse
@@ -366,7 +366,7 @@
 			this.txtSearchCourse.PasswordChar = '\0';
 			this.txtSearchCourse.PlaceholderText = "Search";
 			this.txtSearchCourse.SelectedText = "";
-			this.txtSearchCourse.Size = new System.Drawing.Size(214, 36);
+			this.txtSearchCourse.Size = new System.Drawing.Size(210, 36);
 			this.txtSearchCourse.TabIndex = 13;
 			// 
 			// pnlSpace9
@@ -376,7 +376,7 @@
 			this.pnlSpace9.FillColor = System.Drawing.Color.White;
 			this.pnlSpace9.Location = new System.Drawing.Point(0, 58);
 			this.pnlSpace9.Name = "pnlSpace9";
-			this.pnlSpace9.Size = new System.Drawing.Size(214, 20);
+			this.pnlSpace9.Size = new System.Drawing.Size(210, 20);
 			this.pnlSpace9.TabIndex = 21;
 			// 
 			// pnlSpace4
@@ -386,7 +386,7 @@
 			this.pnlSpace4.FillColor = System.Drawing.Color.White;
 			this.pnlSpace4.Location = new System.Drawing.Point(0, 0);
 			this.pnlSpace4.Name = "pnlSpace4";
-			this.pnlSpace4.Size = new System.Drawing.Size(214, 22);
+			this.pnlSpace4.Size = new System.Drawing.Size(210, 22);
 			this.pnlSpace4.TabIndex = 20;
 			// 
 			// pnlSpace3
@@ -394,7 +394,7 @@
 			this.pnlSpace3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
 			this.pnlSpace3.Dock = System.Windows.Forms.DockStyle.Right;
 			this.pnlSpace3.FillColor = System.Drawing.Color.White;
-			this.pnlSpace3.Location = new System.Drawing.Point(327, 8);
+			this.pnlSpace3.Location = new System.Drawing.Point(325, 8);
 			this.pnlSpace3.Name = "pnlSpace3";
 			this.pnlSpace3.Size = new System.Drawing.Size(10, 78);
 			this.pnlSpace3.TabIndex = 19;
@@ -406,7 +406,7 @@
 			this.pnlCboTeacher_License.Controls.Add(this.cboTeachers);
 			this.pnlCboTeacher_License.Dock = System.Windows.Forms.DockStyle.Right;
 			this.pnlCboTeacher_License.FillColor = System.Drawing.Color.White;
-			this.pnlCboTeacher_License.Location = new System.Drawing.Point(337, 8);
+			this.pnlCboTeacher_License.Location = new System.Drawing.Point(335, 8);
 			this.pnlCboTeacher_License.Name = "pnlCboTeacher_License";
 			this.pnlCboTeacher_License.Size = new System.Drawing.Size(150, 78);
 			this.pnlCboTeacher_License.TabIndex = 22;
@@ -469,18 +469,18 @@
 			// 
 			this.pnlSpace8.BackColor = System.Drawing.Color.White;
 			this.pnlSpace8.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.pnlSpace8.Location = new System.Drawing.Point(113, 86);
+			this.pnlSpace8.Location = new System.Drawing.Point(115, 86);
 			this.pnlSpace8.Name = "pnlSpace8";
-			this.pnlSpace8.Size = new System.Drawing.Size(374, 8);
+			this.pnlSpace8.Size = new System.Drawing.Size(370, 8);
 			this.pnlSpace8.TabIndex = 18;
 			// 
 			// pnlSpace7
 			// 
 			this.pnlSpace7.BackColor = System.Drawing.Color.White;
 			this.pnlSpace7.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlSpace7.Location = new System.Drawing.Point(113, 0);
+			this.pnlSpace7.Location = new System.Drawing.Point(115, 0);
 			this.pnlSpace7.Name = "pnlSpace7";
-			this.pnlSpace7.Size = new System.Drawing.Size(374, 8);
+			this.pnlSpace7.Size = new System.Drawing.Size(370, 8);
 			this.pnlSpace7.TabIndex = 17;
 			// 
 			// pnlSpace6
@@ -492,9 +492,9 @@
 			this.pnlSpace6.CustomizableEdges.TopLeft = false;
 			this.pnlSpace6.Dock = System.Windows.Forms.DockStyle.Right;
 			this.pnlSpace6.FillColor = System.Drawing.Color.White;
-			this.pnlSpace6.Location = new System.Drawing.Point(487, 0);
+			this.pnlSpace6.Location = new System.Drawing.Point(485, 0);
 			this.pnlSpace6.Name = "pnlSpace6";
-			this.pnlSpace6.Size = new System.Drawing.Size(13, 94);
+			this.pnlSpace6.Size = new System.Drawing.Size(15, 94);
 			this.pnlSpace6.TabIndex = 16;
 			// 
 			// lblCourses
@@ -503,7 +503,7 @@
 			this.lblCourses.Dock = System.Windows.Forms.DockStyle.Left;
 			this.lblCourses.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblCourses.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.lblCourses.Location = new System.Drawing.Point(13, 0);
+			this.lblCourses.Location = new System.Drawing.Point(15, 0);
 			this.lblCourses.Name = "lblCourses";
 			this.lblCourses.Size = new System.Drawing.Size(100, 94);
 			this.lblCourses.TabIndex = 15;
@@ -521,7 +521,7 @@
 			this.pnlSpace5.FillColor = System.Drawing.Color.White;
 			this.pnlSpace5.Location = new System.Drawing.Point(0, 0);
 			this.pnlSpace5.Name = "pnlSpace5";
-			this.pnlSpace5.Size = new System.Drawing.Size(13, 94);
+			this.pnlSpace5.Size = new System.Drawing.Size(15, 94);
 			this.pnlSpace5.TabIndex = 14;
 			// 
 			// pnlSpace10
@@ -589,7 +589,7 @@
 			this.btnDelete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
 			this.btnDelete.Dock = System.Windows.Forms.DockStyle.Right;
 			this.btnDelete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(100)))), ((int)(((byte)(119)))));
-			this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.btnDelete.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnDelete.ForeColor = System.Drawing.Color.White;
 			this.btnDelete.Location = new System.Drawing.Point(255, 0);
 			this.btnDelete.Name = "btnDelete";
@@ -608,7 +608,7 @@
 			this.btnEdit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
 			this.btnEdit.Dock = System.Windows.Forms.DockStyle.Left;
 			this.btnEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(191)))), ((int)(((byte)(90)))));
-			this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.btnEdit.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnEdit.ForeColor = System.Drawing.Color.White;
 			this.btnEdit.Location = new System.Drawing.Point(15, 0);
 			this.btnEdit.Name = "btnEdit";
@@ -1064,6 +1064,7 @@
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.AutoScroll = true;
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
 			this.ClientSize = new System.Drawing.Size(940, 715);
 			this.Controls.Add(this.pnlDetails);
 			this.Controls.Add(this.pnlSpace10);

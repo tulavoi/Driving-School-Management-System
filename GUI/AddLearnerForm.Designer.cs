@@ -55,6 +55,10 @@
 			this.lblCitizenId = new System.Windows.Forms.Label();
 			this.pnlSpace7 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlGender_DOB = new Guna.UI2.WinForms.Guna2Panel();
+			this.dtpDOB = new Guna.UI2.WinForms.Guna2DateTimePicker();
+			this.lblDOB_Title = new System.Windows.Forms.Label();
+			this.cboGender = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.lblGender_Title = new System.Windows.Forms.Label();
 			this.pnlSpace3 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlPhone_Email = new Guna.UI2.WinForms.Guna2Panel();
 			this.txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
@@ -69,10 +73,6 @@
 			this.pnlSpace6 = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblAdd = new System.Windows.Forms.Label();
 			this.pnlSpace5 = new Guna.UI2.WinForms.Guna2Panel();
-			this.dtpDOB = new Guna.UI2.WinForms.Guna2DateTimePicker();
-			this.lblDOB_Title = new System.Windows.Forms.Label();
-			this.cboGender = new Guna.UI2.WinForms.Guna2ComboBox();
-			this.lblGender_Title = new System.Windows.Forms.Label();
 			this.pnlLineTop.SuspendLayout();
 			this.pnlMain.SuspendLayout();
 			this.pnlButtonAdd_Cancel.SuspendLayout();
@@ -430,6 +430,79 @@
 			this.pnlGender_DOB.Size = new System.Drawing.Size(673, 40);
 			this.pnlGender_DOB.TabIndex = 121;
 			// 
+			// dtpDOB
+			// 
+			this.dtpDOB.BorderColor = System.Drawing.Color.White;
+			this.dtpDOB.BorderRadius = 5;
+			this.dtpDOB.Checked = true;
+			this.dtpDOB.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.dtpDOB.CustomFormat = "dd-MM-yyyy";
+			this.dtpDOB.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.dtpDOB.Enabled = false;
+			this.dtpDOB.FillColor = System.Drawing.Color.White;
+			this.dtpDOB.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+			this.dtpDOB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.dtpDOB.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+			this.dtpDOB.Location = new System.Drawing.Point(425, 0);
+			this.dtpDOB.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+			this.dtpDOB.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+			this.dtpDOB.Name = "dtpDOB";
+			this.dtpDOB.Size = new System.Drawing.Size(248, 40);
+			this.dtpDOB.TabIndex = 5;
+			this.dtpDOB.Value = new System.DateTime(2024, 9, 22, 18, 8, 37, 767);
+			// 
+			// lblDOB_Title
+			// 
+			this.lblDOB_Title.BackColor = System.Drawing.Color.White;
+			this.lblDOB_Title.Dock = System.Windows.Forms.DockStyle.Left;
+			this.lblDOB_Title.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblDOB_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
+			this.lblDOB_Title.Location = new System.Drawing.Point(290, 0);
+			this.lblDOB_Title.Name = "lblDOB_Title";
+			this.lblDOB_Title.Size = new System.Drawing.Size(135, 40);
+			this.lblDOB_Title.TabIndex = 2;
+			this.lblDOB_Title.Text = "  Date Of Birth:";
+			this.lblDOB_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// cboGender
+			// 
+			this.cboGender.BackColor = System.Drawing.Color.White;
+			this.cboGender.BorderRadius = 5;
+			this.cboGender.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.cboGender.DisabledState.BorderColor = System.Drawing.Color.White;
+			this.cboGender.DisabledState.FillColor = System.Drawing.Color.White;
+			this.cboGender.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.cboGender.Dock = System.Windows.Forms.DockStyle.Left;
+			this.cboGender.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cboGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cboGender.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
+			this.cboGender.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
+			this.cboGender.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+			this.cboGender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.cboGender.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.cboGender.ItemHeight = 30;
+			this.cboGender.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+			this.cboGender.Location = new System.Drawing.Point(100, 0);
+			this.cboGender.Name = "cboGender";
+			this.cboGender.Size = new System.Drawing.Size(190, 36);
+			this.cboGender.StartIndex = 0;
+			this.cboGender.TabIndex = 1;
+			// 
+			// lblGender_Title
+			// 
+			this.lblGender_Title.BackColor = System.Drawing.Color.White;
+			this.lblGender_Title.Dock = System.Windows.Forms.DockStyle.Left;
+			this.lblGender_Title.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblGender_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
+			this.lblGender_Title.Location = new System.Drawing.Point(0, 0);
+			this.lblGender_Title.Name = "lblGender_Title";
+			this.lblGender_Title.Size = new System.Drawing.Size(100, 40);
+			this.lblGender_Title.TabIndex = 0;
+			this.lblGender_Title.Text = "     Gender: ";
+			this.lblGender_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
 			// pnlSpace3
 			// 
 			this.pnlSpace3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -631,79 +704,6 @@
 			this.pnlSpace5.Name = "pnlSpace5";
 			this.pnlSpace5.Size = new System.Drawing.Size(690, 15);
 			this.pnlSpace5.TabIndex = 15;
-			// 
-			// dtpDOB
-			// 
-			this.dtpDOB.BorderColor = System.Drawing.Color.White;
-			this.dtpDOB.BorderRadius = 5;
-			this.dtpDOB.Checked = true;
-			this.dtpDOB.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.dtpDOB.CustomFormat = "dd-MM-yyyy";
-			this.dtpDOB.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.dtpDOB.Enabled = false;
-			this.dtpDOB.FillColor = System.Drawing.Color.White;
-			this.dtpDOB.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-			this.dtpDOB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.dtpDOB.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-			this.dtpDOB.Location = new System.Drawing.Point(425, 0);
-			this.dtpDOB.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-			this.dtpDOB.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-			this.dtpDOB.Name = "dtpDOB";
-			this.dtpDOB.Size = new System.Drawing.Size(248, 40);
-			this.dtpDOB.TabIndex = 5;
-			this.dtpDOB.Value = new System.DateTime(2024, 9, 22, 18, 8, 37, 767);
-			// 
-			// lblDOB_Title
-			// 
-			this.lblDOB_Title.BackColor = System.Drawing.Color.White;
-			this.lblDOB_Title.Dock = System.Windows.Forms.DockStyle.Left;
-			this.lblDOB_Title.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblDOB_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
-			this.lblDOB_Title.Location = new System.Drawing.Point(290, 0);
-			this.lblDOB_Title.Name = "lblDOB_Title";
-			this.lblDOB_Title.Size = new System.Drawing.Size(135, 40);
-			this.lblDOB_Title.TabIndex = 2;
-			this.lblDOB_Title.Text = "  Date Of Birth:";
-			this.lblDOB_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// cboGender
-			// 
-			this.cboGender.BackColor = System.Drawing.Color.White;
-			this.cboGender.BorderRadius = 5;
-			this.cboGender.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.cboGender.DisabledState.BorderColor = System.Drawing.Color.White;
-			this.cboGender.DisabledState.FillColor = System.Drawing.Color.White;
-			this.cboGender.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.cboGender.Dock = System.Windows.Forms.DockStyle.Left;
-			this.cboGender.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.cboGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cboGender.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
-			this.cboGender.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
-			this.cboGender.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-			this.cboGender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.cboGender.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.cboGender.ItemHeight = 30;
-			this.cboGender.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
-			this.cboGender.Location = new System.Drawing.Point(100, 0);
-			this.cboGender.Name = "cboGender";
-			this.cboGender.Size = new System.Drawing.Size(190, 36);
-			this.cboGender.StartIndex = 0;
-			this.cboGender.TabIndex = 1;
-			// 
-			// lblGender_Title
-			// 
-			this.lblGender_Title.BackColor = System.Drawing.Color.White;
-			this.lblGender_Title.Dock = System.Windows.Forms.DockStyle.Left;
-			this.lblGender_Title.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblGender_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
-			this.lblGender_Title.Location = new System.Drawing.Point(0, 0);
-			this.lblGender_Title.Name = "lblGender_Title";
-			this.lblGender_Title.Size = new System.Drawing.Size(100, 40);
-			this.lblGender_Title.TabIndex = 0;
-			this.lblGender_Title.Text = "     Gender: ";
-			this.lblGender_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// AddLearnerForm
 			// 

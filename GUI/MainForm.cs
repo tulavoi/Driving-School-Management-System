@@ -36,7 +36,9 @@ namespace GUI
                 this.btnTeachers,
                 this.btnCourses,
                 this.btnInvoice,
-                this.btnVehicles
+                this.btnVehicles,
+                this.btnSchedules,
+                this.btnAccounts
             };
         }
 
@@ -74,49 +76,67 @@ namespace GUI
         {
             Container(new VehiclesForm(), this.btnVehicles.Text, this.btnVehicles);
         }
-        public bool Container(object form, string nameButton, Guna2Button curButton)
+
+		private void btnSchedules_Click(object sender, EventArgs e)
+		{
+			Container(new ScheduleForm(), this.btnSchedules.Text, this.btnSchedules);
+		}
+
+		private void btnInvoice_Click(object sender, EventArgs e)
+		{
+			Container(new CoursesForm(), this.btnInvoice.Text, this.btnInvoice);
+		}
+
+		private void btnAccounts_Click(object sender, EventArgs e)
+		{
+			Container(new CoursesForm(), this.btnAccounts.Text, this.btnAccounts);
+		}
+
+		private void btnLogout_Click(object sender, EventArgs e)
+		{
+            this.Hide();
+            LoginForm frm = new LoginForm();
+            frm.Show();
+		}
+
+		public bool Container(object form, string nameButton, Guna2Button curButton)
         {
-            this.UncheckOtherButtons(curButton);
+            this.UpdateButtonStates(curButton);
 
-            this.CheckButtonClicked(curButton);
+			try
+			{
+				this.SetNameLabel(nameButton);
 
-            try
-            {
-                this.SetNameLabel(nameButton);
+				if (pnlContainer.Controls.Count > 0)
+					pnlContainer.Controls.Clear();
 
-                if (pnlContainer.Controls.Count > 0) pnlContainer.Controls.Clear();
+				Form frm = (Form)form;
+				frm.TopLevel = false;
+				frm.FormBorderStyle = FormBorderStyle.None;
+				frm.Dock = DockStyle.Fill;
 
-                Form frm = (Form)form;
-                frm.TopLevel = false;
-                frm.FormBorderStyle = FormBorderStyle.None;
-                frm.Dock = DockStyle.Fill;
-                Control parent = pnlContainer.Parent;
-                while (parent != null)
-                {
-                    if (parent is MainForm mainForm)
-                    {
-                        mainForm.pnlContainer.Controls.Add(frm);
-                        mainForm.pnlContainer.Tag = frm;
-                        frm.Show();
-                        return frm.Dock == DockStyle.Fill;
-                    }
-                }
-                return false;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                return false;
-            }
-        }
+				pnlContainer.Controls.Add(frm);
+				pnlContainer.Tag = frm;
+				frm.Show();
 
-        private void UncheckOtherButtons(Guna2Button curButton)
+				return frm.Dock == DockStyle.Fill;
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine(ex.Message);
+				return false;
+			}
+		}
+
+        private void UpdateButtonStates(Guna2Button curButton)
         {
-            foreach (var button in this.menuButtons)
-            {
-                if (button != curButton) button.Checked = false;
-            }
-        }
+			foreach (var button in this.menuButtons)
+			{
+				// Nếu button là curButton => checked = true
+				// Nếu button k là curButton => thì checked = false
+				button.Checked = button == curButton;
+			}
+		}
 
         private void CheckButtonClicked(Guna2Button curButton)
         {
@@ -127,7 +147,5 @@ namespace GUI
         {
             this.lblNameForm.Text = nameButton;
         }
-
-        
-    }
+	}
 }

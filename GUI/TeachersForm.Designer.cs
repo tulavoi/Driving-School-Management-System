@@ -36,26 +36,26 @@
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TeachersForm));
 			this.pnlTeachers = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+			this.pnlButtonAdd = new Guna.UI2.WinForms.Guna2Panel();
+			this.btnOpenAddTeacherForm = new Guna.UI2.WinForms.Guna2Button();
+			this.pnlSpace15 = new Guna.UI2.WinForms.Guna2Panel();
 			this.dgvTeachers = new Guna.UI2.WinForms.Guna2DataGridView();
 			this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.EmploymentDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.pnlButtonAdd = new Guna.UI2.WinForms.Guna2Panel();
-			this.btnOpenAddTeacherForm = new Guna.UI2.WinForms.Guna2Button();
-			this.pnlSpace15 = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlSpace25 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlTeachers_Top = new Guna.UI2.WinForms.Guna2Panel();
 			this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
 			this.pnlSpace8 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace7 = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlSpace6 = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblTeachers = new System.Windows.Forms.Label();
 			this.pnlSpace5 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlSpace6 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace1 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlTeacherDetails = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
 			this.pnlMessage = new Guna.UI2.WinForms.Guna2Panel();
 			this.txtMessage = new Guna.UI2.WinForms.Guna2TextBox();
+			this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlButtonSMS_Mail = new Guna.UI2.WinForms.Guna2Panel();
 			this.btnSendMail = new Guna.UI2.WinForms.Guna2Button();
 			this.btnSendSMS = new Guna.UI2.WinForms.Guna2Button();
@@ -63,7 +63,6 @@
 			this.pnlSpace3 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblMessage = new System.Windows.Forms.Label();
-			this.pnlSpace24 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlBasicDetails = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlButtonEdit_Delete = new Guna.UI2.WinForms.Guna2Panel();
 			this.btnDeleteTeacher = new Guna.UI2.WinForms.Guna2Button();
@@ -110,12 +109,12 @@
 			this.lblTeacherID = new Guna.UI2.WinForms.Guna2Button();
 			this.pnlSpace12 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace11 = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlSpace9 = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblPersonalDetails = new System.Windows.Forms.Label();
-			this.pnlSpace10 = new Guna.UI2.WinForms.Guna2Panel();
+			this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlSpace9 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlTeachers.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.dgvTeachers)).BeginInit();
 			this.pnlButtonAdd.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.dgvTeachers)).BeginInit();
 			this.pnlTeachers_Top.SuspendLayout();
 			this.pnlTeacherDetails.SuspendLayout();
 			this.pnlMessage.SuspendLayout();
@@ -135,15 +134,55 @@
 			// 
 			this.pnlTeachers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
 			this.pnlTeachers.BorderRadius = 15;
-			this.pnlTeachers.Controls.Add(this.dgvTeachers);
 			this.pnlTeachers.Controls.Add(this.pnlButtonAdd);
-			this.pnlTeachers.Controls.Add(this.pnlSpace25);
+			this.pnlTeachers.Controls.Add(this.dgvTeachers);
 			this.pnlTeachers.Controls.Add(this.pnlTeachers_Top);
 			this.pnlTeachers.Dock = System.Windows.Forms.DockStyle.Left;
 			this.pnlTeachers.Location = new System.Drawing.Point(0, 0);
 			this.pnlTeachers.Name = "pnlTeachers";
 			this.pnlTeachers.Size = new System.Drawing.Size(430, 715);
 			this.pnlTeachers.TabIndex = 45;
+			// 
+			// pnlButtonAdd
+			// 
+			this.pnlButtonAdd.Controls.Add(this.btnOpenAddTeacherForm);
+			this.pnlButtonAdd.Controls.Add(this.pnlSpace15);
+			this.pnlButtonAdd.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlButtonAdd.FillColor = System.Drawing.Color.White;
+			this.pnlButtonAdd.Location = new System.Drawing.Point(0, 665);
+			this.pnlButtonAdd.Name = "pnlButtonAdd";
+			this.pnlButtonAdd.Size = new System.Drawing.Size(430, 35);
+			this.pnlButtonAdd.TabIndex = 42;
+			// 
+			// btnOpenAddTeacherForm
+			// 
+			this.btnOpenAddTeacherForm.BorderRadius = 5;
+			this.btnOpenAddTeacherForm.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btnOpenAddTeacherForm.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.btnOpenAddTeacherForm.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.btnOpenAddTeacherForm.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.btnOpenAddTeacherForm.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.btnOpenAddTeacherForm.Dock = System.Windows.Forms.DockStyle.Left;
+			this.btnOpenAddTeacherForm.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
+			this.btnOpenAddTeacherForm.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnOpenAddTeacherForm.ForeColor = System.Drawing.Color.White;
+			this.btnOpenAddTeacherForm.Location = new System.Drawing.Point(15, 0);
+			this.btnOpenAddTeacherForm.Name = "btnOpenAddTeacherForm";
+			this.btnOpenAddTeacherForm.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+			this.btnOpenAddTeacherForm.Size = new System.Drawing.Size(150, 35);
+			this.btnOpenAddTeacherForm.TabIndex = 17;
+			this.btnOpenAddTeacherForm.Text = "Add";
+			this.btnOpenAddTeacherForm.Click += new System.EventHandler(this.btnOpenAddTeacherForm_Click);
+			// 
+			// pnlSpace15
+			// 
+			this.pnlSpace15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.pnlSpace15.Dock = System.Windows.Forms.DockStyle.Left;
+			this.pnlSpace15.FillColor = System.Drawing.Color.White;
+			this.pnlSpace15.Location = new System.Drawing.Point(0, 0);
+			this.pnlSpace15.Name = "pnlSpace15";
+			this.pnlSpace15.Size = new System.Drawing.Size(15, 35);
+			this.pnlSpace15.TabIndex = 10;
 			// 
 			// dgvTeachers
 			// 
@@ -174,7 +213,7 @@
 			dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
 			dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
 			this.dgvTeachers.DefaultCellStyle = dataGridViewCellStyle4;
-			this.dgvTeachers.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.dgvTeachers.Dock = System.Windows.Forms.DockStyle.Top;
 			this.dgvTeachers.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
 			this.dgvTeachers.Location = new System.Drawing.Point(0, 53);
 			this.dgvTeachers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -264,59 +303,6 @@
 			this.EmploymentDate.ReadOnly = true;
 			this.EmploymentDate.Width = 70;
 			// 
-			// pnlButtonAdd
-			// 
-			this.pnlButtonAdd.Controls.Add(this.btnOpenAddTeacherForm);
-			this.pnlButtonAdd.Controls.Add(this.pnlSpace15);
-			this.pnlButtonAdd.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.pnlButtonAdd.FillColor = System.Drawing.Color.White;
-			this.pnlButtonAdd.Location = new System.Drawing.Point(0, 665);
-			this.pnlButtonAdd.Name = "pnlButtonAdd";
-			this.pnlButtonAdd.Size = new System.Drawing.Size(430, 35);
-			this.pnlButtonAdd.TabIndex = 42;
-			// 
-			// btnOpenAddTeacherForm
-			// 
-			this.btnOpenAddTeacherForm.BorderRadius = 5;
-			this.btnOpenAddTeacherForm.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.btnOpenAddTeacherForm.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.btnOpenAddTeacherForm.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.btnOpenAddTeacherForm.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.btnOpenAddTeacherForm.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.btnOpenAddTeacherForm.Dock = System.Windows.Forms.DockStyle.Left;
-			this.btnOpenAddTeacherForm.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
-			this.btnOpenAddTeacherForm.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.btnOpenAddTeacherForm.ForeColor = System.Drawing.Color.White;
-			this.btnOpenAddTeacherForm.Location = new System.Drawing.Point(15, 0);
-			this.btnOpenAddTeacherForm.Name = "btnOpenAddTeacherForm";
-			this.btnOpenAddTeacherForm.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-			this.btnOpenAddTeacherForm.Size = new System.Drawing.Size(150, 35);
-			this.btnOpenAddTeacherForm.TabIndex = 17;
-			this.btnOpenAddTeacherForm.Text = "Add";
-			this.btnOpenAddTeacherForm.Click += new System.EventHandler(this.btnOpenAddTeacherForm_Click);
-			// 
-			// pnlSpace15
-			// 
-			this.pnlSpace15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.pnlSpace15.Dock = System.Windows.Forms.DockStyle.Left;
-			this.pnlSpace15.FillColor = System.Drawing.Color.White;
-			this.pnlSpace15.Location = new System.Drawing.Point(0, 0);
-			this.pnlSpace15.Name = "pnlSpace15";
-			this.pnlSpace15.Size = new System.Drawing.Size(15, 35);
-			this.pnlSpace15.TabIndex = 10;
-			// 
-			// pnlSpace25
-			// 
-			this.pnlSpace25.BorderRadius = 15;
-			this.pnlSpace25.CustomizableEdges.TopLeft = false;
-			this.pnlSpace25.CustomizableEdges.TopRight = false;
-			this.pnlSpace25.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.pnlSpace25.FillColor = System.Drawing.Color.White;
-			this.pnlSpace25.Location = new System.Drawing.Point(0, 700);
-			this.pnlSpace25.Name = "pnlSpace25";
-			this.pnlSpace25.Size = new System.Drawing.Size(430, 15);
-			this.pnlSpace25.TabIndex = 107;
-			// 
 			// pnlTeachers_Top
 			// 
 			this.pnlTeachers_Top.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
@@ -324,9 +310,9 @@
 			this.pnlTeachers_Top.Controls.Add(this.txtSearch);
 			this.pnlTeachers_Top.Controls.Add(this.pnlSpace8);
 			this.pnlTeachers_Top.Controls.Add(this.pnlSpace7);
-			this.pnlTeachers_Top.Controls.Add(this.pnlSpace6);
 			this.pnlTeachers_Top.Controls.Add(this.lblTeachers);
 			this.pnlTeachers_Top.Controls.Add(this.pnlSpace5);
+			this.pnlTeachers_Top.Controls.Add(this.pnlSpace6);
 			this.pnlTeachers_Top.CustomizableEdges.TopLeft = false;
 			this.pnlTeachers_Top.CustomizableEdges.TopRight = false;
 			this.pnlTeachers_Top.Dock = System.Windows.Forms.DockStyle.Top;
@@ -379,20 +365,6 @@
 			this.pnlSpace7.Size = new System.Drawing.Size(275, 12);
 			this.pnlSpace7.TabIndex = 17;
 			// 
-			// pnlSpace6
-			// 
-			this.pnlSpace6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.pnlSpace6.BorderRadius = 15;
-			this.pnlSpace6.CustomizableEdges.BottomLeft = false;
-			this.pnlSpace6.CustomizableEdges.BottomRight = false;
-			this.pnlSpace6.CustomizableEdges.TopLeft = false;
-			this.pnlSpace6.Dock = System.Windows.Forms.DockStyle.Right;
-			this.pnlSpace6.FillColor = System.Drawing.Color.White;
-			this.pnlSpace6.Location = new System.Drawing.Point(415, 0);
-			this.pnlSpace6.Name = "pnlSpace6";
-			this.pnlSpace6.Size = new System.Drawing.Size(15, 53);
-			this.pnlSpace6.TabIndex = 16;
-			// 
 			// lblTeachers
 			// 
 			this.lblTeachers.BackColor = System.Drawing.Color.White;
@@ -418,7 +390,21 @@
 			this.pnlSpace5.Location = new System.Drawing.Point(0, 0);
 			this.pnlSpace5.Name = "pnlSpace5";
 			this.pnlSpace5.Size = new System.Drawing.Size(15, 53);
-			this.pnlSpace5.TabIndex = 14;
+			this.pnlSpace5.TabIndex = 19;
+			// 
+			// pnlSpace6
+			// 
+			this.pnlSpace6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.pnlSpace6.BorderRadius = 15;
+			this.pnlSpace6.CustomizableEdges.BottomLeft = false;
+			this.pnlSpace6.CustomizableEdges.BottomRight = false;
+			this.pnlSpace6.CustomizableEdges.TopLeft = false;
+			this.pnlSpace6.Dock = System.Windows.Forms.DockStyle.Right;
+			this.pnlSpace6.FillColor = System.Drawing.Color.White;
+			this.pnlSpace6.Location = new System.Drawing.Point(415, 0);
+			this.pnlSpace6.Name = "pnlSpace6";
+			this.pnlSpace6.Size = new System.Drawing.Size(15, 53);
+			this.pnlSpace6.TabIndex = 16;
 			// 
 			// pnlSpace1
 			// 
@@ -434,7 +420,6 @@
 			this.pnlTeacherDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
 			this.pnlTeacherDetails.BorderRadius = 15;
 			this.pnlTeacherDetails.Controls.Add(this.pnlMessage);
-			this.pnlTeacherDetails.Controls.Add(this.pnlSpace24);
 			this.pnlTeacherDetails.Controls.Add(this.pnlBasicDetails);
 			this.pnlTeacherDetails.Controls.Add(this.pnlSpace19);
 			this.pnlTeacherDetails.Controls.Add(this.pnlTeacherDetails_Top);
@@ -447,6 +432,7 @@
 			// pnlMessage
 			// 
 			this.pnlMessage.Controls.Add(this.txtMessage);
+			this.pnlMessage.Controls.Add(this.guna2Panel1);
 			this.pnlMessage.Controls.Add(this.pnlButtonSMS_Mail);
 			this.pnlMessage.Controls.Add(this.pnlSpace20);
 			this.pnlMessage.Controls.Add(this.pnlSpace3);
@@ -456,7 +442,7 @@
 			this.pnlMessage.FillColor = System.Drawing.Color.White;
 			this.pnlMessage.Location = new System.Drawing.Point(0, 435);
 			this.pnlMessage.Name = "pnlMessage";
-			this.pnlMessage.Size = new System.Drawing.Size(490, 230);
+			this.pnlMessage.Size = new System.Drawing.Size(490, 265);
 			this.pnlMessage.TabIndex = 105;
 			// 
 			// txtMessage
@@ -470,7 +456,7 @@
 			this.txtMessage.DisabledState.FillColor = System.Drawing.Color.White;
 			this.txtMessage.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
 			this.txtMessage.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
-			this.txtMessage.Dock = System.Windows.Forms.DockStyle.Top;
+			this.txtMessage.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.txtMessage.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
 			this.txtMessage.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
 			this.txtMessage.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
@@ -482,9 +468,18 @@
 			this.txtMessage.PasswordChar = '\0';
 			this.txtMessage.PlaceholderText = "Write Message...";
 			this.txtMessage.SelectedText = "";
-			this.txtMessage.Size = new System.Drawing.Size(460, 122);
+			this.txtMessage.Size = new System.Drawing.Size(460, 149);
 			this.txtMessage.TabIndex = 106;
 			this.txtMessage.Tag = "1";
+			// 
+			// guna2Panel1
+			// 
+			this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.guna2Panel1.FillColor = System.Drawing.Color.White;
+			this.guna2Panel1.Location = new System.Drawing.Point(15, 209);
+			this.guna2Panel1.Name = "guna2Panel1";
+			this.guna2Panel1.Size = new System.Drawing.Size(460, 15);
+			this.guna2Panel1.TabIndex = 110;
 			// 
 			// pnlButtonSMS_Mail
 			// 
@@ -492,7 +487,7 @@
 			this.pnlButtonSMS_Mail.Controls.Add(this.btnSendSMS);
 			this.pnlButtonSMS_Mail.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.pnlButtonSMS_Mail.FillColor = System.Drawing.Color.White;
-			this.pnlButtonSMS_Mail.Location = new System.Drawing.Point(15, 189);
+			this.pnlButtonSMS_Mail.Location = new System.Drawing.Point(15, 224);
 			this.pnlButtonSMS_Mail.Name = "pnlButtonSMS_Mail";
 			this.pnlButtonSMS_Mail.Size = new System.Drawing.Size(460, 41);
 			this.pnlButtonSMS_Mail.TabIndex = 109;
@@ -507,7 +502,7 @@
 			this.btnSendMail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
 			this.btnSendMail.Dock = System.Windows.Forms.DockStyle.Right;
 			this.btnSendMail.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
-			this.btnSendMail.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.btnSendMail.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnSendMail.ForeColor = System.Drawing.Color.White;
 			this.btnSendMail.Image = ((System.Drawing.Image)(resources.GetObject("btnSendMail.Image")));
 			this.btnSendMail.Location = new System.Drawing.Point(240, 0);
@@ -527,7 +522,7 @@
 			this.btnSendSMS.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
 			this.btnSendSMS.Dock = System.Windows.Forms.DockStyle.Left;
 			this.btnSendSMS.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
-			this.btnSendSMS.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.btnSendSMS.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnSendSMS.ForeColor = System.Drawing.Color.White;
 			this.btnSendSMS.Image = ((System.Drawing.Image)(resources.GetObject("btnSendSMS.Image")));
 			this.btnSendSMS.Location = new System.Drawing.Point(0, 0);
@@ -544,7 +539,7 @@
 			this.pnlSpace20.FillColor = System.Drawing.Color.White;
 			this.pnlSpace20.Location = new System.Drawing.Point(0, 60);
 			this.pnlSpace20.Name = "pnlSpace20";
-			this.pnlSpace20.Size = new System.Drawing.Size(15, 170);
+			this.pnlSpace20.Size = new System.Drawing.Size(15, 205);
 			this.pnlSpace20.TabIndex = 105;
 			// 
 			// pnlSpace3
@@ -554,7 +549,7 @@
 			this.pnlSpace3.FillColor = System.Drawing.Color.White;
 			this.pnlSpace3.Location = new System.Drawing.Point(475, 60);
 			this.pnlSpace3.Name = "pnlSpace3";
-			this.pnlSpace3.Size = new System.Drawing.Size(15, 170);
+			this.pnlSpace3.Size = new System.Drawing.Size(15, 205);
 			this.pnlSpace3.TabIndex = 104;
 			// 
 			// pnlSpace4
@@ -578,18 +573,6 @@
 			this.lblMessage.TabIndex = 93;
 			this.lblMessage.Text = "   Message";
 			this.lblMessage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pnlSpace24
-			// 
-			this.pnlSpace24.BorderRadius = 15;
-			this.pnlSpace24.CustomizableEdges.TopLeft = false;
-			this.pnlSpace24.CustomizableEdges.TopRight = false;
-			this.pnlSpace24.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.pnlSpace24.FillColor = System.Drawing.Color.White;
-			this.pnlSpace24.Location = new System.Drawing.Point(0, 700);
-			this.pnlSpace24.Name = "pnlSpace24";
-			this.pnlSpace24.Size = new System.Drawing.Size(490, 15);
-			this.pnlSpace24.TabIndex = 106;
 			// 
 			// pnlBasicDetails
 			// 
@@ -638,7 +621,7 @@
 			this.btnDeleteTeacher.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
 			this.btnDeleteTeacher.Dock = System.Windows.Forms.DockStyle.Right;
 			this.btnDeleteTeacher.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(100)))), ((int)(((byte)(119)))));
-			this.btnDeleteTeacher.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.btnDeleteTeacher.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnDeleteTeacher.ForeColor = System.Drawing.Color.White;
 			this.btnDeleteTeacher.Location = new System.Drawing.Point(325, 0);
 			this.btnDeleteTeacher.Name = "btnDeleteTeacher";
@@ -658,7 +641,7 @@
 			this.btnEditTeacher.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
 			this.btnEditTeacher.Dock = System.Windows.Forms.DockStyle.Left;
 			this.btnEditTeacher.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(191)))), ((int)(((byte)(90)))));
-			this.btnEditTeacher.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.btnEditTeacher.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnEditTeacher.ForeColor = System.Drawing.Color.White;
 			this.btnEditTeacher.Location = new System.Drawing.Point(15, 0);
 			this.btnEditTeacher.Name = "btnEditTeacher";
@@ -1269,9 +1252,9 @@
 			this.pnlTeacherDetails_Top.Controls.Add(this.lblTeacherID);
 			this.pnlTeacherDetails_Top.Controls.Add(this.pnlSpace12);
 			this.pnlTeacherDetails_Top.Controls.Add(this.pnlSpace11);
-			this.pnlTeacherDetails_Top.Controls.Add(this.pnlSpace9);
 			this.pnlTeacherDetails_Top.Controls.Add(this.lblPersonalDetails);
-			this.pnlTeacherDetails_Top.Controls.Add(this.pnlSpace10);
+			this.pnlTeacherDetails_Top.Controls.Add(this.guna2Panel2);
+			this.pnlTeacherDetails_Top.Controls.Add(this.pnlSpace9);
 			this.pnlTeacherDetails_Top.CustomizableEdges.TopLeft = false;
 			this.pnlTeacherDetails_Top.CustomizableEdges.TopRight = false;
 			this.pnlTeacherDetails_Top.Dock = System.Windows.Forms.DockStyle.Top;
@@ -1293,10 +1276,10 @@
 			this.lblTeacherID.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
 			this.lblTeacherID.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblTeacherID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.lblTeacherID.Location = new System.Drawing.Point(364, 15);
+			this.lblTeacherID.Location = new System.Drawing.Point(349, 15);
 			this.lblTeacherID.Name = "lblTeacherID";
 			this.lblTeacherID.PressedDepth = 5;
-			this.lblTeacherID.Size = new System.Drawing.Size(111, 25);
+			this.lblTeacherID.Size = new System.Drawing.Size(126, 25);
 			this.lblTeacherID.TabIndex = 23;
 			this.lblTeacherID.Text = "ID: 2222";
 			// 
@@ -1304,33 +1287,19 @@
 			// 
 			this.pnlSpace12.BackColor = System.Drawing.Color.White;
 			this.pnlSpace12.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.pnlSpace12.Location = new System.Drawing.Point(364, 40);
+			this.pnlSpace12.Location = new System.Drawing.Point(349, 40);
 			this.pnlSpace12.Name = "pnlSpace12";
-			this.pnlSpace12.Size = new System.Drawing.Size(111, 10);
+			this.pnlSpace12.Size = new System.Drawing.Size(126, 10);
 			this.pnlSpace12.TabIndex = 21;
 			// 
 			// pnlSpace11
 			// 
 			this.pnlSpace11.BackColor = System.Drawing.Color.White;
 			this.pnlSpace11.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlSpace11.Location = new System.Drawing.Point(364, 0);
+			this.pnlSpace11.Location = new System.Drawing.Point(349, 0);
 			this.pnlSpace11.Name = "pnlSpace11";
-			this.pnlSpace11.Size = new System.Drawing.Size(111, 15);
+			this.pnlSpace11.Size = new System.Drawing.Size(126, 15);
 			this.pnlSpace11.TabIndex = 20;
-			// 
-			// pnlSpace9
-			// 
-			this.pnlSpace9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.pnlSpace9.BorderRadius = 15;
-			this.pnlSpace9.CustomizableEdges.BottomLeft = false;
-			this.pnlSpace9.CustomizableEdges.BottomRight = false;
-			this.pnlSpace9.CustomizableEdges.TopLeft = false;
-			this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Right;
-			this.pnlSpace9.FillColor = System.Drawing.Color.White;
-			this.pnlSpace9.Location = new System.Drawing.Point(475, 0);
-			this.pnlSpace9.Name = "pnlSpace9";
-			this.pnlSpace9.Size = new System.Drawing.Size(15, 50);
-			this.pnlSpace9.TabIndex = 18;
 			// 
 			// lblPersonalDetails
 			// 
@@ -1338,26 +1307,36 @@
 			this.lblPersonalDetails.Dock = System.Windows.Forms.DockStyle.Left;
 			this.lblPersonalDetails.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblPersonalDetails.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.lblPersonalDetails.Location = new System.Drawing.Point(13, 0);
+			this.lblPersonalDetails.Location = new System.Drawing.Point(15, 0);
 			this.lblPersonalDetails.Name = "lblPersonalDetails";
-			this.lblPersonalDetails.Size = new System.Drawing.Size(351, 50);
+			this.lblPersonalDetails.Size = new System.Drawing.Size(334, 50);
 			this.lblPersonalDetails.TabIndex = 17;
-			this.lblPersonalDetails.Text = "Personal Details";
+			this.lblPersonalDetails.Text = "  Personal Details";
 			this.lblPersonalDetails.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
-			// pnlSpace10
+			// guna2Panel2
 			// 
-			this.pnlSpace10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.pnlSpace10.BorderRadius = 15;
-			this.pnlSpace10.CustomizableEdges.BottomLeft = false;
-			this.pnlSpace10.CustomizableEdges.BottomRight = false;
-			this.pnlSpace10.CustomizableEdges.TopRight = false;
-			this.pnlSpace10.Dock = System.Windows.Forms.DockStyle.Left;
-			this.pnlSpace10.FillColor = System.Drawing.Color.White;
-			this.pnlSpace10.Location = new System.Drawing.Point(0, 0);
-			this.pnlSpace10.Name = "pnlSpace10";
-			this.pnlSpace10.Size = new System.Drawing.Size(13, 50);
-			this.pnlSpace10.TabIndex = 16;
+			this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.guna2Panel2.BorderRadius = 15;
+			this.guna2Panel2.CustomizableEdges.BottomLeft = false;
+			this.guna2Panel2.CustomizableEdges.BottomRight = false;
+			this.guna2Panel2.CustomizableEdges.TopRight = false;
+			this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Left;
+			this.guna2Panel2.FillColor = System.Drawing.Color.White;
+			this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
+			this.guna2Panel2.Name = "guna2Panel2";
+			this.guna2Panel2.Size = new System.Drawing.Size(15, 50);
+			this.guna2Panel2.TabIndex = 24;
+			// 
+			// pnlSpace9
+			// 
+			this.pnlSpace9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Right;
+			this.pnlSpace9.FillColor = System.Drawing.Color.White;
+			this.pnlSpace9.Location = new System.Drawing.Point(475, 0);
+			this.pnlSpace9.Name = "pnlSpace9";
+			this.pnlSpace9.Size = new System.Drawing.Size(15, 50);
+			this.pnlSpace9.TabIndex = 18;
 			// 
 			// TeachersForm
 			// 
@@ -1373,8 +1352,8 @@
 			this.Name = "TeachersForm";
 			this.Text = "TeachersForm";
 			this.pnlTeachers.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.dgvTeachers)).EndInit();
 			this.pnlButtonAdd.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.dgvTeachers)).EndInit();
 			this.pnlTeachers_Top.ResumeLayout(false);
 			this.pnlTeacherDetails.ResumeLayout(false);
 			this.pnlMessage.ResumeLayout(false);
@@ -1403,9 +1382,7 @@
         private Guna.UI2.WinForms.Guna2TextBox txtSearch;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace8;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace7;
-        private Guna.UI2.WinForms.Guna2Panel pnlSpace6;
         private System.Windows.Forms.Label lblTeachers;
-        private Guna.UI2.WinForms.Guna2Panel pnlSpace5;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel pnlTeacherDetails;
         private Guna.UI2.WinForms.Guna2Panel pnlMessage;
@@ -1445,7 +1422,6 @@
         private Guna.UI2.WinForms.Guna2Panel pnlSpace11;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace9;
         private System.Windows.Forms.Label lblPersonalDetails;
-        private Guna.UI2.WinForms.Guna2Panel pnlSpace10;
         private Guna.UI2.WinForms.Guna2Panel pnlLicense_Graduated;
         private Guna.UI2.WinForms.Guna2TextBox txtGraduateYears;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpGraduated;
@@ -1453,8 +1429,6 @@
         private Guna.UI2.WinForms.Guna2ComboBox cboLicense;
         private System.Windows.Forms.Label lblLicense;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace23;
-        private Guna.UI2.WinForms.Guna2Panel pnlSpace24;
-        private Guna.UI2.WinForms.Guna2Panel pnlSpace25;
         private Guna.UI2.WinForms.Guna2TextBox txtCitizenId;
         private System.Windows.Forms.Label lblCitizenId;
         private Guna.UI2.WinForms.Guna2TextBox txtPhone;
@@ -1472,5 +1446,9 @@
         private Guna.UI2.WinForms.Guna2Button btnSendMail;
         private Guna.UI2.WinForms.Guna2Button btnSendSMS;
 		private Guna.UI2.WinForms.Guna2DateTimePicker dtpDOB;
+		private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+		private Guna.UI2.WinForms.Guna2Panel pnlSpace6;
+		private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+		private Guna.UI2.WinForms.Guna2Panel pnlSpace5;
 	}
 }

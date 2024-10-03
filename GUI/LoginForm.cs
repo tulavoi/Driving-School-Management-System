@@ -15,6 +15,7 @@ namespace GUI
         public LoginForm()
         {
             InitializeComponent();
+            FormHelper.ApplyRoundedCorners(this, 20);
         }
 
         private void btnLogin_Click(object sender, EventArgs e)

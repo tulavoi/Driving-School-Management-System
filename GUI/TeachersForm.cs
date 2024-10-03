@@ -21,6 +21,7 @@ namespace GUI
 		public TeachersForm()
         {
             InitializeComponent();
+            FormHelper.ApplyRoundedCorners(this, 20);
         }
 
         private void btnEditTeacher_Click(object sender, EventArgs e)
