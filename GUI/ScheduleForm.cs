@@ -49,7 +49,6 @@ namespace GUI
 					Guna2Button btn = this.CreateGunaButton(initialBtn);
 
 					pnlMatrix.Controls.Add(btn);
-					//this.Matrix[i].Add(btn);
 					row.Add(btn);
 
 					initialBtn = btn;
@@ -63,7 +62,7 @@ namespace GUI
 
 		public void AddNumberToMatrixByDate(DateTime date)
 		{
-			this.ClearMatrix();
+			this.ResetMatrixButtons();
 
 			DateTime curDate = new DateTime(date.Year, date.Month, 1);
 
@@ -76,11 +75,55 @@ namespace GUI
 				Guna2Button btn = this.Matrix[line][column];
 				btn.Text = i.ToString();
 
+				this.UpdateBtnStylesByDate(curDate, date, btn);
+
 				if (column == Constant.DayOfWeek - 1) line++;
 
 				curDate = curDate.AddDays(1);
 			}
         }
+
+		private void UpdateBtnStylesByDate(DateTime curDate, DateTime date, Guna2Button btn)
+		{
+			if (this.IsEqualDate(curDate, date))
+				this.UpdateBtnForSelectedDay(btn);
+
+			if (this.IsEqualDate(curDate, DateTime.Now))
+				this.UpdateBtnForCurrentDay(btn);
+		}
+
+		private void UpdateBtnForCurrentDay(Guna2Button btn)
+		{
+			this.UpdateButtonProperties(btn, Constant.BrightBlue, Color.White, Constant.BrightBlue, Color.White, Constant.BrightBlue, 0);
+		}
+
+		private void UpdateBtnForSelectedDay(Guna2Button btn)
+		{
+			this.UpdateButtonProperties(btn, Color.White, Constant.BrightBlack, Constant.OffWhite, Constant.BrightBlack, Constant.BrightBlue, 1);
+		}
+
+		private void UpdateBtnToDefaultState(Guna2Button btn)
+		{
+			this.UpdateButtonProperties(btn, Color.White, Constant.BrightBlack, Constant.OffWhite, Constant.BrightBlack, Color.White, 0);
+		}
+
+		private void UpdateButtonProperties(Guna2Button btn, Color fillColor, Color foreColor, Color fillColorHoverState, Color foreColorHoverState, Color borderColor, int borderThickness)
+		{
+			btn.BorderThickness = borderThickness;
+			btn.BorderColor = borderColor;
+			btn.FillColor = fillColor;
+			btn.ForeColor = foreColor;
+			btn.HoverState = new Guna.UI2.WinForms.Suite.ButtonState()
+			{
+				FillColor = fillColorHoverState,
+				ForeColor = foreColorHoverState,
+			};
+		}
+
+		private bool IsEqualDate(DateTime dateA, DateTime dateB)
+		{
+			return dateA.Year == dateB.Year && dateA.Month == dateB.Month && dateA.Day == dateB.Day;
+		}
 
 		private Guna2Button MoveToNextRow(Guna2Button initialBtn)
 		{
@@ -125,8 +168,8 @@ namespace GUI
 			dtpSchedule.Value = DateTime.Now;
 		}
 
-		// Xóa các ngày cũ khi dtpSchedule có thay đổi
-		public void ClearMatrix()
+		// Xóa nội dung , đặt lại các thuộc tính của button khi dtpSchedule có thay đổi
+		public void ResetMatrixButtons()
 		{
             for (int i = 0; i < this.Matrix.Count; i++)
             {
@@ -134,7 +177,8 @@ namespace GUI
                 {
 					Guna2Button btn = this.Matrix[i][j];
 					btn.Text = "";
-                }
+					this.UpdateBtnToDefaultState(btn);
+				}
             }
         }
 
@@ -145,7 +189,17 @@ namespace GUI
 
 		private void btnToday_Click(object sender, EventArgs e)
 		{
-			this.AddNumberToMatrixByDate(DateTime.Now);
+			this.SetCurrentDate();
+		}
+
+		private void btnPrevMonth_Click(object sender, EventArgs e)
+		{
+			dtpSchedule.Value = dtpSchedule.Value.AddMonths(-1);
+		}
+
+		private void btnNextMonth_Click(object sender, EventArgs e)
+		{
+			dtpSchedule.Value = dtpSchedule.Value.AddMonths(+1);
 		}
 	}
 }

@@ -266,5 +266,11 @@
   <ItemGroup>
     <None Include="Resources\driving-instructor_1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_arrow.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

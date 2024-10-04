@@ -133,6 +133,16 @@ namespace GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap down_arrow {
+            get {
+                object obj = ResourceManager.GetObject("down_arrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap driving_instructor_1 {
             get {
                 object obj = ResourceManager.GetObject("driving-instructor_1", resourceCulture);
@@ -286,6 +296,16 @@ namespace GUI.Properties {
         internal static System.Drawing.Bitmap teacher_2 {
             get {
                 object obj = ResourceManager.GetObject("teacher_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap top_arrow {
+            get {
+                object obj = ResourceManager.GetObject("top_arrow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
