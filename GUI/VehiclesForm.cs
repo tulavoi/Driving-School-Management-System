@@ -58,11 +58,11 @@ namespace GUI
 
                 if (this.chkPassengerCar.Checked) this.txtSeats.Enabled = true;
 
-                this.ToggleEditMode(ref isEditing_BasicDetails, this.btnEdit_BasicDetail, this.txtCarName, this.txtCarNo, this.cboLicenses, this.dtpManuYear, this.chkTruck, this.chkPassengerCar);
+                this.ToggleEditMode(ref isEditing_BasicDetails, this.btnEdit_BasicDetail, this.txtCarName, this.txtCarNo, this.dtpManuYear, this.chkTruck, this.chkPassengerCar);
             }
             else
             {
-				this.ToggleEditMode(ref isEditing_BasicDetails, this.btnEdit_BasicDetail, this.txtCarName, this.txtCarNo, this.cboLicenses, this.dtpManuYear, this.chkTruck, this.chkPassengerCar);
+				this.ToggleEditMode(ref isEditing_BasicDetails, this.btnEdit_BasicDetail, this.txtCarName, this.txtCarNo, this.dtpManuYear, this.chkTruck, this.chkPassengerCar);
 			}
 		}
 
