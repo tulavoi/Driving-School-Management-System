@@ -25,3 +25,4 @@ C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\bin\Debug\BLL.dll
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\bin\Debug\BLL.pdb
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.VehiclesForm.resources
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.AssignScheduleForm.resources

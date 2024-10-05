@@ -79,6 +79,12 @@
     <Compile Include="AddVehicleForm.Designer.cs">
       <DependentUpon>AddVehicleForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AssignScheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignScheduleForm.Designer.cs">
+      <DependentUpon>AssignScheduleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Constant.cs" />
     <Compile Include="CoursesForm.cs">
       <SubType>Form</SubType>
@@ -142,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddVehicleForm.resx">
       <DependentUpon>AddVehicleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignScheduleForm.resx">
+      <DependentUpon>AssignScheduleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CoursesForm.resx">
       <DependentUpon>CoursesForm.cs</DependentUpon>

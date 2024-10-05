@@ -201,5 +201,11 @@ namespace GUI
 		{
 			dtpSchedule.Value = dtpSchedule.Value.AddMonths(+1);
 		}
-	}
+
+        private void btnOpenAddScheduleForm_Click(object sender, EventArgs e)
+        {
+			AssignScheduleForm frm = new AssignScheduleForm();
+			frm.ShowDialog();
+        }
+    }
 }

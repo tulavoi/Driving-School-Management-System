@@ -28,21 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pnlTeachers = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.pnlSchedules_Top = new Guna.UI2.WinForms.Guna2Panel();
-            this.lblTeachers = new System.Windows.Forms.Label();
-            this.pnlSpace5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlSpace10 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlSpace8 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlSpace3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlSpace9 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnToday = new Guna.UI2.WinForms.Guna2Button();
-            this.dtpSchedule = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.pnlDTP_btnToday = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlRight = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pnlCalendar = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlBtnPrev_NextMonth = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnNextMonth = new Guna.UI2.WinForms.Guna2Button();
-            this.btnPrevMonth = new Guna.UI2.WinForms.Guna2Button();
+            this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlMatrix = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlSpace6 = new Guna.UI2.WinForms.Guna2Panel();
             this.lblSunday = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -54,171 +43,50 @@
             this.lblSaturday = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlSpace1 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlTeachers.SuspendLayout();
-            this.pnlSchedules_Top.SuspendLayout();
-            this.pnlDTP_btnToday.SuspendLayout();
+            this.pnlDTP_btnToday = new Guna.UI2.WinForms.Guna2Panel();
+            this.dtpSchedule = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.btnToday = new Guna.UI2.WinForms.Guna2Button();
+            this.pnlSpace9 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlSpace3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlSchedules_Top = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlSpace8 = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblSchedules = new System.Windows.Forms.Label();
+            this.pnlSpace5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlSpace10 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlButtonAdd = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnOpenAddScheduleForm = new Guna.UI2.WinForms.Guna2Button();
+            this.pnlSpace7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlLeft = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnNextMonth = new Guna.UI2.WinForms.Guna2Button();
+            this.btnPrevMonth = new Guna.UI2.WinForms.Guna2Button();
+            this.pnlRight.SuspendLayout();
             this.pnlCalendar.SuspendLayout();
             this.pnlBtnPrev_NextMonth.SuspendLayout();
             this.pnlMatrix.SuspendLayout();
+            this.pnlDTP_btnToday.SuspendLayout();
+            this.pnlSchedules_Top.SuspendLayout();
+            this.pnlButtonAdd.SuspendLayout();
+            this.pnlLeft.SuspendLayout();
+            this.guna2Panel12.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pnlTeachers
+            // pnlRight
             // 
-            this.pnlTeachers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.pnlTeachers.BorderRadius = 15;
-            this.pnlTeachers.Controls.Add(this.pnlCalendar);
-            this.pnlTeachers.Controls.Add(this.pnlDTP_btnToday);
-            this.pnlTeachers.Controls.Add(this.pnlSchedules_Top);
-            this.pnlTeachers.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlTeachers.Location = new System.Drawing.Point(0, 0);
-            this.pnlTeachers.Name = "pnlTeachers";
-            this.pnlTeachers.Size = new System.Drawing.Size(457, 715);
-            this.pnlTeachers.TabIndex = 46;
-            // 
-            // pnlSchedules_Top
-            // 
-            this.pnlSchedules_Top.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.pnlSchedules_Top.BorderRadius = 15;
-            this.pnlSchedules_Top.Controls.Add(this.pnlSpace8);
-            this.pnlSchedules_Top.Controls.Add(this.lblTeachers);
-            this.pnlSchedules_Top.Controls.Add(this.pnlSpace5);
-            this.pnlSchedules_Top.CustomizableEdges.BottomRight = false;
-            this.pnlSchedules_Top.CustomizableEdges.TopLeft = false;
-            this.pnlSchedules_Top.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSchedules_Top.FillColor = System.Drawing.Color.White;
-            this.pnlSchedules_Top.Location = new System.Drawing.Point(0, 0);
-            this.pnlSchedules_Top.Name = "pnlSchedules_Top";
-            this.pnlSchedules_Top.Size = new System.Drawing.Size(457, 53);
-            this.pnlSchedules_Top.TabIndex = 0;
-            // 
-            // lblTeachers
-            // 
-            this.lblTeachers.BackColor = System.Drawing.Color.White;
-            this.lblTeachers.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTeachers.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeachers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.lblTeachers.Location = new System.Drawing.Point(15, 0);
-            this.lblTeachers.Name = "lblTeachers";
-            this.lblTeachers.Size = new System.Drawing.Size(125, 53);
-            this.lblTeachers.TabIndex = 15;
-            this.lblTeachers.Text = "Schedules";
-            this.lblTeachers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pnlSpace5
-            // 
-            this.pnlSpace5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.pnlSpace5.BorderRadius = 15;
-            this.pnlSpace5.CustomizableEdges.BottomLeft = false;
-            this.pnlSpace5.CustomizableEdges.BottomRight = false;
-            this.pnlSpace5.CustomizableEdges.TopRight = false;
-            this.pnlSpace5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSpace5.FillColor = System.Drawing.Color.White;
-            this.pnlSpace5.Location = new System.Drawing.Point(0, 0);
-            this.pnlSpace5.Name = "pnlSpace5";
-            this.pnlSpace5.Size = new System.Drawing.Size(15, 53);
-            this.pnlSpace5.TabIndex = 20;
-            // 
-            // pnlSpace10
-            // 
-            this.pnlSpace10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.pnlSpace10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSpace10.Location = new System.Drawing.Point(457, 0);
-            this.pnlSpace10.Name = "pnlSpace10";
-            this.pnlSpace10.Size = new System.Drawing.Size(20, 715);
-            this.pnlSpace10.TabIndex = 53;
-            // 
-            // pnlSpace8
-            // 
-            this.pnlSpace8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.pnlSpace8.BorderRadius = 15;
-            this.pnlSpace8.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            this.pnlSpace8.CustomizableEdges.BottomLeft = false;
-            this.pnlSpace8.CustomizableEdges.BottomRight = false;
-            this.pnlSpace8.CustomizableEdges.TopLeft = false;
-            this.pnlSpace8.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlSpace8.FillColor = System.Drawing.Color.White;
-            this.pnlSpace8.Location = new System.Drawing.Point(442, 0);
-            this.pnlSpace8.Name = "pnlSpace8";
-            this.pnlSpace8.Size = new System.Drawing.Size(15, 53);
-            this.pnlSpace8.TabIndex = 21;
-            // 
-            // pnlSpace3
-            // 
-            this.pnlSpace3.BackColor = System.Drawing.Color.White;
-            this.pnlSpace3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSpace3.Location = new System.Drawing.Point(0, 0);
-            this.pnlSpace3.Name = "pnlSpace3";
-            this.pnlSpace3.Size = new System.Drawing.Size(15, 35);
-            this.pnlSpace3.TabIndex = 40;
-            // 
-            // pnlSpace9
-            // 
-            this.pnlSpace9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.pnlSpace9.CustomizableEdges.BottomLeft = false;
-            this.pnlSpace9.CustomizableEdges.TopLeft = false;
-            this.pnlSpace9.CustomizableEdges.TopRight = false;
-            this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlSpace9.FillColor = System.Drawing.Color.White;
-            this.pnlSpace9.Location = new System.Drawing.Point(442, 0);
-            this.pnlSpace9.Name = "pnlSpace9";
-            this.pnlSpace9.Size = new System.Drawing.Size(15, 35);
-            this.pnlSpace9.TabIndex = 41;
-            // 
-            // btnToday
-            // 
-            this.btnToday.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(27)))), ((int)(((byte)(204)))));
-            this.btnToday.BorderRadius = 5;
-            this.btnToday.BorderThickness = 1;
-            this.btnToday.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnToday.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnToday.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnToday.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnToday.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnToday.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnToday.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(27)))), ((int)(((byte)(204)))));
-            this.btnToday.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.btnToday.ForeColor = System.Drawing.Color.White;
-            this.btnToday.Location = new System.Drawing.Point(352, 0);
-            this.btnToday.Name = "btnToday";
-            this.btnToday.Padding = new System.Windows.Forms.Padding(5);
-            this.btnToday.Size = new System.Drawing.Size(90, 35);
-            this.btnToday.TabIndex = 18;
-            this.btnToday.Text = "Today";
-            this.btnToday.Click += new System.EventHandler(this.btnToday_Click);
-            // 
-            // dtpSchedule
-            // 
-            this.dtpSchedule.BorderRadius = 5;
-            this.dtpSchedule.Checked = true;
-            this.dtpSchedule.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dtpSchedule.CustomFormat = "dddd, dd/MM/yyyy";
-            this.dtpSchedule.Dock = System.Windows.Forms.DockStyle.Left;
-            this.dtpSchedule.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(27)))), ((int)(((byte)(204)))));
-            this.dtpSchedule.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.dtpSchedule.ForeColor = System.Drawing.Color.White;
-            this.dtpSchedule.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpSchedule.Location = new System.Drawing.Point(15, 0);
-            this.dtpSchedule.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.dtpSchedule.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.dtpSchedule.Name = "dtpSchedule";
-            this.dtpSchedule.Size = new System.Drawing.Size(282, 35);
-            this.dtpSchedule.TabIndex = 2;
-            this.dtpSchedule.Value = new System.DateTime(2024, 10, 3, 15, 52, 47, 940);
-            this.dtpSchedule.ValueChanged += new System.EventHandler(this.dtpSchedule_ValueChanged);
-            // 
-            // pnlDTP_btnToday
-            // 
-            this.pnlDTP_btnToday.BackColor = System.Drawing.Color.White;
-            this.pnlDTP_btnToday.Controls.Add(this.dtpSchedule);
-            this.pnlDTP_btnToday.Controls.Add(this.btnToday);
-            this.pnlDTP_btnToday.Controls.Add(this.pnlSpace9);
-            this.pnlDTP_btnToday.Controls.Add(this.pnlSpace3);
-            this.pnlDTP_btnToday.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlDTP_btnToday.Location = new System.Drawing.Point(0, 53);
-            this.pnlDTP_btnToday.Name = "pnlDTP_btnToday";
-            this.pnlDTP_btnToday.Size = new System.Drawing.Size(457, 35);
-            this.pnlDTP_btnToday.TabIndex = 39;
+            this.pnlRight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlRight.BorderRadius = 15;
+            this.pnlRight.Controls.Add(this.pnlButtonAdd);
+            this.pnlRight.Controls.Add(this.pnlCalendar);
+            this.pnlRight.Controls.Add(this.pnlDTP_btnToday);
+            this.pnlRight.Controls.Add(this.pnlSchedules_Top);
+            this.pnlRight.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlRight.Location = new System.Drawing.Point(0, 0);
+            this.pnlRight.Name = "pnlRight";
+            this.pnlRight.Size = new System.Drawing.Size(457, 715);
+            this.pnlRight.TabIndex = 46;
             // 
             // pnlCalendar
             // 
@@ -230,7 +98,7 @@
             this.pnlCalendar.FillColor = System.Drawing.Color.White;
             this.pnlCalendar.Location = new System.Drawing.Point(0, 88);
             this.pnlCalendar.Name = "pnlCalendar";
-            this.pnlCalendar.Size = new System.Drawing.Size(457, 326);
+            this.pnlCalendar.Size = new System.Drawing.Size(457, 310);
             this.pnlCalendar.TabIndex = 40;
             // 
             // pnlBtnPrev_NextMonth
@@ -246,54 +114,17 @@
             this.pnlBtnPrev_NextMonth.FillColor = System.Drawing.Color.White;
             this.pnlBtnPrev_NextMonth.Location = new System.Drawing.Point(407, 0);
             this.pnlBtnPrev_NextMonth.Name = "pnlBtnPrev_NextMonth";
-            this.pnlBtnPrev_NextMonth.Size = new System.Drawing.Size(35, 326);
+            this.pnlBtnPrev_NextMonth.Size = new System.Drawing.Size(35, 310);
             this.pnlBtnPrev_NextMonth.TabIndex = 40;
             // 
-            // btnNextMonth
+            // pnlSpace4
             // 
-            this.btnNextMonth.BackColor = System.Drawing.Color.White;
-            this.btnNextMonth.BorderColor = System.Drawing.Color.White;
-            this.btnNextMonth.BorderRadius = 5;
-            this.btnNextMonth.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnNextMonth.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnNextMonth.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnNextMonth.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnNextMonth.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnNextMonth.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnNextMonth.FillColor = System.Drawing.Color.White;
-            this.btnNextMonth.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.btnNextMonth.ForeColor = System.Drawing.Color.White;
-            this.btnNextMonth.Image = global::GUI.Properties.Resources.down_arrow;
-            this.btnNextMonth.Location = new System.Drawing.Point(0, 54);
-            this.btnNextMonth.Name = "btnNextMonth";
-            this.btnNextMonth.Padding = new System.Windows.Forms.Padding(5);
-            this.btnNextMonth.PressedDepth = 5;
-            this.btnNextMonth.Size = new System.Drawing.Size(35, 35);
-            this.btnNextMonth.TabIndex = 20;
-            this.btnNextMonth.Click += new System.EventHandler(this.btnNextMonth_Click);
-            // 
-            // btnPrevMonth
-            // 
-            this.btnPrevMonth.BackColor = System.Drawing.Color.White;
-            this.btnPrevMonth.BorderColor = System.Drawing.Color.White;
-            this.btnPrevMonth.BorderRadius = 5;
-            this.btnPrevMonth.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPrevMonth.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnPrevMonth.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnPrevMonth.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPrevMonth.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnPrevMonth.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPrevMonth.FillColor = System.Drawing.Color.White;
-            this.btnPrevMonth.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.btnPrevMonth.ForeColor = System.Drawing.Color.White;
-            this.btnPrevMonth.Image = global::GUI.Properties.Resources.top_arrow;
-            this.btnPrevMonth.Location = new System.Drawing.Point(0, 19);
-            this.btnPrevMonth.Name = "btnPrevMonth";
-            this.btnPrevMonth.Padding = new System.Windows.Forms.Padding(5);
-            this.btnPrevMonth.PressedDepth = 5;
-            this.btnPrevMonth.Size = new System.Drawing.Size(35, 35);
-            this.btnPrevMonth.TabIndex = 21;
-            this.btnPrevMonth.Click += new System.EventHandler(this.btnPrevMonth_Click);
+            this.pnlSpace4.BackColor = System.Drawing.Color.White;
+            this.pnlSpace4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSpace4.Location = new System.Drawing.Point(0, 0);
+            this.pnlSpace4.Name = "pnlSpace4";
+            this.pnlSpace4.Size = new System.Drawing.Size(35, 19);
+            this.pnlSpace4.TabIndex = 41;
             // 
             // pnlMatrix
             // 
@@ -309,7 +140,7 @@
             this.pnlMatrix.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMatrix.Location = new System.Drawing.Point(15, 0);
             this.pnlMatrix.Name = "pnlMatrix";
-            this.pnlMatrix.Size = new System.Drawing.Size(392, 326);
+            this.pnlMatrix.Size = new System.Drawing.Size(392, 310);
             this.pnlMatrix.TabIndex = 37;
             // 
             // pnlSpace6
@@ -418,7 +249,7 @@
             this.pnlSpace1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlSpace1.Location = new System.Drawing.Point(0, 0);
             this.pnlSpace1.Name = "pnlSpace1";
-            this.pnlSpace1.Size = new System.Drawing.Size(15, 326);
+            this.pnlSpace1.Size = new System.Drawing.Size(15, 310);
             this.pnlSpace1.TabIndex = 39;
             // 
             // pnlSpace2
@@ -431,17 +262,308 @@
             this.pnlSpace2.FillColor = System.Drawing.Color.White;
             this.pnlSpace2.Location = new System.Drawing.Point(442, 0);
             this.pnlSpace2.Name = "pnlSpace2";
-            this.pnlSpace2.Size = new System.Drawing.Size(15, 326);
+            this.pnlSpace2.Size = new System.Drawing.Size(15, 310);
             this.pnlSpace2.TabIndex = 38;
             // 
-            // pnlSpace4
+            // pnlDTP_btnToday
             // 
-            this.pnlSpace4.BackColor = System.Drawing.Color.White;
-            this.pnlSpace4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSpace4.Location = new System.Drawing.Point(0, 0);
-            this.pnlSpace4.Name = "pnlSpace4";
-            this.pnlSpace4.Size = new System.Drawing.Size(35, 19);
-            this.pnlSpace4.TabIndex = 41;
+            this.pnlDTP_btnToday.BackColor = System.Drawing.Color.White;
+            this.pnlDTP_btnToday.Controls.Add(this.dtpSchedule);
+            this.pnlDTP_btnToday.Controls.Add(this.btnToday);
+            this.pnlDTP_btnToday.Controls.Add(this.pnlSpace9);
+            this.pnlDTP_btnToday.Controls.Add(this.pnlSpace3);
+            this.pnlDTP_btnToday.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlDTP_btnToday.Location = new System.Drawing.Point(0, 53);
+            this.pnlDTP_btnToday.Name = "pnlDTP_btnToday";
+            this.pnlDTP_btnToday.Size = new System.Drawing.Size(457, 35);
+            this.pnlDTP_btnToday.TabIndex = 39;
+            // 
+            // dtpSchedule
+            // 
+            this.dtpSchedule.BorderRadius = 5;
+            this.dtpSchedule.Checked = true;
+            this.dtpSchedule.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dtpSchedule.CustomFormat = "dddd, dd/MM/yyyy";
+            this.dtpSchedule.Dock = System.Windows.Forms.DockStyle.Left;
+            this.dtpSchedule.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(27)))), ((int)(((byte)(204)))));
+            this.dtpSchedule.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtpSchedule.ForeColor = System.Drawing.Color.White;
+            this.dtpSchedule.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpSchedule.Location = new System.Drawing.Point(15, 0);
+            this.dtpSchedule.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtpSchedule.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtpSchedule.Name = "dtpSchedule";
+            this.dtpSchedule.Size = new System.Drawing.Size(282, 35);
+            this.dtpSchedule.TabIndex = 2;
+            this.dtpSchedule.Value = new System.DateTime(2024, 10, 3, 15, 52, 47, 940);
+            this.dtpSchedule.ValueChanged += new System.EventHandler(this.dtpSchedule_ValueChanged);
+            // 
+            // btnToday
+            // 
+            this.btnToday.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(27)))), ((int)(((byte)(204)))));
+            this.btnToday.BorderRadius = 5;
+            this.btnToday.BorderThickness = 1;
+            this.btnToday.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnToday.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnToday.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnToday.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnToday.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnToday.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnToday.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(27)))), ((int)(((byte)(204)))));
+            this.btnToday.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.btnToday.ForeColor = System.Drawing.Color.White;
+            this.btnToday.Location = new System.Drawing.Point(352, 0);
+            this.btnToday.Name = "btnToday";
+            this.btnToday.Padding = new System.Windows.Forms.Padding(5);
+            this.btnToday.Size = new System.Drawing.Size(90, 35);
+            this.btnToday.TabIndex = 18;
+            this.btnToday.Text = "Today";
+            this.btnToday.Click += new System.EventHandler(this.btnToday_Click);
+            // 
+            // pnlSpace9
+            // 
+            this.pnlSpace9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSpace9.CustomizableEdges.BottomLeft = false;
+            this.pnlSpace9.CustomizableEdges.TopLeft = false;
+            this.pnlSpace9.CustomizableEdges.TopRight = false;
+            this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlSpace9.FillColor = System.Drawing.Color.White;
+            this.pnlSpace9.Location = new System.Drawing.Point(442, 0);
+            this.pnlSpace9.Name = "pnlSpace9";
+            this.pnlSpace9.Size = new System.Drawing.Size(15, 35);
+            this.pnlSpace9.TabIndex = 41;
+            // 
+            // pnlSpace3
+            // 
+            this.pnlSpace3.BackColor = System.Drawing.Color.White;
+            this.pnlSpace3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlSpace3.Location = new System.Drawing.Point(0, 0);
+            this.pnlSpace3.Name = "pnlSpace3";
+            this.pnlSpace3.Size = new System.Drawing.Size(15, 35);
+            this.pnlSpace3.TabIndex = 40;
+            // 
+            // pnlSchedules_Top
+            // 
+            this.pnlSchedules_Top.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSchedules_Top.BorderRadius = 15;
+            this.pnlSchedules_Top.Controls.Add(this.pnlSpace8);
+            this.pnlSchedules_Top.Controls.Add(this.lblSchedules);
+            this.pnlSchedules_Top.Controls.Add(this.pnlSpace5);
+            this.pnlSchedules_Top.CustomizableEdges.BottomRight = false;
+            this.pnlSchedules_Top.CustomizableEdges.TopLeft = false;
+            this.pnlSchedules_Top.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSchedules_Top.FillColor = System.Drawing.Color.White;
+            this.pnlSchedules_Top.Location = new System.Drawing.Point(0, 0);
+            this.pnlSchedules_Top.Name = "pnlSchedules_Top";
+            this.pnlSchedules_Top.Size = new System.Drawing.Size(457, 53);
+            this.pnlSchedules_Top.TabIndex = 0;
+            // 
+            // pnlSpace8
+            // 
+            this.pnlSpace8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSpace8.BorderRadius = 15;
+            this.pnlSpace8.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            this.pnlSpace8.CustomizableEdges.BottomLeft = false;
+            this.pnlSpace8.CustomizableEdges.BottomRight = false;
+            this.pnlSpace8.CustomizableEdges.TopLeft = false;
+            this.pnlSpace8.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlSpace8.FillColor = System.Drawing.Color.White;
+            this.pnlSpace8.Location = new System.Drawing.Point(442, 0);
+            this.pnlSpace8.Name = "pnlSpace8";
+            this.pnlSpace8.Size = new System.Drawing.Size(15, 53);
+            this.pnlSpace8.TabIndex = 21;
+            // 
+            // lblSchedules
+            // 
+            this.lblSchedules.BackColor = System.Drawing.Color.White;
+            this.lblSchedules.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lblSchedules.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSchedules.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+            this.lblSchedules.Location = new System.Drawing.Point(15, 0);
+            this.lblSchedules.Name = "lblSchedules";
+            this.lblSchedules.Size = new System.Drawing.Size(125, 53);
+            this.lblSchedules.TabIndex = 15;
+            this.lblSchedules.Text = "Schedules";
+            this.lblSchedules.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pnlSpace5
+            // 
+            this.pnlSpace5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSpace5.BorderRadius = 15;
+            this.pnlSpace5.CustomizableEdges.BottomLeft = false;
+            this.pnlSpace5.CustomizableEdges.BottomRight = false;
+            this.pnlSpace5.CustomizableEdges.TopRight = false;
+            this.pnlSpace5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlSpace5.FillColor = System.Drawing.Color.White;
+            this.pnlSpace5.Location = new System.Drawing.Point(0, 0);
+            this.pnlSpace5.Name = "pnlSpace5";
+            this.pnlSpace5.Size = new System.Drawing.Size(15, 53);
+            this.pnlSpace5.TabIndex = 20;
+            // 
+            // pnlSpace10
+            // 
+            this.pnlSpace10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSpace10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlSpace10.Location = new System.Drawing.Point(457, 0);
+            this.pnlSpace10.Name = "pnlSpace10";
+            this.pnlSpace10.Size = new System.Drawing.Size(20, 715);
+            this.pnlSpace10.TabIndex = 53;
+            // 
+            // pnlButtonAdd
+            // 
+            this.pnlButtonAdd.Controls.Add(this.btnOpenAddScheduleForm);
+            this.pnlButtonAdd.Controls.Add(this.pnlSpace7);
+            this.pnlButtonAdd.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlButtonAdd.FillColor = System.Drawing.Color.White;
+            this.pnlButtonAdd.Location = new System.Drawing.Point(0, 398);
+            this.pnlButtonAdd.Name = "pnlButtonAdd";
+            this.pnlButtonAdd.Size = new System.Drawing.Size(457, 35);
+            this.pnlButtonAdd.TabIndex = 43;
+            // 
+            // btnOpenAddScheduleForm
+            // 
+            this.btnOpenAddScheduleForm.BorderRadius = 5;
+            this.btnOpenAddScheduleForm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOpenAddScheduleForm.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnOpenAddScheduleForm.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnOpenAddScheduleForm.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnOpenAddScheduleForm.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnOpenAddScheduleForm.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnOpenAddScheduleForm.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
+            this.btnOpenAddScheduleForm.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOpenAddScheduleForm.ForeColor = System.Drawing.Color.White;
+            this.btnOpenAddScheduleForm.Location = new System.Drawing.Point(15, 0);
+            this.btnOpenAddScheduleForm.Name = "btnOpenAddScheduleForm";
+            this.btnOpenAddScheduleForm.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnOpenAddScheduleForm.Size = new System.Drawing.Size(130, 35);
+            this.btnOpenAddScheduleForm.TabIndex = 17;
+            this.btnOpenAddScheduleForm.Text = "Assign";
+            this.btnOpenAddScheduleForm.Click += new System.EventHandler(this.btnOpenAddScheduleForm_Click);
+            // 
+            // pnlSpace7
+            // 
+            this.pnlSpace7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlSpace7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlSpace7.FillColor = System.Drawing.Color.White;
+            this.pnlSpace7.Location = new System.Drawing.Point(0, 0);
+            this.pnlSpace7.Name = "pnlSpace7";
+            this.pnlSpace7.Size = new System.Drawing.Size(15, 35);
+            this.pnlSpace7.TabIndex = 10;
+            // 
+            // pnlLeft
+            // 
+            this.pnlLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.pnlLeft.BorderRadius = 15;
+            this.pnlLeft.Controls.Add(this.guna2Panel12);
+            this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlLeft.Location = new System.Drawing.Point(477, 0);
+            this.pnlLeft.Name = "pnlLeft";
+            this.pnlLeft.Size = new System.Drawing.Size(457, 715);
+            this.pnlLeft.TabIndex = 54;
+            // 
+            // guna2Panel12
+            // 
+            this.guna2Panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.guna2Panel12.BorderRadius = 15;
+            this.guna2Panel12.Controls.Add(this.guna2Panel13);
+            this.guna2Panel12.Controls.Add(this.label1);
+            this.guna2Panel12.Controls.Add(this.guna2Panel14);
+            this.guna2Panel12.CustomizableEdges.BottomRight = false;
+            this.guna2Panel12.CustomizableEdges.TopLeft = false;
+            this.guna2Panel12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel12.FillColor = System.Drawing.Color.White;
+            this.guna2Panel12.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel12.Name = "guna2Panel12";
+            this.guna2Panel12.Size = new System.Drawing.Size(457, 53);
+            this.guna2Panel12.TabIndex = 0;
+            // 
+            // guna2Panel13
+            // 
+            this.guna2Panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.guna2Panel13.BorderRadius = 15;
+            this.guna2Panel13.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            this.guna2Panel13.CustomizableEdges.BottomLeft = false;
+            this.guna2Panel13.CustomizableEdges.BottomRight = false;
+            this.guna2Panel13.CustomizableEdges.TopLeft = false;
+            this.guna2Panel13.Dock = System.Windows.Forms.DockStyle.Right;
+            this.guna2Panel13.FillColor = System.Drawing.Color.White;
+            this.guna2Panel13.Location = new System.Drawing.Point(442, 0);
+            this.guna2Panel13.Name = "guna2Panel13";
+            this.guna2Panel13.Size = new System.Drawing.Size(15, 53);
+            this.guna2Panel13.TabIndex = 21;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+            this.label1.Location = new System.Drawing.Point(15, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(125, 53);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Schedules";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // guna2Panel14
+            // 
+            this.guna2Panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.guna2Panel14.BorderRadius = 15;
+            this.guna2Panel14.CustomizableEdges.BottomLeft = false;
+            this.guna2Panel14.CustomizableEdges.BottomRight = false;
+            this.guna2Panel14.CustomizableEdges.TopRight = false;
+            this.guna2Panel14.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel14.FillColor = System.Drawing.Color.White;
+            this.guna2Panel14.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel14.Name = "guna2Panel14";
+            this.guna2Panel14.Size = new System.Drawing.Size(15, 53);
+            this.guna2Panel14.TabIndex = 20;
+            // 
+            // btnNextMonth
+            // 
+            this.btnNextMonth.BackColor = System.Drawing.Color.White;
+            this.btnNextMonth.BorderColor = System.Drawing.Color.White;
+            this.btnNextMonth.BorderRadius = 5;
+            this.btnNextMonth.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNextMonth.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnNextMonth.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnNextMonth.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnNextMonth.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnNextMonth.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnNextMonth.FillColor = System.Drawing.Color.White;
+            this.btnNextMonth.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.btnNextMonth.ForeColor = System.Drawing.Color.White;
+            this.btnNextMonth.Image = global::GUI.Properties.Resources.down_arrow;
+            this.btnNextMonth.Location = new System.Drawing.Point(0, 54);
+            this.btnNextMonth.Name = "btnNextMonth";
+            this.btnNextMonth.Padding = new System.Windows.Forms.Padding(5);
+            this.btnNextMonth.PressedDepth = 5;
+            this.btnNextMonth.Size = new System.Drawing.Size(35, 35);
+            this.btnNextMonth.TabIndex = 20;
+            this.btnNextMonth.Click += new System.EventHandler(this.btnNextMonth_Click);
+            // 
+            // btnPrevMonth
+            // 
+            this.btnPrevMonth.BackColor = System.Drawing.Color.White;
+            this.btnPrevMonth.BorderColor = System.Drawing.Color.White;
+            this.btnPrevMonth.BorderRadius = 5;
+            this.btnPrevMonth.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPrevMonth.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPrevMonth.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPrevMonth.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPrevMonth.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPrevMonth.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPrevMonth.FillColor = System.Drawing.Color.White;
+            this.btnPrevMonth.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.btnPrevMonth.ForeColor = System.Drawing.Color.White;
+            this.btnPrevMonth.Image = global::GUI.Properties.Resources.top_arrow;
+            this.btnPrevMonth.Location = new System.Drawing.Point(0, 19);
+            this.btnPrevMonth.Name = "btnPrevMonth";
+            this.btnPrevMonth.Padding = new System.Windows.Forms.Padding(5);
+            this.btnPrevMonth.PressedDepth = 5;
+            this.btnPrevMonth.Size = new System.Drawing.Size(35, 35);
+            this.btnPrevMonth.TabIndex = 21;
+            this.btnPrevMonth.Click += new System.EventHandler(this.btnPrevMonth_Click);
             // 
             // ScheduleForm
             // 
@@ -449,27 +571,31 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(940, 715);
+            this.Controls.Add(this.pnlLeft);
             this.Controls.Add(this.pnlSpace10);
-            this.Controls.Add(this.pnlTeachers);
+            this.Controls.Add(this.pnlRight);
             this.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ScheduleForm";
             this.Text = "ScheduleForm";
-            this.pnlTeachers.ResumeLayout(false);
-            this.pnlSchedules_Top.ResumeLayout(false);
-            this.pnlDTP_btnToday.ResumeLayout(false);
+            this.pnlRight.ResumeLayout(false);
             this.pnlCalendar.ResumeLayout(false);
             this.pnlBtnPrev_NextMonth.ResumeLayout(false);
             this.pnlMatrix.ResumeLayout(false);
+            this.pnlDTP_btnToday.ResumeLayout(false);
+            this.pnlSchedules_Top.ResumeLayout(false);
+            this.pnlButtonAdd.ResumeLayout(false);
+            this.pnlLeft.ResumeLayout(false);
+            this.guna2Panel12.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
 		#endregion
 
-		private Guna.UI2.WinForms.Guna2CustomGradientPanel pnlTeachers;
+		private Guna.UI2.WinForms.Guna2CustomGradientPanel pnlRight;
 		private Guna.UI2.WinForms.Guna2Panel pnlSchedules_Top;
-		private System.Windows.Forms.Label lblTeachers;
+		private System.Windows.Forms.Label lblSchedules;
 		private Guna.UI2.WinForms.Guna2Panel pnlSpace5;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace10;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace8;
@@ -494,5 +620,13 @@
         private Guna.UI2.WinForms.Guna2Panel pnlSpace9;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace3;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace4;
+        private Guna.UI2.WinForms.Guna2Panel pnlButtonAdd;
+        private Guna.UI2.WinForms.Guna2Button btnOpenAddScheduleForm;
+        private Guna.UI2.WinForms.Guna2Panel pnlSpace7;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel pnlLeft;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel13;
+        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel14;
     }
 }
