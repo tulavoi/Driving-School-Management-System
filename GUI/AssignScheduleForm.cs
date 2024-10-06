@@ -12,15 +12,27 @@ namespace GUI
 {
     public partial class AssignScheduleForm : Form
     {
-        public AssignScheduleForm()
+        #region Properties
+        private DateTime _date;
+        #endregion
+
+        public AssignScheduleForm(DateTime date)
         {
             InitializeComponent();
+            _date = date;
             FormHelper.ApplyRoundedCorners(this, 20);
         }
 
         private void AssignScheduleForm_Load(object sender, EventArgs e)
         {
             shadowForm.SetShadowForm(this);
+
+            this.AssignDateToLabel();
+        }
+
+        private void AssignDateToLabel()
+        {
+            lblDateAssign.Text = _date.ToString("dd/MM/yyyy");
         }
     }
 }

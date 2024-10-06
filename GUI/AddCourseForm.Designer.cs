@@ -79,18 +79,18 @@
             // 
             this.pnlLineLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlLineLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlLineLeft.Location = new System.Drawing.Point(0, 30);
+            this.pnlLineLeft.Location = new System.Drawing.Point(0, 25);
             this.pnlLineLeft.Name = "pnlLineLeft";
-            this.pnlLineLeft.Size = new System.Drawing.Size(30, 330);
+            this.pnlLineLeft.Size = new System.Drawing.Size(25, 340);
             this.pnlLineLeft.TabIndex = 48;
             // 
             // pnlLineRight
             // 
             this.pnlLineRight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlLineRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlLineRight.Location = new System.Drawing.Point(430, 30);
+            this.pnlLineRight.Location = new System.Drawing.Point(435, 25);
             this.pnlLineRight.Name = "pnlLineRight";
-            this.pnlLineRight.Size = new System.Drawing.Size(30, 330);
+            this.pnlLineRight.Size = new System.Drawing.Size(25, 340);
             this.pnlLineRight.TabIndex = 50;
             // 
             // pnlLineTop
@@ -101,7 +101,7 @@
             this.pnlLineTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlLineTop.Location = new System.Drawing.Point(0, 0);
             this.pnlLineTop.Name = "pnlLineTop";
-            this.pnlLineTop.Size = new System.Drawing.Size(460, 30);
+            this.pnlLineTop.Size = new System.Drawing.Size(460, 25);
             this.pnlLineTop.TabIndex = 47;
             // 
             // btnMinimizeForm
@@ -116,9 +116,9 @@
             this.btnMinimizeForm.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
             this.btnMinimizeForm.HoverState.IconColor = System.Drawing.Color.Black;
             this.btnMinimizeForm.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.btnMinimizeForm.Location = new System.Drawing.Point(361, 0);
+            this.btnMinimizeForm.Location = new System.Drawing.Point(370, 0);
             this.btnMinimizeForm.Name = "btnMinimizeForm";
-            this.btnMinimizeForm.Size = new System.Drawing.Size(49, 30);
+            this.btnMinimizeForm.Size = new System.Drawing.Size(45, 25);
             this.btnMinimizeForm.TabIndex = 31;
             // 
             // btnCloseForm
@@ -132,18 +132,18 @@
             this.btnCloseForm.HoverState.FillColor = System.Drawing.Color.Red;
             this.btnCloseForm.HoverState.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnCloseForm.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.btnCloseForm.Location = new System.Drawing.Point(410, 0);
+            this.btnCloseForm.Location = new System.Drawing.Point(415, 0);
             this.btnCloseForm.Name = "btnCloseForm";
-            this.btnCloseForm.Size = new System.Drawing.Size(50, 30);
+            this.btnCloseForm.Size = new System.Drawing.Size(45, 25);
             this.btnCloseForm.TabIndex = 30;
             // 
             // pnlLineBottom
             // 
             this.pnlLineBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlLineBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlLineBottom.Location = new System.Drawing.Point(0, 360);
+            this.pnlLineBottom.Location = new System.Drawing.Point(0, 365);
             this.pnlLineBottom.Name = "pnlLineBottom";
-            this.pnlLineBottom.Size = new System.Drawing.Size(460, 30);
+            this.pnlLineBottom.Size = new System.Drawing.Size(460, 25);
             this.pnlLineBottom.TabIndex = 49;
             // 
             // guna2DragControl1
@@ -171,9 +171,9 @@
             this.pnlMain.Controls.Add(this.pnlSpace5);
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMain.FillColor = System.Drawing.Color.White;
-            this.pnlMain.Location = new System.Drawing.Point(30, 30);
+            this.pnlMain.Location = new System.Drawing.Point(25, 25);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(400, 330);
+            this.pnlMain.Size = new System.Drawing.Size(410, 340);
             this.pnlMain.TabIndex = 51;
             // 
             // pnlButtonAdd_Cancel
@@ -186,7 +186,7 @@
             this.pnlButtonAdd_Cancel.FillColor = System.Drawing.Color.White;
             this.pnlButtonAdd_Cancel.Location = new System.Drawing.Point(0, 275);
             this.pnlButtonAdd_Cancel.Name = "pnlButtonAdd_Cancel";
-            this.pnlButtonAdd_Cancel.Size = new System.Drawing.Size(383, 35);
+            this.pnlButtonAdd_Cancel.Size = new System.Drawing.Size(393, 35);
             this.pnlButtonAdd_Cancel.TabIndex = 129;
             // 
             // pnlSpace11
@@ -196,7 +196,7 @@
             this.pnlSpace11.FillColor = System.Drawing.Color.White;
             this.pnlSpace11.Location = new System.Drawing.Point(175, 0);
             this.pnlSpace11.Name = "pnlSpace11";
-            this.pnlSpace11.Size = new System.Drawing.Size(58, 35);
+            this.pnlSpace11.Size = new System.Drawing.Size(68, 35);
             this.pnlSpace11.TabIndex = 18;
             // 
             // btnCancel
@@ -211,7 +211,7 @@
             this.btnCancel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(100)))), ((int)(((byte)(119)))));
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(233, 0);
+            this.btnCancel.Location = new System.Drawing.Point(243, 0);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Padding = new System.Windows.Forms.Padding(5);
             this.btnCancel.Size = new System.Drawing.Size(150, 35);
@@ -253,7 +253,7 @@
             this.pnlSpace9.FillColor = System.Drawing.Color.White;
             this.pnlSpace9.Location = new System.Drawing.Point(0, 250);
             this.pnlSpace9.Name = "pnlSpace9";
-            this.pnlSpace9.Size = new System.Drawing.Size(383, 25);
+            this.pnlSpace9.Size = new System.Drawing.Size(393, 25);
             this.pnlSpace9.TabIndex = 128;
             // 
             // pnlSpace8
@@ -262,7 +262,7 @@
             this.pnlSpace8.FillColor = System.Drawing.Color.White;
             this.pnlSpace8.Location = new System.Drawing.Point(0, 245);
             this.pnlSpace8.Name = "pnlSpace8";
-            this.pnlSpace8.Size = new System.Drawing.Size(383, 5);
+            this.pnlSpace8.Size = new System.Drawing.Size(393, 5);
             this.pnlSpace8.TabIndex = 126;
             // 
             // pnlName
@@ -273,7 +273,7 @@
             this.pnlName.FillColor = System.Drawing.Color.White;
             this.pnlName.Location = new System.Drawing.Point(0, 205);
             this.pnlName.Name = "pnlName";
-            this.pnlName.Size = new System.Drawing.Size(383, 40);
+            this.pnlName.Size = new System.Drawing.Size(393, 40);
             this.pnlName.TabIndex = 125;
             // 
             // txtName
@@ -299,7 +299,7 @@
             this.txtName.PasswordChar = '\0';
             this.txtName.PlaceholderText = "";
             this.txtName.SelectedText = "";
-            this.txtName.Size = new System.Drawing.Size(258, 40);
+            this.txtName.Size = new System.Drawing.Size(268, 40);
             this.txtName.TabIndex = 31;
             // 
             // lblName
@@ -321,7 +321,7 @@
             this.pnlSpace7.FillColor = System.Drawing.Color.White;
             this.pnlSpace7.Location = new System.Drawing.Point(0, 200);
             this.pnlSpace7.Name = "pnlSpace7";
-            this.pnlSpace7.Size = new System.Drawing.Size(383, 5);
+            this.pnlSpace7.Size = new System.Drawing.Size(393, 5);
             this.pnlSpace7.TabIndex = 124;
             // 
             // pnlDuration
@@ -334,7 +334,7 @@
             this.pnlDuration.Location = new System.Drawing.Point(0, 160);
             this.pnlDuration.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.pnlDuration.Name = "pnlDuration";
-            this.pnlDuration.Size = new System.Drawing.Size(383, 40);
+            this.pnlDuration.Size = new System.Drawing.Size(393, 40);
             this.pnlDuration.TabIndex = 121;
             // 
             // txtDurationInHours
@@ -360,7 +360,7 @@
             this.txtDurationInHours.PasswordChar = '\0';
             this.txtDurationInHours.PlaceholderText = "";
             this.txtDurationInHours.SelectedText = "";
-            this.txtDurationInHours.Size = new System.Drawing.Size(147, 40);
+            this.txtDurationInHours.Size = new System.Drawing.Size(157, 40);
             this.txtDurationInHours.TabIndex = 31;
             // 
             // txtHour
@@ -379,7 +379,7 @@
             this.txtHour.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.txtHour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
             this.txtHour.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.txtHour.Location = new System.Drawing.Point(272, 0);
+            this.txtHour.Location = new System.Drawing.Point(282, 0);
             this.txtHour.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtHour.Name = "txtHour";
             this.txtHour.PasswordChar = '\0';
@@ -407,7 +407,7 @@
             this.pnlSpace3.FillColor = System.Drawing.Color.White;
             this.pnlSpace3.Location = new System.Drawing.Point(0, 155);
             this.pnlSpace3.Name = "pnlSpace3";
-            this.pnlSpace3.Size = new System.Drawing.Size(383, 5);
+            this.pnlSpace3.Size = new System.Drawing.Size(393, 5);
             this.pnlSpace3.TabIndex = 120;
             // 
             // pnlFee
@@ -419,7 +419,7 @@
             this.pnlFee.FillColor = System.Drawing.Color.White;
             this.pnlFee.Location = new System.Drawing.Point(0, 115);
             this.pnlFee.Name = "pnlFee";
-            this.pnlFee.Size = new System.Drawing.Size(383, 40);
+            this.pnlFee.Size = new System.Drawing.Size(393, 40);
             this.pnlFee.TabIndex = 119;
             // 
             // txtFee
@@ -444,7 +444,7 @@
             this.txtFee.PasswordChar = '\0';
             this.txtFee.PlaceholderText = "";
             this.txtFee.SelectedText = "";
-            this.txtFee.Size = new System.Drawing.Size(147, 40);
+            this.txtFee.Size = new System.Drawing.Size(157, 40);
             this.txtFee.TabIndex = 27;
             // 
             // txtVND
@@ -463,7 +463,7 @@
             this.txtVND.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.txtVND.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
             this.txtVND.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.txtVND.Location = new System.Drawing.Point(272, 0);
+            this.txtVND.Location = new System.Drawing.Point(282, 0);
             this.txtVND.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtVND.Name = "txtVND";
             this.txtVND.PasswordChar = '\0';
@@ -491,7 +491,7 @@
             this.pnlSpace2.FillColor = System.Drawing.Color.White;
             this.pnlSpace2.Location = new System.Drawing.Point(0, 110);
             this.pnlSpace2.Name = "pnlSpace2";
-            this.pnlSpace2.Size = new System.Drawing.Size(383, 5);
+            this.pnlSpace2.Size = new System.Drawing.Size(393, 5);
             this.pnlSpace2.TabIndex = 118;
             // 
             // pnlLicense
@@ -502,7 +502,7 @@
             this.pnlLicense.FillColor = System.Drawing.Color.White;
             this.pnlLicense.Location = new System.Drawing.Point(0, 70);
             this.pnlLicense.Name = "pnlLicense";
-            this.pnlLicense.Size = new System.Drawing.Size(383, 40);
+            this.pnlLicense.Size = new System.Drawing.Size(393, 40);
             this.pnlLicense.TabIndex = 117;
             // 
             // cboLicense
@@ -529,7 +529,7 @@
             "E"});
             this.cboLicense.Location = new System.Drawing.Point(125, 0);
             this.cboLicense.Name = "cboLicense";
-            this.cboLicense.Size = new System.Drawing.Size(258, 36);
+            this.cboLicense.Size = new System.Drawing.Size(268, 36);
             this.cboLicense.StartIndex = 0;
             this.cboLicense.TabIndex = 4;
             // 
@@ -552,7 +552,7 @@
             this.pnlSpace1.FillColor = System.Drawing.Color.White;
             this.pnlSpace1.Location = new System.Drawing.Point(0, 55);
             this.pnlSpace1.Name = "pnlSpace1";
-            this.pnlSpace1.Size = new System.Drawing.Size(383, 15);
+            this.pnlSpace1.Size = new System.Drawing.Size(393, 15);
             this.pnlSpace1.TabIndex = 116;
             // 
             // pnlSpace6
@@ -564,9 +564,9 @@
             this.pnlSpace6.CustomizableEdges.TopRight = false;
             this.pnlSpace6.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlSpace6.FillColor = System.Drawing.Color.White;
-            this.pnlSpace6.Location = new System.Drawing.Point(383, 55);
+            this.pnlSpace6.Location = new System.Drawing.Point(393, 55);
             this.pnlSpace6.Name = "pnlSpace6";
-            this.pnlSpace6.Size = new System.Drawing.Size(17, 275);
+            this.pnlSpace6.Size = new System.Drawing.Size(17, 285);
             this.pnlSpace6.TabIndex = 115;
             // 
             // lblAdd
@@ -577,7 +577,7 @@
             this.lblAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
             this.lblAdd.Location = new System.Drawing.Point(0, 15);
             this.lblAdd.Name = "lblAdd";
-            this.lblAdd.Size = new System.Drawing.Size(400, 40);
+            this.lblAdd.Size = new System.Drawing.Size(410, 40);
             this.lblAdd.TabIndex = 114;
             this.lblAdd.Text = "   Add Course";
             // 
@@ -591,7 +591,7 @@
             this.pnlSpace5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
             this.pnlSpace5.Location = new System.Drawing.Point(0, 0);
             this.pnlSpace5.Name = "pnlSpace5";
-            this.pnlSpace5.Size = new System.Drawing.Size(400, 15);
+            this.pnlSpace5.Size = new System.Drawing.Size(410, 15);
             this.pnlSpace5.TabIndex = 15;
             // 
             // AddCourseForm

@@ -1,8 +1,11 @@
 ﻿using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Drawing;
 using System.Management;
+using System.Web.UI.Design;
+using System.Web.UI.WebControls;
 using System.Windows.Forms;
 
 namespace GUI
@@ -48,6 +51,8 @@ namespace GUI
 				{
 					Guna2Button btn = this.CreateGunaButton(initialBtn);
 
+					btn.DoubleClick += new EventHandler(Btn_DoubleClick);
+
 					pnlMatrix.Controls.Add(btn);
 					row.Add(btn);
 
@@ -60,7 +65,7 @@ namespace GUI
 			this.SetCurrentDate();
 		}
 
-		public void AddNumberToMatrixByDate(DateTime date)
+        public void AddNumberToMatrixByDate(DateTime date)
 		{
 			this.ResetMatrixButtons();
 
@@ -83,7 +88,33 @@ namespace GUI
 			}
         }
 
-		private void UpdateBtnStylesByDate(DateTime curDate, DateTime date, Guna2Button btn)
+        private void Btn_DoubleClick(object sender, EventArgs e)
+        {
+            Guna2Button btn = sender as Guna2Button;
+
+            if (btn != null && !string.IsNullOrEmpty(btn.Text))
+            {
+				DateTime date = this.GetDateTimeFromBtn(btn);
+
+				this.OpenAssignScheduleForm(date);
+            }
+        }
+
+        private DateTime GetDateTimeFromBtn(Guna2Button btn)
+        {
+            int year = dtpSchedule.Value.Year;
+            int month = dtpSchedule.Value.Month;
+            int day = Convert.ToInt32(btn.Text);
+			return new DateTime(year, month, day);
+        }
+
+        private void OpenAssignScheduleForm(DateTime date)
+        {
+            AssignScheduleForm frm = new AssignScheduleForm(date);
+            frm.ShowDialog();
+        }
+
+        private void UpdateBtnStylesByDate(DateTime curDate, DateTime date, Guna2Button btn)
 		{
 			if (this.IsEqualDate(curDate, date))
 				this.UpdateBtnForSelectedDay(btn);
@@ -153,6 +184,7 @@ namespace GUI
 				Height = Constant.dayButtonHeight,
 				Location = new Point(initialBtn.Location.X + initialBtn.Width, initialBtn.Location.Y),
 				FillColor = Color.White,
+				Cursor = Cursors.Hand,
 				BorderRadius = 5,
 				ForeColor = Color.FromArgb(49, 50, 52),
 				HoverState = new Guna.UI2.WinForms.Suite.ButtonState()
@@ -204,8 +236,37 @@ namespace GUI
 
         private void btnOpenAddScheduleForm_Click(object sender, EventArgs e)
         {
-			AssignScheduleForm frm = new AssignScheduleForm();
-			frm.ShowDialog();
+			this.OpenAssignScheduleForm(dtpSchedule.Value);
+        }
+
+        private void ScheduleForm_Load(object sender, EventArgs e)
+        {
+			this.LoadSampleData();
+        }
+
+        private void LoadSampleData()
+        {
+            // Tạo bảng dữ liệu mẫu
+            DataTable dataTable = new DataTable();
+
+            dataTable.Columns.Add("Space", typeof(string));
+            dataTable.Columns.Add("CourseName", typeof(string));
+            dataTable.Columns.Add("LearnerName", typeof(string));
+            dataTable.Columns.Add("TeacherName", typeof(string));
+            dataTable.Columns.Add("VehicleName", typeof(string));
+            dataTable.Columns.Add("StartDate", typeof(string));
+            dataTable.Columns.Add("EndDate", typeof(string));
+            dataTable.Columns.Add("Time", typeof(string));
+            dataTable.Columns.Add("Status", typeof(string));
+
+            // Thêm các hàng dữ liệu mẫu vào DataTable
+            dataTable.Rows.Add("", "Basic Driving", "Nguyen Van A", "Tran Thi B", "Toyota", "12/10/2022", "12/10/2022", "8H30 - 11H30", "Scheduled");
+            dataTable.Rows.Add("", "Basic Driving", "Nguyen Van A", "Tran Thi B", "Toyota", "12/10/2022", "12/10/2022", "8H30 - 11H30", "Scheduled");
+            dataTable.Rows.Add("", "Basic Driving", "Nguyen Van A", "Tran Thi B", "Toyota", "12/10/2022", "12/10/2022", "8H30 - 11H30", "Scheduled");
+
+            // Chèn dữ liệu mẫu vào DataGridView
+            dgvSchedules.DataSource = dataTable;
+		    //dgvSchedules.Columns[8].DefaultCellStyle.BackColor = ;
         }
     }
 }

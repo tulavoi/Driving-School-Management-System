@@ -12,8 +12,8 @@ namespace GUI
 		public static int DayOfWeek = 7;
 		public static int DayOfColumn = 6;
 
-		public static int dayButtonWidth = 50;
-		public static int dayButtonHeight = 30;
+		public static int dayButtonWidth = 45;
+		public static int dayButtonHeight = 25;
 
 		public static Color BrightBlue = Color.FromArgb(50, 100, 230);
 		public static Color BrightBlack = Color.FromArgb(49, 50, 52);
