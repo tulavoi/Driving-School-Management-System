@@ -41,11 +41,9 @@
             this.btnAdd = new Guna.UI2.WinForms.Guna2Button();
             this.pnlSpace10 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSpace8 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.lblEndTime = new System.Windows.Forms.Label();
-            this.dtpEndTime = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.dtpStartTime = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.lblStartTime = new System.Windows.Forms.Label();
+            this.pnlSession = new Guna.UI2.WinForms.Guna2Panel();
+            this.cboSessions = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.lblSession = new System.Windows.Forms.Label();
             this.pnlSpace7 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlVehicles = new Guna.UI2.WinForms.Guna2Panel();
             this.cboVehicles = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -74,7 +72,7 @@
             this.pnlLineTop.SuspendLayout();
             this.pnlMain.SuspendLayout();
             this.pnlButtonAdd_Cancel.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
+            this.pnlSession.SuspendLayout();
             this.pnlVehicles.SuspendLayout();
             this.pnlTeachers.SuspendLayout();
             this.pnlLearners.SuspendLayout();
@@ -95,7 +93,7 @@
             // 
             this.pnlLineRight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlLineRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlLineRight.Location = new System.Drawing.Point(575, 25);
+            this.pnlLineRight.Location = new System.Drawing.Point(475, 25);
             this.pnlLineRight.Name = "pnlLineRight";
             this.pnlLineRight.Size = new System.Drawing.Size(25, 350);
             this.pnlLineRight.TabIndex = 54;
@@ -108,7 +106,7 @@
             this.pnlLineTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlLineTop.Location = new System.Drawing.Point(0, 0);
             this.pnlLineTop.Name = "pnlLineTop";
-            this.pnlLineTop.Size = new System.Drawing.Size(600, 25);
+            this.pnlLineTop.Size = new System.Drawing.Size(500, 25);
             this.pnlLineTop.TabIndex = 51;
             // 
             // btnMinimizeForm
@@ -123,7 +121,7 @@
             this.btnMinimizeForm.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
             this.btnMinimizeForm.HoverState.IconColor = System.Drawing.Color.Black;
             this.btnMinimizeForm.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.btnMinimizeForm.Location = new System.Drawing.Point(510, 0);
+            this.btnMinimizeForm.Location = new System.Drawing.Point(410, 0);
             this.btnMinimizeForm.Name = "btnMinimizeForm";
             this.btnMinimizeForm.Size = new System.Drawing.Size(45, 25);
             this.btnMinimizeForm.TabIndex = 31;
@@ -139,7 +137,7 @@
             this.btnCloseForm.HoverState.FillColor = System.Drawing.Color.Red;
             this.btnCloseForm.HoverState.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.btnCloseForm.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.btnCloseForm.Location = new System.Drawing.Point(555, 0);
+            this.btnCloseForm.Location = new System.Drawing.Point(455, 0);
             this.btnCloseForm.Name = "btnCloseForm";
             this.btnCloseForm.Size = new System.Drawing.Size(45, 25);
             this.btnCloseForm.TabIndex = 30;
@@ -150,7 +148,7 @@
             this.pnlLineBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnlLineBottom.Location = new System.Drawing.Point(0, 375);
             this.pnlLineBottom.Name = "pnlLineBottom";
-            this.pnlLineBottom.Size = new System.Drawing.Size(600, 25);
+            this.pnlLineBottom.Size = new System.Drawing.Size(500, 25);
             this.pnlLineBottom.TabIndex = 53;
             // 
             // pnlMain
@@ -159,7 +157,7 @@
             this.pnlMain.BorderRadius = 15;
             this.pnlMain.Controls.Add(this.pnlButtonAdd_Cancel);
             this.pnlMain.Controls.Add(this.pnlSpace8);
-            this.pnlMain.Controls.Add(this.guna2Panel1);
+            this.pnlMain.Controls.Add(this.pnlSession);
             this.pnlMain.Controls.Add(this.pnlSpace7);
             this.pnlMain.Controls.Add(this.pnlVehicles);
             this.pnlMain.Controls.Add(this.pnlSpace4);
@@ -176,7 +174,7 @@
             this.pnlMain.FillColor = System.Drawing.Color.White;
             this.pnlMain.Location = new System.Drawing.Point(25, 25);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(550, 350);
+            this.pnlMain.Size = new System.Drawing.Size(450, 350);
             this.pnlMain.TabIndex = 55;
             // 
             // pnlButtonAdd_Cancel
@@ -186,9 +184,9 @@
             this.pnlButtonAdd_Cancel.Controls.Add(this.pnlSpace10);
             this.pnlButtonAdd_Cancel.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlButtonAdd_Cancel.FillColor = System.Drawing.Color.White;
-            this.pnlButtonAdd_Cancel.Location = new System.Drawing.Point(0, 300);
+            this.pnlButtonAdd_Cancel.Location = new System.Drawing.Point(0, 305);
             this.pnlButtonAdd_Cancel.Name = "pnlButtonAdd_Cancel";
-            this.pnlButtonAdd_Cancel.Size = new System.Drawing.Size(533, 35);
+            this.pnlButtonAdd_Cancel.Size = new System.Drawing.Size(433, 35);
             this.pnlButtonAdd_Cancel.TabIndex = 133;
             // 
             // btnCancel
@@ -203,7 +201,7 @@
             this.btnCancel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(100)))), ((int)(((byte)(119)))));
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(383, 0);
+            this.btnCancel.Location = new System.Drawing.Point(283, 0);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Padding = new System.Windows.Forms.Padding(5);
             this.btnCancel.Size = new System.Drawing.Size(150, 35);
@@ -243,92 +241,63 @@
             // 
             this.pnlSpace8.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSpace8.FillColor = System.Drawing.Color.White;
-            this.pnlSpace8.Location = new System.Drawing.Point(0, 285);
+            this.pnlSpace8.Location = new System.Drawing.Point(0, 290);
             this.pnlSpace8.Name = "pnlSpace8";
-            this.pnlSpace8.Size = new System.Drawing.Size(533, 15);
+            this.pnlSpace8.Size = new System.Drawing.Size(433, 15);
             this.pnlSpace8.TabIndex = 132;
             // 
-            // guna2Panel1
+            // pnlSession
             // 
-            this.guna2Panel1.Controls.Add(this.lblEndTime);
-            this.guna2Panel1.Controls.Add(this.dtpEndTime);
-            this.guna2Panel1.Controls.Add(this.dtpStartTime);
-            this.guna2Panel1.Controls.Add(this.lblStartTime);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel1.FillColor = System.Drawing.Color.White;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 250);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(533, 35);
-            this.guna2Panel1.TabIndex = 131;
+            this.pnlSession.Controls.Add(this.cboSessions);
+            this.pnlSession.Controls.Add(this.lblSession);
+            this.pnlSession.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSession.FillColor = System.Drawing.Color.White;
+            this.pnlSession.Location = new System.Drawing.Point(0, 250);
+            this.pnlSession.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
+            this.pnlSession.Name = "pnlSession";
+            this.pnlSession.Size = new System.Drawing.Size(433, 40);
+            this.pnlSession.TabIndex = 131;
             // 
-            // lblEndTime
+            // cboSessions
             // 
-            this.lblEndTime.BackColor = System.Drawing.Color.White;
-            this.lblEndTime.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblEndTime.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEndTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
-            this.lblEndTime.Location = new System.Drawing.Point(269, 0);
-            this.lblEndTime.Name = "lblEndTime";
-            this.lblEndTime.Size = new System.Drawing.Size(104, 35);
-            this.lblEndTime.TabIndex = 132;
-            this.lblEndTime.Text = "  End Time: ";
-            this.lblEndTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.cboSessions.BackColor = System.Drawing.Color.White;
+            this.cboSessions.BorderRadius = 5;
+            this.cboSessions.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cboSessions.DisabledState.BorderColor = System.Drawing.Color.White;
+            this.cboSessions.DisabledState.FillColor = System.Drawing.Color.White;
+            this.cboSessions.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+            this.cboSessions.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cboSessions.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cboSessions.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboSessions.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
+            this.cboSessions.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
+            this.cboSessions.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.cboSessions.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+            this.cboSessions.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            this.cboSessions.ItemHeight = 30;
+            this.cboSessions.Items.AddRange(new object[] {
+            "7H30 - 9H30",
+            "9H30 - 11H30",
+            "13H - 15H",
+            "15H - 17H"});
+            this.cboSessions.Location = new System.Drawing.Point(109, 0);
+            this.cboSessions.Name = "cboSessions";
+            this.cboSessions.Size = new System.Drawing.Size(324, 36);
+            this.cboSessions.StartIndex = 0;
+            this.cboSessions.TabIndex = 8;
             // 
-            // dtpEndTime
+            // lblSession
             // 
-            this.dtpEndTime.BorderColor = System.Drawing.Color.White;
-            this.dtpEndTime.BorderRadius = 5;
-            this.dtpEndTime.Checked = true;
-            this.dtpEndTime.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dtpEndTime.CustomFormat = "hh:mm:ss tt";
-            this.dtpEndTime.Dock = System.Windows.Forms.DockStyle.Right;
-            this.dtpEndTime.FillColor = System.Drawing.Color.White;
-            this.dtpEndTime.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.dtpEndTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.dtpEndTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpEndTime.Location = new System.Drawing.Point(373, 0);
-            this.dtpEndTime.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.dtpEndTime.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.dtpEndTime.Name = "dtpEndTime";
-            this.dtpEndTime.ShowUpDown = true;
-            this.dtpEndTime.Size = new System.Drawing.Size(160, 35);
-            this.dtpEndTime.TabIndex = 133;
-            this.dtpEndTime.Value = new System.DateTime(2024, 9, 22, 18, 8, 37, 767);
-            // 
-            // dtpStartTime
-            // 
-            this.dtpStartTime.BorderColor = System.Drawing.Color.White;
-            this.dtpStartTime.BorderRadius = 5;
-            this.dtpStartTime.Checked = true;
-            this.dtpStartTime.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dtpStartTime.CustomFormat = "hh:mm:ss tt";
-            this.dtpStartTime.Dock = System.Windows.Forms.DockStyle.Left;
-            this.dtpStartTime.FillColor = System.Drawing.Color.White;
-            this.dtpStartTime.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.dtpStartTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-            this.dtpStartTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpStartTime.Location = new System.Drawing.Point(109, 0);
-            this.dtpStartTime.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.dtpStartTime.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.dtpStartTime.Name = "dtpStartTime";
-            this.dtpStartTime.ShowUpDown = true;
-            this.dtpStartTime.Size = new System.Drawing.Size(160, 35);
-            this.dtpStartTime.TabIndex = 132;
-            this.dtpStartTime.Value = new System.DateTime(2024, 9, 22, 18, 8, 37, 767);
-            // 
-            // lblStartTime
-            // 
-            this.lblStartTime.BackColor = System.Drawing.Color.White;
-            this.lblStartTime.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblStartTime.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStartTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
-            this.lblStartTime.Location = new System.Drawing.Point(0, 0);
-            this.lblStartTime.Name = "lblStartTime";
-            this.lblStartTime.Size = new System.Drawing.Size(109, 35);
-            this.lblStartTime.TabIndex = 0;
-            this.lblStartTime.Text = "     Start Time: ";
-            this.lblStartTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSession.BackColor = System.Drawing.Color.White;
+            this.lblSession.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lblSession.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSession.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
+            this.lblSession.Location = new System.Drawing.Point(0, 0);
+            this.lblSession.Name = "lblSession";
+            this.lblSession.Size = new System.Drawing.Size(109, 40);
+            this.lblSession.TabIndex = 1;
+            this.lblSession.Text = "     Sessions: ";
+            this.lblSession.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pnlSpace7
             // 
@@ -336,7 +305,7 @@
             this.pnlSpace7.FillColor = System.Drawing.Color.White;
             this.pnlSpace7.Location = new System.Drawing.Point(0, 245);
             this.pnlSpace7.Name = "pnlSpace7";
-            this.pnlSpace7.Size = new System.Drawing.Size(533, 5);
+            this.pnlSpace7.Size = new System.Drawing.Size(433, 5);
             this.pnlSpace7.TabIndex = 130;
             // 
             // pnlVehicles
@@ -348,7 +317,7 @@
             this.pnlVehicles.Location = new System.Drawing.Point(0, 205);
             this.pnlVehicles.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.pnlVehicles.Name = "pnlVehicles";
-            this.pnlVehicles.Size = new System.Drawing.Size(533, 40);
+            this.pnlVehicles.Size = new System.Drawing.Size(433, 40);
             this.pnlVehicles.TabIndex = 129;
             // 
             // cboVehicles
@@ -374,7 +343,7 @@
             "Bus 1"});
             this.cboVehicles.Location = new System.Drawing.Point(109, 0);
             this.cboVehicles.Name = "cboVehicles";
-            this.cboVehicles.Size = new System.Drawing.Size(424, 36);
+            this.cboVehicles.Size = new System.Drawing.Size(324, 36);
             this.cboVehicles.StartIndex = 0;
             this.cboVehicles.TabIndex = 6;
             // 
@@ -397,7 +366,7 @@
             this.pnlSpace4.FillColor = System.Drawing.Color.White;
             this.pnlSpace4.Location = new System.Drawing.Point(0, 200);
             this.pnlSpace4.Name = "pnlSpace4";
-            this.pnlSpace4.Size = new System.Drawing.Size(533, 5);
+            this.pnlSpace4.Size = new System.Drawing.Size(433, 5);
             this.pnlSpace4.TabIndex = 128;
             // 
             // pnlTeachers
@@ -409,7 +378,7 @@
             this.pnlTeachers.Location = new System.Drawing.Point(0, 160);
             this.pnlTeachers.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.pnlTeachers.Name = "pnlTeachers";
-            this.pnlTeachers.Size = new System.Drawing.Size(533, 40);
+            this.pnlTeachers.Size = new System.Drawing.Size(433, 40);
             this.pnlTeachers.TabIndex = 126;
             // 
             // cboTeachers
@@ -435,7 +404,7 @@
             "Le Van C"});
             this.cboTeachers.Location = new System.Drawing.Point(109, 0);
             this.cboTeachers.Name = "cboTeachers";
-            this.cboTeachers.Size = new System.Drawing.Size(424, 36);
+            this.cboTeachers.Size = new System.Drawing.Size(324, 36);
             this.cboTeachers.StartIndex = 0;
             this.cboTeachers.TabIndex = 5;
             // 
@@ -458,7 +427,7 @@
             this.pnlSpace3.FillColor = System.Drawing.Color.White;
             this.pnlSpace3.Location = new System.Drawing.Point(0, 155);
             this.pnlSpace3.Name = "pnlSpace3";
-            this.pnlSpace3.Size = new System.Drawing.Size(533, 5);
+            this.pnlSpace3.Size = new System.Drawing.Size(433, 5);
             this.pnlSpace3.TabIndex = 125;
             // 
             // pnlLearners
@@ -470,7 +439,7 @@
             this.pnlLearners.Location = new System.Drawing.Point(0, 115);
             this.pnlLearners.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.pnlLearners.Name = "pnlLearners";
-            this.pnlLearners.Size = new System.Drawing.Size(533, 40);
+            this.pnlLearners.Size = new System.Drawing.Size(433, 40);
             this.pnlLearners.TabIndex = 124;
             // 
             // guna2ComboBox1
@@ -496,7 +465,7 @@
             "Xuan Duoc"});
             this.guna2ComboBox1.Location = new System.Drawing.Point(109, 0);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(424, 36);
+            this.guna2ComboBox1.Size = new System.Drawing.Size(324, 36);
             this.guna2ComboBox1.StartIndex = 0;
             this.guna2ComboBox1.TabIndex = 4;
             // 
@@ -519,7 +488,7 @@
             this.pnlSpace2.FillColor = System.Drawing.Color.White;
             this.pnlSpace2.Location = new System.Drawing.Point(0, 110);
             this.pnlSpace2.Name = "pnlSpace2";
-            this.pnlSpace2.Size = new System.Drawing.Size(533, 5);
+            this.pnlSpace2.Size = new System.Drawing.Size(433, 5);
             this.pnlSpace2.TabIndex = 123;
             // 
             // pnlCourse
@@ -531,7 +500,7 @@
             this.pnlCourse.Location = new System.Drawing.Point(0, 70);
             this.pnlCourse.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.pnlCourse.Name = "pnlCourse";
-            this.pnlCourse.Size = new System.Drawing.Size(533, 40);
+            this.pnlCourse.Size = new System.Drawing.Size(433, 40);
             this.pnlCourse.TabIndex = 122;
             // 
             // cboCourses
@@ -558,7 +527,7 @@
             "E-12341231"});
             this.cboCourses.Location = new System.Drawing.Point(109, 0);
             this.cboCourses.Name = "cboCourses";
-            this.cboCourses.Size = new System.Drawing.Size(424, 36);
+            this.cboCourses.Size = new System.Drawing.Size(324, 36);
             this.cboCourses.StartIndex = 0;
             this.cboCourses.TabIndex = 2;
             // 
@@ -581,7 +550,7 @@
             this.pnlSpace1.FillColor = System.Drawing.Color.White;
             this.pnlSpace1.Location = new System.Drawing.Point(0, 55);
             this.pnlSpace1.Name = "pnlSpace1";
-            this.pnlSpace1.Size = new System.Drawing.Size(533, 15);
+            this.pnlSpace1.Size = new System.Drawing.Size(433, 15);
             this.pnlSpace1.TabIndex = 117;
             // 
             // pnlSpace6
@@ -593,7 +562,7 @@
             this.pnlSpace6.CustomizableEdges.TopRight = false;
             this.pnlSpace6.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlSpace6.FillColor = System.Drawing.Color.White;
-            this.pnlSpace6.Location = new System.Drawing.Point(533, 55);
+            this.pnlSpace6.Location = new System.Drawing.Point(433, 55);
             this.pnlSpace6.Name = "pnlSpace6";
             this.pnlSpace6.Size = new System.Drawing.Size(17, 295);
             this.pnlSpace6.TabIndex = 115;
@@ -608,7 +577,7 @@
             this.pnlTitle_DateAssign.FillColor = System.Drawing.Color.White;
             this.pnlTitle_DateAssign.Location = new System.Drawing.Point(0, 15);
             this.pnlTitle_DateAssign.Name = "pnlTitle_DateAssign";
-            this.pnlTitle_DateAssign.Size = new System.Drawing.Size(550, 40);
+            this.pnlTitle_DateAssign.Size = new System.Drawing.Size(450, 40);
             this.pnlTitle_DateAssign.TabIndex = 116;
             // 
             // lblDateAssign
@@ -619,7 +588,7 @@
             this.lblDateAssign.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
             this.lblDateAssign.Location = new System.Drawing.Point(285, 0);
             this.lblDateAssign.Name = "lblDateAssign";
-            this.lblDateAssign.Size = new System.Drawing.Size(248, 40);
+            this.lblDateAssign.Size = new System.Drawing.Size(148, 40);
             this.lblDateAssign.TabIndex = 115;
             this.lblDateAssign.Text = "01/01/2024";
             this.lblDateAssign.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -629,7 +598,7 @@
             this.pnlSpace9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlSpace9.FillColor = System.Drawing.Color.White;
-            this.pnlSpace9.Location = new System.Drawing.Point(533, 0);
+            this.pnlSpace9.Location = new System.Drawing.Point(433, 0);
             this.pnlSpace9.Name = "pnlSpace9";
             this.pnlSpace9.Size = new System.Drawing.Size(17, 40);
             this.pnlSpace9.TabIndex = 116;
@@ -656,7 +625,7 @@
             this.pnlSpace5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
             this.pnlSpace5.Location = new System.Drawing.Point(0, 0);
             this.pnlSpace5.Name = "pnlSpace5";
-            this.pnlSpace5.Size = new System.Drawing.Size(550, 15);
+            this.pnlSpace5.Size = new System.Drawing.Size(450, 15);
             this.pnlSpace5.TabIndex = 15;
             // 
             // dragControl
@@ -669,7 +638,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 400);
+            this.ClientSize = new System.Drawing.Size(500, 400);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.pnlLineLeft);
             this.Controls.Add(this.pnlLineRight);
@@ -683,7 +652,7 @@
             this.pnlLineTop.ResumeLayout(false);
             this.pnlMain.ResumeLayout(false);
             this.pnlButtonAdd_Cancel.ResumeLayout(false);
-            this.guna2Panel1.ResumeLayout(false);
+            this.pnlSession.ResumeLayout(false);
             this.pnlVehicles.ResumeLayout(false);
             this.pnlTeachers.ResumeLayout(false);
             this.pnlLearners.ResumeLayout(false);
@@ -726,16 +695,14 @@
         private Guna.UI2.WinForms.Guna2Panel pnlSpace3;
         private Guna.UI2.WinForms.Guna2ComboBox cboVehicles;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace7;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private System.Windows.Forms.Label lblStartTime;
-        private Guna.UI2.WinForms.Guna2DateTimePicker dtpStartTime;
-        private Guna.UI2.WinForms.Guna2DateTimePicker dtpEndTime;
-        private System.Windows.Forms.Label lblEndTime;
+        private Guna.UI2.WinForms.Guna2Panel pnlSession;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace9;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace8;
         private Guna.UI2.WinForms.Guna2Panel pnlButtonAdd_Cancel;
         private Guna.UI2.WinForms.Guna2Button btnCancel;
         private Guna.UI2.WinForms.Guna2Button btnAdd;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace10;
+        private System.Windows.Forms.Label lblSession;
+        private Guna.UI2.WinForms.Guna2ComboBox cboSessions;
     }
 }

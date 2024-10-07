@@ -13,12 +13,14 @@ namespace GUI
 {
     public partial class TeachersForm : Form
     {
+        #region Properties
         private bool isEditing = false;
 
-		private const string EDIT_MODE = "Edit";
-		private const string SAVE_MODE = "Save";
+        private const string EDIT_MODE = "Edit";
+        private const string SAVE_MODE = "Save";
+        #endregion
 
-		public TeachersForm()
+        public TeachersForm()
         {
             InitializeComponent();
             FormHelper.ApplyRoundedCorners(this, 20);

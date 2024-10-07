@@ -18,5 +18,8 @@ namespace GUI
 		public static Color BrightBlue = Color.FromArgb(50, 100, 230);
 		public static Color BrightBlack = Color.FromArgb(49, 50, 52);
 		public static Color OffWhite = Color.FromArgb(247, 247, 247);
-	}
+
+		public static string EDIT_MODE = "Edit";
+        public static string SAVE_MODE = "Save";
+    }
 }

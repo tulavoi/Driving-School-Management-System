@@ -28,10 +28,10 @@ namespace GUI
 			"Saturday", 
 		};
 
+        private bool isEditing = false;
+        #endregion
 
-		#endregion
-
-		public ScheduleForm()
+        public ScheduleForm()
 		{
 			InitializeComponent();
 			FormHelper.ApplyRoundedCorners(this, 30);
@@ -256,7 +256,7 @@ namespace GUI
             dataTable.Columns.Add("VehicleName", typeof(string));
             dataTable.Columns.Add("StartDate", typeof(string));
             dataTable.Columns.Add("EndDate", typeof(string));
-            dataTable.Columns.Add("Time", typeof(string));
+            dataTable.Columns.Add("Session", typeof(string));
             dataTable.Columns.Add("Status", typeof(string));
 
             // Thêm các hàng dữ liệu mẫu vào DataTable
@@ -267,6 +267,28 @@ namespace GUI
             // Chèn dữ liệu mẫu vào DataGridView
             dgvSchedules.DataSource = dataTable;
 		    //dgvSchedules.Columns[8].DefaultCellStyle.BackColor = ;
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (!isEditing)
+                this.ToggleEditMode(ref this.isEditing, this.btnEdit, cboCourses, cboLearners, cboTeachers, cboSessions, dtpSessionDate, cboVehicles);
+
+            else
+                this.ToggleEditMode(ref this.isEditing, this.btnEdit, cboCourses, cboLearners, cboTeachers, cboSessions, dtpSessionDate, cboVehicles);
+        }
+
+        private void ToggleEditMode(ref bool isEditing, Guna2Button button, params Control[] controls)
+        {
+            isEditing = !isEditing;
+            this.EnableControls(isEditing, controls);
+            button.Text = isEditing ? Constant.SAVE_MODE : Constant.EDIT_MODE;
+        }
+
+        private void EnableControls(bool b, params Control[] controls)
+        {
+            foreach (var control in controls)
+                control.Enabled = b;
         }
     }
 }
