@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Management;
 using System.Web.UI.Design;
 using System.Web.UI.WebControls;
@@ -242,7 +243,7 @@ namespace GUI
         private void ScheduleForm_Load(object sender, EventArgs e)
         {
 			this.LoadSampleData();
-        }
+		}
 
         private void LoadSampleData()
         {
@@ -254,20 +255,18 @@ namespace GUI
             dataTable.Columns.Add("LearnerName", typeof(string));
             dataTable.Columns.Add("TeacherName", typeof(string));
             dataTable.Columns.Add("VehicleName", typeof(string));
-            dataTable.Columns.Add("StartDate", typeof(string));
-            dataTable.Columns.Add("EndDate", typeof(string));
+            dataTable.Columns.Add("Date", typeof(string));
             dataTable.Columns.Add("Session", typeof(string));
             dataTable.Columns.Add("Status", typeof(string));
 
             // Thêm các hàng dữ liệu mẫu vào DataTable
-            dataTable.Rows.Add("", "Basic Driving", "Nguyen Van A", "Tran Thi B", "Toyota", "12/10/2022", "12/10/2022", "8H30 - 11H30", "Scheduled");
-            dataTable.Rows.Add("", "Basic Driving", "Nguyen Van A", "Tran Thi B", "Toyota", "12/10/2022", "12/10/2022", "8H30 - 11H30", "Scheduled");
-            dataTable.Rows.Add("", "Basic Driving", "Nguyen Van A", "Tran Thi B", "Toyota", "12/10/2022", "12/10/2022", "8H30 - 11H30", "Scheduled");
+            dataTable.Rows.Add("", "Basic Driving", "Mai Nguyen Hoang Vu", "Mai Nguyen Hoang Vu", "Toyota", "12/10/2022", "8H30 - 11H30", "Scheduled");
+            dataTable.Rows.Add("", "Basic Driving", "Truong Anh Thanh Cong", "Truong Anh Thanh Cong", "Toyota", "12/10/2022", "8H30 - 11H30", "Scheduled");
+            dataTable.Rows.Add("", "Basic Driving", "Le Nguyen Xuan Duoc", "Le Nguyen Xuan Duoc", "Toyota", "12/10/2022", "8H30 - 11H30", "Scheduled");
 
             // Chèn dữ liệu mẫu vào DataGridView
             dgvSchedules.DataSource = dataTable;
-		    //dgvSchedules.Columns[8].DefaultCellStyle.BackColor = ;
-        }
+		}
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
@@ -290,5 +289,27 @@ namespace GUI
             foreach (var control in controls)
                 control.Enabled = b;
         }
-    }
+
+		private void btnDelete_Click(object sender, EventArgs e)
+		{
+			DialogResult rs = MessageBox.Show($"Are you sure to delete?",
+				"Confirm",
+				MessageBoxButtons.YesNo,
+				MessageBoxIcon.Question);
+
+			if (rs == DialogResult.Yes)
+			{
+
+			}
+		}
+
+		private void dgvSchedules_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+		{
+			if (e.ColumnIndex == 7)
+			{
+				e.CellStyle.ForeColor = Color.FromArgb(253, 100, 119);
+				e.CellStyle.Font = new Font(e.CellStyle.Font, FontStyle.Bold);
+			}
+		}
+	}
 }
