@@ -84,7 +84,7 @@ namespace GUI
 
 		private void btnInvoice_Click(object sender, EventArgs e)
 		{
-			Container(new CoursesForm(), this.btnInvoice.Text, this.btnInvoice);
+			Container(new InvoicesForm(), this.btnInvoice.Text, this.btnInvoice);
 		}
 
 		private void btnAccounts_Click(object sender, EventArgs e)

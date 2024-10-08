@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.pnlCourses = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
 			this.dgvCourses = new Guna.UI2.WinForms.Guna2DataGridView();
 			this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -87,7 +87,6 @@
 			this.pnlSpace19 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace21 = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblBasicDetails = new System.Windows.Forms.Label();
-			this.pnlSpace23 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlCourseDetails_Top = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblCourseID = new Guna.UI2.WinForms.Guna2Button();
 			this.pnlSpace12 = new Guna.UI2.WinForms.Guna2Panel();
@@ -128,16 +127,16 @@
 			// dgvCourses
 			// 
 			this.dgvCourses.AllowUserToDeleteRows = false;
-			dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-			this.dgvCourses.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
-			dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle8.ForeColor = System.Drawing.Color.DimGray;
-			dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.dgvCourses.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+			dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+			this.dgvCourses.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+			dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle2.ForeColor = System.Drawing.Color.DimGray;
+			dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.dgvCourses.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
 			this.dgvCourses.ColumnHeadersHeight = 40;
 			this.dgvCourses.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column2,
@@ -145,34 +144,34 @@
             this.Column5,
             this.Column6,
             this.Column1});
-			dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle10.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
-			dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))));
-			dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.dgvCourses.DefaultCellStyle = dataGridViewCellStyle10;
+			dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle4.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+			dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))));
+			dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.dgvCourses.DefaultCellStyle = dataGridViewCellStyle4;
 			this.dgvCourses.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.dgvCourses.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
 			this.dgvCourses.Location = new System.Drawing.Point(0, 94);
 			this.dgvCourses.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.dgvCourses.Name = "dgvCourses";
 			this.dgvCourses.ReadOnly = true;
-			dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
-			dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
-			dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-			dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.dgvCourses.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
+			dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+			dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+			dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+			dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.dgvCourses.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
 			this.dgvCourses.RowHeadersVisible = false;
 			this.dgvCourses.RowHeadersWidth = 50;
 			this.dgvCourses.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-			dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 11F);
-			this.dgvCourses.RowsDefaultCellStyle = dataGridViewCellStyle12;
+			dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11F);
+			this.dgvCourses.RowsDefaultCellStyle = dataGridViewCellStyle6;
 			this.dgvCourses.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10F);
 			this.dgvCourses.RowTemplate.DividerHeight = 7;
 			this.dgvCourses.RowTemplate.Height = 60;
@@ -214,8 +213,8 @@
 			// 
 			this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
 			this.dataGridViewTextBoxColumn3.DataPropertyName = "CourseName";
-			dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle9;
+			dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle3;
 			this.dataGridViewTextBoxColumn3.FillWeight = 53.63456F;
 			this.dataGridViewTextBoxColumn3.Frozen = true;
 			this.dataGridViewTextBoxColumn3.HeaderText = "Name";
@@ -539,7 +538,6 @@
 			this.pnlDetails.BorderRadius = 15;
 			this.pnlDetails.Controls.Add(this.pnlBasicDetails);
 			this.pnlDetails.Controls.Add(this.lblBasicDetails);
-			this.pnlDetails.Controls.Add(this.pnlSpace23);
 			this.pnlDetails.Controls.Add(this.pnlCourseDetails_Top);
 			this.pnlDetails.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.pnlDetails.Location = new System.Drawing.Point(520, 0);
@@ -574,9 +572,9 @@
 			this.pnlButtonEdit_Delete.Controls.Add(this.pnlSpace13);
 			this.pnlButtonEdit_Delete.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlButtonEdit_Delete.FillColor = System.Drawing.Color.White;
-			this.pnlButtonEdit_Delete.Location = new System.Drawing.Point(0, 215);
+			this.pnlButtonEdit_Delete.Location = new System.Drawing.Point(0, 199);
 			this.pnlButtonEdit_Delete.Name = "pnlButtonEdit_Delete";
-			this.pnlButtonEdit_Delete.Size = new System.Drawing.Size(405, 35);
+			this.pnlButtonEdit_Delete.Size = new System.Drawing.Size(401, 35);
 			this.pnlButtonEdit_Delete.TabIndex = 128;
 			// 
 			// btnDelete
@@ -591,7 +589,7 @@
 			this.btnDelete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(100)))), ((int)(((byte)(119)))));
 			this.btnDelete.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnDelete.ForeColor = System.Drawing.Color.White;
-			this.btnDelete.Location = new System.Drawing.Point(255, 0);
+			this.btnDelete.Location = new System.Drawing.Point(251, 0);
 			this.btnDelete.Name = "btnDelete";
 			this.btnDelete.Padding = new System.Windows.Forms.Padding(5);
 			this.btnDelete.Size = new System.Drawing.Size(150, 35);
@@ -610,7 +608,7 @@
 			this.btnEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(191)))), ((int)(((byte)(90)))));
 			this.btnEdit.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnEdit.ForeColor = System.Drawing.Color.White;
-			this.btnEdit.Location = new System.Drawing.Point(15, 0);
+			this.btnEdit.Location = new System.Drawing.Point(19, 0);
 			this.btnEdit.Name = "btnEdit";
 			this.btnEdit.Padding = new System.Windows.Forms.Padding(5);
 			this.btnEdit.Size = new System.Drawing.Size(150, 35);
@@ -625,16 +623,16 @@
 			this.pnlSpace13.FillColor = System.Drawing.Color.White;
 			this.pnlSpace13.Location = new System.Drawing.Point(0, 0);
 			this.pnlSpace13.Name = "pnlSpace13";
-			this.pnlSpace13.Size = new System.Drawing.Size(15, 35);
+			this.pnlSpace13.Size = new System.Drawing.Size(19, 35);
 			this.pnlSpace13.TabIndex = 10;
 			// 
 			// pnlSpace17
 			// 
 			this.pnlSpace17.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace17.FillColor = System.Drawing.Color.White;
-			this.pnlSpace17.Location = new System.Drawing.Point(0, 200);
+			this.pnlSpace17.Location = new System.Drawing.Point(0, 184);
 			this.pnlSpace17.Name = "pnlSpace17";
-			this.pnlSpace17.Size = new System.Drawing.Size(405, 15);
+			this.pnlSpace17.Size = new System.Drawing.Size(401, 15);
 			this.pnlSpace17.TabIndex = 127;
 			// 
 			// pnlCourseName
@@ -643,9 +641,9 @@
 			this.pnlCourseName.Controls.Add(this.lblCourseName);
 			this.pnlCourseName.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlCourseName.FillColor = System.Drawing.Color.White;
-			this.pnlCourseName.Location = new System.Drawing.Point(0, 160);
+			this.pnlCourseName.Location = new System.Drawing.Point(0, 148);
 			this.pnlCourseName.Name = "pnlCourseName";
-			this.pnlCourseName.Size = new System.Drawing.Size(405, 40);
+			this.pnlCourseName.Size = new System.Drawing.Size(401, 36);
 			this.pnlCourseName.TabIndex = 126;
 			// 
 			// txtCourseName
@@ -671,7 +669,7 @@
 			this.txtCourseName.PasswordChar = '\0';
 			this.txtCourseName.PlaceholderText = "";
 			this.txtCourseName.SelectedText = "";
-			this.txtCourseName.Size = new System.Drawing.Size(280, 40);
+			this.txtCourseName.Size = new System.Drawing.Size(276, 36);
 			this.txtCourseName.TabIndex = 110;
 			// 
 			// lblCourseName
@@ -682,18 +680,18 @@
 			this.lblCourseName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblCourseName.Location = new System.Drawing.Point(0, 0);
 			this.lblCourseName.Name = "lblCourseName";
-			this.lblCourseName.Size = new System.Drawing.Size(125, 40);
+			this.lblCourseName.Size = new System.Drawing.Size(125, 36);
 			this.lblCourseName.TabIndex = 109;
-			this.lblCourseName.Text = "   Course Name: ";
+			this.lblCourseName.Text = "    Course Name: ";
 			this.lblCourseName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// pnlSpace14
 			// 
 			this.pnlSpace14.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace14.FillColor = System.Drawing.Color.White;
-			this.pnlSpace14.Location = new System.Drawing.Point(0, 150);
+			this.pnlSpace14.Location = new System.Drawing.Point(0, 138);
 			this.pnlSpace14.Name = "pnlSpace14";
-			this.pnlSpace14.Size = new System.Drawing.Size(405, 10);
+			this.pnlSpace14.Size = new System.Drawing.Size(401, 10);
 			this.pnlSpace14.TabIndex = 125;
 			// 
 			// pnlDuration
@@ -703,9 +701,9 @@
 			this.pnlDuration.Controls.Add(this.lblDurationInHours);
 			this.pnlDuration.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlDuration.FillColor = System.Drawing.Color.White;
-			this.pnlDuration.Location = new System.Drawing.Point(0, 110);
+			this.pnlDuration.Location = new System.Drawing.Point(0, 102);
 			this.pnlDuration.Name = "pnlDuration";
-			this.pnlDuration.Size = new System.Drawing.Size(405, 40);
+			this.pnlDuration.Size = new System.Drawing.Size(401, 36);
 			this.pnlDuration.TabIndex = 124;
 			// 
 			// txtDurationInHours
@@ -731,7 +729,7 @@
 			this.txtDurationInHours.PasswordChar = '\0';
 			this.txtDurationInHours.PlaceholderText = "";
 			this.txtDurationInHours.SelectedText = "";
-			this.txtDurationInHours.Size = new System.Drawing.Size(187, 40);
+			this.txtDurationInHours.Size = new System.Drawing.Size(183, 36);
 			this.txtDurationInHours.TabIndex = 28;
 			// 
 			// txtHour
@@ -750,13 +748,13 @@
 			this.txtHour.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
 			this.txtHour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
 			this.txtHour.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtHour.Location = new System.Drawing.Point(312, 0);
+			this.txtHour.Location = new System.Drawing.Point(308, 0);
 			this.txtHour.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.txtHour.Name = "txtHour";
 			this.txtHour.PasswordChar = '\0';
 			this.txtHour.PlaceholderText = "";
 			this.txtHour.SelectedText = "";
-			this.txtHour.Size = new System.Drawing.Size(93, 40);
+			this.txtHour.Size = new System.Drawing.Size(93, 36);
 			this.txtHour.TabIndex = 29;
 			// 
 			// lblDurationInHours
@@ -767,18 +765,18 @@
 			this.lblDurationInHours.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblDurationInHours.Location = new System.Drawing.Point(0, 0);
 			this.lblDurationInHours.Name = "lblDurationInHours";
-			this.lblDurationInHours.Size = new System.Drawing.Size(125, 40);
+			this.lblDurationInHours.Size = new System.Drawing.Size(125, 36);
 			this.lblDurationInHours.TabIndex = 27;
-			this.lblDurationInHours.Text = "   Duration: ";
+			this.lblDurationInHours.Text = "    Duration: ";
 			this.lblDurationInHours.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// pnlSpace16
 			// 
 			this.pnlSpace16.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace16.FillColor = System.Drawing.Color.White;
-			this.pnlSpace16.Location = new System.Drawing.Point(0, 100);
+			this.pnlSpace16.Location = new System.Drawing.Point(0, 92);
 			this.pnlSpace16.Name = "pnlSpace16";
-			this.pnlSpace16.Size = new System.Drawing.Size(405, 10);
+			this.pnlSpace16.Size = new System.Drawing.Size(401, 10);
 			this.pnlSpace16.TabIndex = 123;
 			// 
 			// pnlFee
@@ -788,9 +786,9 @@
 			this.pnlFee.Controls.Add(this.lblFee);
 			this.pnlFee.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlFee.FillColor = System.Drawing.Color.White;
-			this.pnlFee.Location = new System.Drawing.Point(0, 60);
+			this.pnlFee.Location = new System.Drawing.Point(0, 56);
 			this.pnlFee.Name = "pnlFee";
-			this.pnlFee.Size = new System.Drawing.Size(405, 40);
+			this.pnlFee.Size = new System.Drawing.Size(401, 36);
 			this.pnlFee.TabIndex = 122;
 			// 
 			// txtFee
@@ -815,7 +813,7 @@
 			this.txtFee.PasswordChar = '\0';
 			this.txtFee.PlaceholderText = "";
 			this.txtFee.SelectedText = "";
-			this.txtFee.Size = new System.Drawing.Size(187, 40);
+			this.txtFee.Size = new System.Drawing.Size(183, 36);
 			this.txtFee.TabIndex = 24;
 			// 
 			// txtVND
@@ -834,13 +832,13 @@
 			this.txtVND.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
 			this.txtVND.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
 			this.txtVND.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtVND.Location = new System.Drawing.Point(312, 0);
+			this.txtVND.Location = new System.Drawing.Point(308, 0);
 			this.txtVND.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.txtVND.Name = "txtVND";
 			this.txtVND.PasswordChar = '\0';
 			this.txtVND.PlaceholderText = "";
 			this.txtVND.SelectedText = "";
-			this.txtVND.Size = new System.Drawing.Size(93, 40);
+			this.txtVND.Size = new System.Drawing.Size(93, 36);
 			this.txtVND.TabIndex = 25;
 			// 
 			// lblFee
@@ -851,18 +849,18 @@
 			this.lblFee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblFee.Location = new System.Drawing.Point(0, 0);
 			this.lblFee.Name = "lblFee";
-			this.lblFee.Size = new System.Drawing.Size(125, 40);
+			this.lblFee.Size = new System.Drawing.Size(125, 36);
 			this.lblFee.TabIndex = 2;
-			this.lblFee.Text = "   Fee: ";
+			this.lblFee.Text = "    Fee: ";
 			this.lblFee.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// guna2Panel3
 			// 
 			this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top;
 			this.guna2Panel3.FillColor = System.Drawing.Color.White;
-			this.guna2Panel3.Location = new System.Drawing.Point(0, 50);
+			this.guna2Panel3.Location = new System.Drawing.Point(0, 46);
 			this.guna2Panel3.Name = "guna2Panel3";
-			this.guna2Panel3.Size = new System.Drawing.Size(405, 10);
+			this.guna2Panel3.Size = new System.Drawing.Size(401, 10);
 			this.guna2Panel3.TabIndex = 121;
 			// 
 			// pnlLicense
@@ -873,7 +871,7 @@
 			this.pnlLicense.FillColor = System.Drawing.Color.White;
 			this.pnlLicense.Location = new System.Drawing.Point(0, 10);
 			this.pnlLicense.Name = "pnlLicense";
-			this.pnlLicense.Size = new System.Drawing.Size(405, 40);
+			this.pnlLicense.Size = new System.Drawing.Size(401, 36);
 			this.pnlLicense.TabIndex = 120;
 			// 
 			// cboLicenses
@@ -901,7 +899,7 @@
             "E"});
 			this.cboLicenses.Location = new System.Drawing.Point(125, 0);
 			this.cboLicenses.Name = "cboLicenses";
-			this.cboLicenses.Size = new System.Drawing.Size(280, 36);
+			this.cboLicenses.Size = new System.Drawing.Size(276, 36);
 			this.cboLicenses.StartIndex = 0;
 			this.cboLicenses.TabIndex = 30;
 			// 
@@ -913,9 +911,9 @@
 			this.lblLicense.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblLicense.Location = new System.Drawing.Point(0, 0);
 			this.lblLicense.Name = "lblLicense";
-			this.lblLicense.Size = new System.Drawing.Size(125, 40);
+			this.lblLicense.Size = new System.Drawing.Size(125, 36);
 			this.lblLicense.TabIndex = 29;
-			this.lblLicense.Text = "   License:";
+			this.lblLicense.Text = "    License:";
 			this.lblLicense.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// pnlSpace19
@@ -924,7 +922,7 @@
 			this.pnlSpace19.FillColor = System.Drawing.Color.White;
 			this.pnlSpace19.Location = new System.Drawing.Point(0, 0);
 			this.pnlSpace19.Name = "pnlSpace19";
-			this.pnlSpace19.Size = new System.Drawing.Size(405, 10);
+			this.pnlSpace19.Size = new System.Drawing.Size(401, 10);
 			this.pnlSpace19.TabIndex = 110;
 			// 
 			// pnlSpace21
@@ -932,9 +930,9 @@
 			this.pnlSpace21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
 			this.pnlSpace21.Dock = System.Windows.Forms.DockStyle.Right;
 			this.pnlSpace21.FillColor = System.Drawing.Color.White;
-			this.pnlSpace21.Location = new System.Drawing.Point(405, 0);
+			this.pnlSpace21.Location = new System.Drawing.Point(401, 0);
 			this.pnlSpace21.Name = "pnlSpace21";
-			this.pnlSpace21.Size = new System.Drawing.Size(15, 262);
+			this.pnlSpace21.Size = new System.Drawing.Size(19, 262);
 			this.pnlSpace21.TabIndex = 91;
 			// 
 			// lblBasicDetails
@@ -949,18 +947,6 @@
 			this.lblBasicDetails.TabIndex = 107;
 			this.lblBasicDetails.Text = "  Basic Details";
 			this.lblBasicDetails.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pnlSpace23
-			// 
-			this.pnlSpace23.BorderRadius = 15;
-			this.pnlSpace23.CustomizableEdges.TopLeft = false;
-			this.pnlSpace23.CustomizableEdges.TopRight = false;
-			this.pnlSpace23.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.pnlSpace23.FillColor = System.Drawing.Color.White;
-			this.pnlSpace23.Location = new System.Drawing.Point(0, 700);
-			this.pnlSpace23.Name = "pnlSpace23";
-			this.pnlSpace23.Size = new System.Drawing.Size(420, 15);
-			this.pnlSpace23.TabIndex = 106;
 			// 
 			// pnlCourseDetails_Top
 			// 
@@ -996,7 +982,7 @@
 			this.lblCourseID.Location = new System.Drawing.Point(292, 15);
 			this.lblCourseID.Name = "lblCourseID";
 			this.lblCourseID.PressedDepth = 5;
-			this.lblCourseID.Size = new System.Drawing.Size(113, 25);
+			this.lblCourseID.Size = new System.Drawing.Size(109, 25);
 			this.lblCourseID.TabIndex = 22;
 			this.lblCourseID.Text = "ID: 2222";
 			// 
@@ -1006,7 +992,7 @@
 			this.pnlSpace12.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.pnlSpace12.Location = new System.Drawing.Point(292, 40);
 			this.pnlSpace12.Name = "pnlSpace12";
-			this.pnlSpace12.Size = new System.Drawing.Size(113, 10);
+			this.pnlSpace12.Size = new System.Drawing.Size(109, 10);
 			this.pnlSpace12.TabIndex = 21;
 			// 
 			// pnlSpace11
@@ -1015,7 +1001,7 @@
 			this.pnlSpace11.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace11.Location = new System.Drawing.Point(292, 0);
 			this.pnlSpace11.Name = "pnlSpace11";
-			this.pnlSpace11.Size = new System.Drawing.Size(113, 15);
+			this.pnlSpace11.Size = new System.Drawing.Size(109, 15);
 			this.pnlSpace11.TabIndex = 20;
 			// 
 			// guna2Panel4
@@ -1027,9 +1013,9 @@
 			this.guna2Panel4.CustomizableEdges.TopLeft = false;
 			this.guna2Panel4.Dock = System.Windows.Forms.DockStyle.Right;
 			this.guna2Panel4.FillColor = System.Drawing.Color.White;
-			this.guna2Panel4.Location = new System.Drawing.Point(405, 0);
+			this.guna2Panel4.Location = new System.Drawing.Point(401, 0);
 			this.guna2Panel4.Name = "guna2Panel4";
-			this.guna2Panel4.Size = new System.Drawing.Size(15, 50);
+			this.guna2Panel4.Size = new System.Drawing.Size(19, 50);
 			this.guna2Panel4.TabIndex = 18;
 			// 
 			// lblDetails
@@ -1114,7 +1100,6 @@
         private Guna.UI2.WinForms.Guna2Panel pnlSpace9;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace4;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel pnlDetails;
-        private Guna.UI2.WinForms.Guna2Panel pnlSpace23;
         private Guna.UI2.WinForms.Guna2Panel pnlCourseDetails_Top;
         private Guna.UI2.WinForms.Guna2Button lblCourseID;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace12;

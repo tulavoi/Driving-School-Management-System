@@ -111,7 +111,6 @@
 			this.pnlSpace19 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace21 = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblBasicDetails = new System.Windows.Forms.Label();
-			this.pnlSpace23 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlDetails_Top = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblVehicleD = new Guna.UI2.WinForms.Guna2Button();
 			this.pnlSpace12 = new Guna.UI2.WinForms.Guna2Panel();
@@ -575,7 +574,6 @@
 			this.pnlDetails.Controls.Add(this.lblMaintenance);
 			this.pnlDetails.Controls.Add(this.pnlBasicDetails);
 			this.pnlDetails.Controls.Add(this.lblBasicDetails);
-			this.pnlDetails.Controls.Add(this.pnlSpace23);
 			this.pnlDetails.Controls.Add(this.pnlDetails_Top);
 			this.pnlDetails.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.pnlDetails.Location = new System.Drawing.Point(520, 0);
@@ -605,9 +603,9 @@
 			this.pnlEdit_Maintenance.Controls.Add(this.pnlSpace20);
 			this.pnlEdit_Maintenance.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlEdit_Maintenance.FillColor = System.Drawing.Color.White;
-			this.pnlEdit_Maintenance.Location = new System.Drawing.Point(0, 136);
+			this.pnlEdit_Maintenance.Location = new System.Drawing.Point(0, 132);
 			this.pnlEdit_Maintenance.Name = "pnlEdit_Maintenance";
-			this.pnlEdit_Maintenance.Size = new System.Drawing.Size(405, 35);
+			this.pnlEdit_Maintenance.Size = new System.Drawing.Size(401, 35);
 			this.pnlEdit_Maintenance.TabIndex = 131;
 			// 
 			// btnEdit_MaintenanceDetail
@@ -622,7 +620,7 @@
 			this.btnEdit_MaintenanceDetail.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(191)))), ((int)(((byte)(90)))));
 			this.btnEdit_MaintenanceDetail.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnEdit_MaintenanceDetail.ForeColor = System.Drawing.Color.White;
-			this.btnEdit_MaintenanceDetail.Location = new System.Drawing.Point(15, 0);
+			this.btnEdit_MaintenanceDetail.Location = new System.Drawing.Point(19, 0);
 			this.btnEdit_MaintenanceDetail.Name = "btnEdit_MaintenanceDetail";
 			this.btnEdit_MaintenanceDetail.Padding = new System.Windows.Forms.Padding(5);
 			this.btnEdit_MaintenanceDetail.Size = new System.Drawing.Size(150, 35);
@@ -637,16 +635,16 @@
 			this.pnlSpace20.FillColor = System.Drawing.Color.White;
 			this.pnlSpace20.Location = new System.Drawing.Point(0, 0);
 			this.pnlSpace20.Name = "pnlSpace20";
-			this.pnlSpace20.Size = new System.Drawing.Size(15, 35);
+			this.pnlSpace20.Size = new System.Drawing.Size(19, 35);
 			this.pnlSpace20.TabIndex = 18;
 			// 
 			// pnlSpace24
 			// 
 			this.pnlSpace24.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace24.FillColor = System.Drawing.Color.White;
-			this.pnlSpace24.Location = new System.Drawing.Point(0, 121);
+			this.pnlSpace24.Location = new System.Drawing.Point(0, 117);
 			this.pnlSpace24.Name = "pnlSpace24";
-			this.pnlSpace24.Size = new System.Drawing.Size(405, 15);
+			this.pnlSpace24.Size = new System.Drawing.Size(401, 15);
 			this.pnlSpace24.TabIndex = 133;
 			// 
 			// pnlNotes
@@ -655,9 +653,9 @@
 			this.pnlNotes.Controls.Add(this.lblNotes);
 			this.pnlNotes.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlNotes.FillColor = System.Drawing.Color.White;
-			this.pnlNotes.Location = new System.Drawing.Point(0, 60);
+			this.pnlNotes.Location = new System.Drawing.Point(0, 56);
 			this.pnlNotes.Name = "pnlNotes";
-			this.pnlNotes.Size = new System.Drawing.Size(405, 61);
+			this.pnlNotes.Size = new System.Drawing.Size(401, 61);
 			this.pnlNotes.TabIndex = 132;
 			// 
 			// txtNotes
@@ -683,7 +681,7 @@
 			this.txtNotes.PasswordChar = '\0';
 			this.txtNotes.PlaceholderText = "Notes...";
 			this.txtNotes.SelectedText = "";
-			this.txtNotes.Size = new System.Drawing.Size(280, 61);
+			this.txtNotes.Size = new System.Drawing.Size(276, 61);
 			this.txtNotes.TabIndex = 30;
 			// 
 			// lblNotes
@@ -696,16 +694,16 @@
 			this.lblNotes.Name = "lblNotes";
 			this.lblNotes.Size = new System.Drawing.Size(125, 61);
 			this.lblNotes.TabIndex = 29;
-			this.lblNotes.Text = "   Notes: ";
+			this.lblNotes.Text = "    Notes: ";
 			this.lblNotes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// pnlSpace18
 			// 
 			this.pnlSpace18.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace18.FillColor = System.Drawing.Color.White;
-			this.pnlSpace18.Location = new System.Drawing.Point(0, 50);
+			this.pnlSpace18.Location = new System.Drawing.Point(0, 46);
 			this.pnlSpace18.Name = "pnlSpace18";
-			this.pnlSpace18.Size = new System.Drawing.Size(405, 10);
+			this.pnlSpace18.Size = new System.Drawing.Size(401, 10);
 			this.pnlSpace18.TabIndex = 130;
 			// 
 			// pnlStatus
@@ -716,7 +714,7 @@
 			this.pnlStatus.FillColor = System.Drawing.Color.White;
 			this.pnlStatus.Location = new System.Drawing.Point(0, 10);
 			this.pnlStatus.Name = "pnlStatus";
-			this.pnlStatus.Size = new System.Drawing.Size(405, 40);
+			this.pnlStatus.Size = new System.Drawing.Size(401, 36);
 			this.pnlStatus.TabIndex = 125;
 			// 
 			// cboStatus
@@ -742,7 +740,7 @@
             "Maintenance"});
 			this.cboStatus.Location = new System.Drawing.Point(125, 0);
 			this.cboStatus.Name = "cboStatus";
-			this.cboStatus.Size = new System.Drawing.Size(280, 36);
+			this.cboStatus.Size = new System.Drawing.Size(276, 36);
 			this.cboStatus.StartIndex = 0;
 			this.cboStatus.TabIndex = 112;
 			// 
@@ -754,9 +752,9 @@
 			this.lblStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblStatus.Location = new System.Drawing.Point(0, 0);
 			this.lblStatus.Name = "lblStatus";
-			this.lblStatus.Size = new System.Drawing.Size(125, 40);
+			this.lblStatus.Size = new System.Drawing.Size(125, 36);
 			this.lblStatus.TabIndex = 111;
-			this.lblStatus.Text = "   Status:";
+			this.lblStatus.Text = "    Status:";
 			this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// pnlSpace15
@@ -765,7 +763,7 @@
 			this.pnlSpace15.FillColor = System.Drawing.Color.White;
 			this.pnlSpace15.Location = new System.Drawing.Point(0, 0);
 			this.pnlSpace15.Name = "pnlSpace15";
-			this.pnlSpace15.Size = new System.Drawing.Size(405, 10);
+			this.pnlSpace15.Size = new System.Drawing.Size(401, 10);
 			this.pnlSpace15.TabIndex = 104;
 			// 
 			// pnlSpace25
@@ -773,9 +771,9 @@
 			this.pnlSpace25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
 			this.pnlSpace25.Dock = System.Windows.Forms.DockStyle.Right;
 			this.pnlSpace25.FillColor = System.Drawing.Color.White;
-			this.pnlSpace25.Location = new System.Drawing.Point(405, 0);
+			this.pnlSpace25.Location = new System.Drawing.Point(401, 0);
 			this.pnlSpace25.Name = "pnlSpace25";
-			this.pnlSpace25.Size = new System.Drawing.Size(15, 172);
+			this.pnlSpace25.Size = new System.Drawing.Size(19, 172);
 			this.pnlSpace25.TabIndex = 91;
 			// 
 			// lblMaintenance
@@ -818,9 +816,9 @@
 			this.pnlButtonEdit_Delete.Controls.Add(this.pnlSpace13);
 			this.pnlButtonEdit_Delete.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlButtonEdit_Delete.FillColor = System.Drawing.Color.White;
-			this.pnlButtonEdit_Delete.Location = new System.Drawing.Point(0, 215);
+			this.pnlButtonEdit_Delete.Location = new System.Drawing.Point(0, 199);
 			this.pnlButtonEdit_Delete.Name = "pnlButtonEdit_Delete";
-			this.pnlButtonEdit_Delete.Size = new System.Drawing.Size(405, 35);
+			this.pnlButtonEdit_Delete.Size = new System.Drawing.Size(401, 35);
 			this.pnlButtonEdit_Delete.TabIndex = 127;
 			// 
 			// btnDelete
@@ -835,7 +833,7 @@
 			this.btnDelete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(100)))), ((int)(((byte)(119)))));
 			this.btnDelete.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnDelete.ForeColor = System.Drawing.Color.White;
-			this.btnDelete.Location = new System.Drawing.Point(255, 0);
+			this.btnDelete.Location = new System.Drawing.Point(251, 0);
 			this.btnDelete.Name = "btnDelete";
 			this.btnDelete.Padding = new System.Windows.Forms.Padding(5);
 			this.btnDelete.Size = new System.Drawing.Size(150, 35);
@@ -854,7 +852,7 @@
 			this.btnEdit_BasicDetail.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(191)))), ((int)(((byte)(90)))));
 			this.btnEdit_BasicDetail.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnEdit_BasicDetail.ForeColor = System.Drawing.Color.White;
-			this.btnEdit_BasicDetail.Location = new System.Drawing.Point(15, 0);
+			this.btnEdit_BasicDetail.Location = new System.Drawing.Point(19, 0);
 			this.btnEdit_BasicDetail.Name = "btnEdit_BasicDetail";
 			this.btnEdit_BasicDetail.Padding = new System.Windows.Forms.Padding(5);
 			this.btnEdit_BasicDetail.Size = new System.Drawing.Size(150, 35);
@@ -869,16 +867,16 @@
 			this.pnlSpace13.FillColor = System.Drawing.Color.White;
 			this.pnlSpace13.Location = new System.Drawing.Point(0, 0);
 			this.pnlSpace13.Name = "pnlSpace13";
-			this.pnlSpace13.Size = new System.Drawing.Size(15, 35);
+			this.pnlSpace13.Size = new System.Drawing.Size(19, 35);
 			this.pnlSpace13.TabIndex = 10;
 			// 
 			// pnlSpace17
 			// 
 			this.pnlSpace17.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace17.FillColor = System.Drawing.Color.White;
-			this.pnlSpace17.Location = new System.Drawing.Point(0, 200);
+			this.pnlSpace17.Location = new System.Drawing.Point(0, 184);
 			this.pnlSpace17.Name = "pnlSpace17";
-			this.pnlSpace17.Size = new System.Drawing.Size(405, 15);
+			this.pnlSpace17.Size = new System.Drawing.Size(401, 15);
 			this.pnlSpace17.TabIndex = 126;
 			// 
 			// pnlWeight_Seats
@@ -890,9 +888,9 @@
 			this.pnlWeight_Seats.Controls.Add(this.lblWeight);
 			this.pnlWeight_Seats.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlWeight_Seats.FillColor = System.Drawing.Color.White;
-			this.pnlWeight_Seats.Location = new System.Drawing.Point(0, 160);
+			this.pnlWeight_Seats.Location = new System.Drawing.Point(0, 148);
 			this.pnlWeight_Seats.Name = "pnlWeight_Seats";
-			this.pnlWeight_Seats.Size = new System.Drawing.Size(405, 40);
+			this.pnlWeight_Seats.Size = new System.Drawing.Size(401, 36);
 			this.pnlWeight_Seats.TabIndex = 123;
 			// 
 			// txtSeats
@@ -918,7 +916,7 @@
 			this.txtSeats.PasswordChar = '\0';
 			this.txtSeats.PlaceholderText = "";
 			this.txtSeats.SelectedText = "";
-			this.txtSeats.Size = new System.Drawing.Size(115, 40);
+			this.txtSeats.Size = new System.Drawing.Size(111, 36);
 			this.txtSeats.TabIndex = 35;
 			// 
 			// lblSeats
@@ -929,7 +927,7 @@
 			this.lblSeats.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblSeats.Location = new System.Drawing.Point(210, 0);
 			this.lblSeats.Name = "lblSeats";
-			this.lblSeats.Size = new System.Drawing.Size(80, 40);
+			this.lblSeats.Size = new System.Drawing.Size(80, 36);
 			this.lblSeats.TabIndex = 34;
 			this.lblSeats.Text = "  Seats: ";
 			this.lblSeats.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -957,7 +955,7 @@
 			this.txtKG.PasswordChar = '\0';
 			this.txtKG.PlaceholderText = "";
 			this.txtKG.SelectedText = "";
-			this.txtKG.Size = new System.Drawing.Size(45, 40);
+			this.txtKG.Size = new System.Drawing.Size(45, 36);
 			this.txtKG.TabIndex = 33;
 			// 
 			// txtWeight
@@ -983,7 +981,7 @@
 			this.txtWeight.PasswordChar = '\0';
 			this.txtWeight.PlaceholderText = "";
 			this.txtWeight.SelectedText = "";
-			this.txtWeight.Size = new System.Drawing.Size(75, 40);
+			this.txtWeight.Size = new System.Drawing.Size(75, 36);
 			this.txtWeight.TabIndex = 32;
 			// 
 			// lblWeight
@@ -994,18 +992,18 @@
 			this.lblWeight.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblWeight.Location = new System.Drawing.Point(0, 0);
 			this.lblWeight.Name = "lblWeight";
-			this.lblWeight.Size = new System.Drawing.Size(90, 40);
+			this.lblWeight.Size = new System.Drawing.Size(90, 36);
 			this.lblWeight.TabIndex = 31;
-			this.lblWeight.Text = "   Weight: ";
+			this.lblWeight.Text = "    Weight: ";
 			this.lblWeight.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// pnlSpace28
 			// 
 			this.pnlSpace28.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace28.FillColor = System.Drawing.Color.White;
-			this.pnlSpace28.Location = new System.Drawing.Point(0, 150);
+			this.pnlSpace28.Location = new System.Drawing.Point(0, 138);
 			this.pnlSpace28.Name = "pnlSpace28";
-			this.pnlSpace28.Size = new System.Drawing.Size(405, 10);
+			this.pnlSpace28.Size = new System.Drawing.Size(401, 10);
 			this.pnlSpace28.TabIndex = 129;
 			// 
 			// pnlCarType
@@ -1015,9 +1013,9 @@
 			this.pnlCarType.Controls.Add(this.lblCarType);
 			this.pnlCarType.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlCarType.FillColor = System.Drawing.Color.White;
-			this.pnlCarType.Location = new System.Drawing.Point(0, 110);
+			this.pnlCarType.Location = new System.Drawing.Point(0, 102);
 			this.pnlCarType.Name = "pnlCarType";
-			this.pnlCarType.Size = new System.Drawing.Size(405, 40);
+			this.pnlCarType.Size = new System.Drawing.Size(401, 36);
 			this.pnlCarType.TabIndex = 128;
 			// 
 			// pnlChkPassengerCar
@@ -1028,7 +1026,7 @@
 			this.pnlChkPassengerCar.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.pnlChkPassengerCar.Location = new System.Drawing.Point(245, 0);
 			this.pnlChkPassengerCar.Name = "pnlChkPassengerCar";
-			this.pnlChkPassengerCar.Size = new System.Drawing.Size(160, 40);
+			this.pnlChkPassengerCar.Size = new System.Drawing.Size(156, 36);
 			this.pnlChkPassengerCar.TabIndex = 111;
 			// 
 			// lblPassengerCar
@@ -1038,7 +1036,7 @@
 			this.lblPassengerCar.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblPassengerCar.Location = new System.Drawing.Point(20, 0);
 			this.lblPassengerCar.Name = "lblPassengerCar";
-			this.lblPassengerCar.Size = new System.Drawing.Size(140, 40);
+			this.lblPassengerCar.Size = new System.Drawing.Size(136, 36);
 			this.lblPassengerCar.TabIndex = 109;
 			this.lblPassengerCar.Text = " Passenger Car";
 			this.lblPassengerCar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1055,7 +1053,7 @@
 			this.chkPassengerCar.Enabled = false;
 			this.chkPassengerCar.Location = new System.Drawing.Point(0, 0);
 			this.chkPassengerCar.Name = "chkPassengerCar";
-			this.chkPassengerCar.Size = new System.Drawing.Size(20, 40);
+			this.chkPassengerCar.Size = new System.Drawing.Size(20, 36);
 			this.chkPassengerCar.TabIndex = 108;
 			this.chkPassengerCar.Text = "guna2CustomCheckBox2";
 			this.chkPassengerCar.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -1072,7 +1070,7 @@
 			this.pnlChkTruck.Dock = System.Windows.Forms.DockStyle.Left;
 			this.pnlChkTruck.Location = new System.Drawing.Point(90, 0);
 			this.pnlChkTruck.Name = "pnlChkTruck";
-			this.pnlChkTruck.Size = new System.Drawing.Size(155, 40);
+			this.pnlChkTruck.Size = new System.Drawing.Size(155, 36);
 			this.pnlChkTruck.TabIndex = 110;
 			// 
 			// lblTruck
@@ -1082,7 +1080,7 @@
 			this.lblTruck.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblTruck.Location = new System.Drawing.Point(20, 0);
 			this.lblTruck.Name = "lblTruck";
-			this.lblTruck.Size = new System.Drawing.Size(135, 40);
+			this.lblTruck.Size = new System.Drawing.Size(135, 36);
 			this.lblTruck.TabIndex = 109;
 			this.lblTruck.Text = " Truck";
 			this.lblTruck.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1098,7 +1096,7 @@
 			this.chkTruck.Enabled = false;
 			this.chkTruck.Location = new System.Drawing.Point(0, 0);
 			this.chkTruck.Name = "chkTruck";
-			this.chkTruck.Size = new System.Drawing.Size(20, 40);
+			this.chkTruck.Size = new System.Drawing.Size(20, 36);
 			this.chkTruck.TabIndex = 108;
 			this.chkTruck.Text = "guna2CustomCheckBox1";
 			this.chkTruck.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -1115,18 +1113,18 @@
 			this.lblCarType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblCarType.Location = new System.Drawing.Point(0, 0);
 			this.lblCarType.Name = "lblCarType";
-			this.lblCarType.Size = new System.Drawing.Size(90, 40);
+			this.lblCarType.Size = new System.Drawing.Size(90, 36);
 			this.lblCarType.TabIndex = 31;
-			this.lblCarType.Text = "   Car Type: ";
+			this.lblCarType.Text = "    Car Type: ";
 			this.lblCarType.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// pnlSpace16
 			// 
 			this.pnlSpace16.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace16.FillColor = System.Drawing.Color.White;
-			this.pnlSpace16.Location = new System.Drawing.Point(0, 100);
+			this.pnlSpace16.Location = new System.Drawing.Point(0, 92);
 			this.pnlSpace16.Name = "pnlSpace16";
-			this.pnlSpace16.Size = new System.Drawing.Size(405, 10);
+			this.pnlSpace16.Size = new System.Drawing.Size(401, 10);
 			this.pnlSpace16.TabIndex = 122;
 			// 
 			// pnlCarNo_ManuYear
@@ -1137,9 +1135,9 @@
 			this.pnlCarNo_ManuYear.Controls.Add(this.lblCarNo);
 			this.pnlCarNo_ManuYear.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlCarNo_ManuYear.FillColor = System.Drawing.Color.White;
-			this.pnlCarNo_ManuYear.Location = new System.Drawing.Point(0, 60);
+			this.pnlCarNo_ManuYear.Location = new System.Drawing.Point(0, 56);
 			this.pnlCarNo_ManuYear.Name = "pnlCarNo_ManuYear";
-			this.pnlCarNo_ManuYear.Size = new System.Drawing.Size(405, 40);
+			this.pnlCarNo_ManuYear.Size = new System.Drawing.Size(401, 36);
 			this.pnlCarNo_ManuYear.TabIndex = 121;
 			// 
 			// dtpManuYear
@@ -1159,7 +1157,7 @@
 			this.dtpManuYear.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
 			this.dtpManuYear.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
 			this.dtpManuYear.Name = "dtpManuYear";
-			this.dtpManuYear.Size = new System.Drawing.Size(115, 40);
+			this.dtpManuYear.Size = new System.Drawing.Size(111, 36);
 			this.dtpManuYear.TabIndex = 32;
 			this.dtpManuYear.Value = new System.DateTime(2024, 9, 22, 18, 8, 37, 767);
 			// 
@@ -1171,7 +1169,7 @@
 			this.lblManufactureYear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblManufactureYear.Location = new System.Drawing.Point(210, 0);
 			this.lblManufactureYear.Name = "lblManufactureYear";
-			this.lblManufactureYear.Size = new System.Drawing.Size(80, 40);
+			this.lblManufactureYear.Size = new System.Drawing.Size(80, 36);
 			this.lblManufactureYear.TabIndex = 31;
 			this.lblManufactureYear.Text = "  M. Year: ";
 			this.lblManufactureYear.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1199,7 +1197,7 @@
 			this.txtCarNo.PasswordChar = '\0';
 			this.txtCarNo.PlaceholderText = "";
 			this.txtCarNo.SelectedText = "";
-			this.txtCarNo.Size = new System.Drawing.Size(120, 40);
+			this.txtCarNo.Size = new System.Drawing.Size(120, 36);
 			this.txtCarNo.TabIndex = 30;
 			// 
 			// lblCarNo
@@ -1210,18 +1208,18 @@
 			this.lblCarNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblCarNo.Location = new System.Drawing.Point(0, 0);
 			this.lblCarNo.Name = "lblCarNo";
-			this.lblCarNo.Size = new System.Drawing.Size(90, 40);
+			this.lblCarNo.Size = new System.Drawing.Size(90, 36);
 			this.lblCarNo.TabIndex = 29;
-			this.lblCarNo.Text = "   Car No: ";
+			this.lblCarNo.Text = "    Car No: ";
 			this.lblCarNo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// pnlSpace22
 			// 
 			this.pnlSpace22.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace22.FillColor = System.Drawing.Color.White;
-			this.pnlSpace22.Location = new System.Drawing.Point(0, 50);
+			this.pnlSpace22.Location = new System.Drawing.Point(0, 46);
 			this.pnlSpace22.Name = "pnlSpace22";
-			this.pnlSpace22.Size = new System.Drawing.Size(405, 10);
+			this.pnlSpace22.Size = new System.Drawing.Size(401, 10);
 			this.pnlSpace22.TabIndex = 120;
 			// 
 			// pnlName
@@ -1232,7 +1230,7 @@
 			this.pnlName.FillColor = System.Drawing.Color.White;
 			this.pnlName.Location = new System.Drawing.Point(0, 10);
 			this.pnlName.Name = "pnlName";
-			this.pnlName.Size = new System.Drawing.Size(405, 40);
+			this.pnlName.Size = new System.Drawing.Size(401, 36);
 			this.pnlName.TabIndex = 119;
 			// 
 			// txtCarName
@@ -1258,7 +1256,7 @@
 			this.txtCarName.PasswordChar = '\0';
 			this.txtCarName.PlaceholderText = "";
 			this.txtCarName.SelectedText = "";
-			this.txtCarName.Size = new System.Drawing.Size(315, 40);
+			this.txtCarName.Size = new System.Drawing.Size(311, 36);
 			this.txtCarName.TabIndex = 32;
 			// 
 			// lblCarName
@@ -1269,9 +1267,9 @@
 			this.lblCarName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblCarName.Location = new System.Drawing.Point(0, 0);
 			this.lblCarName.Name = "lblCarName";
-			this.lblCarName.Size = new System.Drawing.Size(90, 40);
+			this.lblCarName.Size = new System.Drawing.Size(90, 36);
 			this.lblCarName.TabIndex = 31;
-			this.lblCarName.Text = "   Name: ";
+			this.lblCarName.Text = "    Name: ";
 			this.lblCarName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// pnlSpace19
@@ -1280,7 +1278,7 @@
 			this.pnlSpace19.FillColor = System.Drawing.Color.White;
 			this.pnlSpace19.Location = new System.Drawing.Point(0, 0);
 			this.pnlSpace19.Name = "pnlSpace19";
-			this.pnlSpace19.Size = new System.Drawing.Size(405, 10);
+			this.pnlSpace19.Size = new System.Drawing.Size(401, 10);
 			this.pnlSpace19.TabIndex = 104;
 			// 
 			// pnlSpace21
@@ -1288,9 +1286,9 @@
 			this.pnlSpace21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
 			this.pnlSpace21.Dock = System.Windows.Forms.DockStyle.Right;
 			this.pnlSpace21.FillColor = System.Drawing.Color.White;
-			this.pnlSpace21.Location = new System.Drawing.Point(405, 0);
+			this.pnlSpace21.Location = new System.Drawing.Point(401, 0);
 			this.pnlSpace21.Name = "pnlSpace21";
-			this.pnlSpace21.Size = new System.Drawing.Size(15, 267);
+			this.pnlSpace21.Size = new System.Drawing.Size(19, 267);
 			this.pnlSpace21.TabIndex = 91;
 			// 
 			// lblBasicDetails
@@ -1305,18 +1303,6 @@
 			this.lblBasicDetails.TabIndex = 108;
 			this.lblBasicDetails.Text = "  Basic Details";
 			this.lblBasicDetails.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pnlSpace23
-			// 
-			this.pnlSpace23.BorderRadius = 15;
-			this.pnlSpace23.CustomizableEdges.TopLeft = false;
-			this.pnlSpace23.CustomizableEdges.TopRight = false;
-			this.pnlSpace23.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.pnlSpace23.FillColor = System.Drawing.Color.White;
-			this.pnlSpace23.Location = new System.Drawing.Point(0, 700);
-			this.pnlSpace23.Name = "pnlSpace23";
-			this.pnlSpace23.Size = new System.Drawing.Size(420, 15);
-			this.pnlSpace23.TabIndex = 106;
 			// 
 			// pnlDetails_Top
 			// 
@@ -1352,7 +1338,7 @@
 			this.lblVehicleD.Location = new System.Drawing.Point(292, 15);
 			this.lblVehicleD.Name = "lblVehicleD";
 			this.lblVehicleD.PressedDepth = 5;
-			this.lblVehicleD.Size = new System.Drawing.Size(113, 25);
+			this.lblVehicleD.Size = new System.Drawing.Size(109, 25);
 			this.lblVehicleD.TabIndex = 22;
 			this.lblVehicleD.Text = "ID: 2222";
 			// 
@@ -1362,7 +1348,7 @@
 			this.pnlSpace12.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.pnlSpace12.Location = new System.Drawing.Point(292, 40);
 			this.pnlSpace12.Name = "pnlSpace12";
-			this.pnlSpace12.Size = new System.Drawing.Size(113, 10);
+			this.pnlSpace12.Size = new System.Drawing.Size(109, 10);
 			this.pnlSpace12.TabIndex = 21;
 			// 
 			// pnlSpace11
@@ -1371,7 +1357,7 @@
 			this.pnlSpace11.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace11.Location = new System.Drawing.Point(292, 0);
 			this.pnlSpace11.Name = "pnlSpace11";
-			this.pnlSpace11.Size = new System.Drawing.Size(113, 15);
+			this.pnlSpace11.Size = new System.Drawing.Size(109, 15);
 			this.pnlSpace11.TabIndex = 20;
 			// 
 			// pnlSpace26
@@ -1383,9 +1369,9 @@
 			this.pnlSpace26.CustomizableEdges.TopLeft = false;
 			this.pnlSpace26.Dock = System.Windows.Forms.DockStyle.Right;
 			this.pnlSpace26.FillColor = System.Drawing.Color.White;
-			this.pnlSpace26.Location = new System.Drawing.Point(405, 0);
+			this.pnlSpace26.Location = new System.Drawing.Point(401, 0);
 			this.pnlSpace26.Name = "pnlSpace26";
-			this.pnlSpace26.Size = new System.Drawing.Size(15, 50);
+			this.pnlSpace26.Size = new System.Drawing.Size(19, 50);
 			this.pnlSpace26.TabIndex = 18;
 			// 
 			// lblDetails
@@ -1475,7 +1461,6 @@
         private System.Windows.Forms.Label lblCourses;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace5;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel pnlDetails;
-        private Guna.UI2.WinForms.Guna2Panel pnlSpace23;
         private Guna.UI2.WinForms.Guna2Panel pnlDetails_Top;
         private Guna.UI2.WinForms.Guna2Button lblVehicleD;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace12;

@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LearnersForm));
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.pnlLearnerDetails = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
 			this.pnlMessage = new Guna.UI2.WinForms.Guna2Panel();
 			this.txtMessage = new Guna.UI2.WinForms.Guna2TextBox();
@@ -46,7 +46,6 @@
 			this.pnlSpace3 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblMessage = new System.Windows.Forms.Label();
-			this.pnlSpace23 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlBasicDetails = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlButtonEdit_Delete = new Guna.UI2.WinForms.Guna2Panel();
 			this.btnDeleteLearner = new Guna.UI2.WinForms.Guna2Button();
@@ -129,7 +128,6 @@
 			this.pnlLearnerDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
 			this.pnlLearnerDetails.BorderRadius = 15;
 			this.pnlLearnerDetails.Controls.Add(this.pnlMessage);
-			this.pnlLearnerDetails.Controls.Add(this.pnlSpace23);
 			this.pnlLearnerDetails.Controls.Add(this.pnlBasicDetails);
 			this.pnlLearnerDetails.Controls.Add(this.pnlSpace19);
 			this.pnlLearnerDetails.Controls.Add(this.pnlLearnerDetails_Top);
@@ -148,7 +146,7 @@
 			this.pnlMessage.Controls.Add(this.pnlSpace3);
 			this.pnlMessage.Controls.Add(this.pnlSpace4);
 			this.pnlMessage.Controls.Add(this.lblMessage);
-			this.pnlMessage.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.pnlMessage.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlMessage.FillColor = System.Drawing.Color.White;
 			this.pnlMessage.Location = new System.Drawing.Point(0, 435);
 			this.pnlMessage.Name = "pnlMessage";
@@ -172,13 +170,13 @@
 			this.txtMessage.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
 			this.txtMessage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
 			this.txtMessage.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtMessage.Location = new System.Drawing.Point(15, 60);
+			this.txtMessage.Location = new System.Drawing.Point(19, 60);
 			this.txtMessage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.txtMessage.Name = "txtMessage";
 			this.txtMessage.PasswordChar = '\0';
 			this.txtMessage.PlaceholderText = "Write Message...";
 			this.txtMessage.SelectedText = "";
-			this.txtMessage.Size = new System.Drawing.Size(460, 149);
+			this.txtMessage.Size = new System.Drawing.Size(452, 149);
 			this.txtMessage.TabIndex = 106;
 			this.txtMessage.Tag = "1";
 			// 
@@ -186,9 +184,9 @@
 			// 
 			this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.guna2Panel1.FillColor = System.Drawing.Color.White;
-			this.guna2Panel1.Location = new System.Drawing.Point(15, 209);
+			this.guna2Panel1.Location = new System.Drawing.Point(19, 209);
 			this.guna2Panel1.Name = "guna2Panel1";
-			this.guna2Panel1.Size = new System.Drawing.Size(460, 15);
+			this.guna2Panel1.Size = new System.Drawing.Size(452, 15);
 			this.guna2Panel1.TabIndex = 110;
 			// 
 			// pnlButtonSMS_Mail
@@ -197,9 +195,9 @@
 			this.pnlButtonSMS_Mail.Controls.Add(this.btnSendSMS);
 			this.pnlButtonSMS_Mail.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.pnlButtonSMS_Mail.FillColor = System.Drawing.Color.White;
-			this.pnlButtonSMS_Mail.Location = new System.Drawing.Point(15, 224);
+			this.pnlButtonSMS_Mail.Location = new System.Drawing.Point(19, 224);
 			this.pnlButtonSMS_Mail.Name = "pnlButtonSMS_Mail";
-			this.pnlButtonSMS_Mail.Size = new System.Drawing.Size(460, 41);
+			this.pnlButtonSMS_Mail.Size = new System.Drawing.Size(452, 41);
 			this.pnlButtonSMS_Mail.TabIndex = 109;
 			// 
 			// btnSendMail
@@ -215,7 +213,7 @@
 			this.btnSendMail.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnSendMail.ForeColor = System.Drawing.Color.White;
 			this.btnSendMail.Image = ((System.Drawing.Image)(resources.GetObject("btnSendMail.Image")));
-			this.btnSendMail.Location = new System.Drawing.Point(240, 0);
+			this.btnSendMail.Location = new System.Drawing.Point(232, 0);
 			this.btnSendMail.Name = "btnSendMail";
 			this.btnSendMail.Padding = new System.Windows.Forms.Padding(5);
 			this.btnSendMail.Size = new System.Drawing.Size(220, 41);
@@ -249,7 +247,7 @@
 			this.pnlSpace20.FillColor = System.Drawing.Color.White;
 			this.pnlSpace20.Location = new System.Drawing.Point(0, 60);
 			this.pnlSpace20.Name = "pnlSpace20";
-			this.pnlSpace20.Size = new System.Drawing.Size(15, 205);
+			this.pnlSpace20.Size = new System.Drawing.Size(19, 205);
 			this.pnlSpace20.TabIndex = 105;
 			// 
 			// pnlSpace3
@@ -257,9 +255,9 @@
 			this.pnlSpace3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
 			this.pnlSpace3.Dock = System.Windows.Forms.DockStyle.Right;
 			this.pnlSpace3.FillColor = System.Drawing.Color.White;
-			this.pnlSpace3.Location = new System.Drawing.Point(475, 60);
+			this.pnlSpace3.Location = new System.Drawing.Point(471, 60);
 			this.pnlSpace3.Name = "pnlSpace3";
-			this.pnlSpace3.Size = new System.Drawing.Size(15, 205);
+			this.pnlSpace3.Size = new System.Drawing.Size(19, 205);
 			this.pnlSpace3.TabIndex = 104;
 			// 
 			// pnlSpace4
@@ -283,18 +281,6 @@
 			this.lblMessage.TabIndex = 93;
 			this.lblMessage.Text = "   Message";
 			this.lblMessage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pnlSpace23
-			// 
-			this.pnlSpace23.BorderRadius = 15;
-			this.pnlSpace23.CustomizableEdges.TopLeft = false;
-			this.pnlSpace23.CustomizableEdges.TopRight = false;
-			this.pnlSpace23.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.pnlSpace23.FillColor = System.Drawing.Color.White;
-			this.pnlSpace23.Location = new System.Drawing.Point(0, 700);
-			this.pnlSpace23.Name = "pnlSpace23";
-			this.pnlSpace23.Size = new System.Drawing.Size(490, 15);
-			this.pnlSpace23.TabIndex = 106;
 			// 
 			// pnlBasicDetails
 			// 
@@ -326,9 +312,9 @@
 			this.pnlButtonEdit_Delete.Controls.Add(this.pnlSpace13);
 			this.pnlButtonEdit_Delete.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlButtonEdit_Delete.FillColor = System.Drawing.Color.White;
-			this.pnlButtonEdit_Delete.Location = new System.Drawing.Point(0, 310);
+			this.pnlButtonEdit_Delete.Location = new System.Drawing.Point(0, 290);
 			this.pnlButtonEdit_Delete.Name = "pnlButtonEdit_Delete";
-			this.pnlButtonEdit_Delete.Size = new System.Drawing.Size(475, 35);
+			this.pnlButtonEdit_Delete.Size = new System.Drawing.Size(471, 35);
 			this.pnlButtonEdit_Delete.TabIndex = 103;
 			// 
 			// btnDeleteLearner
@@ -343,7 +329,7 @@
 			this.btnDeleteLearner.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(100)))), ((int)(((byte)(119)))));
 			this.btnDeleteLearner.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnDeleteLearner.ForeColor = System.Drawing.Color.White;
-			this.btnDeleteLearner.Location = new System.Drawing.Point(325, 0);
+			this.btnDeleteLearner.Location = new System.Drawing.Point(321, 0);
 			this.btnDeleteLearner.Name = "btnDeleteLearner";
 			this.btnDeleteLearner.Padding = new System.Windows.Forms.Padding(5);
 			this.btnDeleteLearner.Size = new System.Drawing.Size(150, 35);
@@ -363,7 +349,7 @@
 			this.btnEditLearner.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(191)))), ((int)(((byte)(90)))));
 			this.btnEditLearner.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnEditLearner.ForeColor = System.Drawing.Color.White;
-			this.btnEditLearner.Location = new System.Drawing.Point(15, 0);
+			this.btnEditLearner.Location = new System.Drawing.Point(19, 0);
 			this.btnEditLearner.Name = "btnEditLearner";
 			this.btnEditLearner.Padding = new System.Windows.Forms.Padding(5);
 			this.btnEditLearner.Size = new System.Drawing.Size(150, 35);
@@ -378,16 +364,16 @@
 			this.pnlSpace13.FillColor = System.Drawing.Color.White;
 			this.pnlSpace13.Location = new System.Drawing.Point(0, 0);
 			this.pnlSpace13.Name = "pnlSpace13";
-			this.pnlSpace13.Size = new System.Drawing.Size(15, 35);
+			this.pnlSpace13.Size = new System.Drawing.Size(19, 35);
 			this.pnlSpace13.TabIndex = 10;
 			// 
 			// pnlSpace17
 			// 
 			this.pnlSpace17.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace17.FillColor = System.Drawing.Color.White;
-			this.pnlSpace17.Location = new System.Drawing.Point(0, 295);
+			this.pnlSpace17.Location = new System.Drawing.Point(0, 275);
 			this.pnlSpace17.Name = "pnlSpace17";
-			this.pnlSpace17.Size = new System.Drawing.Size(475, 15);
+			this.pnlSpace17.Size = new System.Drawing.Size(471, 15);
 			this.pnlSpace17.TabIndex = 102;
 			// 
 			// pnlCitizenId
@@ -396,9 +382,9 @@
 			this.pnlCitizenId.Controls.Add(this.label1);
 			this.pnlCitizenId.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlCitizenId.FillColor = System.Drawing.Color.White;
-			this.pnlCitizenId.Location = new System.Drawing.Point(0, 255);
+			this.pnlCitizenId.Location = new System.Drawing.Point(0, 239);
 			this.pnlCitizenId.Name = "pnlCitizenId";
-			this.pnlCitizenId.Size = new System.Drawing.Size(475, 40);
+			this.pnlCitizenId.Size = new System.Drawing.Size(471, 36);
 			this.pnlCitizenId.TabIndex = 101;
 			// 
 			// cboNationality
@@ -430,7 +416,7 @@
             "China"});
 			this.cboNationality.Location = new System.Drawing.Point(108, 0);
 			this.cboNationality.Name = "cboNationality";
-			this.cboNationality.Size = new System.Drawing.Size(367, 36);
+			this.cboNationality.Size = new System.Drawing.Size(363, 36);
 			this.cboNationality.StartIndex = 0;
 			this.cboNationality.TabIndex = 27;
 			// 
@@ -442,18 +428,18 @@
 			this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.label1.Location = new System.Drawing.Point(0, 0);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(108, 40);
+			this.label1.Size = new System.Drawing.Size(108, 36);
 			this.label1.TabIndex = 25;
-			this.label1.Text = "   Nationality:";
+			this.label1.Text = "    Nationality:";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// pnlSpace14
 			// 
 			this.pnlSpace14.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace14.FillColor = System.Drawing.Color.White;
-			this.pnlSpace14.Location = new System.Drawing.Point(0, 245);
+			this.pnlSpace14.Location = new System.Drawing.Point(0, 229);
 			this.pnlSpace14.Name = "pnlSpace14";
-			this.pnlSpace14.Size = new System.Drawing.Size(475, 10);
+			this.pnlSpace14.Size = new System.Drawing.Size(471, 10);
 			this.pnlSpace14.TabIndex = 100;
 			// 
 			// pnlAddress
@@ -462,9 +448,9 @@
 			this.pnlAddress.Controls.Add(this.lblAddress_Title);
 			this.pnlAddress.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlAddress.FillColor = System.Drawing.Color.White;
-			this.pnlAddress.Location = new System.Drawing.Point(0, 205);
+			this.pnlAddress.Location = new System.Drawing.Point(0, 193);
 			this.pnlAddress.Name = "pnlAddress";
-			this.pnlAddress.Size = new System.Drawing.Size(475, 40);
+			this.pnlAddress.Size = new System.Drawing.Size(471, 36);
 			this.pnlAddress.TabIndex = 99;
 			// 
 			// txtAddress
@@ -489,7 +475,7 @@
 			this.txtAddress.PasswordChar = '\0';
 			this.txtAddress.PlaceholderText = "";
 			this.txtAddress.SelectedText = "";
-			this.txtAddress.Size = new System.Drawing.Size(367, 40);
+			this.txtAddress.Size = new System.Drawing.Size(363, 36);
 			this.txtAddress.TabIndex = 24;
 			// 
 			// lblAddress_Title
@@ -500,18 +486,18 @@
 			this.lblAddress_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblAddress_Title.Location = new System.Drawing.Point(0, 0);
 			this.lblAddress_Title.Name = "lblAddress_Title";
-			this.lblAddress_Title.Size = new System.Drawing.Size(108, 40);
+			this.lblAddress_Title.Size = new System.Drawing.Size(108, 36);
 			this.lblAddress_Title.TabIndex = 0;
-			this.lblAddress_Title.Text = "   Address: ";
+			this.lblAddress_Title.Text = "    Address: ";
 			this.lblAddress_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// pnlSpace18
 			// 
 			this.pnlSpace18.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace18.FillColor = System.Drawing.Color.White;
-			this.pnlSpace18.Location = new System.Drawing.Point(0, 195);
+			this.pnlSpace18.Location = new System.Drawing.Point(0, 183);
 			this.pnlSpace18.Name = "pnlSpace18";
-			this.pnlSpace18.Size = new System.Drawing.Size(475, 10);
+			this.pnlSpace18.Size = new System.Drawing.Size(471, 10);
 			this.pnlSpace18.TabIndex = 98;
 			// 
 			// pnlGender_DOB
@@ -522,10 +508,10 @@
 			this.pnlGender_DOB.Controls.Add(this.lblDOB_Title);
 			this.pnlGender_DOB.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlGender_DOB.FillColor = System.Drawing.Color.White;
-			this.pnlGender_DOB.Location = new System.Drawing.Point(0, 155);
+			this.pnlGender_DOB.Location = new System.Drawing.Point(0, 147);
 			this.pnlGender_DOB.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
 			this.pnlGender_DOB.Name = "pnlGender_DOB";
-			this.pnlGender_DOB.Size = new System.Drawing.Size(475, 40);
+			this.pnlGender_DOB.Size = new System.Drawing.Size(471, 36);
 			this.pnlGender_DOB.TabIndex = 97;
 			// 
 			// cboGender
@@ -551,7 +537,7 @@
             "Female"});
 			this.cboGender.Location = new System.Drawing.Point(356, 0);
 			this.cboGender.Name = "cboGender";
-			this.cboGender.Size = new System.Drawing.Size(119, 36);
+			this.cboGender.Size = new System.Drawing.Size(115, 36);
 			this.cboGender.StartIndex = 0;
 			this.cboGender.TabIndex = 6;
 			// 
@@ -563,7 +549,7 @@
 			this.lblGender_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblGender_Title.Location = new System.Drawing.Point(266, 0);
 			this.lblGender_Title.Name = "lblGender_Title";
-			this.lblGender_Title.Size = new System.Drawing.Size(90, 40);
+			this.lblGender_Title.Size = new System.Drawing.Size(90, 36);
 			this.lblGender_Title.TabIndex = 5;
 			this.lblGender_Title.Text = "  Gender: ";
 			this.lblGender_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -585,7 +571,7 @@
 			this.dtpDOB.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
 			this.dtpDOB.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
 			this.dtpDOB.Name = "dtpDOB";
-			this.dtpDOB.Size = new System.Drawing.Size(191, 40);
+			this.dtpDOB.Size = new System.Drawing.Size(191, 36);
 			this.dtpDOB.TabIndex = 7;
 			this.dtpDOB.Value = new System.DateTime(2024, 9, 22, 18, 8, 37, 767);
 			// 
@@ -597,18 +583,18 @@
 			this.lblDOB_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblDOB_Title.Location = new System.Drawing.Point(0, 0);
 			this.lblDOB_Title.Name = "lblDOB_Title";
-			this.lblDOB_Title.Size = new System.Drawing.Size(75, 40);
+			this.lblDOB_Title.Size = new System.Drawing.Size(75, 36);
 			this.lblDOB_Title.TabIndex = 2;
-			this.lblDOB_Title.Text = "   DOB:";
+			this.lblDOB_Title.Text = "    DOB:";
 			this.lblDOB_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// pnlSpace16
 			// 
 			this.pnlSpace16.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace16.FillColor = System.Drawing.Color.White;
-			this.pnlSpace16.Location = new System.Drawing.Point(0, 145);
+			this.pnlSpace16.Location = new System.Drawing.Point(0, 137);
 			this.pnlSpace16.Name = "pnlSpace16";
-			this.pnlSpace16.Size = new System.Drawing.Size(475, 10);
+			this.pnlSpace16.Size = new System.Drawing.Size(471, 10);
 			this.pnlSpace16.TabIndex = 96;
 			// 
 			// pnlPhone_Email
@@ -619,9 +605,9 @@
 			this.pnlPhone_Email.Controls.Add(this.lblEmail_Title);
 			this.pnlPhone_Email.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlPhone_Email.FillColor = System.Drawing.Color.White;
-			this.pnlPhone_Email.Location = new System.Drawing.Point(0, 105);
+			this.pnlPhone_Email.Location = new System.Drawing.Point(0, 101);
 			this.pnlPhone_Email.Name = "pnlPhone_Email";
-			this.pnlPhone_Email.Size = new System.Drawing.Size(475, 40);
+			this.pnlPhone_Email.Size = new System.Drawing.Size(471, 36);
 			this.pnlPhone_Email.TabIndex = 95;
 			// 
 			// txtPhone
@@ -646,7 +632,7 @@
 			this.txtPhone.PasswordChar = '\0';
 			this.txtPhone.PlaceholderText = "";
 			this.txtPhone.SelectedText = "";
-			this.txtPhone.Size = new System.Drawing.Size(120, 40);
+			this.txtPhone.Size = new System.Drawing.Size(116, 36);
 			this.txtPhone.TabIndex = 26;
 			// 
 			// lblPhone_Title
@@ -657,7 +643,7 @@
 			this.lblPhone_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblPhone_Title.Location = new System.Drawing.Point(265, 0);
 			this.lblPhone_Title.Name = "lblPhone_Title";
-			this.lblPhone_Title.Size = new System.Drawing.Size(90, 40);
+			this.lblPhone_Title.Size = new System.Drawing.Size(90, 36);
 			this.lblPhone_Title.TabIndex = 25;
 			this.lblPhone_Title.Text = "  Phone: ";
 			this.lblPhone_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -684,7 +670,7 @@
 			this.txtEmail.PasswordChar = '\0';
 			this.txtEmail.PlaceholderText = "";
 			this.txtEmail.SelectedText = "";
-			this.txtEmail.Size = new System.Drawing.Size(190, 40);
+			this.txtEmail.Size = new System.Drawing.Size(190, 36);
 			this.txtEmail.TabIndex = 24;
 			// 
 			// lblEmail_Title
@@ -695,18 +681,18 @@
 			this.lblEmail_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblEmail_Title.Location = new System.Drawing.Point(0, 0);
 			this.lblEmail_Title.Name = "lblEmail_Title";
-			this.lblEmail_Title.Size = new System.Drawing.Size(75, 40);
+			this.lblEmail_Title.Size = new System.Drawing.Size(75, 36);
 			this.lblEmail_Title.TabIndex = 2;
-			this.lblEmail_Title.Text = "   Email: ";
+			this.lblEmail_Title.Text = "    Email: ";
 			this.lblEmail_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// pnlSpace2
 			// 
 			this.pnlSpace2.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace2.FillColor = System.Drawing.Color.White;
-			this.pnlSpace2.Location = new System.Drawing.Point(0, 95);
+			this.pnlSpace2.Location = new System.Drawing.Point(0, 91);
 			this.pnlSpace2.Name = "pnlSpace2";
-			this.pnlSpace2.Size = new System.Drawing.Size(475, 10);
+			this.pnlSpace2.Size = new System.Drawing.Size(471, 10);
 			this.pnlSpace2.TabIndex = 94;
 			// 
 			// pnlLearnerName
@@ -719,7 +705,7 @@
 			this.pnlLearnerName.FillColor = System.Drawing.Color.White;
 			this.pnlLearnerName.Location = new System.Drawing.Point(0, 55);
 			this.pnlLearnerName.Name = "pnlLearnerName";
-			this.pnlLearnerName.Size = new System.Drawing.Size(475, 40);
+			this.pnlLearnerName.Size = new System.Drawing.Size(471, 36);
 			this.pnlLearnerName.TabIndex = 93;
 			// 
 			// txtCitizenId
@@ -744,7 +730,7 @@
 			this.txtCitizenId.PasswordChar = '\0';
 			this.txtCitizenId.PlaceholderText = "";
 			this.txtCitizenId.SelectedText = "";
-			this.txtCitizenId.Size = new System.Drawing.Size(120, 40);
+			this.txtCitizenId.Size = new System.Drawing.Size(116, 36);
 			this.txtCitizenId.TabIndex = 26;
 			// 
 			// lblCitizenId
@@ -755,7 +741,7 @@
 			this.lblCitizenId.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblCitizenId.Location = new System.Drawing.Point(265, 0);
 			this.lblCitizenId.Name = "lblCitizenId";
-			this.lblCitizenId.Size = new System.Drawing.Size(90, 40);
+			this.lblCitizenId.Size = new System.Drawing.Size(90, 36);
 			this.lblCitizenId.TabIndex = 25;
 			this.lblCitizenId.Text = "  Citizen Id: ";
 			this.lblCitizenId.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -783,7 +769,7 @@
 			this.txtLearnerName.PasswordChar = '\0';
 			this.txtLearnerName.PlaceholderText = "";
 			this.txtLearnerName.SelectedText = "";
-			this.txtLearnerName.Size = new System.Drawing.Size(190, 40);
+			this.txtLearnerName.Size = new System.Drawing.Size(190, 36);
 			this.txtLearnerName.TabIndex = 2;
 			// 
 			// lblLearnerName_Title
@@ -794,9 +780,9 @@
 			this.lblLearnerName_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblLearnerName_Title.Location = new System.Drawing.Point(0, 0);
 			this.lblLearnerName_Title.Name = "lblLearnerName_Title";
-			this.lblLearnerName_Title.Size = new System.Drawing.Size(75, 40);
+			this.lblLearnerName_Title.Size = new System.Drawing.Size(75, 36);
 			this.lblLearnerName_Title.TabIndex = 0;
-			this.lblLearnerName_Title.Text = "   Name: ";
+			this.lblLearnerName_Title.Text = "    Name: ";
 			this.lblLearnerName_Title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// pnlSpace22
@@ -805,7 +791,7 @@
 			this.pnlSpace22.FillColor = System.Drawing.Color.White;
 			this.pnlSpace22.Location = new System.Drawing.Point(0, 45);
 			this.pnlSpace22.Name = "pnlSpace22";
-			this.pnlSpace22.Size = new System.Drawing.Size(475, 10);
+			this.pnlSpace22.Size = new System.Drawing.Size(471, 10);
 			this.pnlSpace22.TabIndex = 92;
 			// 
 			// pnlSpace21
@@ -813,9 +799,9 @@
 			this.pnlSpace21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
 			this.pnlSpace21.Dock = System.Windows.Forms.DockStyle.Right;
 			this.pnlSpace21.FillColor = System.Drawing.Color.White;
-			this.pnlSpace21.Location = new System.Drawing.Point(475, 45);
+			this.pnlSpace21.Location = new System.Drawing.Point(471, 45);
 			this.pnlSpace21.Name = "pnlSpace21";
-			this.pnlSpace21.Size = new System.Drawing.Size(15, 335);
+			this.pnlSpace21.Size = new System.Drawing.Size(19, 335);
 			this.pnlSpace21.TabIndex = 91;
 			// 
 			// lblBasicDetails
@@ -874,7 +860,7 @@
 			this.lblLearnerID.Location = new System.Drawing.Point(363, 15);
 			this.lblLearnerID.Name = "lblLearnerID";
 			this.lblLearnerID.PressedDepth = 5;
-			this.lblLearnerID.Size = new System.Drawing.Size(112, 25);
+			this.lblLearnerID.Size = new System.Drawing.Size(108, 25);
 			this.lblLearnerID.TabIndex = 22;
 			this.lblLearnerID.Text = "ID: 2222";
 			// 
@@ -884,7 +870,7 @@
 			this.pnlSpace12.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.pnlSpace12.Location = new System.Drawing.Point(363, 40);
 			this.pnlSpace12.Name = "pnlSpace12";
-			this.pnlSpace12.Size = new System.Drawing.Size(112, 10);
+			this.pnlSpace12.Size = new System.Drawing.Size(108, 10);
 			this.pnlSpace12.TabIndex = 21;
 			// 
 			// pnlSpace11
@@ -893,7 +879,7 @@
 			this.pnlSpace11.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlSpace11.Location = new System.Drawing.Point(363, 0);
 			this.pnlSpace11.Name = "pnlSpace11";
-			this.pnlSpace11.Size = new System.Drawing.Size(112, 15);
+			this.pnlSpace11.Size = new System.Drawing.Size(108, 15);
 			this.pnlSpace11.TabIndex = 20;
 			// 
 			// pnlSpace9
@@ -905,9 +891,9 @@
 			this.pnlSpace9.CustomizableEdges.TopLeft = false;
 			this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Right;
 			this.pnlSpace9.FillColor = System.Drawing.Color.White;
-			this.pnlSpace9.Location = new System.Drawing.Point(475, 0);
+			this.pnlSpace9.Location = new System.Drawing.Point(471, 0);
 			this.pnlSpace9.Name = "pnlSpace9";
-			this.pnlSpace9.Size = new System.Drawing.Size(15, 50);
+			this.pnlSpace9.Size = new System.Drawing.Size(19, 50);
 			this.pnlSpace9.TabIndex = 18;
 			// 
 			// lblPersonalDetails
@@ -964,50 +950,50 @@
 			// 
 			this.dgvLearners.AllowUserToAddRows = false;
 			this.dgvLearners.AllowUserToDeleteRows = false;
-			dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-			this.dgvLearners.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-			dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle2.ForeColor = System.Drawing.Color.DimGray;
-			dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.dgvLearners.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+			dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+			this.dgvLearners.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+			dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle8.ForeColor = System.Drawing.Color.DimGray;
+			dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.dgvLearners.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
 			this.dgvLearners.ColumnHeadersHeight = 40;
 			this.dgvLearners.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column2,
             this.dataGridViewTextBoxColumn3,
             this.Column5,
             this.EmploymentDate});
-			dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle4.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
-			dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))));
-			dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.dgvLearners.DefaultCellStyle = dataGridViewCellStyle4;
+			dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle10.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+			dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))));
+			dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.dgvLearners.DefaultCellStyle = dataGridViewCellStyle10;
 			this.dgvLearners.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.dgvLearners.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
 			this.dgvLearners.Location = new System.Drawing.Point(0, 53);
 			this.dgvLearners.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.dgvLearners.Name = "dgvLearners";
 			this.dgvLearners.ReadOnly = true;
-			dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-			dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-			dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-			dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.dgvLearners.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+			dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
+			dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
+			dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+			dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.dgvLearners.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
 			this.dgvLearners.RowHeadersVisible = false;
 			this.dgvLearners.RowHeadersWidth = 50;
 			this.dgvLearners.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-			dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11F);
-			this.dgvLearners.RowsDefaultCellStyle = dataGridViewCellStyle6;
+			dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 11F);
+			this.dgvLearners.RowsDefaultCellStyle = dataGridViewCellStyle12;
 			this.dgvLearners.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10F);
 			this.dgvLearners.RowTemplate.DividerHeight = 7;
 			this.dgvLearners.RowTemplate.Height = 60;
@@ -1049,8 +1035,8 @@
 			// 
 			this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
 			this.dataGridViewTextBoxColumn3.DataPropertyName = "FullName";
-			dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle3;
+			dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle9;
 			this.dataGridViewTextBoxColumn3.FillWeight = 53.63456F;
 			this.dataGridViewTextBoxColumn3.Frozen = true;
 			this.dataGridViewTextBoxColumn3.HeaderText = "Name";
@@ -1302,7 +1288,6 @@
         private Guna.UI2.WinForms.Guna2Panel pnlSpace13;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace17;
         private Guna.UI2.WinForms.Guna2Panel pnlCitizenId;
-        private Guna.UI2.WinForms.Guna2Panel pnlSpace23;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2TextBox txtCitizenId;
         private System.Windows.Forms.Label lblCitizenId;
