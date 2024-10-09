@@ -34,6 +34,7 @@
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InvoicesForm));
 			this.pnlInvoices = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
 			this.pnlButtonAdd = new Guna.UI2.WinForms.Guna2Panel();
 			this.btnOpenAddInvoiceForm = new Guna.UI2.WinForms.Guna2Button();
@@ -52,12 +53,19 @@
 			this.pnlSpace6 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace1 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlDetails = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-			this.pnlButtonEdit_Delete = new Guna.UI2.WinForms.Guna2Panel();
-			this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
-			this.btnEdit = new Guna.UI2.WinForms.Guna2Button();
-			this.pnlSpace13 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlBasicDetails = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlStatus = new Guna.UI2.WinForms.Guna2Panel();
+			this.cboStatus = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.lblStatus = new System.Windows.Forms.Label();
+			this.pnlSpace10 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlInvoiceDate = new Guna.UI2.WinForms.Guna2Panel();
+			this.dtpInvoiceDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
+			this.lblInvoiceDate = new System.Windows.Forms.Label();
+			this.pnlSpace9 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlTotalAmount = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlTotalAmount_VND = new Guna.UI2.WinForms.Guna2Panel();
+			this.txtVND = new Guna.UI2.WinForms.Guna2TextBox();
+			this.txtAmount = new Guna.UI2.WinForms.Guna2TextBox();
 			this.txtAmountNotes = new Guna.UI2.WinForms.Guna2TextBox();
 			this.lblTotalAmount = new System.Windows.Forms.Label();
 			this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
@@ -80,31 +88,36 @@
 			this.pnlSpace14 = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblDetails = new System.Windows.Forms.Label();
 			this.pnlSpace16 = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlSpace9 = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlTotalAmount_VND = new Guna.UI2.WinForms.Guna2Panel();
-			this.txtVND = new Guna.UI2.WinForms.Guna2TextBox();
-			this.txtAmount = new Guna.UI2.WinForms.Guna2TextBox();
-			this.pnlInvoiceDate = new Guna.UI2.WinForms.Guna2Panel();
-			this.lblInvoiceDate = new System.Windows.Forms.Label();
-			this.dtpInvoiceDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
-			this.pnlSpace10 = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlStatus = new Guna.UI2.WinForms.Guna2Panel();
-			this.lblStatus = new System.Windows.Forms.Label();
-			this.cboStatus = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.pnlButtonEdit_Delete = new Guna.UI2.WinForms.Guna2Panel();
+			this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
+			this.btnEdit = new Guna.UI2.WinForms.Guna2Button();
+			this.pnlSpace13 = new Guna.UI2.WinForms.Guna2Panel();
+			this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlMessage = new Guna.UI2.WinForms.Guna2Panel();
+			this.txtMessage = new Guna.UI2.WinForms.Guna2TextBox();
+			this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlButtonSMS_Mail = new Guna.UI2.WinForms.Guna2Panel();
+			this.btnSendInvoiceByMail = new Guna.UI2.WinForms.Guna2Button();
+			this.pnlSpace19 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlSpace18 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlSpace17 = new Guna.UI2.WinForms.Guna2Panel();
+			this.lblMessage = new System.Windows.Forms.Label();
 			this.pnlInvoices.SuspendLayout();
 			this.pnlButtonAdd.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dgvInvoices)).BeginInit();
 			this.pnlInvoices_Top.SuspendLayout();
 			this.pnlDetails.SuspendLayout();
-			this.pnlButtonEdit_Delete.SuspendLayout();
 			this.pnlBasicDetails.SuspendLayout();
+			this.pnlStatus.SuspendLayout();
+			this.pnlInvoiceDate.SuspendLayout();
 			this.pnlTotalAmount.SuspendLayout();
+			this.pnlTotalAmount_VND.SuspendLayout();
 			this.pnlCourse.SuspendLayout();
 			this.pnlLearner.SuspendLayout();
 			this.pnlDetails_Top.SuspendLayout();
-			this.pnlTotalAmount_VND.SuspendLayout();
-			this.pnlInvoiceDate.SuspendLayout();
-			this.pnlStatus.SuspendLayout();
+			this.pnlButtonEdit_Delete.SuspendLayout();
+			this.pnlMessage.SuspendLayout();
+			this.pnlButtonSMS_Mail.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// pnlInvoices
@@ -126,7 +139,7 @@
 			this.pnlButtonAdd.Controls.Add(this.pnlSpace15);
 			this.pnlButtonAdd.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlButtonAdd.FillColor = System.Drawing.Color.White;
-			this.pnlButtonAdd.Location = new System.Drawing.Point(0, 537);
+			this.pnlButtonAdd.Location = new System.Drawing.Point(0, 663);
 			this.pnlButtonAdd.Name = "pnlButtonAdd";
 			this.pnlButtonAdd.Size = new System.Drawing.Size(430, 35);
 			this.pnlButtonAdd.TabIndex = 42;
@@ -212,7 +225,7 @@
 			this.dgvInvoices.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.dgvInvoices.RowTemplate.DividerHeight = 2;
 			this.dgvInvoices.RowTemplate.Height = 45;
-			this.dgvInvoices.Size = new System.Drawing.Size(430, 484);
+			this.dgvInvoices.Size = new System.Drawing.Size(430, 610);
 			this.dgvInvoices.TabIndex = 43;
 			this.dgvInvoices.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
 			this.dgvInvoices.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -402,7 +415,7 @@
 			// 
 			this.pnlDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
 			this.pnlDetails.BorderRadius = 15;
-			this.pnlDetails.Controls.Add(this.pnlButtonEdit_Delete);
+			this.pnlDetails.Controls.Add(this.pnlMessage);
 			this.pnlDetails.Controls.Add(this.pnlBasicDetails);
 			this.pnlDetails.Controls.Add(this.lblBasicDetails);
 			this.pnlDetails.Controls.Add(this.pnlDetails_Top);
@@ -412,68 +425,10 @@
 			this.pnlDetails.Size = new System.Drawing.Size(490, 715);
 			this.pnlDetails.TabIndex = 49;
 			// 
-			// pnlButtonEdit_Delete
-			// 
-			this.pnlButtonEdit_Delete.Controls.Add(this.btnDelete);
-			this.pnlButtonEdit_Delete.Controls.Add(this.btnEdit);
-			this.pnlButtonEdit_Delete.Controls.Add(this.pnlSpace13);
-			this.pnlButtonEdit_Delete.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlButtonEdit_Delete.FillColor = System.Drawing.Color.White;
-			this.pnlButtonEdit_Delete.Location = new System.Drawing.Point(0, 393);
-			this.pnlButtonEdit_Delete.Name = "pnlButtonEdit_Delete";
-			this.pnlButtonEdit_Delete.Size = new System.Drawing.Size(490, 35);
-			this.pnlButtonEdit_Delete.TabIndex = 129;
-			// 
-			// btnDelete
-			// 
-			this.btnDelete.BorderRadius = 5;
-			this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.btnDelete.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.btnDelete.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.btnDelete.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.btnDelete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.btnDelete.Dock = System.Windows.Forms.DockStyle.Right;
-			this.btnDelete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(100)))), ((int)(((byte)(119)))));
-			this.btnDelete.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnDelete.ForeColor = System.Drawing.Color.White;
-			this.btnDelete.Location = new System.Drawing.Point(340, 0);
-			this.btnDelete.Name = "btnDelete";
-			this.btnDelete.Padding = new System.Windows.Forms.Padding(5);
-			this.btnDelete.Size = new System.Drawing.Size(150, 35);
-			this.btnDelete.TabIndex = 19;
-			this.btnDelete.Text = "Delete";
-			// 
-			// btnEdit
-			// 
-			this.btnEdit.BorderRadius = 5;
-			this.btnEdit.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.btnEdit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.btnEdit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.btnEdit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.btnEdit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.btnEdit.Dock = System.Windows.Forms.DockStyle.Left;
-			this.btnEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(191)))), ((int)(((byte)(90)))));
-			this.btnEdit.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnEdit.ForeColor = System.Drawing.Color.White;
-			this.btnEdit.Location = new System.Drawing.Point(19, 0);
-			this.btnEdit.Name = "btnEdit";
-			this.btnEdit.Padding = new System.Windows.Forms.Padding(5);
-			this.btnEdit.Size = new System.Drawing.Size(150, 35);
-			this.btnEdit.TabIndex = 17;
-			this.btnEdit.Text = "Edit";
-			// 
-			// pnlSpace13
-			// 
-			this.pnlSpace13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.pnlSpace13.Dock = System.Windows.Forms.DockStyle.Left;
-			this.pnlSpace13.FillColor = System.Drawing.Color.White;
-			this.pnlSpace13.Location = new System.Drawing.Point(0, 0);
-			this.pnlSpace13.Name = "pnlSpace13";
-			this.pnlSpace13.Size = new System.Drawing.Size(19, 35);
-			this.pnlSpace13.TabIndex = 10;
-			// 
 			// pnlBasicDetails
 			// 
+			this.pnlBasicDetails.Controls.Add(this.pnlButtonEdit_Delete);
+			this.pnlBasicDetails.Controls.Add(this.guna2Panel1);
 			this.pnlBasicDetails.Controls.Add(this.pnlStatus);
 			this.pnlBasicDetails.Controls.Add(this.pnlSpace10);
 			this.pnlBasicDetails.Controls.Add(this.pnlInvoiceDate);
@@ -489,8 +444,121 @@
 			this.pnlBasicDetails.FillColor = System.Drawing.Color.White;
 			this.pnlBasicDetails.Location = new System.Drawing.Point(0, 95);
 			this.pnlBasicDetails.Name = "pnlBasicDetails";
-			this.pnlBasicDetails.Size = new System.Drawing.Size(490, 298);
+			this.pnlBasicDetails.Size = new System.Drawing.Size(490, 376);
 			this.pnlBasicDetails.TabIndex = 110;
+			// 
+			// pnlStatus
+			// 
+			this.pnlStatus.Controls.Add(this.cboStatus);
+			this.pnlStatus.Controls.Add(this.lblStatus);
+			this.pnlStatus.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlStatus.FillColor = System.Drawing.Color.White;
+			this.pnlStatus.Location = new System.Drawing.Point(0, 246);
+			this.pnlStatus.Name = "pnlStatus";
+			this.pnlStatus.Size = new System.Drawing.Size(471, 36);
+			this.pnlStatus.TabIndex = 128;
+			// 
+			// cboStatus
+			// 
+			this.cboStatus.BackColor = System.Drawing.Color.White;
+			this.cboStatus.BorderRadius = 5;
+			this.cboStatus.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.cboStatus.DisabledState.BorderColor = System.Drawing.Color.White;
+			this.cboStatus.DisabledState.FillColor = System.Drawing.Color.White;
+			this.cboStatus.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.cboStatus.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.cboStatus.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cboStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cboStatus.Enabled = false;
+			this.cboStatus.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
+			this.cboStatus.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
+			this.cboStatus.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+			this.cboStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.cboStatus.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.cboStatus.ItemHeight = 30;
+			this.cboStatus.Items.AddRange(new object[] {
+            "Pending",
+            "Paid"});
+			this.cboStatus.Location = new System.Drawing.Point(132, 0);
+			this.cboStatus.Name = "cboStatus";
+			this.cboStatus.Size = new System.Drawing.Size(339, 36);
+			this.cboStatus.StartIndex = 0;
+			this.cboStatus.TabIndex = 33;
+			// 
+			// lblStatus
+			// 
+			this.lblStatus.BackColor = System.Drawing.Color.White;
+			this.lblStatus.Dock = System.Windows.Forms.DockStyle.Left;
+			this.lblStatus.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
+			this.lblStatus.Location = new System.Drawing.Point(0, 0);
+			this.lblStatus.Name = "lblStatus";
+			this.lblStatus.Size = new System.Drawing.Size(132, 36);
+			this.lblStatus.TabIndex = 29;
+			this.lblStatus.Text = "    Status:";
+			this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// pnlSpace10
+			// 
+			this.pnlSpace10.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlSpace10.FillColor = System.Drawing.Color.White;
+			this.pnlSpace10.Location = new System.Drawing.Point(0, 236);
+			this.pnlSpace10.Name = "pnlSpace10";
+			this.pnlSpace10.Size = new System.Drawing.Size(471, 10);
+			this.pnlSpace10.TabIndex = 127;
+			// 
+			// pnlInvoiceDate
+			// 
+			this.pnlInvoiceDate.Controls.Add(this.dtpInvoiceDate);
+			this.pnlInvoiceDate.Controls.Add(this.lblInvoiceDate);
+			this.pnlInvoiceDate.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlInvoiceDate.FillColor = System.Drawing.Color.White;
+			this.pnlInvoiceDate.Location = new System.Drawing.Point(0, 200);
+			this.pnlInvoiceDate.Name = "pnlInvoiceDate";
+			this.pnlInvoiceDate.Size = new System.Drawing.Size(471, 36);
+			this.pnlInvoiceDate.TabIndex = 126;
+			// 
+			// dtpInvoiceDate
+			// 
+			this.dtpInvoiceDate.BorderColor = System.Drawing.Color.White;
+			this.dtpInvoiceDate.BorderRadius = 5;
+			this.dtpInvoiceDate.Checked = true;
+			this.dtpInvoiceDate.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.dtpInvoiceDate.CustomFormat = "dd-MM-yyyy, hh:mm tt";
+			this.dtpInvoiceDate.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.dtpInvoiceDate.FillColor = System.Drawing.Color.White;
+			this.dtpInvoiceDate.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+			this.dtpInvoiceDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.dtpInvoiceDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+			this.dtpInvoiceDate.Location = new System.Drawing.Point(132, 0);
+			this.dtpInvoiceDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+			this.dtpInvoiceDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+			this.dtpInvoiceDate.Name = "dtpInvoiceDate";
+			this.dtpInvoiceDate.Size = new System.Drawing.Size(339, 36);
+			this.dtpInvoiceDate.TabIndex = 30;
+			this.dtpInvoiceDate.Value = new System.DateTime(2024, 9, 22, 18, 8, 37, 767);
+			// 
+			// lblInvoiceDate
+			// 
+			this.lblInvoiceDate.BackColor = System.Drawing.Color.White;
+			this.lblInvoiceDate.Dock = System.Windows.Forms.DockStyle.Left;
+			this.lblInvoiceDate.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblInvoiceDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
+			this.lblInvoiceDate.Location = new System.Drawing.Point(0, 0);
+			this.lblInvoiceDate.Name = "lblInvoiceDate";
+			this.lblInvoiceDate.Size = new System.Drawing.Size(132, 36);
+			this.lblInvoiceDate.TabIndex = 29;
+			this.lblInvoiceDate.Text = "    Invoice Date:";
+			this.lblInvoiceDate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// pnlSpace9
+			// 
+			this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlSpace9.FillColor = System.Drawing.Color.White;
+			this.pnlSpace9.Location = new System.Drawing.Point(0, 190);
+			this.pnlSpace9.Name = "pnlSpace9";
+			this.pnlSpace9.Size = new System.Drawing.Size(471, 10);
+			this.pnlSpace9.TabIndex = 125;
 			// 
 			// pnlTotalAmount
 			// 
@@ -503,6 +571,68 @@
 			this.pnlTotalAmount.Name = "pnlTotalAmount";
 			this.pnlTotalAmount.Size = new System.Drawing.Size(471, 88);
 			this.pnlTotalAmount.TabIndex = 124;
+			// 
+			// pnlTotalAmount_VND
+			// 
+			this.pnlTotalAmount_VND.Controls.Add(this.txtVND);
+			this.pnlTotalAmount_VND.Controls.Add(this.txtAmount);
+			this.pnlTotalAmount_VND.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlTotalAmount_VND.FillColor = System.Drawing.Color.White;
+			this.pnlTotalAmount_VND.Location = new System.Drawing.Point(132, 0);
+			this.pnlTotalAmount_VND.Name = "pnlTotalAmount_VND";
+			this.pnlTotalAmount_VND.Size = new System.Drawing.Size(339, 36);
+			this.pnlTotalAmount_VND.TabIndex = 127;
+			// 
+			// txtVND
+			// 
+			this.txtVND.BackColor = System.Drawing.Color.White;
+			this.txtVND.BorderRadius = 5;
+			this.txtVND.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.txtVND.DefaultText = "VND";
+			this.txtVND.DisabledState.BorderColor = System.Drawing.Color.White;
+			this.txtVND.DisabledState.FillColor = System.Drawing.Color.White;
+			this.txtVND.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtVND.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
+			this.txtVND.Dock = System.Windows.Forms.DockStyle.Right;
+			this.txtVND.Enabled = false;
+			this.txtVND.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtVND.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+			this.txtVND.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtVND.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtVND.Location = new System.Drawing.Point(279, 0);
+			this.txtVND.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.txtVND.Name = "txtVND";
+			this.txtVND.PasswordChar = '\0';
+			this.txtVND.PlaceholderText = "";
+			this.txtVND.SelectedText = "";
+			this.txtVND.Size = new System.Drawing.Size(60, 36);
+			this.txtVND.TabIndex = 33;
+			// 
+			// txtAmount
+			// 
+			this.txtAmount.BackColor = System.Drawing.Color.White;
+			this.txtAmount.BorderRadius = 5;
+			this.txtAmount.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.txtAmount.DefaultText = "14.900.000";
+			this.txtAmount.DisabledState.BorderColor = System.Drawing.Color.White;
+			this.txtAmount.DisabledState.FillColor = System.Drawing.Color.White;
+			this.txtAmount.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtAmount.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
+			this.txtAmount.Dock = System.Windows.Forms.DockStyle.Left;
+			this.txtAmount.Enabled = false;
+			this.txtAmount.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtAmount.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+			this.txtAmount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtAmount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtAmount.Location = new System.Drawing.Point(0, 0);
+			this.txtAmount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.txtAmount.Name = "txtAmount";
+			this.txtAmount.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
+			this.txtAmount.PasswordChar = '\0';
+			this.txtAmount.PlaceholderText = "";
+			this.txtAmount.SelectedText = "";
+			this.txtAmount.Size = new System.Drawing.Size(275, 36);
+			this.txtAmount.TabIndex = 32;
 			// 
 			// txtAmountNotes
 			// 
@@ -735,7 +865,7 @@
 			this.pnlSpace21.FillColor = System.Drawing.Color.White;
 			this.pnlSpace21.Location = new System.Drawing.Point(471, 0);
 			this.pnlSpace21.Name = "pnlSpace21";
-			this.pnlSpace21.Size = new System.Drawing.Size(19, 298);
+			this.pnlSpace21.Size = new System.Drawing.Size(19, 376);
 			this.pnlSpace21.TabIndex = 91;
 			// 
 			// lblBasicDetails
@@ -848,180 +978,198 @@
 			this.pnlSpace16.Size = new System.Drawing.Size(13, 50);
 			this.pnlSpace16.TabIndex = 16;
 			// 
-			// pnlSpace9
+			// pnlButtonEdit_Delete
 			// 
-			this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlSpace9.FillColor = System.Drawing.Color.White;
-			this.pnlSpace9.Location = new System.Drawing.Point(0, 190);
-			this.pnlSpace9.Name = "pnlSpace9";
-			this.pnlSpace9.Size = new System.Drawing.Size(471, 10);
-			this.pnlSpace9.TabIndex = 125;
+			this.pnlButtonEdit_Delete.Controls.Add(this.btnDelete);
+			this.pnlButtonEdit_Delete.Controls.Add(this.btnEdit);
+			this.pnlButtonEdit_Delete.Controls.Add(this.pnlSpace13);
+			this.pnlButtonEdit_Delete.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlButtonEdit_Delete.FillColor = System.Drawing.Color.White;
+			this.pnlButtonEdit_Delete.Location = new System.Drawing.Point(0, 302);
+			this.pnlButtonEdit_Delete.Name = "pnlButtonEdit_Delete";
+			this.pnlButtonEdit_Delete.Size = new System.Drawing.Size(471, 35);
+			this.pnlButtonEdit_Delete.TabIndex = 130;
 			// 
-			// pnlTotalAmount_VND
+			// btnDelete
 			// 
-			this.pnlTotalAmount_VND.Controls.Add(this.txtVND);
-			this.pnlTotalAmount_VND.Controls.Add(this.txtAmount);
-			this.pnlTotalAmount_VND.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlTotalAmount_VND.FillColor = System.Drawing.Color.White;
-			this.pnlTotalAmount_VND.Location = new System.Drawing.Point(132, 0);
-			this.pnlTotalAmount_VND.Name = "pnlTotalAmount_VND";
-			this.pnlTotalAmount_VND.Size = new System.Drawing.Size(339, 36);
-			this.pnlTotalAmount_VND.TabIndex = 127;
+			this.btnDelete.BorderRadius = 5;
+			this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btnDelete.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.btnDelete.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.btnDelete.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.btnDelete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.btnDelete.Dock = System.Windows.Forms.DockStyle.Right;
+			this.btnDelete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(100)))), ((int)(((byte)(119)))));
+			this.btnDelete.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnDelete.ForeColor = System.Drawing.Color.White;
+			this.btnDelete.Location = new System.Drawing.Point(321, 0);
+			this.btnDelete.Name = "btnDelete";
+			this.btnDelete.Padding = new System.Windows.Forms.Padding(5);
+			this.btnDelete.Size = new System.Drawing.Size(150, 35);
+			this.btnDelete.TabIndex = 19;
+			this.btnDelete.Text = "Delete";
 			// 
-			// txtVND
+			// btnEdit
 			// 
-			this.txtVND.BackColor = System.Drawing.Color.White;
-			this.txtVND.BorderRadius = 5;
-			this.txtVND.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.txtVND.DefaultText = "VND";
-			this.txtVND.DisabledState.BorderColor = System.Drawing.Color.White;
-			this.txtVND.DisabledState.FillColor = System.Drawing.Color.White;
-			this.txtVND.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.txtVND.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
-			this.txtVND.Dock = System.Windows.Forms.DockStyle.Right;
-			this.txtVND.Enabled = false;
-			this.txtVND.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtVND.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-			this.txtVND.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.txtVND.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtVND.Location = new System.Drawing.Point(279, 0);
-			this.txtVND.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-			this.txtVND.Name = "txtVND";
-			this.txtVND.PasswordChar = '\0';
-			this.txtVND.PlaceholderText = "";
-			this.txtVND.SelectedText = "";
-			this.txtVND.Size = new System.Drawing.Size(60, 36);
-			this.txtVND.TabIndex = 33;
+			this.btnEdit.BorderRadius = 5;
+			this.btnEdit.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btnEdit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.btnEdit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.btnEdit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.btnEdit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.btnEdit.Dock = System.Windows.Forms.DockStyle.Left;
+			this.btnEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(191)))), ((int)(((byte)(90)))));
+			this.btnEdit.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnEdit.ForeColor = System.Drawing.Color.White;
+			this.btnEdit.Location = new System.Drawing.Point(19, 0);
+			this.btnEdit.Name = "btnEdit";
+			this.btnEdit.Padding = new System.Windows.Forms.Padding(5);
+			this.btnEdit.Size = new System.Drawing.Size(150, 35);
+			this.btnEdit.TabIndex = 17;
+			this.btnEdit.Text = "Edit";
 			// 
-			// txtAmount
+			// pnlSpace13
 			// 
-			this.txtAmount.BackColor = System.Drawing.Color.White;
-			this.txtAmount.BorderRadius = 5;
-			this.txtAmount.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.txtAmount.DefaultText = "14.900.000";
-			this.txtAmount.DisabledState.BorderColor = System.Drawing.Color.White;
-			this.txtAmount.DisabledState.FillColor = System.Drawing.Color.White;
-			this.txtAmount.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.txtAmount.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
-			this.txtAmount.Dock = System.Windows.Forms.DockStyle.Left;
-			this.txtAmount.Enabled = false;
-			this.txtAmount.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtAmount.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-			this.txtAmount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.txtAmount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtAmount.Location = new System.Drawing.Point(0, 0);
-			this.txtAmount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-			this.txtAmount.Name = "txtAmount";
-			this.txtAmount.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
-			this.txtAmount.PasswordChar = '\0';
-			this.txtAmount.PlaceholderText = "";
-			this.txtAmount.SelectedText = "";
-			this.txtAmount.Size = new System.Drawing.Size(275, 36);
-			this.txtAmount.TabIndex = 32;
+			this.pnlSpace13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.pnlSpace13.Dock = System.Windows.Forms.DockStyle.Left;
+			this.pnlSpace13.FillColor = System.Drawing.Color.White;
+			this.pnlSpace13.Location = new System.Drawing.Point(0, 0);
+			this.pnlSpace13.Name = "pnlSpace13";
+			this.pnlSpace13.Size = new System.Drawing.Size(19, 35);
+			this.pnlSpace13.TabIndex = 10;
 			// 
-			// pnlInvoiceDate
+			// guna2Panel1
 			// 
-			this.pnlInvoiceDate.Controls.Add(this.dtpInvoiceDate);
-			this.pnlInvoiceDate.Controls.Add(this.lblInvoiceDate);
-			this.pnlInvoiceDate.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlInvoiceDate.FillColor = System.Drawing.Color.White;
-			this.pnlInvoiceDate.Location = new System.Drawing.Point(0, 200);
-			this.pnlInvoiceDate.Name = "pnlInvoiceDate";
-			this.pnlInvoiceDate.Size = new System.Drawing.Size(471, 36);
-			this.pnlInvoiceDate.TabIndex = 126;
+			this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
+			this.guna2Panel1.FillColor = System.Drawing.Color.White;
+			this.guna2Panel1.Location = new System.Drawing.Point(0, 282);
+			this.guna2Panel1.Name = "guna2Panel1";
+			this.guna2Panel1.Size = new System.Drawing.Size(471, 20);
+			this.guna2Panel1.TabIndex = 131;
 			// 
-			// lblInvoiceDate
+			// pnlMessage
 			// 
-			this.lblInvoiceDate.BackColor = System.Drawing.Color.White;
-			this.lblInvoiceDate.Dock = System.Windows.Forms.DockStyle.Left;
-			this.lblInvoiceDate.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblInvoiceDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
-			this.lblInvoiceDate.Location = new System.Drawing.Point(0, 0);
-			this.lblInvoiceDate.Name = "lblInvoiceDate";
-			this.lblInvoiceDate.Size = new System.Drawing.Size(132, 36);
-			this.lblInvoiceDate.TabIndex = 29;
-			this.lblInvoiceDate.Text = "    Invoice Date:";
-			this.lblInvoiceDate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.pnlMessage.Controls.Add(this.txtMessage);
+			this.pnlMessage.Controls.Add(this.guna2Panel2);
+			this.pnlMessage.Controls.Add(this.pnlButtonSMS_Mail);
+			this.pnlMessage.Controls.Add(this.pnlSpace19);
+			this.pnlMessage.Controls.Add(this.pnlSpace18);
+			this.pnlMessage.Controls.Add(this.pnlSpace17);
+			this.pnlMessage.Controls.Add(this.lblMessage);
+			this.pnlMessage.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlMessage.FillColor = System.Drawing.Color.White;
+			this.pnlMessage.Location = new System.Drawing.Point(0, 471);
+			this.pnlMessage.Name = "pnlMessage";
+			this.pnlMessage.Size = new System.Drawing.Size(490, 228);
+			this.pnlMessage.TabIndex = 111;
 			// 
-			// dtpInvoiceDate
+			// txtMessage
 			// 
-			this.dtpInvoiceDate.BorderColor = System.Drawing.Color.White;
-			this.dtpInvoiceDate.BorderRadius = 5;
-			this.dtpInvoiceDate.Checked = true;
-			this.dtpInvoiceDate.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.dtpInvoiceDate.CustomFormat = "dd-MM-yyyy, hh:mm tt";
-			this.dtpInvoiceDate.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.dtpInvoiceDate.FillColor = System.Drawing.Color.White;
-			this.dtpInvoiceDate.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-			this.dtpInvoiceDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.dtpInvoiceDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-			this.dtpInvoiceDate.Location = new System.Drawing.Point(132, 0);
-			this.dtpInvoiceDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-			this.dtpInvoiceDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-			this.dtpInvoiceDate.Name = "dtpInvoiceDate";
-			this.dtpInvoiceDate.Size = new System.Drawing.Size(339, 36);
-			this.dtpInvoiceDate.TabIndex = 30;
-			this.dtpInvoiceDate.Value = new System.DateTime(2024, 9, 22, 18, 8, 37, 767);
+			this.txtMessage.BackColor = System.Drawing.Color.White;
+			this.txtMessage.BorderRadius = 10;
+			this.txtMessage.BorderThickness = 0;
+			this.txtMessage.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.txtMessage.DefaultText = "";
+			this.txtMessage.DisabledState.BorderColor = System.Drawing.Color.White;
+			this.txtMessage.DisabledState.FillColor = System.Drawing.Color.White;
+			this.txtMessage.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtMessage.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
+			this.txtMessage.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.txtMessage.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.txtMessage.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtMessage.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+			this.txtMessage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtMessage.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtMessage.Location = new System.Drawing.Point(19, 60);
+			this.txtMessage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.txtMessage.Name = "txtMessage";
+			this.txtMessage.PasswordChar = '\0';
+			this.txtMessage.PlaceholderText = "Write Message...";
+			this.txtMessage.SelectedText = "";
+			this.txtMessage.Size = new System.Drawing.Size(452, 112);
+			this.txtMessage.TabIndex = 106;
+			this.txtMessage.Tag = "1";
 			// 
-			// pnlSpace10
+			// guna2Panel2
 			// 
-			this.pnlSpace10.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlSpace10.FillColor = System.Drawing.Color.White;
-			this.pnlSpace10.Location = new System.Drawing.Point(0, 236);
-			this.pnlSpace10.Name = "pnlSpace10";
-			this.pnlSpace10.Size = new System.Drawing.Size(471, 10);
-			this.pnlSpace10.TabIndex = 127;
+			this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.guna2Panel2.FillColor = System.Drawing.Color.White;
+			this.guna2Panel2.Location = new System.Drawing.Point(19, 172);
+			this.guna2Panel2.Name = "guna2Panel2";
+			this.guna2Panel2.Size = new System.Drawing.Size(452, 15);
+			this.guna2Panel2.TabIndex = 110;
 			// 
-			// pnlStatus
+			// pnlButtonSMS_Mail
 			// 
-			this.pnlStatus.Controls.Add(this.cboStatus);
-			this.pnlStatus.Controls.Add(this.lblStatus);
-			this.pnlStatus.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlStatus.FillColor = System.Drawing.Color.White;
-			this.pnlStatus.Location = new System.Drawing.Point(0, 246);
-			this.pnlStatus.Name = "pnlStatus";
-			this.pnlStatus.Size = new System.Drawing.Size(471, 36);
-			this.pnlStatus.TabIndex = 128;
+			this.pnlButtonSMS_Mail.Controls.Add(this.btnSendInvoiceByMail);
+			this.pnlButtonSMS_Mail.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.pnlButtonSMS_Mail.FillColor = System.Drawing.Color.White;
+			this.pnlButtonSMS_Mail.Location = new System.Drawing.Point(19, 187);
+			this.pnlButtonSMS_Mail.Name = "pnlButtonSMS_Mail";
+			this.pnlButtonSMS_Mail.Size = new System.Drawing.Size(452, 41);
+			this.pnlButtonSMS_Mail.TabIndex = 109;
 			// 
-			// lblStatus
+			// btnSendInvoiceByMail
 			// 
-			this.lblStatus.BackColor = System.Drawing.Color.White;
-			this.lblStatus.Dock = System.Windows.Forms.DockStyle.Left;
-			this.lblStatus.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
-			this.lblStatus.Location = new System.Drawing.Point(0, 0);
-			this.lblStatus.Name = "lblStatus";
-			this.lblStatus.Size = new System.Drawing.Size(132, 36);
-			this.lblStatus.TabIndex = 29;
-			this.lblStatus.Text = "    Status:";
-			this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.btnSendInvoiceByMail.BorderRadius = 5;
+			this.btnSendInvoiceByMail.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btnSendInvoiceByMail.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.btnSendInvoiceByMail.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.btnSendInvoiceByMail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.btnSendInvoiceByMail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.btnSendInvoiceByMail.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.btnSendInvoiceByMail.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			this.btnSendInvoiceByMail.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnSendInvoiceByMail.ForeColor = System.Drawing.Color.White;
+			this.btnSendInvoiceByMail.Image = ((System.Drawing.Image)(resources.GetObject("btnSendInvoiceByMail.Image")));
+			this.btnSendInvoiceByMail.Location = new System.Drawing.Point(0, 0);
+			this.btnSendInvoiceByMail.Name = "btnSendInvoiceByMail";
+			this.btnSendInvoiceByMail.Padding = new System.Windows.Forms.Padding(5);
+			this.btnSendInvoiceByMail.Size = new System.Drawing.Size(452, 41);
+			this.btnSendInvoiceByMail.TabIndex = 20;
+			this.btnSendInvoiceByMail.Text = "Send Email";
 			// 
-			// cboStatus
+			// pnlSpace19
 			// 
-			this.cboStatus.BackColor = System.Drawing.Color.White;
-			this.cboStatus.BorderRadius = 5;
-			this.cboStatus.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.cboStatus.DisabledState.BorderColor = System.Drawing.Color.White;
-			this.cboStatus.DisabledState.FillColor = System.Drawing.Color.White;
-			this.cboStatus.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.cboStatus.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.cboStatus.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.cboStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cboStatus.Enabled = false;
-			this.cboStatus.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
-			this.cboStatus.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
-			this.cboStatus.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-			this.cboStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.cboStatus.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.cboStatus.ItemHeight = 30;
-			this.cboStatus.Items.AddRange(new object[] {
-            "Pending",
-            "Paid"});
-			this.cboStatus.Location = new System.Drawing.Point(132, 0);
-			this.cboStatus.Name = "cboStatus";
-			this.cboStatus.Size = new System.Drawing.Size(339, 36);
-			this.cboStatus.StartIndex = 0;
-			this.cboStatus.TabIndex = 33;
+			this.pnlSpace19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.pnlSpace19.Dock = System.Windows.Forms.DockStyle.Left;
+			this.pnlSpace19.FillColor = System.Drawing.Color.White;
+			this.pnlSpace19.Location = new System.Drawing.Point(0, 60);
+			this.pnlSpace19.Name = "pnlSpace19";
+			this.pnlSpace19.Size = new System.Drawing.Size(19, 168);
+			this.pnlSpace19.TabIndex = 105;
+			// 
+			// pnlSpace18
+			// 
+			this.pnlSpace18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.pnlSpace18.Dock = System.Windows.Forms.DockStyle.Right;
+			this.pnlSpace18.FillColor = System.Drawing.Color.White;
+			this.pnlSpace18.Location = new System.Drawing.Point(471, 60);
+			this.pnlSpace18.Name = "pnlSpace18";
+			this.pnlSpace18.Size = new System.Drawing.Size(19, 168);
+			this.pnlSpace18.TabIndex = 104;
+			// 
+			// pnlSpace17
+			// 
+			this.pnlSpace17.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlSpace17.FillColor = System.Drawing.Color.White;
+			this.pnlSpace17.Location = new System.Drawing.Point(0, 45);
+			this.pnlSpace17.Name = "pnlSpace17";
+			this.pnlSpace17.Size = new System.Drawing.Size(490, 15);
+			this.pnlSpace17.TabIndex = 103;
+			// 
+			// lblMessage
+			// 
+			this.lblMessage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+			this.lblMessage.Dock = System.Windows.Forms.DockStyle.Top;
+			this.lblMessage.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblMessage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.lblMessage.Location = new System.Drawing.Point(0, 0);
+			this.lblMessage.Name = "lblMessage";
+			this.lblMessage.Size = new System.Drawing.Size(490, 45);
+			this.lblMessage.TabIndex = 93;
+			this.lblMessage.Text = "   Message";
+			this.lblMessage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// InvoicesForm
 			// 
@@ -1040,15 +1188,17 @@
 			((System.ComponentModel.ISupportInitialize)(this.dgvInvoices)).EndInit();
 			this.pnlInvoices_Top.ResumeLayout(false);
 			this.pnlDetails.ResumeLayout(false);
-			this.pnlButtonEdit_Delete.ResumeLayout(false);
 			this.pnlBasicDetails.ResumeLayout(false);
+			this.pnlStatus.ResumeLayout(false);
+			this.pnlInvoiceDate.ResumeLayout(false);
 			this.pnlTotalAmount.ResumeLayout(false);
+			this.pnlTotalAmount_VND.ResumeLayout(false);
 			this.pnlCourse.ResumeLayout(false);
 			this.pnlLearner.ResumeLayout(false);
 			this.pnlDetails_Top.ResumeLayout(false);
-			this.pnlTotalAmount_VND.ResumeLayout(false);
-			this.pnlInvoiceDate.ResumeLayout(false);
-			this.pnlStatus.ResumeLayout(false);
+			this.pnlButtonEdit_Delete.ResumeLayout(false);
+			this.pnlMessage.ResumeLayout(false);
+			this.pnlButtonSMS_Mail.ResumeLayout(false);
 			this.ResumeLayout(false);
 
         }
@@ -1097,10 +1247,6 @@
 		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
 		private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
 		private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-		private Guna.UI2.WinForms.Guna2Panel pnlButtonEdit_Delete;
-		private Guna.UI2.WinForms.Guna2Button btnDelete;
-		private Guna.UI2.WinForms.Guna2Button btnEdit;
-		private Guna.UI2.WinForms.Guna2Panel pnlSpace13;
 		private Guna.UI2.WinForms.Guna2Panel pnlSpace9;
 		private Guna.UI2.WinForms.Guna2Panel pnlTotalAmount_VND;
 		private Guna.UI2.WinForms.Guna2TextBox txtVND;
@@ -1112,5 +1258,19 @@
 		private Guna.UI2.WinForms.Guna2Panel pnlStatus;
 		private System.Windows.Forms.Label lblStatus;
 		private Guna.UI2.WinForms.Guna2ComboBox cboStatus;
+		private Guna.UI2.WinForms.Guna2Panel pnlButtonEdit_Delete;
+		private Guna.UI2.WinForms.Guna2Button btnDelete;
+		private Guna.UI2.WinForms.Guna2Button btnEdit;
+		private Guna.UI2.WinForms.Guna2Panel pnlSpace13;
+		private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+		private Guna.UI2.WinForms.Guna2Panel pnlMessage;
+		private Guna.UI2.WinForms.Guna2TextBox txtMessage;
+		private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+		private Guna.UI2.WinForms.Guna2Panel pnlButtonSMS_Mail;
+		private Guna.UI2.WinForms.Guna2Button btnSendInvoiceByMail;
+		private Guna.UI2.WinForms.Guna2Panel pnlSpace19;
+		private Guna.UI2.WinForms.Guna2Panel pnlSpace18;
+		private Guna.UI2.WinForms.Guna2Panel pnlSpace17;
+		private System.Windows.Forms.Label lblMessage;
 	}
 }

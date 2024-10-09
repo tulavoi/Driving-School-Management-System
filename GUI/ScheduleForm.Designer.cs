@@ -999,10 +999,10 @@
 			this.btnSendSchedule_Teacher.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnSendSchedule_Teacher.ForeColor = System.Drawing.Color.White;
 			this.btnSendSchedule_Teacher.Image = ((System.Drawing.Image)(resources.GetObject("btnSendSchedule_Teacher.Image")));
-			this.btnSendSchedule_Teacher.Location = new System.Drawing.Point(332, 0);
+			this.btnSendSchedule_Teacher.Location = new System.Drawing.Point(330, 0);
 			this.btnSendSchedule_Teacher.Name = "btnSendSchedule_Teacher";
 			this.btnSendSchedule_Teacher.Padding = new System.Windows.Forms.Padding(5);
-			this.btnSendSchedule_Teacher.Size = new System.Drawing.Size(148, 36);
+			this.btnSendSchedule_Teacher.Size = new System.Drawing.Size(150, 36);
 			this.btnSendSchedule_Teacher.TabIndex = 20;
 			this.btnSendSchedule_Teacher.Text = "  For Teacher";
 			// 
@@ -1082,10 +1082,10 @@
 			this.btnSendSchedule_Learner.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnSendSchedule_Learner.ForeColor = System.Drawing.Color.White;
 			this.btnSendSchedule_Learner.Image = ((System.Drawing.Image)(resources.GetObject("btnSendSchedule_Learner.Image")));
-			this.btnSendSchedule_Learner.Location = new System.Drawing.Point(332, 0);
+			this.btnSendSchedule_Learner.Location = new System.Drawing.Point(330, 0);
 			this.btnSendSchedule_Learner.Name = "btnSendSchedule_Learner";
 			this.btnSendSchedule_Learner.Padding = new System.Windows.Forms.Padding(5);
-			this.btnSendSchedule_Learner.Size = new System.Drawing.Size(148, 36);
+			this.btnSendSchedule_Learner.Size = new System.Drawing.Size(150, 36);
 			this.btnSendSchedule_Learner.TabIndex = 19;
 			this.btnSendSchedule_Learner.Text = "  For Learner";
 			// 
@@ -1176,9 +1176,9 @@
             "9H30 - 11H30",
             "13H - 15H",
             "15H - 17H"});
-			this.cboSessions.Location = new System.Drawing.Point(332, 0);
+			this.cboSessions.Location = new System.Drawing.Point(330, 0);
 			this.cboSessions.Name = "cboSessions";
-			this.cboSessions.Size = new System.Drawing.Size(148, 36);
+			this.cboSessions.Size = new System.Drawing.Size(150, 36);
 			this.cboSessions.StartIndex = 0;
 			this.cboSessions.TabIndex = 8;
 			// 
@@ -1190,7 +1190,7 @@
 			this.lblSession.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblSession.Location = new System.Drawing.Point(254, 0);
 			this.lblSession.Name = "lblSession";
-			this.lblSession.Size = new System.Drawing.Size(78, 36);
+			this.lblSession.Size = new System.Drawing.Size(76, 36);
 			this.lblSession.TabIndex = 1;
 			this.lblSession.Text = "Sessions: ";
 			this.lblSession.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1274,9 +1274,9 @@
             "Toyota Supra",
             "Huyndai",
             "Bus 1"});
-			this.cboVehicles.Location = new System.Drawing.Point(332, 0);
+			this.cboVehicles.Location = new System.Drawing.Point(330, 0);
 			this.cboVehicles.Name = "cboVehicles";
-			this.cboVehicles.Size = new System.Drawing.Size(148, 36);
+			this.cboVehicles.Size = new System.Drawing.Size(150, 36);
 			this.cboVehicles.StartIndex = 0;
 			this.cboVehicles.TabIndex = 8;
 			// 
@@ -1288,7 +1288,7 @@
 			this.lblVehicles.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
 			this.lblVehicles.Location = new System.Drawing.Point(254, 0);
 			this.lblVehicles.Name = "lblVehicles";
-			this.lblVehicles.Size = new System.Drawing.Size(78, 36);
+			this.lblVehicles.Size = new System.Drawing.Size(76, 36);
 			this.lblVehicles.TabIndex = 7;
 			this.lblVehicles.Text = "Vehicles: ";
 			this.lblVehicles.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
