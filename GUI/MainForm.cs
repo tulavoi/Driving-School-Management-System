@@ -38,8 +38,9 @@ namespace GUI
                 this.btnInvoice,
                 this.btnVehicles,
                 this.btnSchedules,
-                this.btnAccounts
-            };
+                this.btnAccounts,
+				this.btnPayments,
+			};
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -87,9 +88,14 @@ namespace GUI
 			Container(new InvoicesForm(), this.btnInvoice.Text, this.btnInvoice);
 		}
 
-		private void btnAccounts_Click(object sender, EventArgs e)
+        private void btnAccounts_Click(object sender, EventArgs e)
+        {
+            Container(new CoursesForm(), this.btnAccounts.Text, this.btnAccounts);
+        }
+
+        private void btnPayments_Click(object sender, EventArgs e)
 		{
-			Container(new CoursesForm(), this.btnAccounts.Text, this.btnAccounts);
+			Container(new PaymentsForm(), this.btnPayments.Text, this.btnPayments);
 		}
 
 		private void btnLogout_Click(object sender, EventArgs e)

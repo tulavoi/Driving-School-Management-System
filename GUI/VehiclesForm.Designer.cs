@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-			this.components = new System.ComponentModel.Container();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -118,7 +117,6 @@
 			this.pnlSpace26 = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblDetails = new System.Windows.Forms.Label();
 			this.pnlSpace27 = new Guna.UI2.WinForms.Guna2Panel();
-			this.timer = new System.Windows.Forms.Timer(this.components);
 			this.pnlVehicles.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dgvVehicles)).BeginInit();
 			this.pnlButtonAdd.SuspendLayout();
@@ -1523,6 +1521,5 @@
 		private Guna.UI2.WinForms.Guna2Panel pnlChkTruck;
 		private System.Windows.Forms.Label lblTruck;
 		private Guna.UI2.WinForms.Guna2CustomCheckBox chkTruck;
-		private System.Windows.Forms.Timer timer;
 	}
 }

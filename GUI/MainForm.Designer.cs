@@ -36,7 +36,7 @@
 			this.btnMinimizeForm = new Guna.UI2.WinForms.Guna2ControlBox();
 			this.btnCloseForm = new Guna.UI2.WinForms.Guna2ControlBox();
 			this.pnlMenu = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-			this.btnAccounts = new Guna.UI2.WinForms.Guna2Button();
+			this.btnPayments = new Guna.UI2.WinForms.Guna2Button();
 			this.btnInvoice = new Guna.UI2.WinForms.Guna2Button();
 			this.btnVehicles = new Guna.UI2.WinForms.Guna2Button();
 			this.btnSchedules = new Guna.UI2.WinForms.Guna2Button();
@@ -66,6 +66,8 @@
 			this.pnlSpace1 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlContainer = new Guna.UI2.WinForms.Guna2Panel();
+			this.guna2ResizeForm1 = new Guna.UI2.WinForms.Guna2ResizeForm(this.components);
+			this.btnAccounts = new Guna.UI2.WinForms.Guna2Button();
 			this.pnlLineTop.SuspendLayout();
 			this.pnlMenu.SuspendLayout();
 			this.pnlLogo.SuspendLayout();
@@ -132,6 +134,7 @@
 			this.pnlMenu.BorderColor = System.Drawing.Color.White;
 			this.pnlMenu.BorderRadius = 15;
 			this.pnlMenu.Controls.Add(this.btnAccounts);
+			this.pnlMenu.Controls.Add(this.btnPayments);
 			this.pnlMenu.Controls.Add(this.btnInvoice);
 			this.pnlMenu.Controls.Add(this.btnVehicles);
 			this.pnlMenu.Controls.Add(this.btnSchedules);
@@ -152,39 +155,39 @@
 			this.pnlMenu.Size = new System.Drawing.Size(200, 850);
 			this.pnlMenu.TabIndex = 33;
 			// 
-			// btnAccounts
+			// btnPayments
 			// 
-			this.btnAccounts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
-			this.btnAccounts.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
-			this.btnAccounts.BorderThickness = 2;
-			this.btnAccounts.CheckedState.BorderColor = System.Drawing.Color.White;
-			this.btnAccounts.CheckedState.FillColor = System.Drawing.Color.White;
-			this.btnAccounts.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
-			this.btnAccounts.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.btnAccounts.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
-			this.btnAccounts.DisabledState.FillColor = System.Drawing.Color.White;
-			this.btnAccounts.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
-			this.btnAccounts.Dock = System.Windows.Forms.DockStyle.Top;
-			this.btnAccounts.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
-			this.btnAccounts.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-			this.btnAccounts.ForeColor = System.Drawing.Color.White;
-			this.btnAccounts.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.btnAccounts.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-			this.btnAccounts.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
-			this.btnAccounts.HoverState.Image = global::GUI.Properties.Resources.teacher_2;
-			this.btnAccounts.Image = global::GUI.Properties.Resources.teacher_1;
-			this.btnAccounts.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-			this.btnAccounts.ImageOffset = new System.Drawing.Point(20, 0);
-			this.btnAccounts.Location = new System.Drawing.Point(0, 590);
-			this.btnAccounts.Name = "btnAccounts";
-			this.btnAccounts.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.btnAccounts.PressedDepth = 10;
-			this.btnAccounts.Size = new System.Drawing.Size(200, 65);
-			this.btnAccounts.TabIndex = 36;
-			this.btnAccounts.Text = "Accounts";
-			this.btnAccounts.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-			this.btnAccounts.TextOffset = new System.Drawing.Point(25, 0);
-			this.btnAccounts.Click += new System.EventHandler(this.btnAccounts_Click);
+			this.btnPayments.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			this.btnPayments.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			this.btnPayments.BorderThickness = 2;
+			this.btnPayments.CheckedState.BorderColor = System.Drawing.Color.White;
+			this.btnPayments.CheckedState.FillColor = System.Drawing.Color.White;
+			this.btnPayments.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+			this.btnPayments.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btnPayments.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+			this.btnPayments.DisabledState.FillColor = System.Drawing.Color.White;
+			this.btnPayments.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+			this.btnPayments.Dock = System.Windows.Forms.DockStyle.Top;
+			this.btnPayments.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			this.btnPayments.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+			this.btnPayments.ForeColor = System.Drawing.Color.White;
+			this.btnPayments.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.btnPayments.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+			this.btnPayments.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			this.btnPayments.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+			this.btnPayments.Image = ((System.Drawing.Image)(resources.GetObject("btnPayments.Image")));
+			this.btnPayments.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+			this.btnPayments.ImageOffset = new System.Drawing.Point(20, 0);
+			this.btnPayments.Location = new System.Drawing.Point(0, 590);
+			this.btnPayments.Name = "btnPayments";
+			this.btnPayments.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.btnPayments.PressedDepth = 10;
+			this.btnPayments.Size = new System.Drawing.Size(200, 65);
+			this.btnPayments.TabIndex = 38;
+			this.btnPayments.Text = "Payments";
+			this.btnPayments.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+			this.btnPayments.TextOffset = new System.Drawing.Point(25, 0);
+			this.btnPayments.Click += new System.EventHandler(this.btnPayments_Click);
 			// 
 			// btnInvoice
 			// 
@@ -215,7 +218,7 @@
 			this.btnInvoice.PressedDepth = 10;
 			this.btnInvoice.Size = new System.Drawing.Size(200, 65);
 			this.btnInvoice.TabIndex = 33;
-			this.btnInvoice.Text = "Invoice";
+			this.btnInvoice.Text = "Invoices";
 			this.btnInvoice.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
 			this.btnInvoice.TextOffset = new System.Drawing.Point(25, 0);
 			this.btnInvoice.Click += new System.EventHandler(this.btnInvoice_Click);
@@ -721,6 +724,44 @@
 			this.pnlContainer.Size = new System.Drawing.Size(940, 715);
 			this.pnlContainer.TabIndex = 41;
 			// 
+			// guna2ResizeForm1
+			// 
+			this.guna2ResizeForm1.TargetForm = this;
+			// 
+			// btnAccounts
+			// 
+			this.btnAccounts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			this.btnAccounts.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			this.btnAccounts.BorderThickness = 2;
+			this.btnAccounts.CheckedState.BorderColor = System.Drawing.Color.White;
+			this.btnAccounts.CheckedState.FillColor = System.Drawing.Color.White;
+			this.btnAccounts.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+			this.btnAccounts.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btnAccounts.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+			this.btnAccounts.DisabledState.FillColor = System.Drawing.Color.White;
+			this.btnAccounts.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(100)))), ((int)(((byte)(230)))));
+			this.btnAccounts.Dock = System.Windows.Forms.DockStyle.Top;
+			this.btnAccounts.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			this.btnAccounts.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+			this.btnAccounts.ForeColor = System.Drawing.Color.White;
+			this.btnAccounts.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.btnAccounts.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+			this.btnAccounts.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			this.btnAccounts.HoverState.Image = global::GUI.Properties.Resources.teacher_2;
+			this.btnAccounts.Image = global::GUI.Properties.Resources.teacher_1;
+			this.btnAccounts.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+			this.btnAccounts.ImageOffset = new System.Drawing.Point(20, 0);
+			this.btnAccounts.Location = new System.Drawing.Point(0, 655);
+			this.btnAccounts.Name = "btnAccounts";
+			this.btnAccounts.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.btnAccounts.PressedDepth = 10;
+			this.btnAccounts.Size = new System.Drawing.Size(200, 65);
+			this.btnAccounts.TabIndex = 39;
+			this.btnAccounts.Text = "Accounts";
+			this.btnAccounts.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+			this.btnAccounts.TextOffset = new System.Drawing.Point(25, 0);
+			this.btnAccounts.Click += new System.EventHandler(this.btnAccounts_Click);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -788,8 +829,10 @@
         private Guna.UI2.WinForms.Guna2Button btnVehicles;
 		private Guna.UI2.WinForms.Guna2Button btnLogout;
 		private Guna.UI2.WinForms.Guna2Panel pnlSpace10;
-		private Guna.UI2.WinForms.Guna2Button btnAccounts;
 		private Guna.UI2.WinForms.Guna2Button btnInvoice;
 		private Guna.UI2.WinForms.Guna2Button btnSchedules;
+		private Guna.UI2.WinForms.Guna2ResizeForm guna2ResizeForm1;
+		private Guna.UI2.WinForms.Guna2Button btnPayments;
+		private Guna.UI2.WinForms.Guna2Button btnAccounts;
 	}
 }

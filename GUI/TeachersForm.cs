@@ -16,8 +16,6 @@ namespace GUI
         #region Properties
         private bool isEditing = false;
 
-        private const string EDIT_MODE = "Edit";
-        private const string SAVE_MODE = "Save";
         #endregion
 
         public TeachersForm()
@@ -39,7 +37,7 @@ namespace GUI
 		{
 			isEditing = !isEditing;
 			this.EnableControls(isEditing, controls);
-			button.Text = isEditing ? SAVE_MODE : EDIT_MODE;
+			button.Text = isEditing ? Constant.SAVE_MODE : Constant.EDIT_MODE;
 		}
 
 		private void EnableControls(bool b, params Control[] controls)
