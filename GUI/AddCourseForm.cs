@@ -22,5 +22,10 @@ namespace GUI
         {
             this.shadowForm.SetShadowForm(this);
         }
-    }
+
+		private void btnCancel_Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
+	}
 }

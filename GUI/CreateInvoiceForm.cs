@@ -10,18 +10,17 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-	public partial class PaymentsForm : Form
+	public partial class CreateInvoiceForm : Form
 	{
-		public PaymentsForm()
+		public CreateInvoiceForm()
 		{
 			InitializeComponent();
 			FormHelper.ApplyRoundedCorners(this, 20);
 		}
 
-		private void btnOpenAddPaymentForm_Click(object sender, EventArgs e)
+		private void CreateInvoiceForm_Load(object sender, EventArgs e)
 		{
-			AddPaymentForm frm = new AddPaymentForm();
-			frm.ShowDialog();
+			shadowForm.SetShadowForm(this);
 		}
 	}
 }

@@ -90,7 +90,7 @@ namespace GUI
 
         private void btnAccounts_Click(object sender, EventArgs e)
         {
-            Container(new CoursesForm(), this.btnAccounts.Text, this.btnAccounts);
+            Container(new AccountsForm(), this.btnAccounts.Text, this.btnAccounts);
         }
 
         private void btnPayments_Click(object sender, EventArgs e)

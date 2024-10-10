@@ -10,18 +10,22 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-	public partial class PaymentsForm : Form
+	public partial class AddPaymentForm : Form
 	{
-		public PaymentsForm()
+		public AddPaymentForm()
 		{
 			InitializeComponent();
 			FormHelper.ApplyRoundedCorners(this, 20);
 		}
 
-		private void btnOpenAddPaymentForm_Click(object sender, EventArgs e)
+		private void AddPaymentForm_Load(object sender, EventArgs e)
 		{
-			AddPaymentForm frm = new AddPaymentForm();
-			frm.ShowDialog();
+			shadowForm.SetShadowForm(this);
+		}
+
+		private void btnCancel_Click(object sender, EventArgs e)
+		{
+			this.Close();
 		}
 	}
 }

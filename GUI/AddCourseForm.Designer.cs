@@ -39,7 +39,6 @@
 			this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
 			this.pnlMain = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlButtonAdd_Cancel = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlSpace11 = new Guna.UI2.WinForms.Guna2Panel();
 			this.btnCancel = new Guna.UI2.WinForms.Guna2Button();
 			this.btnAdd = new Guna.UI2.WinForms.Guna2Button();
 			this.pnlSpace10 = new Guna.UI2.WinForms.Guna2Panel();
@@ -178,7 +177,6 @@
 			// 
 			// pnlButtonAdd_Cancel
 			// 
-			this.pnlButtonAdd_Cancel.Controls.Add(this.pnlSpace11);
 			this.pnlButtonAdd_Cancel.Controls.Add(this.btnCancel);
 			this.pnlButtonAdd_Cancel.Controls.Add(this.btnAdd);
 			this.pnlButtonAdd_Cancel.Controls.Add(this.pnlSpace10);
@@ -188,16 +186,6 @@
 			this.pnlButtonAdd_Cancel.Name = "pnlButtonAdd_Cancel";
 			this.pnlButtonAdd_Cancel.Size = new System.Drawing.Size(393, 35);
 			this.pnlButtonAdd_Cancel.TabIndex = 129;
-			// 
-			// pnlSpace11
-			// 
-			this.pnlSpace11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.pnlSpace11.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.pnlSpace11.FillColor = System.Drawing.Color.White;
-			this.pnlSpace11.Location = new System.Drawing.Point(175, 0);
-			this.pnlSpace11.Name = "pnlSpace11";
-			this.pnlSpace11.Size = new System.Drawing.Size(68, 35);
-			this.pnlSpace11.TabIndex = 18;
 			// 
 			// btnCancel
 			// 
@@ -217,6 +205,7 @@
 			this.btnCancel.Size = new System.Drawing.Size(150, 35);
 			this.btnCancel.TabIndex = 19;
 			this.btnCancel.Text = "Cancel";
+			this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
 			// 
 			// btnAdd
 			// 
@@ -633,7 +622,6 @@
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2Panel pnlMain;
         private Guna.UI2.WinForms.Guna2Panel pnlButtonAdd_Cancel;
-        private Guna.UI2.WinForms.Guna2Panel pnlSpace11;
         private Guna.UI2.WinForms.Guna2Button btnCancel;
         private Guna.UI2.WinForms.Guna2Button btnAdd;
         private Guna.UI2.WinForms.Guna2Panel pnlSpace10;

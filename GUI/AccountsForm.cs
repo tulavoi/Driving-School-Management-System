@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-	public partial class PaymentsForm : Form
+	public partial class AccountsForm : Form
 	{
-		public PaymentsForm()
+		public AccountsForm()
 		{
 			InitializeComponent();
 			FormHelper.ApplyRoundedCorners(this, 20);
 		}
 
-		private void btnOpenAddPaymentForm_Click(object sender, EventArgs e)
+		private void btnOpenAddAccountForm_Click(object sender, EventArgs e)
 		{
-			AddPaymentForm frm = new AddPaymentForm();
+			CreateAccountForm frm = new CreateAccountForm();
 			frm.ShowDialog();
 		}
 	}

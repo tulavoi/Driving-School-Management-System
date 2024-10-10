@@ -55,10 +55,8 @@
 			this.pnlTeacherDetails = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
 			this.pnlMessage = new Guna.UI2.WinForms.Guna2Panel();
 			this.txtMessage = new Guna.UI2.WinForms.Guna2TextBox();
-			this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlButtonSMS_Mail = new Guna.UI2.WinForms.Guna2Panel();
 			this.btnSendMail = new Guna.UI2.WinForms.Guna2Button();
-			this.btnSendSMS = new Guna.UI2.WinForms.Guna2Button();
 			this.pnlSpace20 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace3 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
@@ -112,6 +110,7 @@
 			this.lblPersonalDetails = new System.Windows.Forms.Label();
 			this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace9 = new Guna.UI2.WinForms.Guna2Panel();
+			this.btnSendSMS = new Guna.UI2.WinForms.Guna2Button();
 			this.pnlTeachers.SuspendLayout();
 			this.pnlButtonAdd.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dgvTeachers)).BeginInit();
@@ -432,7 +431,6 @@
 			// pnlMessage
 			// 
 			this.pnlMessage.Controls.Add(this.txtMessage);
-			this.pnlMessage.Controls.Add(this.guna2Panel1);
 			this.pnlMessage.Controls.Add(this.pnlButtonSMS_Mail);
 			this.pnlMessage.Controls.Add(this.pnlSpace20);
 			this.pnlMessage.Controls.Add(this.pnlSpace3);
@@ -456,7 +454,7 @@
 			this.txtMessage.DisabledState.FillColor = System.Drawing.Color.White;
 			this.txtMessage.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
 			this.txtMessage.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
-			this.txtMessage.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.txtMessage.Dock = System.Windows.Forms.DockStyle.Top;
 			this.txtMessage.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
 			this.txtMessage.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
 			this.txtMessage.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
@@ -472,24 +470,15 @@
 			this.txtMessage.TabIndex = 106;
 			this.txtMessage.Tag = "1";
 			// 
-			// guna2Panel1
-			// 
-			this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.guna2Panel1.FillColor = System.Drawing.Color.White;
-			this.guna2Panel1.Location = new System.Drawing.Point(19, 182);
-			this.guna2Panel1.Name = "guna2Panel1";
-			this.guna2Panel1.Size = new System.Drawing.Size(452, 15);
-			this.guna2Panel1.TabIndex = 110;
-			// 
 			// pnlButtonSMS_Mail
 			// 
 			this.pnlButtonSMS_Mail.Controls.Add(this.btnSendMail);
 			this.pnlButtonSMS_Mail.Controls.Add(this.btnSendSMS);
 			this.pnlButtonSMS_Mail.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.pnlButtonSMS_Mail.FillColor = System.Drawing.Color.White;
-			this.pnlButtonSMS_Mail.Location = new System.Drawing.Point(19, 197);
+			this.pnlButtonSMS_Mail.Location = new System.Drawing.Point(19, 202);
 			this.pnlButtonSMS_Mail.Name = "pnlButtonSMS_Mail";
-			this.pnlButtonSMS_Mail.Size = new System.Drawing.Size(452, 41);
+			this.pnlButtonSMS_Mail.Size = new System.Drawing.Size(452, 36);
 			this.pnlButtonSMS_Mail.TabIndex = 109;
 			// 
 			// btnSendMail
@@ -508,29 +497,9 @@
 			this.btnSendMail.Location = new System.Drawing.Point(232, 0);
 			this.btnSendMail.Name = "btnSendMail";
 			this.btnSendMail.Padding = new System.Windows.Forms.Padding(5);
-			this.btnSendMail.Size = new System.Drawing.Size(220, 41);
+			this.btnSendMail.Size = new System.Drawing.Size(220, 36);
 			this.btnSendMail.TabIndex = 20;
 			this.btnSendMail.Text = "Send Email";
-			// 
-			// btnSendSMS
-			// 
-			this.btnSendSMS.BorderRadius = 5;
-			this.btnSendSMS.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.btnSendSMS.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.btnSendSMS.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.btnSendSMS.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.btnSendSMS.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.btnSendSMS.Dock = System.Windows.Forms.DockStyle.Left;
-			this.btnSendSMS.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
-			this.btnSendSMS.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnSendSMS.ForeColor = System.Drawing.Color.White;
-			this.btnSendSMS.Image = ((System.Drawing.Image)(resources.GetObject("btnSendSMS.Image")));
-			this.btnSendSMS.Location = new System.Drawing.Point(0, 0);
-			this.btnSendSMS.Name = "btnSendSMS";
-			this.btnSendSMS.Padding = new System.Windows.Forms.Padding(5);
-			this.btnSendSMS.Size = new System.Drawing.Size(220, 41);
-			this.btnSendSMS.TabIndex = 17;
-			this.btnSendSMS.Text = "Send SMS";
 			// 
 			// pnlSpace20
 			// 
@@ -1338,6 +1307,26 @@
 			this.pnlSpace9.Size = new System.Drawing.Size(19, 50);
 			this.pnlSpace9.TabIndex = 18;
 			// 
+			// btnSendSMS
+			// 
+			this.btnSendSMS.BorderRadius = 5;
+			this.btnSendSMS.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btnSendSMS.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.btnSendSMS.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.btnSendSMS.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.btnSendSMS.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.btnSendSMS.Dock = System.Windows.Forms.DockStyle.Left;
+			this.btnSendSMS.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			this.btnSendSMS.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnSendSMS.ForeColor = System.Drawing.Color.White;
+			this.btnSendSMS.Image = ((System.Drawing.Image)(resources.GetObject("btnSendSMS.Image")));
+			this.btnSendSMS.Location = new System.Drawing.Point(0, 0);
+			this.btnSendSMS.Name = "btnSendSMS";
+			this.btnSendSMS.Padding = new System.Windows.Forms.Padding(5);
+			this.btnSendSMS.Size = new System.Drawing.Size(220, 36);
+			this.btnSendSMS.TabIndex = 17;
+			this.btnSendSMS.Text = "Send SMS";
+			// 
 			// TeachersForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -1442,13 +1431,12 @@
 		private Guna.UI2.WinForms.Guna2Panel pnlSpace5;
 		private Guna.UI2.WinForms.Guna2Panel pnlMessage;
 		private Guna.UI2.WinForms.Guna2TextBox txtMessage;
-		private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
 		private Guna.UI2.WinForms.Guna2Panel pnlButtonSMS_Mail;
 		private Guna.UI2.WinForms.Guna2Button btnSendMail;
-		private Guna.UI2.WinForms.Guna2Button btnSendSMS;
 		private Guna.UI2.WinForms.Guna2Panel pnlSpace20;
 		private Guna.UI2.WinForms.Guna2Panel pnlSpace3;
 		private Guna.UI2.WinForms.Guna2Panel pnlSpace4;
 		private System.Windows.Forms.Label lblMessage;
+		private Guna.UI2.WinForms.Guna2Button btnSendSMS;
 	}
 }

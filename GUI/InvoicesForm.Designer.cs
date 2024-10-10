@@ -159,6 +159,7 @@
 			this.btnOpenAddInvoiceForm.Size = new System.Drawing.Size(131, 36);
 			this.btnOpenAddInvoiceForm.TabIndex = 17;
 			this.btnOpenAddInvoiceForm.Text = "Create";
+			this.btnOpenAddInvoiceForm.Click += new System.EventHandler(this.btnOpenAddInvoiceForm_Click);
 			// 
 			// pnlSpace15
 			// 

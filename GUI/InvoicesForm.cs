@@ -45,5 +45,11 @@ namespace GUI
 			foreach (var control in controls)
 				control.Enabled = b;
 		}
+
+		private void btnOpenAddInvoiceForm_Click(object sender, EventArgs e)
+		{
+			CreateInvoiceForm frm = new CreateInvoiceForm();
+			frm.ShowDialog();
+		}
 	}
 }

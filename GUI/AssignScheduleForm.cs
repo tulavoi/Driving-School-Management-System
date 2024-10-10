@@ -34,5 +34,10 @@ namespace GUI
         {
             lblDateAssign.Text = _date.ToString("dd/MM/yyyy");
         }
-    }
+
+		private void btnCancel_Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
+	}
 }
