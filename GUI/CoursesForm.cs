@@ -13,10 +13,10 @@ namespace GUI
 {
     public partial class CoursesForm : Form
     {
-        private bool isEditing = false;
+		#region Properties
+		private bool isEditing = false;
 
-		private const string EDIT_MODE = "Edit";
-		private const string SAVE_MODE = "Save";
+		#endregion
 
 		public CoursesForm()
         {
@@ -25,30 +25,12 @@ namespace GUI
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            if (!isEditing)
-				this.ToggleEditMode(ref this.isEditing, this.btnEdit, txtFee, cboLicenses);
-
-			else
-				this.ToggleEditMode(ref this.isEditing, this.btnEdit, txtFee, cboLicenses);
-		}
-
-		private void ToggleEditMode(ref bool isEditing, Guna2Button button, params Control[] controls)
-		{
-			isEditing = !isEditing;
-			this.EnableControls(isEditing, controls);
-			button.Text = isEditing ? SAVE_MODE : EDIT_MODE;
-		}
-
-		private void EnableControls(bool b, params Control[] controls)
-		{
-			foreach (var control in controls)
-				control.Enabled = b;
+			FormHelper.ToggleEditMode(ref this.isEditing, this.btnEdit, txtFee, cboLicenses);
 		}
 
         private void btnOpenAddCourseForm_Click(object sender, EventArgs e)
         {
-            AddCourseForm frm = new AddCourseForm();
-            frm.ShowDialog();
+			FormHelper.OpenPopupForm(new AddCourseForm());
         }
     }
 }

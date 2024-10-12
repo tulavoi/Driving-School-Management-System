@@ -52,9 +52,9 @@
 			this.lblCourses = new System.Windows.Forms.Label();
 			this.pnlSpace1 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace6 = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlSpace5 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlTitle_DateAssign = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblAdd = new System.Windows.Forms.Label();
+			this.pnlSpace5 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlLineTop.SuspendLayout();
 			this.pnlMain.SuspendLayout();
 			this.pnlButtonAdd_Cancel.SuspendLayout();
@@ -366,19 +366,6 @@
 			this.pnlSpace6.Size = new System.Drawing.Size(17, 165);
 			this.pnlSpace6.TabIndex = 115;
 			// 
-			// pnlSpace5
-			// 
-			this.pnlSpace5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.pnlSpace5.BorderRadius = 15;
-			this.pnlSpace5.CustomizableEdges.BottomLeft = false;
-			this.pnlSpace5.CustomizableEdges.BottomRight = false;
-			this.pnlSpace5.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlSpace5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
-			this.pnlSpace5.Location = new System.Drawing.Point(0, 0);
-			this.pnlSpace5.Name = "pnlSpace5";
-			this.pnlSpace5.Size = new System.Drawing.Size(450, 15);
-			this.pnlSpace5.TabIndex = 15;
-			// 
 			// pnlTitle_DateAssign
 			// 
 			this.pnlTitle_DateAssign.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
@@ -401,6 +388,19 @@
 			this.lblAdd.Size = new System.Drawing.Size(450, 40);
 			this.lblAdd.TabIndex = 117;
 			this.lblAdd.Text = "   Create Invoice";
+			// 
+			// pnlSpace5
+			// 
+			this.pnlSpace5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.pnlSpace5.BorderRadius = 15;
+			this.pnlSpace5.CustomizableEdges.BottomLeft = false;
+			this.pnlSpace5.CustomizableEdges.BottomRight = false;
+			this.pnlSpace5.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlSpace5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+			this.pnlSpace5.Location = new System.Drawing.Point(0, 0);
+			this.pnlSpace5.Name = "pnlSpace5";
+			this.pnlSpace5.Size = new System.Drawing.Size(450, 15);
+			this.pnlSpace5.TabIndex = 15;
 			// 
 			// CreateInvoiceForm
 			// 

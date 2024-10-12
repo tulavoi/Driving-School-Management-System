@@ -13,10 +13,10 @@ namespace GUI
 {
     public partial class LearnersForm : Form
     {
+        #region Properties
         private bool isEditing = false;
 
-		private const string EDIT_MODE = "Edit";
-		private const string SAVE_MODE = "Save";
+        #endregion
 
 		public LearnersForm()
         {
@@ -25,24 +25,7 @@ namespace GUI
 
         private void btnEditLearner_Click(object sender, EventArgs e)
         {
-            if (!isEditing)
-                this.ToggleEditMode(ref this.isEditing, this.btnEditLearner, txtLearnerName, txtPhone, txtEmail, cboGender, dtpDOB, txtAddress, txtCitizenId, cboNationality);
-
-			else
-                this.ToggleEditMode(ref this.isEditing, this.btnEditLearner, txtLearnerName, txtPhone, txtEmail, cboGender, dtpDOB, txtAddress, txtCitizenId, cboNationality);
-		}
-
-		private void ToggleEditMode(ref bool isEditing, Guna2Button button, params Control[] controls)
-		{
-			isEditing = !isEditing;
-			this.EnableControls(isEditing, controls);
-			button.Text = isEditing ? SAVE_MODE : EDIT_MODE;
-		}
-
-		private void EnableControls(bool b, params Control[] controls)
-		{
-			foreach (var control in controls)
-				control.Enabled = b;
+			FormHelper.ToggleEditMode(ref this.isEditing, this.btnEditLearner, txtLearnerName, txtPhone, txtEmail, cboGender, dtpDOB, txtAddress, txtCitizenId, cboNationality);
 		}
 
 		private void btnDeleteLearner_Click(object sender, EventArgs e)
@@ -60,8 +43,7 @@ namespace GUI
 
         private void btnOpenAddLearnerForm_Click(object sender, EventArgs e)
         {
-            AddLearnerForm frm = new AddLearnerForm();
-            frm.ShowDialog();
+            FormHelper.OpenPopupForm(new AddLearnerForm());
         }
     }
 }

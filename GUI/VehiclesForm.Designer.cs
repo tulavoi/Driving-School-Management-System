@@ -837,6 +837,7 @@
 			this.btnDelete.Size = new System.Drawing.Size(150, 35);
 			this.btnDelete.TabIndex = 19;
 			this.btnDelete.Text = "Delete";
+			this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
 			// 
 			// btnEdit_BasicDetail
 			// 

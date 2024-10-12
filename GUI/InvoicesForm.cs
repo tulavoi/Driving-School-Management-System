@@ -26,30 +26,12 @@ namespace GUI
 
 		private void btnEdit_Click(object sender, EventArgs e)
 		{
-			if (!isEditing)
-				this.ToggleEditMode(ref this.isEditing, this.btnEdit, cboLearners, txtSearchLearner, cboCourses, txtSearchCourse, txtTotalAmount, txtAmountNotes, cboStatus);
-
-			else
-				this.ToggleEditMode(ref this.isEditing, this.btnEdit, cboLearners, txtSearchLearner, cboCourses, txtSearchCourse, txtTotalAmount, txtAmountNotes, cboStatus);
-		}
-
-		private void ToggleEditMode(ref bool isEditing, Guna2Button button, params Control[] controls)
-		{
-			isEditing = !isEditing;
-			this.EnableControls(isEditing, controls);
-			button.Text = isEditing ? Constant.SAVE_MODE : Constant.EDIT_MODE;
-		}
-
-		private void EnableControls(bool b, params Control[] controls)
-		{
-			foreach (var control in controls)
-				control.Enabled = b;
+			FormHelper.ToggleEditMode(ref this.isEditing, this.btnEdit, cboLearners, txtSearchLearner, cboCourses, txtSearchCourse, txtTotalAmount, txtAmountNotes, cboStatus);
 		}
 
 		private void btnOpenAddInvoiceForm_Click(object sender, EventArgs e)
 		{
-			CreateInvoiceForm frm = new CreateInvoiceForm();
-			frm.ShowDialog();
+			FormHelper.OpenPopupForm(new CreateInvoiceForm());
 		}
 	}
 }

@@ -26,43 +26,20 @@ namespace GUI
 
         private void btnEditTeacher_Click(object sender, EventArgs e)
         {
-            if (!isEditing)
-                this.ToggleEditMode(ref this.isEditing, this.btnEditTeacher, txtTeacherName, txtPhone, txtEmail, cboGender, dtpDOB, txtAddress, txtCitizenId, dtpGraduated, cboNationality, cboLicense);
-
-			else
-                this.ToggleEditMode(ref this.isEditing, this.btnEditTeacher, txtTeacherName, txtPhone, txtEmail, cboGender, dtpDOB, txtAddress, txtCitizenId, dtpGraduated, cboNationality, cboLicense);
-		}
-
-		private void ToggleEditMode(ref bool isEditing, Guna2Button button, params Control[] controls)
-		{
-			isEditing = !isEditing;
-			this.EnableControls(isEditing, controls);
-			button.Text = isEditing ? Constant.SAVE_MODE : Constant.EDIT_MODE;
-		}
-
-		private void EnableControls(bool b, params Control[] controls)
-		{
-			foreach (var control in controls)
-				control.Enabled = b;
+			FormHelper.ToggleEditMode(ref this.isEditing, this.btnEditTeacher, txtTeacherName, txtPhone, txtEmail, cboGender, dtpDOB, txtAddress, txtCitizenId, dtpGraduated, cboNationality, cboLicense);
 		}
 
 		private void btnOpenAddTeacherForm_Click(object sender, EventArgs e)
         {
-            AddTeacherForm frm = new AddTeacherForm();
-            frm.ShowDialog();
+            FormHelper.OpenPopupForm(new AddTeacherForm());
         }
 
         private void btnDeleteTeacher_Click(object sender, EventArgs e)
         {
-            DialogResult rs = MessageBox.Show($"Are you sure to delete the teacher '{txtTeacherName.Text}'?",
-                "Confirm",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Question);
+			if (FormHelper.ConfirmDelete())
+			{
 
-            if (rs == DialogResult.Yes)
-            {
-
-            }
-        }
+			}
+		}
     }
 }

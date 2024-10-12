@@ -111,8 +111,7 @@ namespace GUI
 
         private void OpenAssignScheduleForm(DateTime date)
         {
-            AssignScheduleForm frm = new AssignScheduleForm(date);
-            frm.ShowDialog();
+			FormHelper.OpenPopupForm(new AssignScheduleForm(date));
         }
 
         private void UpdateBtnStylesByDate(DateTime curDate, DateTime date, Guna2Button btn)
@@ -270,34 +269,12 @@ namespace GUI
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            if (!isEditing)
-                this.ToggleEditMode(ref this.isEditing, this.btnEdit, cboCourses, cboLearners, cboTeachers, cboSessions, dtpSessionDate, cboVehicles);
-
-            else
-                this.ToggleEditMode(ref this.isEditing, this.btnEdit, cboCourses, cboLearners, cboTeachers, cboSessions, dtpSessionDate, cboVehicles);
-        }
-
-        private void ToggleEditMode(ref bool isEditing, Guna2Button button, params Control[] controls)
-        {
-            isEditing = !isEditing;
-            this.EnableControls(isEditing, controls);
-            button.Text = isEditing ? Constant.SAVE_MODE : Constant.EDIT_MODE;
-        }
-
-        private void EnableControls(bool b, params Control[] controls)
-        {
-            foreach (var control in controls)
-                control.Enabled = b;
-        }
+			FormHelper.ToggleEditMode(ref this.isEditing, this.btnEdit, cboCourses, cboLearners, cboTeachers, cboSessions, dtpSessionDate, cboVehicles);
+		}
 
 		private void btnDelete_Click(object sender, EventArgs e)
 		{
-			DialogResult rs = MessageBox.Show($"Are you sure to delete?",
-				"Confirm",
-				MessageBoxButtons.YesNo,
-				MessageBoxIcon.Question);
-
-			if (rs == DialogResult.Yes)
+			if (FormHelper.ConfirmDelete())
 			{
 
 			}

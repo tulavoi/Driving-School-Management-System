@@ -12,6 +12,11 @@ namespace GUI
 {
 	public partial class PaymentsForm : Form
 	{
+		#region Properties
+		private bool isEditing = false;
+
+		#endregion
+
 		public PaymentsForm()
 		{
 			InitializeComponent();
@@ -20,8 +25,20 @@ namespace GUI
 
 		private void btnOpenAddPaymentForm_Click(object sender, EventArgs e)
 		{
-			AddPaymentForm frm = new AddPaymentForm();
-			frm.ShowDialog();
+			FormHelper.OpenPopupForm(new AddPaymentForm());
+		}
+
+		private void btnEdit_Click(object sender, EventArgs e)
+		{
+			FormHelper.ToggleEditMode(ref this.isEditing, this.btnEdit, cboInvoices, dtpPaymentDate, txtAmount, cboMethods, cboLearners, txtSearchLearner);
+		}
+
+		private void btnDelete_Click(object sender, EventArgs e)
+		{
+			if (FormHelper.ConfirmDelete())
+			{
+
+			}
 		}
 	}
 }
