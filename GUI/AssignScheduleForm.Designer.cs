@@ -50,6 +50,9 @@
 			this.lblVehicles = new System.Windows.Forms.Label();
 			this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlTeachers = new Guna.UI2.WinForms.Guna2Panel();
+			this.txtTotalAmount = new Guna.UI2.WinForms.Guna2TextBox();
+			this.txtVND = new Guna.UI2.WinForms.Guna2TextBox();
+			this.lblTotalAmount = new System.Windows.Forms.Label();
 			this.pnlSpace3 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlLearners = new Guna.UI2.WinForms.Guna2Panel();
 			this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -67,9 +70,6 @@
 			this.pnlSpace5 = new Guna.UI2.WinForms.Guna2Panel();
 			this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
 			this.shadowForm = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
-			this.lblTotalAmount = new System.Windows.Forms.Label();
-			this.txtTotalAmount = new Guna.UI2.WinForms.Guna2TextBox();
-			this.txtVND = new Guna.UI2.WinForms.Guna2TextBox();
 			this.pnlLineTop.SuspendLayout();
 			this.pnlMain.SuspendLayout();
 			this.pnlButtonAdd_Cancel.SuspendLayout();
@@ -384,6 +384,69 @@
 			this.pnlTeachers.Size = new System.Drawing.Size(433, 40);
 			this.pnlTeachers.TabIndex = 126;
 			// 
+			// txtTotalAmount
+			// 
+			this.txtTotalAmount.BackColor = System.Drawing.Color.White;
+			this.txtTotalAmount.BorderRadius = 5;
+			this.txtTotalAmount.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.txtTotalAmount.DefaultText = "14.900.000";
+			this.txtTotalAmount.DisabledState.BorderColor = System.Drawing.Color.White;
+			this.txtTotalAmount.DisabledState.FillColor = System.Drawing.Color.White;
+			this.txtTotalAmount.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtTotalAmount.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
+			this.txtTotalAmount.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.txtTotalAmount.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtTotalAmount.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+			this.txtTotalAmount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtTotalAmount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtTotalAmount.Location = new System.Drawing.Point(109, 0);
+			this.txtTotalAmount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.txtTotalAmount.Name = "txtTotalAmount";
+			this.txtTotalAmount.Padding = new System.Windows.Forms.Padding(0, 11, 0, 11);
+			this.txtTotalAmount.PasswordChar = '\0';
+			this.txtTotalAmount.PlaceholderText = "";
+			this.txtTotalAmount.SelectedText = "";
+			this.txtTotalAmount.Size = new System.Drawing.Size(256, 40);
+			this.txtTotalAmount.TabIndex = 34;
+			// 
+			// txtVND
+			// 
+			this.txtVND.BackColor = System.Drawing.Color.White;
+			this.txtVND.BorderRadius = 5;
+			this.txtVND.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.txtVND.DefaultText = "VND";
+			this.txtVND.DisabledState.BorderColor = System.Drawing.Color.White;
+			this.txtVND.DisabledState.FillColor = System.Drawing.Color.White;
+			this.txtVND.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtVND.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
+			this.txtVND.Dock = System.Windows.Forms.DockStyle.Right;
+			this.txtVND.Enabled = false;
+			this.txtVND.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtVND.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+			this.txtVND.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtVND.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtVND.Location = new System.Drawing.Point(365, 0);
+			this.txtVND.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.txtVND.Name = "txtVND";
+			this.txtVND.PasswordChar = '\0';
+			this.txtVND.PlaceholderText = "";
+			this.txtVND.SelectedText = "";
+			this.txtVND.Size = new System.Drawing.Size(68, 40);
+			this.txtVND.TabIndex = 35;
+			// 
+			// lblTotalAmount
+			// 
+			this.lblTotalAmount.BackColor = System.Drawing.Color.White;
+			this.lblTotalAmount.Dock = System.Windows.Forms.DockStyle.Left;
+			this.lblTotalAmount.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblTotalAmount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
+			this.lblTotalAmount.Location = new System.Drawing.Point(0, 0);
+			this.lblTotalAmount.Name = "lblTotalAmount";
+			this.lblTotalAmount.Size = new System.Drawing.Size(109, 40);
+			this.lblTotalAmount.TabIndex = 1;
+			this.lblTotalAmount.Text = "     Amount: ";
+			this.lblTotalAmount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
 			// pnlSpace3
 			// 
 			this.pnlSpace3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -560,7 +623,7 @@
 			// 
 			this.pnlSpace9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
 			this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Right;
-			this.pnlSpace9.FillColor = System.Drawing.Color.White;
+			this.pnlSpace9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
 			this.pnlSpace9.Location = new System.Drawing.Point(433, 0);
 			this.pnlSpace9.Name = "pnlSpace9";
 			this.pnlSpace9.Size = new System.Drawing.Size(17, 40);
@@ -596,69 +659,6 @@
 			this.dragControl.DockIndicatorTransparencyValue = 0.6D;
 			this.dragControl.TargetControl = this.pnlLineTop;
 			this.dragControl.UseTransparentDrag = true;
-			// 
-			// lblTotalAmount
-			// 
-			this.lblTotalAmount.BackColor = System.Drawing.Color.White;
-			this.lblTotalAmount.Dock = System.Windows.Forms.DockStyle.Left;
-			this.lblTotalAmount.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblTotalAmount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
-			this.lblTotalAmount.Location = new System.Drawing.Point(0, 0);
-			this.lblTotalAmount.Name = "lblTotalAmount";
-			this.lblTotalAmount.Size = new System.Drawing.Size(109, 40);
-			this.lblTotalAmount.TabIndex = 1;
-			this.lblTotalAmount.Text = "     Amount: ";
-			this.lblTotalAmount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// txtTotalAmount
-			// 
-			this.txtTotalAmount.BackColor = System.Drawing.Color.White;
-			this.txtTotalAmount.BorderRadius = 5;
-			this.txtTotalAmount.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.txtTotalAmount.DefaultText = "14.900.000";
-			this.txtTotalAmount.DisabledState.BorderColor = System.Drawing.Color.White;
-			this.txtTotalAmount.DisabledState.FillColor = System.Drawing.Color.White;
-			this.txtTotalAmount.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.txtTotalAmount.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
-			this.txtTotalAmount.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.txtTotalAmount.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtTotalAmount.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-			this.txtTotalAmount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.txtTotalAmount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtTotalAmount.Location = new System.Drawing.Point(109, 0);
-			this.txtTotalAmount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-			this.txtTotalAmount.Name = "txtTotalAmount";
-			this.txtTotalAmount.Padding = new System.Windows.Forms.Padding(0, 11, 0, 11);
-			this.txtTotalAmount.PasswordChar = '\0';
-			this.txtTotalAmount.PlaceholderText = "";
-			this.txtTotalAmount.SelectedText = "";
-			this.txtTotalAmount.Size = new System.Drawing.Size(256, 40);
-			this.txtTotalAmount.TabIndex = 34;
-			// 
-			// txtVND
-			// 
-			this.txtVND.BackColor = System.Drawing.Color.White;
-			this.txtVND.BorderRadius = 5;
-			this.txtVND.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.txtVND.DefaultText = "VND";
-			this.txtVND.DisabledState.BorderColor = System.Drawing.Color.White;
-			this.txtVND.DisabledState.FillColor = System.Drawing.Color.White;
-			this.txtVND.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.txtVND.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
-			this.txtVND.Dock = System.Windows.Forms.DockStyle.Right;
-			this.txtVND.Enabled = false;
-			this.txtVND.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtVND.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-			this.txtVND.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.txtVND.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtVND.Location = new System.Drawing.Point(365, 0);
-			this.txtVND.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-			this.txtVND.Name = "txtVND";
-			this.txtVND.PasswordChar = '\0';
-			this.txtVND.PlaceholderText = "";
-			this.txtVND.SelectedText = "";
-			this.txtVND.Size = new System.Drawing.Size(68, 40);
-			this.txtVND.TabIndex = 35;
 			// 
 			// AssignScheduleForm
 			// 

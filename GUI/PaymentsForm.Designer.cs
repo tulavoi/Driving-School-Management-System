@@ -28,12 +28,12 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.pnlFilter = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
 			this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
 			this.pnlSpace11 = new Guna.UI2.WinForms.Guna2Panel();
@@ -62,9 +62,9 @@
 			this.pnlSpace6 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlPaymentDetails = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
 			this.pnlButtonEdit_Delete = new Guna.UI2.WinForms.Guna2Panel();
-			this.btnEdit = new Guna.UI2.WinForms.Guna2Button();
-			this.pnlSpace22 = new Guna.UI2.WinForms.Guna2Panel();
 			this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
+			this.pnlSpace22 = new Guna.UI2.WinForms.Guna2Panel();
+			this.btnEdit = new Guna.UI2.WinForms.Guna2Button();
 			this.pnlSpace13 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlBasicDetails = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlInvoiceTo = new Guna.UI2.WinForms.Guna2Panel();
@@ -82,6 +82,7 @@
 			this.pnlInvoice = new Guna.UI2.WinForms.Guna2Panel();
 			this.dtpPaymentDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
 			this.lblPaymentDate = new System.Windows.Forms.Label();
+			this.cboInvoices = new Guna.UI2.WinForms.Guna2ComboBox();
 			this.lblInvoice = new System.Windows.Forms.Label();
 			this.pnlDetails_Top = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblInvoiceID = new Guna.UI2.WinForms.Guna2Button();
@@ -90,7 +91,6 @@
 			this.pnlSpace14 = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblDetails = new System.Windows.Forms.Label();
 			this.pnlSpace16 = new Guna.UI2.WinForms.Guna2Panel();
-			this.cboInvoices = new Guna.UI2.WinForms.Guna2ComboBox();
 			this.pnlFilter.SuspendLayout();
 			this.pnlPayments.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dgvPayments)).BeginInit();
@@ -288,16 +288,16 @@
 			// dgvPayments
 			// 
 			this.dgvPayments.AllowUserToDeleteRows = false;
-			dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
-			this.dgvPayments.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
-			dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle20.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle20.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle20.ForeColor = System.Drawing.Color.DimGray;
-			dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.dgvPayments.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
+			dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+			this.dgvPayments.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+			dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle2.ForeColor = System.Drawing.Color.DimGray;
+			dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.dgvPayments.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
 			this.dgvPayments.ColumnHeadersHeight = 30;
 			this.dgvPayments.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column2,
@@ -306,36 +306,36 @@
             this.Column1,
             this.Column3,
             this.Column4});
-			dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle22.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
-			dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.dgvPayments.DefaultCellStyle = dataGridViewCellStyle22;
+			dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.dgvPayments.DefaultCellStyle = dataGridViewCellStyle4;
 			this.dgvPayments.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.dgvPayments.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
 			this.dgvPayments.Location = new System.Drawing.Point(0, 15);
 			this.dgvPayments.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.dgvPayments.Name = "dgvPayments";
 			this.dgvPayments.ReadOnly = true;
-			dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Control;
-			dataGridViewCellStyle23.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.WindowText;
-			dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-			dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.dgvPayments.RowHeadersDefaultCellStyle = dataGridViewCellStyle23;
+			dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+			dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+			dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+			dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.dgvPayments.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
 			this.dgvPayments.RowHeadersVisible = false;
 			this.dgvPayments.RowHeadersWidth = 30;
 			this.dgvPayments.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-			dataGridViewCellStyle24.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
-			dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.White;
-			this.dgvPayments.RowsDefaultCellStyle = dataGridViewCellStyle24;
+			dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+			this.dgvPayments.RowsDefaultCellStyle = dataGridViewCellStyle6;
 			this.dgvPayments.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.dgvPayments.RowTemplate.DividerHeight = 2;
 			this.dgvPayments.RowTemplate.Height = 45;
@@ -378,8 +378,8 @@
 			// 
 			this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
 			this.dataGridViewTextBoxColumn3.DataPropertyName = "InvoiceCode";
-			dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle21;
+			dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle3;
 			this.dataGridViewTextBoxColumn3.FillWeight = 53.63456F;
 			this.dataGridViewTextBoxColumn3.Frozen = true;
 			this.dataGridViewTextBoxColumn3.HeaderText = "Invoice";
@@ -542,35 +542,6 @@
 			this.pnlButtonEdit_Delete.Size = new System.Drawing.Size(159, 148);
 			this.pnlButtonEdit_Delete.TabIndex = 132;
 			// 
-			// btnEdit
-			// 
-			this.btnEdit.BorderRadius = 5;
-			this.btnEdit.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.btnEdit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.btnEdit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.btnEdit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.btnEdit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.btnEdit.Dock = System.Windows.Forms.DockStyle.Top;
-			this.btnEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(191)))), ((int)(((byte)(90)))));
-			this.btnEdit.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnEdit.ForeColor = System.Drawing.Color.White;
-			this.btnEdit.Location = new System.Drawing.Point(0, 0);
-			this.btnEdit.Name = "btnEdit";
-			this.btnEdit.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-			this.btnEdit.Size = new System.Drawing.Size(144, 36);
-			this.btnEdit.TabIndex = 17;
-			this.btnEdit.Text = "Edit";
-			this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
-			// 
-			// pnlSpace22
-			// 
-			this.pnlSpace22.BackColor = System.Drawing.Color.White;
-			this.pnlSpace22.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlSpace22.Location = new System.Drawing.Point(0, 36);
-			this.pnlSpace22.Name = "pnlSpace22";
-			this.pnlSpace22.Size = new System.Drawing.Size(144, 15);
-			this.pnlSpace22.TabIndex = 22;
-			// 
 			// btnDelete
 			// 
 			this.btnDelete.BorderRadius = 5;
@@ -590,6 +561,35 @@
 			this.btnDelete.TabIndex = 19;
 			this.btnDelete.Text = "Delete";
 			this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+			// 
+			// pnlSpace22
+			// 
+			this.pnlSpace22.BackColor = System.Drawing.Color.White;
+			this.pnlSpace22.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlSpace22.Location = new System.Drawing.Point(0, 36);
+			this.pnlSpace22.Name = "pnlSpace22";
+			this.pnlSpace22.Size = new System.Drawing.Size(144, 15);
+			this.pnlSpace22.TabIndex = 22;
+			// 
+			// btnEdit
+			// 
+			this.btnEdit.BorderRadius = 5;
+			this.btnEdit.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btnEdit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.btnEdit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.btnEdit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.btnEdit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.btnEdit.Dock = System.Windows.Forms.DockStyle.Top;
+			this.btnEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(191)))), ((int)(((byte)(90)))));
+			this.btnEdit.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnEdit.ForeColor = System.Drawing.Color.White;
+			this.btnEdit.Location = new System.Drawing.Point(0, 0);
+			this.btnEdit.Name = "btnEdit";
+			this.btnEdit.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+			this.btnEdit.Size = new System.Drawing.Size(144, 36);
+			this.btnEdit.TabIndex = 17;
+			this.btnEdit.Text = "Edit";
+			this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
 			// 
 			// pnlSpace13
 			// 
@@ -879,6 +879,33 @@
 			this.lblPaymentDate.Text = " Payment Date:";
 			this.lblPaymentDate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
+			// cboInvoices
+			// 
+			this.cboInvoices.BackColor = System.Drawing.Color.White;
+			this.cboInvoices.BorderRadius = 5;
+			this.cboInvoices.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.cboInvoices.DisabledState.BorderColor = System.Drawing.Color.White;
+			this.cboInvoices.DisabledState.FillColor = System.Drawing.Color.White;
+			this.cboInvoices.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.cboInvoices.Dock = System.Windows.Forms.DockStyle.Left;
+			this.cboInvoices.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cboInvoices.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cboInvoices.Enabled = false;
+			this.cboInvoices.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
+			this.cboInvoices.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
+			this.cboInvoices.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+			this.cboInvoices.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.cboInvoices.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.cboInvoices.ItemHeight = 30;
+			this.cboInvoices.Items.AddRange(new object[] {
+            "INV-123123",
+            "INV-234234"});
+			this.cboInvoices.Location = new System.Drawing.Point(108, 0);
+			this.cboInvoices.Name = "cboInvoices";
+			this.cboInvoices.Size = new System.Drawing.Size(304, 36);
+			this.cboInvoices.StartIndex = 0;
+			this.cboInvoices.TabIndex = 128;
+			// 
 			// lblInvoice
 			// 
 			this.lblInvoice.BackColor = System.Drawing.Color.White;
@@ -988,33 +1015,6 @@
 			this.pnlSpace16.Name = "pnlSpace16";
 			this.pnlSpace16.Size = new System.Drawing.Size(15, 53);
 			this.pnlSpace16.TabIndex = 16;
-			// 
-			// cboInvoices
-			// 
-			this.cboInvoices.BackColor = System.Drawing.Color.White;
-			this.cboInvoices.BorderRadius = 5;
-			this.cboInvoices.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.cboInvoices.DisabledState.BorderColor = System.Drawing.Color.White;
-			this.cboInvoices.DisabledState.FillColor = System.Drawing.Color.White;
-			this.cboInvoices.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.cboInvoices.Dock = System.Windows.Forms.DockStyle.Left;
-			this.cboInvoices.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.cboInvoices.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cboInvoices.Enabled = false;
-			this.cboInvoices.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
-			this.cboInvoices.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
-			this.cboInvoices.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-			this.cboInvoices.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.cboInvoices.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.cboInvoices.ItemHeight = 30;
-			this.cboInvoices.Items.AddRange(new object[] {
-            "INV-123123",
-            "INV-234234"});
-			this.cboInvoices.Location = new System.Drawing.Point(108, 0);
-			this.cboInvoices.Name = "cboInvoices";
-			this.cboInvoices.Size = new System.Drawing.Size(304, 36);
-			this.cboInvoices.StartIndex = 0;
-			this.cboInvoices.TabIndex = 128;
 			// 
 			// PaymentsForm
 			// 

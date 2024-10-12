@@ -97,6 +97,8 @@
     <Compile Include="AssignScheduleForm.Designer.cs">
       <DependentUpon>AssignScheduleForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ButtonStyleHelper.cs" />
+    <Compile Include="CalendarManager.cs" />
     <Compile Include="Constant.cs" />
     <Compile Include="CoursesForm.cs">
       <SubType>Form</SubType>

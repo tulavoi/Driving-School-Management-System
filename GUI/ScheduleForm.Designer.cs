@@ -909,7 +909,7 @@
 			this.pnlButtonEdit_Delete.Controls.Add(this.pnlSpace17);
 			this.pnlButtonEdit_Delete.Dock = System.Windows.Forms.DockStyle.Top;
 			this.pnlButtonEdit_Delete.FillColor = System.Drawing.Color.White;
-			this.pnlButtonEdit_Delete.Location = new System.Drawing.Point(0, 284);
+			this.pnlButtonEdit_Delete.Location = new System.Drawing.Point(0, 300);
 			this.pnlButtonEdit_Delete.Name = "pnlButtonEdit_Delete";
 			this.pnlButtonEdit_Delete.Size = new System.Drawing.Size(480, 35);
 			this.pnlButtonEdit_Delete.TabIndex = 162;
@@ -970,7 +970,7 @@
 			this.pnlSpace24.FillColor = System.Drawing.Color.White;
 			this.pnlSpace24.Location = new System.Drawing.Point(0, 224);
 			this.pnlSpace24.Name = "pnlSpace24";
-			this.pnlSpace24.Size = new System.Drawing.Size(480, 60);
+			this.pnlSpace24.Size = new System.Drawing.Size(480, 76);
 			this.pnlSpace24.TabIndex = 161;
 			// 
 			// pnlTeachers
