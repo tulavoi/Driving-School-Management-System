@@ -22,7 +22,6 @@ C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.AddCourseForm.resources
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.ScheduleForm.resources
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.AddVehicleForm.resources
-C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\bin\Debug\BLL.dll
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\bin\Debug\BLL.pdb
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.VehiclesForm.resources
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.AssignScheduleForm.resources
@@ -32,3 +31,8 @@ C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.AccountsForm.resources
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.CreateAccountForm.resources
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\obj\Debug\GUI.CreateInvoiceForm.resources
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\bin\Debug\BLL.exe
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\bin\Debug\DAL.dll
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\bin\Debug\BLL.exe.config
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\bin\Debug\DAL.pdb
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\GUI\bin\Debug\DAL.dll.config

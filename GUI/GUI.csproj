@@ -314,12 +314,6 @@
     <None Include="Resources\schedule_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BLL\BLL.csproj">
-      <Project>{3a994c3b-c8c6-4733-9238-1de3c7fc031a}</Project>
-      <Name>BLL</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\logout_2.png" />
   </ItemGroup>
   <ItemGroup>
@@ -342,6 +336,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\payment_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{4775f24d-a3bc-45ac-a82f-d1e100eaf81b}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -15,6 +15,7 @@ namespace GUI
         public DashBoardForm()
         {
             InitializeComponent();
+            FormHelper.ApplyRoundedCorners(this, 20);
         }
     }
 }

@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\scheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\scheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\calendarmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\calendarmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\buttonstylehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\buttonstylehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|c:\\users\\khach\\onedrive\\documents\\c#\\cdud\\drivingschoolmanagementsystem\\gui\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D880E8-BA62-4383-83C4-05F002F3F410}|GUI\\GUI.csproj|solutionrelative:gui\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 328,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,41 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ButtonStyleHelper.cs",
-              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\ButtonStyleHelper.cs",
-              "RelativeDocumentMoniker": "GUI\\ButtonStyleHelper.cs",
-              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\ButtonStyleHelper.cs",
-              "RelativeToolTip": "GUI\\ButtonStyleHelper.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwB4AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T09:43:59.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CalendarManager.cs",
-              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\CalendarManager.cs",
-              "RelativeDocumentMoniker": "GUI\\CalendarManager.cs",
-              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\CalendarManager.cs",
-              "RelativeToolTip": "GUI\\CalendarManager.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAmwBUAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T08:33:38.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ScheduleForm.cs",
-              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\ScheduleForm.cs",
-              "RelativeDocumentMoniker": "GUI\\ScheduleForm.cs",
-              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\ScheduleForm.cs",
-              "RelativeToolTip": "GUI\\ScheduleForm.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAcwHAAAAAAAAAA",
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\LoginForm.cs",
+              "RelativeDocumentMoniker": "GUI\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\khach\\OneDrive\\Documents\\C#\\CDUD\\DrivingSchoolManagementSystem\\GUI\\LoginForm.cs",
+              "RelativeToolTip": "GUI\\LoginForm.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAIwG8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T08:32:12.181Z",
+              "WhenOpened": "2024-10-13T05:30:34.992Z",
               "EditorCaption": ""
             }
           ]

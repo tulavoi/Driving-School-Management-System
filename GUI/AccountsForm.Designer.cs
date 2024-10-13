@@ -28,40 +28,56 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.pnlAccounts = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
 			this.pnlButtonAdd = new Guna.UI2.WinForms.Guna2Panel();
+			this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
 			this.btnOpenAddAccountForm = new Guna.UI2.WinForms.Guna2Button();
 			this.pnlSpace15 = new Guna.UI2.WinForms.Guna2Panel();
+			this.dgvSchedules = new Guna.UI2.WinForms.Guna2DataGridView();
+			this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.EmploymentDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.pnlAccounts_Top = new Guna.UI2.WinForms.Guna2Panel();
+			this.cboPermission_Filter = new Guna.UI2.WinForms.Guna2ComboBox();
 			this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
 			this.pnlSpace8 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace7 = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblAccounts = new System.Windows.Forms.Label();
 			this.pnlSpace5 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlSpace6 = new Guna.UI2.WinForms.Guna2Panel();
-			this.cboPermission_Filter = new Guna.UI2.WinForms.Guna2ComboBox();
-			this.dgvSchedules = new Guna.UI2.WinForms.Guna2DataGridView();
-			this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.EmploymentDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.pnlSpace11 = new Guna.UI2.WinForms.Guna2Panel();
-			this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlRight = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlBottom_Right = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+			this.pnlSpace1 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlBtnChangePass = new Guna.UI2.WinForms.Guna2Panel();
+			this.btnChangePass = new Guna.UI2.WinForms.Guna2Button();
+			this.pnlSpace14 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlSpace10 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlConfirmPass = new Guna.UI2.WinForms.Guna2Panel();
+			this.txtConfirmPass = new Guna.UI2.WinForms.Guna2TextBox();
+			this.lblConfirmPass = new System.Windows.Forms.Label();
+			this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlNewPass = new Guna.UI2.WinForms.Guna2Panel();
+			this.txtNewPass = new Guna.UI2.WinForms.Guna2TextBox();
+			this.lblNewPass = new System.Windows.Forms.Label();
+			this.pnlSpace3 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlOldPass = new Guna.UI2.WinForms.Guna2Panel();
+			this.txtOldPass = new Guna.UI2.WinForms.Guna2TextBox();
+			this.lblOldPass = new System.Windows.Forms.Label();
+			this.pnlSpace2 = new Guna.UI2.WinForms.Guna2Panel();
+			this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
+			this.guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
+			this.lblChangeYourPass = new System.Windows.Forms.Label();
+			this.guna2Panel17 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlSpaceTop_Bottom = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlBottomLeft = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-			this.pnlAccountDetails_Top = new Guna.UI2.WinForms.Guna2Panel();
-			this.lblAccountID = new Guna.UI2.WinForms.Guna2Button();
-			this.pnlSpace12 = new Guna.UI2.WinForms.Guna2Panel();
-			this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-			this.lblAccountDetails = new System.Windows.Forms.Label();
-			this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlSpace9 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlBasicDetails = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlButtonEdit_Delete = new Guna.UI2.WinForms.Guna2Panel();
 			this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
@@ -79,47 +95,31 @@
 			this.pnlSpace21 = new Guna.UI2.WinForms.Guna2Panel();
 			this.lblBasicDetails = new System.Windows.Forms.Label();
 			this.pnlSpace19 = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlSpaceTop_Bottom = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlBottom_Right = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-			this.pnlSpace1 = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlNewPass = new Guna.UI2.WinForms.Guna2Panel();
-			this.lblNewPass = new System.Windows.Forms.Label();
-			this.pnlSpace3 = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlOldPass = new Guna.UI2.WinForms.Guna2Panel();
-			this.txtOldPass = new Guna.UI2.WinForms.Guna2TextBox();
-			this.lblOldPass = new System.Windows.Forms.Label();
-			this.pnlSpace2 = new Guna.UI2.WinForms.Guna2Panel();
-			this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
-			this.guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
-			this.lblChangeYourPass = new System.Windows.Forms.Label();
-			this.guna2Panel17 = new Guna.UI2.WinForms.Guna2Panel();
-			this.txtNewPass = new Guna.UI2.WinForms.Guna2TextBox();
-			this.pnlSpace4 = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlConfirmPass = new Guna.UI2.WinForms.Guna2Panel();
-			this.txtConfirmPass = new Guna.UI2.WinForms.Guna2TextBox();
-			this.lblConfirmPass = new System.Windows.Forms.Label();
-			this.pnlSpace10 = new Guna.UI2.WinForms.Guna2Panel();
-			this.pnlBtnChangePass = new Guna.UI2.WinForms.Guna2Panel();
-			this.btnChangePass = new Guna.UI2.WinForms.Guna2Button();
-			this.pnlSpace14 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlAccountDetails_Top = new Guna.UI2.WinForms.Guna2Panel();
+			this.lblAccountID = new Guna.UI2.WinForms.Guna2Button();
+			this.pnlSpace12 = new Guna.UI2.WinForms.Guna2Panel();
+			this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+			this.lblAccountDetails = new System.Windows.Forms.Label();
+			this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+			this.pnlSpace9 = new Guna.UI2.WinForms.Guna2Panel();
 			this.pnlAccounts.SuspendLayout();
 			this.pnlButtonAdd.SuspendLayout();
-			this.pnlAccounts_Top.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dgvSchedules)).BeginInit();
+			this.pnlAccounts_Top.SuspendLayout();
 			this.pnlRight.SuspendLayout();
+			this.pnlBottom_Right.SuspendLayout();
+			this.pnlSpace1.SuspendLayout();
+			this.pnlBtnChangePass.SuspendLayout();
+			this.pnlConfirmPass.SuspendLayout();
+			this.pnlNewPass.SuspendLayout();
+			this.pnlOldPass.SuspendLayout();
+			this.guna2Panel14.SuspendLayout();
 			this.pnlBottomLeft.SuspendLayout();
-			this.pnlAccountDetails_Top.SuspendLayout();
 			this.pnlBasicDetails.SuspendLayout();
 			this.pnlButtonEdit_Delete.SuspendLayout();
 			this.pnlCitizenId.SuspendLayout();
 			this.pnlPhone_Email.SuspendLayout();
-			this.pnlBottom_Right.SuspendLayout();
-			this.pnlSpace1.SuspendLayout();
-			this.pnlNewPass.SuspendLayout();
-			this.pnlOldPass.SuspendLayout();
-			this.guna2Panel14.SuspendLayout();
-			this.pnlConfirmPass.SuspendLayout();
-			this.pnlBtnChangePass.SuspendLayout();
+			this.pnlAccountDetails_Top.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// pnlAccounts
@@ -146,6 +146,16 @@
 			this.pnlButtonAdd.Name = "pnlButtonAdd";
 			this.pnlButtonAdd.Size = new System.Drawing.Size(430, 35);
 			this.pnlButtonAdd.TabIndex = 42;
+			// 
+			// guna2Panel4
+			// 
+			this.guna2Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.guna2Panel4.Dock = System.Windows.Forms.DockStyle.Right;
+			this.guna2Panel4.FillColor = System.Drawing.Color.White;
+			this.guna2Panel4.Location = new System.Drawing.Point(415, 0);
+			this.guna2Panel4.Name = "guna2Panel4";
+			this.guna2Panel4.Size = new System.Drawing.Size(15, 35);
+			this.guna2Panel4.TabIndex = 19;
 			// 
 			// btnOpenAddAccountForm
 			// 
@@ -177,6 +187,129 @@
 			this.pnlSpace15.Size = new System.Drawing.Size(15, 35);
 			this.pnlSpace15.TabIndex = 10;
 			// 
+			// dgvSchedules
+			// 
+			this.dgvSchedules.AllowUserToDeleteRows = false;
+			dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+			this.dgvSchedules.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+			dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle2.ForeColor = System.Drawing.Color.DimGray;
+			dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.dgvSchedules.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+			this.dgvSchedules.ColumnHeadersHeight = 40;
+			this.dgvSchedules.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column2,
+            this.dataGridViewTextBoxColumn3,
+            this.Column5,
+            this.EmploymentDate});
+			dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.dgvSchedules.DefaultCellStyle = dataGridViewCellStyle4;
+			this.dgvSchedules.Dock = System.Windows.Forms.DockStyle.Top;
+			this.dgvSchedules.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+			this.dgvSchedules.Location = new System.Drawing.Point(0, 59);
+			this.dgvSchedules.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+			this.dgvSchedules.Name = "dgvSchedules";
+			this.dgvSchedules.ReadOnly = true;
+			dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+			dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+			dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+			dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.dgvSchedules.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+			this.dgvSchedules.RowHeadersVisible = false;
+			this.dgvSchedules.RowHeadersWidth = 30;
+			this.dgvSchedules.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+			dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+			this.dgvSchedules.RowsDefaultCellStyle = dataGridViewCellStyle6;
+			this.dgvSchedules.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.dgvSchedules.RowTemplate.DividerHeight = 2;
+			this.dgvSchedules.RowTemplate.Height = 45;
+			this.dgvSchedules.Size = new System.Drawing.Size(430, 604);
+			this.dgvSchedules.TabIndex = 43;
+			this.dgvSchedules.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+			this.dgvSchedules.ThemeStyle.AlternatingRowsStyle.Font = null;
+			this.dgvSchedules.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+			this.dgvSchedules.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+			this.dgvSchedules.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+			this.dgvSchedules.ThemeStyle.BackColor = System.Drawing.Color.White;
+			this.dgvSchedules.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+			this.dgvSchedules.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+			this.dgvSchedules.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+			this.dgvSchedules.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.dgvSchedules.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.DimGray;
+			this.dgvSchedules.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+			this.dgvSchedules.ThemeStyle.HeaderStyle.Height = 40;
+			this.dgvSchedules.ThemeStyle.ReadOnly = true;
+			this.dgvSchedules.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+			this.dgvSchedules.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+			this.dgvSchedules.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.dgvSchedules.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			this.dgvSchedules.ThemeStyle.RowsStyle.Height = 45;
+			this.dgvSchedules.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			this.dgvSchedules.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
+			// 
+			// Column2
+			// 
+			this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+			this.Column2.DataPropertyName = "Space";
+			this.Column2.Frozen = true;
+			this.Column2.HeaderText = "";
+			this.Column2.MinimumWidth = 6;
+			this.Column2.Name = "Column2";
+			this.Column2.ReadOnly = true;
+			this.Column2.Width = 18;
+			// 
+			// dataGridViewTextBoxColumn3
+			// 
+			this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+			this.dataGridViewTextBoxColumn3.DataPropertyName = "Email";
+			dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle3;
+			this.dataGridViewTextBoxColumn3.FillWeight = 53.63456F;
+			this.dataGridViewTextBoxColumn3.Frozen = true;
+			this.dataGridViewTextBoxColumn3.HeaderText = "Email";
+			this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
+			this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+			this.dataGridViewTextBoxColumn3.ReadOnly = true;
+			this.dataGridViewTextBoxColumn3.Width = 150;
+			// 
+			// Column5
+			// 
+			this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+			this.Column5.DataPropertyName = "Permission";
+			this.Column5.Frozen = true;
+			this.Column5.HeaderText = "Permission";
+			this.Column5.MinimumWidth = 6;
+			this.Column5.Name = "Column5";
+			this.Column5.ReadOnly = true;
+			this.Column5.Width = 120;
+			// 
+			// EmploymentDate
+			// 
+			this.EmploymentDate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+			this.EmploymentDate.DataPropertyName = "Created_At";
+			this.EmploymentDate.Frozen = true;
+			this.EmploymentDate.HeaderText = "Date Created";
+			this.EmploymentDate.MinimumWidth = 6;
+			this.EmploymentDate.Name = "EmploymentDate";
+			this.EmploymentDate.ReadOnly = true;
+			this.EmploymentDate.Width = 120;
+			// 
 			// pnlAccounts_Top
 			// 
 			this.pnlAccounts_Top.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
@@ -196,6 +329,33 @@
 			this.pnlAccounts_Top.Name = "pnlAccounts_Top";
 			this.pnlAccounts_Top.Size = new System.Drawing.Size(430, 59);
 			this.pnlAccounts_Top.TabIndex = 0;
+			// 
+			// cboPermission_Filter
+			// 
+			this.cboPermission_Filter.BackColor = System.Drawing.Color.White;
+			this.cboPermission_Filter.BorderRadius = 5;
+			this.cboPermission_Filter.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.cboPermission_Filter.DisabledState.BorderColor = System.Drawing.Color.White;
+			this.cboPermission_Filter.DisabledState.FillColor = System.Drawing.Color.White;
+			this.cboPermission_Filter.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.cboPermission_Filter.Dock = System.Windows.Forms.DockStyle.Right;
+			this.cboPermission_Filter.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cboPermission_Filter.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cboPermission_Filter.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
+			this.cboPermission_Filter.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
+			this.cboPermission_Filter.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+			this.cboPermission_Filter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.cboPermission_Filter.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.cboPermission_Filter.ItemHeight = 30;
+			this.cboPermission_Filter.Items.AddRange(new object[] {
+            "Permission",
+            "Admin",
+            "Teacher"});
+			this.cboPermission_Filter.Location = new System.Drawing.Point(284, 12);
+			this.cboPermission_Filter.Name = "cboPermission_Filter";
+			this.cboPermission_Filter.Size = new System.Drawing.Size(131, 36);
+			this.cboPermission_Filter.StartIndex = 0;
+			this.cboPermission_Filter.TabIndex = 31;
 			// 
 			// txtSearch
 			// 
@@ -281,156 +441,6 @@
 			this.pnlSpace6.Size = new System.Drawing.Size(15, 59);
 			this.pnlSpace6.TabIndex = 16;
 			// 
-			// cboPermission_Filter
-			// 
-			this.cboPermission_Filter.BackColor = System.Drawing.Color.White;
-			this.cboPermission_Filter.BorderRadius = 5;
-			this.cboPermission_Filter.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.cboPermission_Filter.DisabledState.BorderColor = System.Drawing.Color.White;
-			this.cboPermission_Filter.DisabledState.FillColor = System.Drawing.Color.White;
-			this.cboPermission_Filter.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.cboPermission_Filter.Dock = System.Windows.Forms.DockStyle.Right;
-			this.cboPermission_Filter.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.cboPermission_Filter.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cboPermission_Filter.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
-			this.cboPermission_Filter.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(221)))), ((int)(((byte)(226)))));
-			this.cboPermission_Filter.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-			this.cboPermission_Filter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.cboPermission_Filter.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.cboPermission_Filter.ItemHeight = 30;
-			this.cboPermission_Filter.Items.AddRange(new object[] {
-            "Permission",
-            "Admin",
-            "Teacher"});
-			this.cboPermission_Filter.Location = new System.Drawing.Point(284, 12);
-			this.cboPermission_Filter.Name = "cboPermission_Filter";
-			this.cboPermission_Filter.Size = new System.Drawing.Size(131, 36);
-			this.cboPermission_Filter.StartIndex = 0;
-			this.cboPermission_Filter.TabIndex = 31;
-			// 
-			// dgvSchedules
-			// 
-			this.dgvSchedules.AllowUserToDeleteRows = false;
-			dataGridViewCellStyle43.BackColor = System.Drawing.Color.White;
-			this.dgvSchedules.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle43;
-			dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle44.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle44.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle44.ForeColor = System.Drawing.Color.DimGray;
-			dataGridViewCellStyle44.SelectionBackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.dgvSchedules.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle44;
-			this.dgvSchedules.ColumnHeadersHeight = 40;
-			this.dgvSchedules.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column2,
-            this.dataGridViewTextBoxColumn3,
-            this.Column5,
-            this.EmploymentDate});
-			dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle46.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle46.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle46.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
-			dataGridViewCellStyle46.SelectionForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.dgvSchedules.DefaultCellStyle = dataGridViewCellStyle46;
-			this.dgvSchedules.Dock = System.Windows.Forms.DockStyle.Top;
-			this.dgvSchedules.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-			this.dgvSchedules.Location = new System.Drawing.Point(0, 59);
-			this.dgvSchedules.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-			this.dgvSchedules.Name = "dgvSchedules";
-			this.dgvSchedules.ReadOnly = true;
-			dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle47.BackColor = System.Drawing.SystemColors.Control;
-			dataGridViewCellStyle47.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle47.ForeColor = System.Drawing.SystemColors.WindowText;
-			dataGridViewCellStyle47.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-			dataGridViewCellStyle47.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle47.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.dgvSchedules.RowHeadersDefaultCellStyle = dataGridViewCellStyle47;
-			this.dgvSchedules.RowHeadersVisible = false;
-			this.dgvSchedules.RowHeadersWidth = 30;
-			this.dgvSchedules.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-			dataGridViewCellStyle48.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			dataGridViewCellStyle48.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
-			dataGridViewCellStyle48.SelectionForeColor = System.Drawing.Color.White;
-			this.dgvSchedules.RowsDefaultCellStyle = dataGridViewCellStyle48;
-			this.dgvSchedules.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.dgvSchedules.RowTemplate.DividerHeight = 2;
-			this.dgvSchedules.RowTemplate.Height = 45;
-			this.dgvSchedules.Size = new System.Drawing.Size(430, 604);
-			this.dgvSchedules.TabIndex = 43;
-			this.dgvSchedules.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-			this.dgvSchedules.ThemeStyle.AlternatingRowsStyle.Font = null;
-			this.dgvSchedules.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-			this.dgvSchedules.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-			this.dgvSchedules.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-			this.dgvSchedules.ThemeStyle.BackColor = System.Drawing.Color.White;
-			this.dgvSchedules.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-			this.dgvSchedules.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-			this.dgvSchedules.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-			this.dgvSchedules.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.dgvSchedules.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.DimGray;
-			this.dgvSchedules.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-			this.dgvSchedules.ThemeStyle.HeaderStyle.Height = 40;
-			this.dgvSchedules.ThemeStyle.ReadOnly = true;
-			this.dgvSchedules.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-			this.dgvSchedules.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-			this.dgvSchedules.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.dgvSchedules.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			this.dgvSchedules.ThemeStyle.RowsStyle.Height = 45;
-			this.dgvSchedules.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			this.dgvSchedules.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
-			// 
-			// Column2
-			// 
-			this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-			this.Column2.DataPropertyName = "Space";
-			this.Column2.Frozen = true;
-			this.Column2.HeaderText = "";
-			this.Column2.MinimumWidth = 6;
-			this.Column2.Name = "Column2";
-			this.Column2.ReadOnly = true;
-			this.Column2.Width = 18;
-			// 
-			// dataGridViewTextBoxColumn3
-			// 
-			this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-			this.dataGridViewTextBoxColumn3.DataPropertyName = "Email";
-			dataGridViewCellStyle45.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle45;
-			this.dataGridViewTextBoxColumn3.FillWeight = 53.63456F;
-			this.dataGridViewTextBoxColumn3.Frozen = true;
-			this.dataGridViewTextBoxColumn3.HeaderText = "Email";
-			this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-			this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-			this.dataGridViewTextBoxColumn3.ReadOnly = true;
-			this.dataGridViewTextBoxColumn3.Width = 150;
-			// 
-			// Column5
-			// 
-			this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-			this.Column5.DataPropertyName = "Permission";
-			this.Column5.Frozen = true;
-			this.Column5.HeaderText = "Permission";
-			this.Column5.MinimumWidth = 6;
-			this.Column5.Name = "Column5";
-			this.Column5.ReadOnly = true;
-			this.Column5.Width = 120;
-			// 
-			// EmploymentDate
-			// 
-			this.EmploymentDate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-			this.EmploymentDate.DataPropertyName = "Created_At";
-			this.EmploymentDate.Frozen = true;
-			this.EmploymentDate.HeaderText = "Date Created";
-			this.EmploymentDate.MinimumWidth = 6;
-			this.EmploymentDate.Name = "EmploymentDate";
-			this.EmploymentDate.ReadOnly = true;
-			this.EmploymentDate.Width = 120;
-			// 
 			// pnlSpace11
 			// 
 			this.pnlSpace11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
@@ -439,16 +449,6 @@
 			this.pnlSpace11.Name = "pnlSpace11";
 			this.pnlSpace11.Size = new System.Drawing.Size(20, 715);
 			this.pnlSpace11.TabIndex = 50;
-			// 
-			// guna2Panel4
-			// 
-			this.guna2Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.guna2Panel4.Dock = System.Windows.Forms.DockStyle.Right;
-			this.guna2Panel4.FillColor = System.Drawing.Color.White;
-			this.guna2Panel4.Location = new System.Drawing.Point(415, 0);
-			this.guna2Panel4.Name = "guna2Panel4";
-			this.guna2Panel4.Size = new System.Drawing.Size(15, 35);
-			this.guna2Panel4.TabIndex = 19;
 			// 
 			// pnlRight
 			// 
@@ -460,6 +460,317 @@
 			this.pnlRight.Name = "pnlRight";
 			this.pnlRight.Size = new System.Drawing.Size(490, 715);
 			this.pnlRight.TabIndex = 56;
+			// 
+			// pnlBottom_Right
+			// 
+			this.pnlBottom_Right.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.pnlBottom_Right.BorderRadius = 15;
+			this.pnlBottom_Right.Controls.Add(this.pnlSpace1);
+			this.pnlBottom_Right.Controls.Add(this.guna2Panel14);
+			this.pnlBottom_Right.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.pnlBottom_Right.Location = new System.Drawing.Point(0, 456);
+			this.pnlBottom_Right.Name = "pnlBottom_Right";
+			this.pnlBottom_Right.Size = new System.Drawing.Size(490, 259);
+			this.pnlBottom_Right.TabIndex = 58;
+			// 
+			// pnlSpace1
+			// 
+			this.pnlSpace1.Controls.Add(this.pnlBtnChangePass);
+			this.pnlSpace1.Controls.Add(this.pnlSpace10);
+			this.pnlSpace1.Controls.Add(this.pnlConfirmPass);
+			this.pnlSpace1.Controls.Add(this.pnlSpace4);
+			this.pnlSpace1.Controls.Add(this.pnlNewPass);
+			this.pnlSpace1.Controls.Add(this.pnlSpace3);
+			this.pnlSpace1.Controls.Add(this.pnlOldPass);
+			this.pnlSpace1.Controls.Add(this.pnlSpace2);
+			this.pnlSpace1.Controls.Add(this.guna2Panel12);
+			this.pnlSpace1.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlSpace1.FillColor = System.Drawing.Color.White;
+			this.pnlSpace1.Location = new System.Drawing.Point(0, 44);
+			this.pnlSpace1.Name = "pnlSpace1";
+			this.pnlSpace1.Size = new System.Drawing.Size(490, 203);
+			this.pnlSpace1.TabIndex = 109;
+			// 
+			// pnlBtnChangePass
+			// 
+			this.pnlBtnChangePass.Controls.Add(this.btnChangePass);
+			this.pnlBtnChangePass.Controls.Add(this.pnlSpace14);
+			this.pnlBtnChangePass.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlBtnChangePass.FillColor = System.Drawing.Color.White;
+			this.pnlBtnChangePass.Location = new System.Drawing.Point(0, 163);
+			this.pnlBtnChangePass.Name = "pnlBtnChangePass";
+			this.pnlBtnChangePass.Size = new System.Drawing.Size(471, 35);
+			this.pnlBtnChangePass.TabIndex = 107;
+			// 
+			// btnChangePass
+			// 
+			this.btnChangePass.BorderRadius = 5;
+			this.btnChangePass.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btnChangePass.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.btnChangePass.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.btnChangePass.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.btnChangePass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.btnChangePass.Dock = System.Windows.Forms.DockStyle.Left;
+			this.btnChangePass.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
+			this.btnChangePass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnChangePass.ForeColor = System.Drawing.Color.White;
+			this.btnChangePass.Location = new System.Drawing.Point(18, 0);
+			this.btnChangePass.Name = "btnChangePass";
+			this.btnChangePass.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+			this.btnChangePass.Size = new System.Drawing.Size(165, 35);
+			this.btnChangePass.TabIndex = 18;
+			this.btnChangePass.Text = "Change Password";
+			// 
+			// pnlSpace14
+			// 
+			this.pnlSpace14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.pnlSpace14.Dock = System.Windows.Forms.DockStyle.Left;
+			this.pnlSpace14.FillColor = System.Drawing.Color.White;
+			this.pnlSpace14.Location = new System.Drawing.Point(0, 0);
+			this.pnlSpace14.Name = "pnlSpace14";
+			this.pnlSpace14.Size = new System.Drawing.Size(18, 35);
+			this.pnlSpace14.TabIndex = 10;
+			// 
+			// pnlSpace10
+			// 
+			this.pnlSpace10.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlSpace10.FillColor = System.Drawing.Color.White;
+			this.pnlSpace10.Location = new System.Drawing.Point(0, 138);
+			this.pnlSpace10.Name = "pnlSpace10";
+			this.pnlSpace10.Size = new System.Drawing.Size(471, 25);
+			this.pnlSpace10.TabIndex = 106;
+			// 
+			// pnlConfirmPass
+			// 
+			this.pnlConfirmPass.Controls.Add(this.txtConfirmPass);
+			this.pnlConfirmPass.Controls.Add(this.lblConfirmPass);
+			this.pnlConfirmPass.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlConfirmPass.FillColor = System.Drawing.Color.White;
+			this.pnlConfirmPass.Location = new System.Drawing.Point(0, 102);
+			this.pnlConfirmPass.Name = "pnlConfirmPass";
+			this.pnlConfirmPass.Size = new System.Drawing.Size(471, 36);
+			this.pnlConfirmPass.TabIndex = 105;
+			// 
+			// txtConfirmPass
+			// 
+			this.txtConfirmPass.BackColor = System.Drawing.Color.White;
+			this.txtConfirmPass.BorderRadius = 5;
+			this.txtConfirmPass.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.txtConfirmPass.DefaultText = "";
+			this.txtConfirmPass.DisabledState.BorderColor = System.Drawing.Color.White;
+			this.txtConfirmPass.DisabledState.FillColor = System.Drawing.Color.White;
+			this.txtConfirmPass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtConfirmPass.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
+			this.txtConfirmPass.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.txtConfirmPass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtConfirmPass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+			this.txtConfirmPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtConfirmPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtConfirmPass.Location = new System.Drawing.Point(156, 0);
+			this.txtConfirmPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.txtConfirmPass.Name = "txtConfirmPass";
+			this.txtConfirmPass.PasswordChar = '*';
+			this.txtConfirmPass.PlaceholderText = "";
+			this.txtConfirmPass.SelectedText = "";
+			this.txtConfirmPass.Size = new System.Drawing.Size(315, 36);
+			this.txtConfirmPass.TabIndex = 28;
+			// 
+			// lblConfirmPass
+			// 
+			this.lblConfirmPass.BackColor = System.Drawing.Color.White;
+			this.lblConfirmPass.Dock = System.Windows.Forms.DockStyle.Left;
+			this.lblConfirmPass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblConfirmPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
+			this.lblConfirmPass.Location = new System.Drawing.Point(0, 0);
+			this.lblConfirmPass.Name = "lblConfirmPass";
+			this.lblConfirmPass.Size = new System.Drawing.Size(156, 36);
+			this.lblConfirmPass.TabIndex = 27;
+			this.lblConfirmPass.Text = "    Confirm Password:";
+			this.lblConfirmPass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// pnlSpace4
+			// 
+			this.pnlSpace4.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlSpace4.FillColor = System.Drawing.Color.White;
+			this.pnlSpace4.Location = new System.Drawing.Point(0, 92);
+			this.pnlSpace4.Name = "pnlSpace4";
+			this.pnlSpace4.Size = new System.Drawing.Size(471, 10);
+			this.pnlSpace4.TabIndex = 104;
+			// 
+			// pnlNewPass
+			// 
+			this.pnlNewPass.Controls.Add(this.txtNewPass);
+			this.pnlNewPass.Controls.Add(this.lblNewPass);
+			this.pnlNewPass.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlNewPass.FillColor = System.Drawing.Color.White;
+			this.pnlNewPass.Location = new System.Drawing.Point(0, 56);
+			this.pnlNewPass.Name = "pnlNewPass";
+			this.pnlNewPass.Size = new System.Drawing.Size(471, 36);
+			this.pnlNewPass.TabIndex = 101;
+			// 
+			// txtNewPass
+			// 
+			this.txtNewPass.BackColor = System.Drawing.Color.White;
+			this.txtNewPass.BorderRadius = 5;
+			this.txtNewPass.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.txtNewPass.DefaultText = "";
+			this.txtNewPass.DisabledState.BorderColor = System.Drawing.Color.White;
+			this.txtNewPass.DisabledState.FillColor = System.Drawing.Color.White;
+			this.txtNewPass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtNewPass.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
+			this.txtNewPass.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.txtNewPass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtNewPass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+			this.txtNewPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtNewPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtNewPass.Location = new System.Drawing.Point(156, 0);
+			this.txtNewPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.txtNewPass.Name = "txtNewPass";
+			this.txtNewPass.PasswordChar = '*';
+			this.txtNewPass.PlaceholderText = "";
+			this.txtNewPass.SelectedText = "";
+			this.txtNewPass.Size = new System.Drawing.Size(315, 36);
+			this.txtNewPass.TabIndex = 28;
+			// 
+			// lblNewPass
+			// 
+			this.lblNewPass.BackColor = System.Drawing.Color.White;
+			this.lblNewPass.Dock = System.Windows.Forms.DockStyle.Left;
+			this.lblNewPass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblNewPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
+			this.lblNewPass.Location = new System.Drawing.Point(0, 0);
+			this.lblNewPass.Name = "lblNewPass";
+			this.lblNewPass.Size = new System.Drawing.Size(156, 36);
+			this.lblNewPass.TabIndex = 27;
+			this.lblNewPass.Text = "    New Password:";
+			this.lblNewPass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// pnlSpace3
+			// 
+			this.pnlSpace3.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlSpace3.FillColor = System.Drawing.Color.White;
+			this.pnlSpace3.Location = new System.Drawing.Point(0, 46);
+			this.pnlSpace3.Name = "pnlSpace3";
+			this.pnlSpace3.Size = new System.Drawing.Size(471, 10);
+			this.pnlSpace3.TabIndex = 98;
+			// 
+			// pnlOldPass
+			// 
+			this.pnlOldPass.Controls.Add(this.txtOldPass);
+			this.pnlOldPass.Controls.Add(this.lblOldPass);
+			this.pnlOldPass.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlOldPass.FillColor = System.Drawing.Color.White;
+			this.pnlOldPass.Location = new System.Drawing.Point(0, 10);
+			this.pnlOldPass.Name = "pnlOldPass";
+			this.pnlOldPass.Size = new System.Drawing.Size(471, 36);
+			this.pnlOldPass.TabIndex = 95;
+			// 
+			// txtOldPass
+			// 
+			this.txtOldPass.BackColor = System.Drawing.Color.White;
+			this.txtOldPass.BorderRadius = 5;
+			this.txtOldPass.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.txtOldPass.DefaultText = "";
+			this.txtOldPass.DisabledState.BorderColor = System.Drawing.Color.White;
+			this.txtOldPass.DisabledState.FillColor = System.Drawing.Color.White;
+			this.txtOldPass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtOldPass.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
+			this.txtOldPass.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.txtOldPass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtOldPass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+			this.txtOldPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.txtOldPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+			this.txtOldPass.Location = new System.Drawing.Point(156, 0);
+			this.txtOldPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.txtOldPass.Name = "txtOldPass";
+			this.txtOldPass.PasswordChar = '*';
+			this.txtOldPass.PlaceholderText = "";
+			this.txtOldPass.SelectedText = "";
+			this.txtOldPass.Size = new System.Drawing.Size(315, 36);
+			this.txtOldPass.TabIndex = 24;
+			// 
+			// lblOldPass
+			// 
+			this.lblOldPass.BackColor = System.Drawing.Color.White;
+			this.lblOldPass.Dock = System.Windows.Forms.DockStyle.Left;
+			this.lblOldPass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblOldPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
+			this.lblOldPass.Location = new System.Drawing.Point(0, 0);
+			this.lblOldPass.Name = "lblOldPass";
+			this.lblOldPass.Size = new System.Drawing.Size(156, 36);
+			this.lblOldPass.TabIndex = 2;
+			this.lblOldPass.Text = "    Old Password: ";
+			this.lblOldPass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// pnlSpace2
+			// 
+			this.pnlSpace2.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlSpace2.FillColor = System.Drawing.Color.White;
+			this.pnlSpace2.Location = new System.Drawing.Point(0, 0);
+			this.pnlSpace2.Name = "pnlSpace2";
+			this.pnlSpace2.Size = new System.Drawing.Size(471, 10);
+			this.pnlSpace2.TabIndex = 92;
+			// 
+			// guna2Panel12
+			// 
+			this.guna2Panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.guna2Panel12.Dock = System.Windows.Forms.DockStyle.Right;
+			this.guna2Panel12.FillColor = System.Drawing.Color.White;
+			this.guna2Panel12.Location = new System.Drawing.Point(471, 0);
+			this.guna2Panel12.Name = "guna2Panel12";
+			this.guna2Panel12.Size = new System.Drawing.Size(19, 203);
+			this.guna2Panel12.TabIndex = 91;
+			// 
+			// guna2Panel14
+			// 
+			this.guna2Panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.guna2Panel14.BorderRadius = 15;
+			this.guna2Panel14.Controls.Add(this.lblChangeYourPass);
+			this.guna2Panel14.Controls.Add(this.guna2Panel17);
+			this.guna2Panel14.CustomizableEdges.BottomRight = false;
+			this.guna2Panel14.CustomizableEdges.TopLeft = false;
+			this.guna2Panel14.Dock = System.Windows.Forms.DockStyle.Top;
+			this.guna2Panel14.FillColor = System.Drawing.Color.White;
+			this.guna2Panel14.Location = new System.Drawing.Point(0, 0);
+			this.guna2Panel14.Name = "guna2Panel14";
+			this.guna2Panel14.Size = new System.Drawing.Size(490, 44);
+			this.guna2Panel14.TabIndex = 106;
+			// 
+			// lblChangeYourPass
+			// 
+			this.lblChangeYourPass.BackColor = System.Drawing.Color.White;
+			this.lblChangeYourPass.Dock = System.Windows.Forms.DockStyle.Left;
+			this.lblChangeYourPass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblChangeYourPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.lblChangeYourPass.Location = new System.Drawing.Point(13, 0);
+			this.lblChangeYourPass.Name = "lblChangeYourPass";
+			this.lblChangeYourPass.Size = new System.Drawing.Size(334, 44);
+			this.lblChangeYourPass.TabIndex = 17;
+			this.lblChangeYourPass.Text = "Change Your Password";
+			this.lblChangeYourPass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// guna2Panel17
+			// 
+			this.guna2Panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.guna2Panel17.BorderRadius = 15;
+			this.guna2Panel17.CustomizableEdges.BottomLeft = false;
+			this.guna2Panel17.CustomizableEdges.BottomRight = false;
+			this.guna2Panel17.CustomizableEdges.TopRight = false;
+			this.guna2Panel17.Dock = System.Windows.Forms.DockStyle.Left;
+			this.guna2Panel17.FillColor = System.Drawing.Color.White;
+			this.guna2Panel17.Location = new System.Drawing.Point(0, 0);
+			this.guna2Panel17.Name = "guna2Panel17";
+			this.guna2Panel17.Size = new System.Drawing.Size(13, 44);
+			this.guna2Panel17.TabIndex = 24;
+			// 
+			// pnlSpaceTop_Bottom
+			// 
+			this.pnlSpaceTop_Bottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.pnlSpaceTop_Bottom.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlSpaceTop_Bottom.Location = new System.Drawing.Point(0, 436);
+			this.pnlSpaceTop_Bottom.Name = "pnlSpaceTop_Bottom";
+			this.pnlSpaceTop_Bottom.Size = new System.Drawing.Size(490, 20);
+			this.pnlSpaceTop_Bottom.TabIndex = 57;
 			// 
 			// pnlBottomLeft
 			// 
@@ -473,99 +784,6 @@
 			this.pnlBottomLeft.Name = "pnlBottomLeft";
 			this.pnlBottomLeft.Size = new System.Drawing.Size(490, 436);
 			this.pnlBottomLeft.TabIndex = 47;
-			// 
-			// pnlAccountDetails_Top
-			// 
-			this.pnlAccountDetails_Top.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.pnlAccountDetails_Top.BorderRadius = 15;
-			this.pnlAccountDetails_Top.Controls.Add(this.lblAccountID);
-			this.pnlAccountDetails_Top.Controls.Add(this.pnlSpace12);
-			this.pnlAccountDetails_Top.Controls.Add(this.guna2Panel2);
-			this.pnlAccountDetails_Top.Controls.Add(this.lblAccountDetails);
-			this.pnlAccountDetails_Top.Controls.Add(this.guna2Panel3);
-			this.pnlAccountDetails_Top.Controls.Add(this.pnlSpace9);
-			this.pnlAccountDetails_Top.CustomizableEdges.TopLeft = false;
-			this.pnlAccountDetails_Top.CustomizableEdges.TopRight = false;
-			this.pnlAccountDetails_Top.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlAccountDetails_Top.FillColor = System.Drawing.Color.White;
-			this.pnlAccountDetails_Top.Location = new System.Drawing.Point(0, 0);
-			this.pnlAccountDetails_Top.Name = "pnlAccountDetails_Top";
-			this.pnlAccountDetails_Top.Size = new System.Drawing.Size(490, 50);
-			this.pnlAccountDetails_Top.TabIndex = 106;
-			// 
-			// lblAccountID
-			// 
-			this.lblAccountID.BackColor = System.Drawing.Color.White;
-			this.lblAccountID.BorderRadius = 5;
-			this.lblAccountID.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.lblAccountID.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.lblAccountID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.lblAccountID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.lblAccountID.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.lblAccountID.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
-			this.lblAccountID.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblAccountID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.lblAccountID.Location = new System.Drawing.Point(347, 15);
-			this.lblAccountID.Name = "lblAccountID";
-			this.lblAccountID.PressedDepth = 5;
-			this.lblAccountID.Size = new System.Drawing.Size(124, 25);
-			this.lblAccountID.TabIndex = 23;
-			this.lblAccountID.Text = "ID: 2222";
-			// 
-			// pnlSpace12
-			// 
-			this.pnlSpace12.BackColor = System.Drawing.Color.White;
-			this.pnlSpace12.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.pnlSpace12.Location = new System.Drawing.Point(347, 40);
-			this.pnlSpace12.Name = "pnlSpace12";
-			this.pnlSpace12.Size = new System.Drawing.Size(124, 10);
-			this.pnlSpace12.TabIndex = 21;
-			// 
-			// guna2Panel2
-			// 
-			this.guna2Panel2.BackColor = System.Drawing.Color.White;
-			this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
-			this.guna2Panel2.Location = new System.Drawing.Point(347, 0);
-			this.guna2Panel2.Name = "guna2Panel2";
-			this.guna2Panel2.Size = new System.Drawing.Size(124, 15);
-			this.guna2Panel2.TabIndex = 20;
-			// 
-			// lblAccountDetails
-			// 
-			this.lblAccountDetails.BackColor = System.Drawing.Color.White;
-			this.lblAccountDetails.Dock = System.Windows.Forms.DockStyle.Left;
-			this.lblAccountDetails.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblAccountDetails.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.lblAccountDetails.Location = new System.Drawing.Point(13, 0);
-			this.lblAccountDetails.Name = "lblAccountDetails";
-			this.lblAccountDetails.Size = new System.Drawing.Size(334, 50);
-			this.lblAccountDetails.TabIndex = 17;
-			this.lblAccountDetails.Text = "Account Details";
-			this.lblAccountDetails.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// guna2Panel3
-			// 
-			this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.guna2Panel3.BorderRadius = 15;
-			this.guna2Panel3.CustomizableEdges.BottomLeft = false;
-			this.guna2Panel3.CustomizableEdges.BottomRight = false;
-			this.guna2Panel3.CustomizableEdges.TopRight = false;
-			this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Left;
-			this.guna2Panel3.FillColor = System.Drawing.Color.White;
-			this.guna2Panel3.Location = new System.Drawing.Point(0, 0);
-			this.guna2Panel3.Name = "guna2Panel3";
-			this.guna2Panel3.Size = new System.Drawing.Size(13, 50);
-			this.guna2Panel3.TabIndex = 24;
-			// 
-			// pnlSpace9
-			// 
-			this.pnlSpace9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Right;
-			this.pnlSpace9.FillColor = System.Drawing.Color.White;
-			this.pnlSpace9.Location = new System.Drawing.Point(471, 0);
-			this.pnlSpace9.Name = "pnlSpace9";
-			this.pnlSpace9.Size = new System.Drawing.Size(19, 50);
-			this.pnlSpace9.TabIndex = 18;
 			// 
 			// pnlBasicDetails
 			// 
@@ -804,316 +1022,98 @@
 			this.pnlSpace19.Size = new System.Drawing.Size(490, 5);
 			this.pnlSpace19.TabIndex = 108;
 			// 
-			// pnlSpaceTop_Bottom
+			// pnlAccountDetails_Top
 			// 
-			this.pnlSpaceTop_Bottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.pnlSpaceTop_Bottom.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlSpaceTop_Bottom.Location = new System.Drawing.Point(0, 436);
-			this.pnlSpaceTop_Bottom.Name = "pnlSpaceTop_Bottom";
-			this.pnlSpaceTop_Bottom.Size = new System.Drawing.Size(490, 20);
-			this.pnlSpaceTop_Bottom.TabIndex = 57;
+			this.pnlAccountDetails_Top.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.pnlAccountDetails_Top.BorderRadius = 15;
+			this.pnlAccountDetails_Top.Controls.Add(this.lblAccountID);
+			this.pnlAccountDetails_Top.Controls.Add(this.pnlSpace12);
+			this.pnlAccountDetails_Top.Controls.Add(this.guna2Panel2);
+			this.pnlAccountDetails_Top.Controls.Add(this.lblAccountDetails);
+			this.pnlAccountDetails_Top.Controls.Add(this.guna2Panel3);
+			this.pnlAccountDetails_Top.Controls.Add(this.pnlSpace9);
+			this.pnlAccountDetails_Top.CustomizableEdges.TopLeft = false;
+			this.pnlAccountDetails_Top.CustomizableEdges.TopRight = false;
+			this.pnlAccountDetails_Top.Dock = System.Windows.Forms.DockStyle.Top;
+			this.pnlAccountDetails_Top.FillColor = System.Drawing.Color.White;
+			this.pnlAccountDetails_Top.Location = new System.Drawing.Point(0, 0);
+			this.pnlAccountDetails_Top.Name = "pnlAccountDetails_Top";
+			this.pnlAccountDetails_Top.Size = new System.Drawing.Size(490, 50);
+			this.pnlAccountDetails_Top.TabIndex = 106;
 			// 
-			// pnlBottom_Right
+			// lblAccountID
 			// 
-			this.pnlBottom_Right.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.pnlBottom_Right.BorderRadius = 15;
-			this.pnlBottom_Right.Controls.Add(this.pnlSpace1);
-			this.pnlBottom_Right.Controls.Add(this.guna2Panel14);
-			this.pnlBottom_Right.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.pnlBottom_Right.Location = new System.Drawing.Point(0, 456);
-			this.pnlBottom_Right.Name = "pnlBottom_Right";
-			this.pnlBottom_Right.Size = new System.Drawing.Size(490, 259);
-			this.pnlBottom_Right.TabIndex = 58;
+			this.lblAccountID.BackColor = System.Drawing.Color.White;
+			this.lblAccountID.BorderRadius = 5;
+			this.lblAccountID.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.lblAccountID.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.lblAccountID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.lblAccountID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.lblAccountID.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.lblAccountID.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
+			this.lblAccountID.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblAccountID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.lblAccountID.Location = new System.Drawing.Point(347, 15);
+			this.lblAccountID.Name = "lblAccountID";
+			this.lblAccountID.PressedDepth = 5;
+			this.lblAccountID.Size = new System.Drawing.Size(124, 25);
+			this.lblAccountID.TabIndex = 23;
+			this.lblAccountID.Text = "ID: 2222";
 			// 
-			// pnlSpace1
+			// pnlSpace12
 			// 
-			this.pnlSpace1.Controls.Add(this.pnlBtnChangePass);
-			this.pnlSpace1.Controls.Add(this.pnlSpace10);
-			this.pnlSpace1.Controls.Add(this.pnlConfirmPass);
-			this.pnlSpace1.Controls.Add(this.pnlSpace4);
-			this.pnlSpace1.Controls.Add(this.pnlNewPass);
-			this.pnlSpace1.Controls.Add(this.pnlSpace3);
-			this.pnlSpace1.Controls.Add(this.pnlOldPass);
-			this.pnlSpace1.Controls.Add(this.pnlSpace2);
-			this.pnlSpace1.Controls.Add(this.guna2Panel12);
-			this.pnlSpace1.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlSpace1.FillColor = System.Drawing.Color.White;
-			this.pnlSpace1.Location = new System.Drawing.Point(0, 44);
-			this.pnlSpace1.Name = "pnlSpace1";
-			this.pnlSpace1.Size = new System.Drawing.Size(490, 203);
-			this.pnlSpace1.TabIndex = 109;
+			this.pnlSpace12.BackColor = System.Drawing.Color.White;
+			this.pnlSpace12.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.pnlSpace12.Location = new System.Drawing.Point(347, 40);
+			this.pnlSpace12.Name = "pnlSpace12";
+			this.pnlSpace12.Size = new System.Drawing.Size(124, 10);
+			this.pnlSpace12.TabIndex = 21;
 			// 
-			// pnlNewPass
+			// guna2Panel2
 			// 
-			this.pnlNewPass.Controls.Add(this.txtNewPass);
-			this.pnlNewPass.Controls.Add(this.lblNewPass);
-			this.pnlNewPass.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlNewPass.FillColor = System.Drawing.Color.White;
-			this.pnlNewPass.Location = new System.Drawing.Point(0, 56);
-			this.pnlNewPass.Name = "pnlNewPass";
-			this.pnlNewPass.Size = new System.Drawing.Size(471, 36);
-			this.pnlNewPass.TabIndex = 101;
+			this.guna2Panel2.BackColor = System.Drawing.Color.White;
+			this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
+			this.guna2Panel2.Location = new System.Drawing.Point(347, 0);
+			this.guna2Panel2.Name = "guna2Panel2";
+			this.guna2Panel2.Size = new System.Drawing.Size(124, 15);
+			this.guna2Panel2.TabIndex = 20;
 			// 
-			// lblNewPass
+			// lblAccountDetails
 			// 
-			this.lblNewPass.BackColor = System.Drawing.Color.White;
-			this.lblNewPass.Dock = System.Windows.Forms.DockStyle.Left;
-			this.lblNewPass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblNewPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
-			this.lblNewPass.Location = new System.Drawing.Point(0, 0);
-			this.lblNewPass.Name = "lblNewPass";
-			this.lblNewPass.Size = new System.Drawing.Size(156, 36);
-			this.lblNewPass.TabIndex = 27;
-			this.lblNewPass.Text = "    New Password:";
-			this.lblNewPass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.lblAccountDetails.BackColor = System.Drawing.Color.White;
+			this.lblAccountDetails.Dock = System.Windows.Forms.DockStyle.Left;
+			this.lblAccountDetails.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblAccountDetails.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
+			this.lblAccountDetails.Location = new System.Drawing.Point(13, 0);
+			this.lblAccountDetails.Name = "lblAccountDetails";
+			this.lblAccountDetails.Size = new System.Drawing.Size(334, 50);
+			this.lblAccountDetails.TabIndex = 17;
+			this.lblAccountDetails.Text = "Account Details";
+			this.lblAccountDetails.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
-			// pnlSpace3
+			// guna2Panel3
 			// 
-			this.pnlSpace3.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlSpace3.FillColor = System.Drawing.Color.White;
-			this.pnlSpace3.Location = new System.Drawing.Point(0, 46);
-			this.pnlSpace3.Name = "pnlSpace3";
-			this.pnlSpace3.Size = new System.Drawing.Size(471, 10);
-			this.pnlSpace3.TabIndex = 98;
+			this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.guna2Panel3.BorderRadius = 15;
+			this.guna2Panel3.CustomizableEdges.BottomLeft = false;
+			this.guna2Panel3.CustomizableEdges.BottomRight = false;
+			this.guna2Panel3.CustomizableEdges.TopRight = false;
+			this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Left;
+			this.guna2Panel3.FillColor = System.Drawing.Color.White;
+			this.guna2Panel3.Location = new System.Drawing.Point(0, 0);
+			this.guna2Panel3.Name = "guna2Panel3";
+			this.guna2Panel3.Size = new System.Drawing.Size(13, 50);
+			this.guna2Panel3.TabIndex = 24;
 			// 
-			// pnlOldPass
+			// pnlSpace9
 			// 
-			this.pnlOldPass.Controls.Add(this.txtOldPass);
-			this.pnlOldPass.Controls.Add(this.lblOldPass);
-			this.pnlOldPass.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlOldPass.FillColor = System.Drawing.Color.White;
-			this.pnlOldPass.Location = new System.Drawing.Point(0, 10);
-			this.pnlOldPass.Name = "pnlOldPass";
-			this.pnlOldPass.Size = new System.Drawing.Size(471, 36);
-			this.pnlOldPass.TabIndex = 95;
-			// 
-			// txtOldPass
-			// 
-			this.txtOldPass.BackColor = System.Drawing.Color.White;
-			this.txtOldPass.BorderRadius = 5;
-			this.txtOldPass.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.txtOldPass.DefaultText = "";
-			this.txtOldPass.DisabledState.BorderColor = System.Drawing.Color.White;
-			this.txtOldPass.DisabledState.FillColor = System.Drawing.Color.White;
-			this.txtOldPass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.txtOldPass.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
-			this.txtOldPass.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.txtOldPass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtOldPass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-			this.txtOldPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.txtOldPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtOldPass.Location = new System.Drawing.Point(156, 0);
-			this.txtOldPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-			this.txtOldPass.Name = "txtOldPass";
-			this.txtOldPass.PasswordChar = '*';
-			this.txtOldPass.PlaceholderText = "";
-			this.txtOldPass.SelectedText = "";
-			this.txtOldPass.Size = new System.Drawing.Size(315, 36);
-			this.txtOldPass.TabIndex = 24;
-			// 
-			// lblOldPass
-			// 
-			this.lblOldPass.BackColor = System.Drawing.Color.White;
-			this.lblOldPass.Dock = System.Windows.Forms.DockStyle.Left;
-			this.lblOldPass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblOldPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
-			this.lblOldPass.Location = new System.Drawing.Point(0, 0);
-			this.lblOldPass.Name = "lblOldPass";
-			this.lblOldPass.Size = new System.Drawing.Size(156, 36);
-			this.lblOldPass.TabIndex = 2;
-			this.lblOldPass.Text = "    Old Password: ";
-			this.lblOldPass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pnlSpace2
-			// 
-			this.pnlSpace2.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlSpace2.FillColor = System.Drawing.Color.White;
-			this.pnlSpace2.Location = new System.Drawing.Point(0, 0);
-			this.pnlSpace2.Name = "pnlSpace2";
-			this.pnlSpace2.Size = new System.Drawing.Size(471, 10);
-			this.pnlSpace2.TabIndex = 92;
-			// 
-			// guna2Panel12
-			// 
-			this.guna2Panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.guna2Panel12.Dock = System.Windows.Forms.DockStyle.Right;
-			this.guna2Panel12.FillColor = System.Drawing.Color.White;
-			this.guna2Panel12.Location = new System.Drawing.Point(471, 0);
-			this.guna2Panel12.Name = "guna2Panel12";
-			this.guna2Panel12.Size = new System.Drawing.Size(19, 203);
-			this.guna2Panel12.TabIndex = 91;
-			// 
-			// guna2Panel14
-			// 
-			this.guna2Panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.guna2Panel14.BorderRadius = 15;
-			this.guna2Panel14.Controls.Add(this.lblChangeYourPass);
-			this.guna2Panel14.Controls.Add(this.guna2Panel17);
-			this.guna2Panel14.CustomizableEdges.BottomRight = false;
-			this.guna2Panel14.CustomizableEdges.TopLeft = false;
-			this.guna2Panel14.Dock = System.Windows.Forms.DockStyle.Top;
-			this.guna2Panel14.FillColor = System.Drawing.Color.White;
-			this.guna2Panel14.Location = new System.Drawing.Point(0, 0);
-			this.guna2Panel14.Name = "guna2Panel14";
-			this.guna2Panel14.Size = new System.Drawing.Size(490, 44);
-			this.guna2Panel14.TabIndex = 106;
-			// 
-			// lblChangeYourPass
-			// 
-			this.lblChangeYourPass.BackColor = System.Drawing.Color.White;
-			this.lblChangeYourPass.Dock = System.Windows.Forms.DockStyle.Left;
-			this.lblChangeYourPass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblChangeYourPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.lblChangeYourPass.Location = new System.Drawing.Point(13, 0);
-			this.lblChangeYourPass.Name = "lblChangeYourPass";
-			this.lblChangeYourPass.Size = new System.Drawing.Size(334, 44);
-			this.lblChangeYourPass.TabIndex = 17;
-			this.lblChangeYourPass.Text = "Change Your Password";
-			this.lblChangeYourPass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// guna2Panel17
-			// 
-			this.guna2Panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.guna2Panel17.BorderRadius = 15;
-			this.guna2Panel17.CustomizableEdges.BottomLeft = false;
-			this.guna2Panel17.CustomizableEdges.BottomRight = false;
-			this.guna2Panel17.CustomizableEdges.TopRight = false;
-			this.guna2Panel17.Dock = System.Windows.Forms.DockStyle.Left;
-			this.guna2Panel17.FillColor = System.Drawing.Color.White;
-			this.guna2Panel17.Location = new System.Drawing.Point(0, 0);
-			this.guna2Panel17.Name = "guna2Panel17";
-			this.guna2Panel17.Size = new System.Drawing.Size(13, 44);
-			this.guna2Panel17.TabIndex = 24;
-			// 
-			// txtNewPass
-			// 
-			this.txtNewPass.BackColor = System.Drawing.Color.White;
-			this.txtNewPass.BorderRadius = 5;
-			this.txtNewPass.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.txtNewPass.DefaultText = "";
-			this.txtNewPass.DisabledState.BorderColor = System.Drawing.Color.White;
-			this.txtNewPass.DisabledState.FillColor = System.Drawing.Color.White;
-			this.txtNewPass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.txtNewPass.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
-			this.txtNewPass.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.txtNewPass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtNewPass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-			this.txtNewPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.txtNewPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtNewPass.Location = new System.Drawing.Point(156, 0);
-			this.txtNewPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-			this.txtNewPass.Name = "txtNewPass";
-			this.txtNewPass.PasswordChar = '*';
-			this.txtNewPass.PlaceholderText = "";
-			this.txtNewPass.SelectedText = "";
-			this.txtNewPass.Size = new System.Drawing.Size(315, 36);
-			this.txtNewPass.TabIndex = 28;
-			// 
-			// pnlSpace4
-			// 
-			this.pnlSpace4.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlSpace4.FillColor = System.Drawing.Color.White;
-			this.pnlSpace4.Location = new System.Drawing.Point(0, 92);
-			this.pnlSpace4.Name = "pnlSpace4";
-			this.pnlSpace4.Size = new System.Drawing.Size(471, 10);
-			this.pnlSpace4.TabIndex = 104;
-			// 
-			// pnlConfirmPass
-			// 
-			this.pnlConfirmPass.Controls.Add(this.txtConfirmPass);
-			this.pnlConfirmPass.Controls.Add(this.lblConfirmPass);
-			this.pnlConfirmPass.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlConfirmPass.FillColor = System.Drawing.Color.White;
-			this.pnlConfirmPass.Location = new System.Drawing.Point(0, 102);
-			this.pnlConfirmPass.Name = "pnlConfirmPass";
-			this.pnlConfirmPass.Size = new System.Drawing.Size(471, 36);
-			this.pnlConfirmPass.TabIndex = 105;
-			// 
-			// txtConfirmPass
-			// 
-			this.txtConfirmPass.BackColor = System.Drawing.Color.White;
-			this.txtConfirmPass.BorderRadius = 5;
-			this.txtConfirmPass.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.txtConfirmPass.DefaultText = "";
-			this.txtConfirmPass.DisabledState.BorderColor = System.Drawing.Color.White;
-			this.txtConfirmPass.DisabledState.FillColor = System.Drawing.Color.White;
-			this.txtConfirmPass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.txtConfirmPass.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
-			this.txtConfirmPass.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.txtConfirmPass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtConfirmPass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-			this.txtConfirmPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(52)))));
-			this.txtConfirmPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-			this.txtConfirmPass.Location = new System.Drawing.Point(156, 0);
-			this.txtConfirmPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-			this.txtConfirmPass.Name = "txtConfirmPass";
-			this.txtConfirmPass.PasswordChar = '*';
-			this.txtConfirmPass.PlaceholderText = "";
-			this.txtConfirmPass.SelectedText = "";
-			this.txtConfirmPass.Size = new System.Drawing.Size(315, 36);
-			this.txtConfirmPass.TabIndex = 28;
-			// 
-			// lblConfirmPass
-			// 
-			this.lblConfirmPass.BackColor = System.Drawing.Color.White;
-			this.lblConfirmPass.Dock = System.Windows.Forms.DockStyle.Left;
-			this.lblConfirmPass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblConfirmPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(137)))), ((int)(((byte)(137)))));
-			this.lblConfirmPass.Location = new System.Drawing.Point(0, 0);
-			this.lblConfirmPass.Name = "lblConfirmPass";
-			this.lblConfirmPass.Size = new System.Drawing.Size(156, 36);
-			this.lblConfirmPass.TabIndex = 27;
-			this.lblConfirmPass.Text = "    Confirm Password:";
-			this.lblConfirmPass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pnlSpace10
-			// 
-			this.pnlSpace10.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlSpace10.FillColor = System.Drawing.Color.White;
-			this.pnlSpace10.Location = new System.Drawing.Point(0, 138);
-			this.pnlSpace10.Name = "pnlSpace10";
-			this.pnlSpace10.Size = new System.Drawing.Size(471, 25);
-			this.pnlSpace10.TabIndex = 106;
-			// 
-			// pnlBtnChangePass
-			// 
-			this.pnlBtnChangePass.Controls.Add(this.btnChangePass);
-			this.pnlBtnChangePass.Controls.Add(this.pnlSpace14);
-			this.pnlBtnChangePass.Dock = System.Windows.Forms.DockStyle.Top;
-			this.pnlBtnChangePass.FillColor = System.Drawing.Color.White;
-			this.pnlBtnChangePass.Location = new System.Drawing.Point(0, 163);
-			this.pnlBtnChangePass.Name = "pnlBtnChangePass";
-			this.pnlBtnChangePass.Size = new System.Drawing.Size(471, 35);
-			this.pnlBtnChangePass.TabIndex = 107;
-			// 
-			// btnChangePass
-			// 
-			this.btnChangePass.BorderRadius = 5;
-			this.btnChangePass.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.btnChangePass.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.btnChangePass.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.btnChangePass.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.btnChangePass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.btnChangePass.Dock = System.Windows.Forms.DockStyle.Left;
-			this.btnChangePass.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(96)))), ((int)(((byte)(236)))));
-			this.btnChangePass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnChangePass.ForeColor = System.Drawing.Color.White;
-			this.btnChangePass.Location = new System.Drawing.Point(18, 0);
-			this.btnChangePass.Name = "btnChangePass";
-			this.btnChangePass.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-			this.btnChangePass.Size = new System.Drawing.Size(165, 35);
-			this.btnChangePass.TabIndex = 18;
-			this.btnChangePass.Text = "Change Password";
-			// 
-			// pnlSpace14
-			// 
-			this.pnlSpace14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-			this.pnlSpace14.Dock = System.Windows.Forms.DockStyle.Left;
-			this.pnlSpace14.FillColor = System.Drawing.Color.White;
-			this.pnlSpace14.Location = new System.Drawing.Point(0, 0);
-			this.pnlSpace14.Name = "pnlSpace14";
-			this.pnlSpace14.Size = new System.Drawing.Size(18, 35);
-			this.pnlSpace14.TabIndex = 10;
+			this.pnlSpace9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+			this.pnlSpace9.Dock = System.Windows.Forms.DockStyle.Right;
+			this.pnlSpace9.FillColor = System.Drawing.Color.White;
+			this.pnlSpace9.Location = new System.Drawing.Point(471, 0);
+			this.pnlSpace9.Name = "pnlSpace9";
+			this.pnlSpace9.Size = new System.Drawing.Size(19, 50);
+			this.pnlSpace9.TabIndex = 18;
 			// 
 			// AccountsForm
 			// 
@@ -1130,22 +1130,22 @@
 			this.Text = "AccountsForm";
 			this.pnlAccounts.ResumeLayout(false);
 			this.pnlButtonAdd.ResumeLayout(false);
-			this.pnlAccounts_Top.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.dgvSchedules)).EndInit();
+			this.pnlAccounts_Top.ResumeLayout(false);
 			this.pnlRight.ResumeLayout(false);
+			this.pnlBottom_Right.ResumeLayout(false);
+			this.pnlSpace1.ResumeLayout(false);
+			this.pnlBtnChangePass.ResumeLayout(false);
+			this.pnlConfirmPass.ResumeLayout(false);
+			this.pnlNewPass.ResumeLayout(false);
+			this.pnlOldPass.ResumeLayout(false);
+			this.guna2Panel14.ResumeLayout(false);
 			this.pnlBottomLeft.ResumeLayout(false);
-			this.pnlAccountDetails_Top.ResumeLayout(false);
 			this.pnlBasicDetails.ResumeLayout(false);
 			this.pnlButtonEdit_Delete.ResumeLayout(false);
 			this.pnlCitizenId.ResumeLayout(false);
 			this.pnlPhone_Email.ResumeLayout(false);
-			this.pnlBottom_Right.ResumeLayout(false);
-			this.pnlSpace1.ResumeLayout(false);
-			this.pnlNewPass.ResumeLayout(false);
-			this.pnlOldPass.ResumeLayout(false);
-			this.guna2Panel14.ResumeLayout(false);
-			this.pnlConfirmPass.ResumeLayout(false);
-			this.pnlBtnChangePass.ResumeLayout(false);
+			this.pnlAccountDetails_Top.ResumeLayout(false);
 			this.ResumeLayout(false);
 
 		}
