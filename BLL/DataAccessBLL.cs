@@ -9,7 +9,20 @@ namespace BLL
 {
 	public class DataAccessBLL
 	{
-		public bool SetupConnection(string serverName, string databaseName)
+        #region Properties
+        private static DataAccessBLL instance;
+
+        public static DataAccessBLL Instance { 
+			get
+			{
+				if (instance == null)
+					instance = new DataAccessBLL();
+				return instance;
+			}  
+		}
+        #endregion
+
+        public bool SetupConnection(string serverName, string databaseName)
 		{
 			DataAccessDAL.SetConnectionString(serverName, databaseName);
 			return DataAccessDAL.TestConnection();
