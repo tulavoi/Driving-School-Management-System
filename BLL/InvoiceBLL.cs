@@ -30,9 +30,15 @@ namespace BLL
             this.AddInvoicesToDataGridView(dgv, invoices);
         }
 
-        public void LoadDataSearched(Guna2DataGridView dgv, string keyword)
+        public void SearchInvoices(Guna2DataGridView dgv, string keyword)
         {
             List<Invoice> invoices = InvoiceDAL.Instance.SearchInvoices (keyword);
+            this.AddInvoicesToDataGridView(dgv, invoices);
+        }
+
+        public void FilterInvoicesByStatus(Guna2DataGridView dgv, string status)
+        {
+            List<Invoice> invoices = InvoiceDAL.Instance.FilterInvoicesByStatus(status);
             this.AddInvoicesToDataGridView(dgv, invoices);
         }
 
@@ -44,6 +50,8 @@ namespace BLL
 
                 if (rowIndex != -1 && rowIndex < dgv.Rows.Count)
                 {
+                    dgv.Rows[rowIndex].Tag = invoice;
+
                     dgv.Rows[rowIndex].Cells["InvoiceID"].Tag = invoice.InvoiceID;
                     dgv.Rows[rowIndex].Cells["InvoiceCode"].Value = invoice.InvoiceCode;
                     dgv.Rows[rowIndex].Cells["Status"].Value = invoice.Status;

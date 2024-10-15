@@ -64,5 +64,10 @@ namespace GUI
             dgv.ClearSelection();
             dgv.CurrentCell = null;
         }
+
+        public static void ClearDataGridViewRow(Guna2DataGridView dgv)
+        {
+            dgv.Rows.Clear();
+        }
     }
 }

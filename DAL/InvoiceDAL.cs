@@ -106,5 +106,34 @@ namespace DAL
                 return data.ToList();
             }
         }
+
+        public List<Invoice> FilterInvoicesByStatus(string status)
+        {
+            var invoiceData = this.QueryInvoiceByStatus(status);
+            return this.MapToList(invoiceData);
+        }
+
+        private IEnumerable<dynamic> QueryInvoiceByStatus(string status)
+        {
+            using (var db = DataAccessDAL.GetDataContext())
+            {
+                var data = from inv in db.Invoices
+                           join sche in db.Schedules on inv.ScheduleID equals sche.ScheduleID
+                           join l in db.Learners on sche.LearnerID equals l.LearnerID
+                           where inv.Status.Contains(status)
+                           select new
+                           {
+                               inv.InvoiceID,
+                               inv.InvoiceCode,
+                               LearnerID = l.LearnerID,
+                               FullName = l.FullName,
+                               inv.TotalAmount,
+                               inv.Status,
+                               inv.Created_At,
+                               inv.Updated_At
+                           };
+                return data.ToList();
+            }
+        }
     }
 }
