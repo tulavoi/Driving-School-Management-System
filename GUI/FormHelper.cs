@@ -1,19 +1,15 @@
 ﻿using Guna.UI2.WinForms;
 using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GUI
 {
     public static class FormHelper
     {
-		// Import CreateRoundRectRgn từ thư viện Gdi32.dll
-		[DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+        // Import CreateRoundRectRgn từ thư viện Gdi32.dll
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
         (
            int nLeftRect,     // x-coordinate of upper-left corner
@@ -33,16 +29,16 @@ namespace GUI
 
         public static void ToggleEditMode(ref bool isEditing, Guna2Button button, params Control[] controls)
         {
-			isEditing = !isEditing;
-			EnableControls(isEditing, controls);
-			button.Text = isEditing ? Constant.SAVE_MODE : Constant.EDIT_MODE;
-		}
+            isEditing = !isEditing;
+            EnableControls(isEditing, controls);
+            button.Text = isEditing ? Constant.SAVE_MODE : Constant.EDIT_MODE;
+        }
 
-		private static void EnableControls(bool b, params Control[] controls)
-		{
-			foreach (var control in controls)
-				control.Enabled = b;
-		}
+        private static void EnableControls(bool b, params Control[] controls)
+        {
+            foreach (var control in controls)
+                control.Enabled = b;
+        }
 
         public static void OpenPopupForm(Form form)
         {
@@ -51,11 +47,22 @@ namespace GUI
 
         public static bool ConfirmDelete()
         {
-			DialogResult rs = MessageBox.Show("Are you sure to delete?", 
-                "Confirm", 
-                MessageBoxButtons.YesNo, 
+            DialogResult rs = MessageBox.Show("Are you sure to delete?",
+                "Confirm",
+                MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question);
             return rs == DialogResult.Yes;
-		}
-	}
+        }
+
+        public static void SetLabelID(Guna2Button lblID, string id)
+        {
+            lblID.Text = id;
+        }
+
+        public static void ClearSelectionAndResetCell(Guna2DataGridView dgv)
+        {
+            dgv.ClearSelection();
+            dgv.CurrentCell = null;
+        }
+    }
 }

@@ -11,3 +11,4 @@ C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\BLL\bin\
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\BLL\obj\Debug\BLL.csproj.Up2Date
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\BLL\obj\Debug\BLL.exe
 C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\BLL\obj\Debug\BLL.pdb
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\BLL\bin\Debug\Guna.UI2.dll
