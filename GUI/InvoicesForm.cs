@@ -28,17 +28,32 @@ namespace GUI
 
         private void InvoicesForm_Load(object sender, EventArgs e)
         {
-            this.LoadAllData();
+            // Phải load data của Learners, Courses vào combobox trước,
+            // nếu không thì sẽ k gán được LearnerName, CourseName từ dgv vào cbo
+            this.LoadAllLeaners();
+            this.LoadAllCourses();
 
-            // Hiển thị data của Leaners, Courses vào combobox
+            this.LoadAllInvoice();
         }
 
-        private void LoadAllData()
+        private void LoadAllCourses()
+        {
+            // Hiển thị all courses vào combobox
+            CourseBLL.Instance.LoadAllInvoices(cboCourses);
+        }
+
+        private void LoadAllLeaners()
+        {
+            // Hiển thị all learners vào combobox
+            LearnerBLL_Vu.Instance.LoadAllInvoices(cboLearners);
+        }
+
+        private void LoadAllInvoice()
         {
             // Lấy tất cả dữ liệu Invoice, bỏ chọn dòng mặc định
-            InvoiceBLL.Instance.LoadAllData(dgvInvoices);
+            InvoiceBLL.Instance.LoadAllInvoices(dgvInvoices);
 
-            FormHelper.ClearSelectionAndResetCell(dgvInvoices);
+            this.UpdateControlsWithSelectedRowData();
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
@@ -70,7 +85,7 @@ namespace GUI
             FormHelper.ClearDataGridViewRow(dgvInvoices);
 
             if (cboStatus_Filter.SelectedIndex < 1)
-                this.LoadAllData();
+                this.LoadAllInvoice();
             else
             {
                 string status = cboStatus_Filter.SelectedItem.ToString();
@@ -104,6 +119,8 @@ namespace GUI
 
             FormHelper.SetLabelID(lblInvoiceID, invoiceCode);
 
+            cboLearners.Text = selectedInvoice.Schedule.Learner.FullName;
+            cboCourses.Text = selectedInvoice.Schedule.Course.CourseName;
             txtTotalAmount.Text = selectedInvoice.TotalAmount.ToString();
             dtpInvoiceDate.Value = selectedInvoice.Created_At.Value;
             cboStatus.Text = selectedInvoice.Status.ToString();

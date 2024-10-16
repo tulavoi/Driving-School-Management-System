@@ -33,13 +33,17 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InvoicesForm));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InvoicesForm));
             this.pnlInvoices = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pnlButtonAdd = new Guna.UI2.WinForms.Guna2Panel();
             this.btnOpenAddInvoiceForm = new Guna.UI2.WinForms.Guna2Button();
             this.pnlSpace15 = new Guna.UI2.WinForms.Guna2Panel();
             this.dgvInvoices = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.InvoiceID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.InvoiceCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pnlInvoices_Top = new Guna.UI2.WinForms.Guna2Panel();
             this.cboStatus_Filter = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
@@ -97,10 +101,6 @@
             this.pnlSpace14 = new Guna.UI2.WinForms.Guna2Panel();
             this.lblDetails = new System.Windows.Forms.Label();
             this.pnlSpace16 = new Guna.UI2.WinForms.Guna2Panel();
-            this.InvoiceID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.InvoiceCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pnlInvoices.SuspendLayout();
             this.pnlButtonAdd.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInvoices)).BeginInit();
@@ -249,6 +249,56 @@
             this.dgvInvoices.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvInvoices.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
             this.dgvInvoices.SelectionChanged += new System.EventHandler(this.dgvInvoices_SelectionChanged);
+            // 
+            // InvoiceID
+            // 
+            this.InvoiceID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.InvoiceID.DataPropertyName = "Space";
+            this.InvoiceID.Frozen = true;
+            this.InvoiceID.HeaderText = "";
+            this.InvoiceID.MinimumWidth = 6;
+            this.InvoiceID.Name = "InvoiceID";
+            this.InvoiceID.ReadOnly = true;
+            this.InvoiceID.Width = 18;
+            // 
+            // InvoiceCode
+            // 
+            this.InvoiceCode.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.InvoiceCode.DataPropertyName = "InvoiceCode";
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InvoiceCode.DefaultCellStyle = dataGridViewCellStyle3;
+            this.InvoiceCode.FillWeight = 53.63456F;
+            this.InvoiceCode.Frozen = true;
+            this.InvoiceCode.HeaderText = "Invoice";
+            this.InvoiceCode.MinimumWidth = 6;
+            this.InvoiceCode.Name = "InvoiceCode";
+            this.InvoiceCode.ReadOnly = true;
+            this.InvoiceCode.Width = 140;
+            // 
+            // FullName
+            // 
+            this.FullName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.FullName.DataPropertyName = "FullName";
+            this.FullName.Frozen = true;
+            this.FullName.HeaderText = "Learner";
+            this.FullName.MinimumWidth = 6;
+            this.FullName.Name = "FullName";
+            this.FullName.ReadOnly = true;
+            this.FullName.Width = 170;
+            // 
+            // Status
+            // 
+            this.Status.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Status.DataPropertyName = "Status";
+            this.Status.FillWeight = 70F;
+            this.Status.Frozen = true;
+            this.Status.HeaderText = "Status";
+            this.Status.MinimumWidth = 6;
+            this.Status.Name = "Status";
+            this.Status.ReadOnly = true;
+            this.Status.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Status.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Status.Width = 90;
             // 
             // pnlInvoices_Top
             // 
@@ -870,16 +920,12 @@
             this.cboCourses.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
             this.cboCourses.ItemHeight = 30;
             this.cboCourses.Items.AddRange(new object[] {
-            "Select Course",
-            "B-12312321",
-            "C-12312313",
-            "D-34234234",
-            "E-12341231"});
+            "Select Course"});
             this.cboCourses.Location = new System.Drawing.Point(89, 0);
             this.cboCourses.Name = "cboCourses";
-            this.cboCourses.Size = new System.Drawing.Size(211, 36);
+            this.cboCourses.Size = new System.Drawing.Size(220, 36);
             this.cboCourses.StartIndex = 0;
-            this.cboCourses.TabIndex = 32;
+            this.cboCourses.TabIndex = 33;
             // 
             // txtSearchCourse
             // 
@@ -898,13 +944,13 @@
             this.txtSearchCourse.FocusedState.BorderColor = System.Drawing.SystemColors.ControlLight;
             this.txtSearchCourse.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSearchCourse.HoverState.BorderColor = System.Drawing.SystemColors.ControlLight;
-            this.txtSearchCourse.Location = new System.Drawing.Point(306, 0);
+            this.txtSearchCourse.Location = new System.Drawing.Point(315, 0);
             this.txtSearchCourse.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.txtSearchCourse.Name = "txtSearchCourse";
             this.txtSearchCourse.PasswordChar = '\0';
             this.txtSearchCourse.PlaceholderText = "Search...";
             this.txtSearchCourse.SelectedText = "";
-            this.txtSearchCourse.Size = new System.Drawing.Size(169, 38);
+            this.txtSearchCourse.Size = new System.Drawing.Size(160, 38);
             this.txtSearchCourse.TabIndex = 30;
             // 
             // lblCourse
@@ -960,15 +1006,12 @@
             this.cboLearners.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
             this.cboLearners.ItemHeight = 30;
             this.cboLearners.Items.AddRange(new object[] {
-            "Select Learner",
-            "Mai Nguyen Hoang Vu",
-            "Thanh Cong",
-            "Xuan Duoc"});
+            "Select Learner"});
             this.cboLearners.Location = new System.Drawing.Point(89, 0);
             this.cboLearners.Name = "cboLearners";
-            this.cboLearners.Size = new System.Drawing.Size(211, 36);
+            this.cboLearners.Size = new System.Drawing.Size(220, 36);
             this.cboLearners.StartIndex = 0;
-            this.cboLearners.TabIndex = 123;
+            this.cboLearners.TabIndex = 124;
             // 
             // txtSearchLearner
             // 
@@ -987,13 +1030,13 @@
             this.txtSearchLearner.FocusedState.BorderColor = System.Drawing.SystemColors.ControlLight;
             this.txtSearchLearner.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSearchLearner.HoverState.BorderColor = System.Drawing.SystemColors.ControlLight;
-            this.txtSearchLearner.Location = new System.Drawing.Point(306, 0);
+            this.txtSearchLearner.Location = new System.Drawing.Point(315, 0);
             this.txtSearchLearner.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.txtSearchLearner.Name = "txtSearchLearner";
             this.txtSearchLearner.PasswordChar = '\0';
             this.txtSearchLearner.PlaceholderText = "Search...";
             this.txtSearchLearner.SelectedText = "";
-            this.txtSearchLearner.Size = new System.Drawing.Size(169, 38);
+            this.txtSearchLearner.Size = new System.Drawing.Size(160, 38);
             this.txtSearchLearner.TabIndex = 30;
             // 
             // lblLearner
@@ -1138,56 +1181,6 @@
             this.pnlSpace16.Size = new System.Drawing.Size(11, 53);
             this.pnlSpace16.TabIndex = 16;
             // 
-            // InvoiceID
-            // 
-            this.InvoiceID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.InvoiceID.DataPropertyName = "Space";
-            this.InvoiceID.Frozen = true;
-            this.InvoiceID.HeaderText = "";
-            this.InvoiceID.MinimumWidth = 6;
-            this.InvoiceID.Name = "InvoiceID";
-            this.InvoiceID.ReadOnly = true;
-            this.InvoiceID.Width = 18;
-            // 
-            // InvoiceCode
-            // 
-            this.InvoiceCode.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.InvoiceCode.DataPropertyName = "InvoiceCode";
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InvoiceCode.DefaultCellStyle = dataGridViewCellStyle3;
-            this.InvoiceCode.FillWeight = 53.63456F;
-            this.InvoiceCode.Frozen = true;
-            this.InvoiceCode.HeaderText = "Invoice";
-            this.InvoiceCode.MinimumWidth = 6;
-            this.InvoiceCode.Name = "InvoiceCode";
-            this.InvoiceCode.ReadOnly = true;
-            this.InvoiceCode.Width = 140;
-            // 
-            // FullName
-            // 
-            this.FullName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.FullName.DataPropertyName = "FullName";
-            this.FullName.Frozen = true;
-            this.FullName.HeaderText = "Learner";
-            this.FullName.MinimumWidth = 6;
-            this.FullName.Name = "FullName";
-            this.FullName.ReadOnly = true;
-            this.FullName.Width = 170;
-            // 
-            // Status
-            // 
-            this.Status.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Status.DataPropertyName = "Status";
-            this.Status.FillWeight = 70F;
-            this.Status.Frozen = true;
-            this.Status.HeaderText = "Status";
-            this.Status.MinimumWidth = 6;
-            this.Status.Name = "Status";
-            this.Status.ReadOnly = true;
-            this.Status.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Status.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Status.Width = 90;
-            // 
             // InvoicesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -1281,13 +1274,13 @@
 		private Guna.UI2.WinForms.Guna2Panel pnlSpace17;
 		private System.Windows.Forms.Label lblMessage;
 		private Guna.UI2.WinForms.Guna2Button btnSendInvoiceByMail;
-        private Guna.UI2.WinForms.Guna2ComboBox cboLearners;
-        private Guna.UI2.WinForms.Guna2ComboBox cboCourses;
         private Guna.UI2.WinForms.Guna2ComboBox cboStatus;
         private Guna.UI2.WinForms.Guna2ComboBox cboStatus_Filter;
         private System.Windows.Forms.DataGridViewTextBoxColumn InvoiceID;
         private System.Windows.Forms.DataGridViewTextBoxColumn InvoiceCode;
         private System.Windows.Forms.DataGridViewTextBoxColumn FullName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Status;
+        private Guna.UI2.WinForms.Guna2ComboBox cboCourses;
+        private Guna.UI2.WinForms.Guna2ComboBox cboLearners;
     }
 }

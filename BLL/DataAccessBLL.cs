@@ -24,8 +24,8 @@ namespace BLL
 
         public bool SetupConnection(string serverName, string databaseName)
 		{
-			DataAccessDAL.SetConnectionString(serverName, databaseName);
-			return DataAccessDAL.TestConnection();
+			DataAccess.SetConnectionString(serverName, databaseName);
+			return DataAccess.TestConnection();
 		}
 	}
 }

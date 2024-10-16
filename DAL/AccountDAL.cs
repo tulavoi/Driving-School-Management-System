@@ -23,7 +23,7 @@ namespace DAL
 
         public bool CheckLogin(string email, string pass)
         {
-            using (var db = DataAccessDAL.GetDataContext())
+            using (var db = DataAccess.GetDataContext())
             {
 				var query = db.Accounts.Where(a => a.Email == email && a.Password == pass).FirstOrDefault();
 

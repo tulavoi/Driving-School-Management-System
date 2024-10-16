@@ -24,7 +24,7 @@ namespace BLL
         }
         #endregion
 
-        public void LoadAllData(Guna2DataGridView dgv)
+        public void LoadAllInvoices(Guna2DataGridView dgv)
         {
             List<Invoice> invoices = InvoiceDAL.Instance.GetAllInvoices();
             this.AddInvoicesToDataGridView(dgv, invoices);

@@ -127,6 +127,10 @@ create table Accounts(
 )
 go
 
+alter table Learners
+add constraint FK_Learner_License foreign key (CurrentLicenseID) references Licenses(LicenseID)
+go
+
 alter table Teachers
 add constraint FK_Teacher_License foreign key (LicenseID) references Licenses(LicenseID)
 go
@@ -154,16 +158,14 @@ go
 alter table Payments
 add constraint FK_Payments_Invoice foreign key (InvoiceID) references Invoices(InvoiceID)
 
-
-
 --INSERT INTO Licenses (LicenseName)
 --VALUES ('B'), ('C'), ('D'), ('E');
 
---INSERT INTO Learners (FullName, DateOfBirth, Gender, PhoneNumber, Email, [Address], CitizenID, [Status], Created_At, Updated_At)
+--INSERT INTO Learners (FullName, CurrentLicenseID ,DateOfBirth, Gender, PhoneNumber, Email, [Address], CitizenID, [Status], Created_At, Updated_At)
 --VALUES 
---('Mai Nguyen Hoang Vu', '1996-07-22', 'Male', '0354377798', 'mainguyenhoangvu.tdc4304@gmail.com', '123 ABC Street', '012345678123', 'Active', GETDATE(), GETDATE()),
---('Le Nguyen Xuan Duoc', '1995-05-15', 'Male', '0912345678', 'lenguyenxuanduoc@gmail.com', '123 ABC Street', '012345678123', 'Active', GETDATE(), GETDATE()),
---('Truong Anh Thanh Cong', '1998-07-20', 'Female', '0987654321', 'xcongit@gmail.com', '456 XYZ Street', '987654321432', 'Inactive', GETDATE(), GETDATE());
+--('Mai Nguyen Hoang Vu', 1001, '1996-07-22', 'Male', '0354377798', 'mainguyenhoangvu.tdc4304@gmail.com', '123 ABC Street', '012345678123', 'Active', GETDATE(), GETDATE()),
+--('Le Nguyen Xuan Duoc', 1002, '1995-05-15', 'Male', '0912345678', 'lenguyenxuanduoc@gmail.com', '123 ABC Street', '012345678123', 'Active', GETDATE(), GETDATE()),
+--('Truong Anh Thanh Cong', 1001, '1998-07-20', 'Female', '0987654321', 'xcongit@gmail.com', '456 XYZ Street', '987654321432', 'Inactive', GETDATE(), GETDATE());
 
 --INSERT INTO Teachers (FullName, CitizenID, DateOfBirth, Gender, Phone, Email, Nationality, [Address], EmploymentDate, LicenseID, [Status], GraduatedDate, Created_At, Updated_At)
 --VALUES 

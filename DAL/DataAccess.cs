@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-	public static class DataAccessDAL
+	public static class DataAccess
 	{
 		private static string connectionString;
 

@@ -9,7 +9,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace DAL
 {
-    public class InvoiceDAL
+    public class InvoiceDAL : BaseDAL<Invoice>
     {
         #region Properties
         private static InvoiceDAL instance;
@@ -24,18 +24,35 @@ namespace DAL
         }
         #endregion
 
-        public List<Invoice> GetAllInvoices()
+        #region All Invoices
+        protected override IEnumerable<dynamic> QueryAllData()
         {
-            var invoiceData = this.QueryAllInvoices();
-            return this.MapToList(invoiceData);
+            using (var db = DataAccess.GetDataContext())
+            {
+                var data = from invoice in db.Invoices
+                           join sche in db.Schedules on invoice.ScheduleID equals sche.ScheduleID
+                           join learner in db.Learners on sche.LearnerID equals learner.LearnerID
+                           join course in db.Courses on sche.CourseID equals course.CourseID
+                           select new
+                           {
+                               invoice.InvoiceID,
+                               invoice.InvoiceCode,
+                               learner.LearnerID,
+                               learner.FullName,
+                               course.CourseID,
+                               course.CourseName,
+                               invoice.TotalAmount,
+                               invoice.Status,
+                               invoice.Created_At,
+                               invoice.Updated_At
+                           };
+                return data.ToList();
+            }
         }
 
-        // Chuyển đổi dữ liệu sang InvoiceList
-        private List<Invoice> MapToList(IEnumerable<dynamic> data)
+        public List<Invoice> GetAllInvoices()
         {
-            if (data == null) return new List<Invoice>();
-
-            return data.Select(item => new Invoice
+            return GetAll(item => new Invoice
             {
                 InvoiceID = item.InvoiceID,
                 InvoiceCode = item.InvoiceCode,
@@ -45,95 +62,127 @@ namespace DAL
                     {
                         LearnerID = item.LearnerID,
                         FullName = item.FullName,
+                    },
+                    Course = new Course()
+                    {
+                        CourseID = item.CourseID,
+                        CourseName = item.CourseName,
                     }
                 },
                 TotalAmount = item.TotalAmount,
                 Status = item.Status,
                 Created_At = item.Created_At,
                 Updated_At = item.Updated_At
-            }).ToList();
+            });
         }
+        #endregion
 
-        // Truy vấn lấy tất cả Invoice
-        private IEnumerable<dynamic> QueryAllInvoices()
+        #region Search
+        protected override IEnumerable<dynamic> QueryDataByKeyword(string keyword)
         {
-            using (var db = DataAccessDAL.GetDataContext())
+            using (var db = DataAccess.GetDataContext())
             {
-                var data = from inv in db.Invoices
-                       join sche in db.Schedules on inv.ScheduleID equals sche.ScheduleID
-                       join l in db.Learners on sche.LearnerID equals l.LearnerID
-                       select new
-                       {
-                           inv.InvoiceID,
-                           inv.InvoiceCode,
-                           LearnerID = l.LearnerID,
-                           FullName = l.FullName,
-                           inv.TotalAmount,
-                           inv.Status,
-                           inv.Created_At,
-                           inv.Updated_At
-                       };
-                return data.ToList();
-            }
-        }
-
-        public List<Invoice> SearchInvoices (string keyword)
-        {
-            var invoiceData = this.QueryInvoiceByKeyword(keyword);
-            return this.MapToList(invoiceData);
-        }
-
-        // Truy vấn lấy tất cả Invoice bằng từ khóa
-        private IEnumerable<dynamic> QueryInvoiceByKeyword(string keyword)
-        {
-            using (var db = DataAccessDAL.GetDataContext())
-            {
-                var data = from inv in db.Invoices
-                           join sche in db.Schedules on inv.ScheduleID equals sche.ScheduleID
-                           join l in db.Learners on sche.LearnerID equals l.LearnerID
-                           where (inv.InvoiceCode.Contains(keyword) || l.FullName.Contains(keyword))
+                var data = from invoice in db.Invoices
+                           join sche in db.Schedules on invoice.ScheduleID equals sche.ScheduleID
+                           join learner in db.Learners on sche.LearnerID equals learner.LearnerID
+                           join course in db.Courses on sche.CourseID equals course.CourseID
+                           where (invoice.InvoiceCode.Contains(keyword) || learner.FullName.Contains(keyword))
                            select new
                            {
-                               inv.InvoiceID,
-                               inv.InvoiceCode,
-                               LearnerID = l.LearnerID,
-                               FullName = l.FullName,
-                               inv.TotalAmount,
-                               inv.Status,
-                               inv.Created_At,
-                               inv.Updated_At
+                               invoice.InvoiceID,
+                               invoice.InvoiceCode,
+                               learner.LearnerID,
+                               learner.FullName,
+                               course.CourseID,
+                               course.CourseName,
+                               invoice.TotalAmount,
+                               invoice.Status,
+                               invoice.Created_At,
+                               invoice.Updated_At
                            };
                 return data.ToList();
             }
         }
 
+        public List<Invoice> SearchInvoices(string keyword)
+        {
+            return SearchData(keyword, item => new Invoice
+            {
+                InvoiceID = item.InvoiceID,
+                InvoiceCode = item.InvoiceCode,
+                Schedule = new Schedule
+                {
+                    Learner = new Learner()
+                    {
+                        LearnerID = item.LearnerID,
+                        FullName = item.FullName,
+                    },
+                    Course = new Course()
+                    {
+                        CourseID = item.CourseID,
+                        CourseName = item.CourseName,
+                    }
+                },
+                TotalAmount = item.TotalAmount,
+                Status = item.Status,
+                Created_At = item.Created_At,
+                Updated_At = item.Updated_At
+            });
+        }
+        #endregion
+         
+        #region Filter by status
         public List<Invoice> FilterInvoicesByStatus(string status)
         {
-            var invoiceData = this.QueryInvoiceByStatus(status);
-            return this.MapToList(invoiceData);
+            return FilterData(status, item => new Invoice
+            {
+                InvoiceID = item.InvoiceID,
+                InvoiceCode = item.InvoiceCode,
+                Schedule = new Schedule
+                {
+                    Learner = new Learner()
+                    {
+                        LearnerID = item.LearnerID,
+                        FullName = item.FullName,
+                    },
+                    Course = new Course()
+                    {
+                        CourseID = item.CourseID,
+                        CourseName = item.CourseName,
+                    }
+                },
+                TotalAmount = item.TotalAmount,
+                Status = item.Status,
+                Created_At = item.Created_At,
+                Updated_At = item.Updated_At
+            });
         }
 
-        private IEnumerable<dynamic> QueryInvoiceByStatus(string status)
+        protected override IEnumerable<dynamic> QueryDataByFilter(string filterString)
         {
-            using (var db = DataAccessDAL.GetDataContext())
+            using (var db = DataAccess.GetDataContext())
             {
-                var data = from inv in db.Invoices
-                           join sche in db.Schedules on inv.ScheduleID equals sche.ScheduleID
-                           join l in db.Learners on sche.LearnerID equals l.LearnerID
-                           where inv.Status.Contains(status)
+                var data = from invoice in db.Invoices
+                           join sche in db.Schedules on invoice.ScheduleID equals sche.ScheduleID
+                           join learner in db.Learners on sche.LearnerID equals learner.LearnerID
+                           join course in db.Courses on sche.CourseID equals course.CourseID
+                           where invoice.Status == filterString
                            select new
                            {
-                               inv.InvoiceID,
-                               inv.InvoiceCode,
-                               LearnerID = l.LearnerID,
-                               FullName = l.FullName,
-                               inv.TotalAmount,
-                               inv.Status,
-                               inv.Created_At,
-                               inv.Updated_At
+                               invoice.InvoiceID,
+                               invoice.InvoiceCode,
+                               learner.LearnerID,
+                               learner.FullName,
+                               course.CourseID,
+                               course.CourseName,
+                               invoice.TotalAmount,
+                               invoice.Status,
+                               invoice.Created_At,
+                               invoice.Updated_At
                            };
                 return data.ToList();
             }
         }
+        #endregion
     }
 }

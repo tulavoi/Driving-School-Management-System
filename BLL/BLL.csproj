@@ -53,8 +53,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountBLL.cs" />
+    <Compile Include="CourseBLL.cs" />
     <Compile Include="DataAccessBLL.cs" />
     <Compile Include="InvoiceBLL.cs" />
+    <Compile Include="LearnerBLL_Vu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
