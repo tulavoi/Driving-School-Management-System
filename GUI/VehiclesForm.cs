@@ -32,6 +32,7 @@ namespace GUI
 			if (this.chkTruck.Checked) this.txtWeight.Enabled = true;
 
 			if (this.chkPassengerCar.Checked) this.txtSeats.Enabled = true;
+
 			FormHelper.ToggleEditMode(ref isEditing_BasicDetails, this.btnEdit_BasicDetail, this.txtCarName, this.txtCarNo, this.dtpManuYear, this.chkTruck, this.chkPassengerCar);
 		}
 

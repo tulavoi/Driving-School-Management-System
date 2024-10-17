@@ -1,5 +1,7 @@
-﻿using Guna.UI2.WinForms;
+﻿using DAL;
+using Guna.UI2.WinForms;
 using System;
+using System.Configuration;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
@@ -68,6 +70,27 @@ namespace GUI
         public static void ClearDataGridViewRow(Guna2DataGridView dgv)
         {
             dgv.Rows.Clear();
+        }
+
+        public static void ShowError(string message)
+        {
+            MessageBox.Show($"{message}",
+                            "Notify",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Error);
+        }
+
+        public static void ShowNotify(string message)
+        {
+            MessageBox.Show($"{message}",
+                            "Notify",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Information);
+        }
+
+        public static void ShowToolTip(Control control, Guna2HtmlToolTip toolTip, string message)
+        {
+            toolTip.Show(message, control);
         }
     }
 }

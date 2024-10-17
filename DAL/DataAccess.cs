@@ -22,7 +22,7 @@ namespace DAL
 			return new DrivingSchoolDataContext(connectionString);
 		}
 
-		public static SqlConnection GetConnection()
+		private static SqlConnection GetConnection()
 		{
 			return new SqlConnection(connectionString);
 		}

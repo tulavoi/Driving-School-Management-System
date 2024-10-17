@@ -23,7 +23,7 @@ namespace BLL
         }
         #endregion
 
-        public void LoadAllInvoices(Guna2ComboBox cbo)
+        public void AssignCoursesToCombobox(Guna2ComboBox cbo)
         {
             List<Course> courses = CourseDAL.Instance.GetAllCourses();
             this.AddCoursesToCombobox(cbo, courses);
@@ -38,7 +38,6 @@ namespace BLL
             cbo.DataSource = courses;
             cbo.ValueMember = "CourseID";
             cbo.DisplayMember = "CourseName";
-            //cbo.Text = course.CourseName;
         }
     }
 }

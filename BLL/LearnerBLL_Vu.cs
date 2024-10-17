@@ -23,7 +23,7 @@ namespace BLL
         }
         #endregion
 
-        public void LoadAllInvoices(Guna2ComboBox cbo)
+        public void AssignLeanersToCombobox(Guna2ComboBox cbo)
         {
             List<Learner> learners = LearnerDAL_Vu.Instance.GetAllLearners();
             this.AddLearnersToCombobox(cbo, learners);

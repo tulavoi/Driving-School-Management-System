@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Globalization;
 using System.Linq;
 using System.Net.Http.Headers;
@@ -184,5 +185,14 @@ namespace DAL
             }
         }
         #endregion
+
+        #region Create
+        public bool AddInvoice(Invoice invoice)
+        {
+            return AddData(invoice);
+        }
+        #endregion
+
+        
     }
 }

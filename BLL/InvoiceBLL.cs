@@ -1,11 +1,7 @@
 ﻿using DAL;
+using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Guna.UI2.WinForms;
 
 namespace BLL
 {
@@ -32,7 +28,7 @@ namespace BLL
 
         public void SearchInvoices(Guna2DataGridView dgv, string keyword)
         {
-            List<Invoice> invoices = InvoiceDAL.Instance.SearchInvoices (keyword);
+            List<Invoice> invoices = InvoiceDAL.Instance.SearchInvoices(keyword);
             this.AddInvoicesToDataGridView(dgv, invoices);
         }
 
@@ -44,6 +40,7 @@ namespace BLL
 
         private void AddInvoicesToDataGridView(Guna2DataGridView dgv, List<Invoice> invoices)
         {
+            dgv.Rows.Clear();
             foreach (var invoice in invoices)
             {
                 int rowIndex = dgv.Rows.Add();
@@ -58,6 +55,11 @@ namespace BLL
                     dgv.Rows[rowIndex].Cells["FullName"].Value = invoice.Schedule.Learner.FullName;
                 }
             }
+        }
+
+        public bool AddInvoice(Invoice invoice)
+        {
+            return InvoiceDAL.Instance.AddInvoice(invoice);
         }
     }
 }

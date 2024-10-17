@@ -21,5 +21,11 @@ namespace GUI
 
 		public static string EDIT_MODE = "Edit";
         public static string SAVE_MODE = "Save";
+
+		public static decimal Tuition_B = 11000000;
+		public static decimal Tuition_C = 12000000;
+		public static decimal Tuition_D = 15000000;
+		public static decimal Tuition_E = 20000000;
+		public static string DefaultInvoiceStatus = "Pending";
     }
 }

@@ -99,14 +99,14 @@ namespace GUI
             }
 
             else
-                this.ShowError("Login failed!");
+                FormHelper.ShowError("Login failed!");
         }
 
         private bool ConnectToDatabase(string serverName, string dbName)
         {
             if (!DataAccessBLL.Instance.SetupConnection(serverName, dbName))
             {
-                this.ShowError("Connection failed!");
+                FormHelper.ShowError("Connection failed!");
                 return false;
             }
             return true;
@@ -141,12 +141,12 @@ namespace GUI
         {
             if (!this.IsValidEmail(email))
             {
-                this.ShowToolTip(txtEmail, "Invalid email.");
+                FormHelper.ShowToolTip(txtEmail, toolTip, "Invalid email.");
                 return false;
             }
             if (pass.Length < 6)
             {
-                this.ShowToolTip(txtPassword, "Password must be at least 6 characters.");
+                FormHelper.ShowToolTip(txtPassword, toolTip, "Password must be at least 6 characters.");
                 return false;
             }
             return true;
@@ -171,16 +171,11 @@ namespace GUI
             {
                 if (string.IsNullOrEmpty(field.value))
                 {
-                    this.ShowToolTip(field.textBox, field.errorMessage);
+                    FormHelper.ShowToolTip(field.textBox, toolTip, field.errorMessage);
                     return false;
                 }
             }
             return true;
-        }
-
-        private void ShowToolTip(Control control, string message)
-        {
-            toolTip.Show(message, control);
         }
 
         private void OpenMainForm()

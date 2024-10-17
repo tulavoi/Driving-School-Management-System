@@ -1,54 +1,57 @@
-﻿using Guna.UI2.WinForms;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using BLL;
+﻿using BLL;
 using DAL;
+using Guna.UI2.WinForms;
+using System;
+using System.Windows.Forms;
 
 namespace GUI
 {
     public partial class InvoicesForm : Form
     {
-		#region Properties
-		private bool isEditing = false;
+        #region Properties
+        private bool isEditing = false;
 
-		#endregion
+        private static InvoicesForm instance;
 
-		public InvoicesForm()
+        public static InvoicesForm Instance
+        {
+            get
+            {
+                if (instance == null) instance = new InvoicesForm();
+                return instance;
+            }
+        }
+        #endregion
+
+        public InvoicesForm()
         {
             InitializeComponent();
             FormHelper.ApplyRoundedCorners(this, 20);
         }
 
-        private void InvoicesForm_Load(object sender, EventArgs e)
+        public void InvoicesForm_Load(object sender, EventArgs e)
         {
             // Phải load data của Learners, Courses vào combobox trước,
             // nếu không thì sẽ k gán được LearnerName, CourseName từ dgv vào cbo
-            this.LoadAllLeaners();
-            this.LoadAllCourses();
+            this.AssignLeanersToCombobox(cboLearners);
+            this.AssignCoursesToCombobox(cboCourses);
 
             this.LoadAllInvoice();
         }
 
-        private void LoadAllCourses()
+        private void AssignCoursesToCombobox(Guna2ComboBox cbo)
         {
             // Hiển thị all courses vào combobox
-            CourseBLL.Instance.LoadAllInvoices(cboCourses);
+            CourseBLL.Instance.AssignCoursesToCombobox(cbo);
         }
 
-        private void LoadAllLeaners()
+        private void AssignLeanersToCombobox(Guna2ComboBox cbo)
         {
             // Hiển thị all learners vào combobox
-            LearnerBLL_Vu.Instance.LoadAllInvoices(cboLearners);
+            LearnerBLL_Vu.Instance.AssignLeanersToCombobox(cbo);
         }
 
-        private void LoadAllInvoice()
+        public void LoadAllInvoice()
         {
             // Lấy tất cả dữ liệu Invoice, bỏ chọn dòng mặc định
             InvoiceBLL.Instance.LoadAllInvoices(dgvInvoices);
@@ -57,14 +60,14 @@ namespace GUI
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
-		{
-			FormHelper.ToggleEditMode(ref this.isEditing, this.btnEdit, cboLearners, txtSearchLearner, cboCourses, txtSearchCourse, txtTotalAmount, txtAmountNotes, cboStatus);
-		}
+        {
+            FormHelper.ToggleEditMode(ref this.isEditing, this.btnEdit, cboLearners, txtSearchLearner, cboCourses, txtSearchCourse, txtTotalAmount, txtAmountNotes, cboStatus);
+        }
 
-		private void btnOpenAddInvoiceForm_Click(object sender, EventArgs e)
-		{
-			FormHelper.OpenPopupForm(new CreateInvoiceForm());
-		}
+        private void btnOpenAddInvoiceForm_Click(object sender, EventArgs e)
+        {
+            FormHelper.OpenPopupForm(new CreateInvoiceForm());
+        }
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
@@ -73,8 +76,8 @@ namespace GUI
             FormHelper.ClearDataGridViewRow(dgvInvoices);
 
             string keyword = txtSearch.Text.ToLower();
-            InvoiceBLL.Instance.SearchInvoices(dgvInvoices, keyword);
 
+            InvoiceBLL.Instance.SearchInvoices(dgvInvoices, keyword);
             this.UpdateControlsWithSelectedRowData();
         }
 
@@ -112,7 +115,7 @@ namespace GUI
             }
         }
 
-        public void AssignDataToControls(Invoice selectedInvoice)
+        private void AssignDataToControls(Invoice selectedInvoice)
         {
             // Gán các trường dữ liệu vào controls
             string invoiceCode = selectedInvoice.InvoiceCode;

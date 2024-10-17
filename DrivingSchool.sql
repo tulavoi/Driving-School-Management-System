@@ -199,10 +199,10 @@ add constraint FK_Payments_Invoice foreign key (InvoiceID) references Invoices(I
 --('15H00-17H00', GETDATE(), GETDATE());
 
 --INSERT INTO Schedules (LearnerID, TeacherID, VehicleID, CourseID, SessionID, SessionDate, Created_At, Updated_At)
---VALUES 
+--VALUES (1003, 1002, 1003, 1003, 1003, '2024-10-25', GETDATE(), GETDATE()),
 --(1001, 1001, 1001, 1001, 1001, '2024-10-15', GETDATE(), GETDATE()),
 --(1002, 1002, 1003, 1002, 1002, '2024-10-20', GETDATE(), GETDATE());
-
+--delete Invoices where InvoiceID = 1009
 --INSERT INTO Invoices (InvoiceCode, ScheduleID, TotalAmount, [Status], Created_At, Updated_At)
 --VALUES 
 --('INV-0924131024', 1001, 1500.00, 'Pending', GETDATE(), GETDATE()),
