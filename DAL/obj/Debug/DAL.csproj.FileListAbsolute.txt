@@ -1,0 +1,14 @@
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\DAL\bin\Debug\DAL.dll
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\DAL\bin\Debug\DAL.pdb
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\DAL\obj\Debug\DAL.dll
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\DAL\obj\Debug\DAL.pdb
+C:\Users\khach\OneDrive\Documents\C#\CDUD\DrivingSchoolManagementSystem\DAL\bin\Debug\DAL.dll.config
+D:\DrivingSchoolManagementSystem\DrivingSchoolManagementSystem\DAL\bin\Debug\DAL.dll.config
+D:\DrivingSchoolManagementSystem\DrivingSchoolManagementSystem\DAL\bin\Debug\DAL.dll
+D:\DrivingSchoolManagementSystem\DrivingSchoolManagementSystem\DAL\bin\Debug\DAL.pdb
+D:\DrivingSchoolManagementSystem\DrivingSchoolManagementSystem\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\DrivingSchoolManagementSystem\DrivingSchoolManagementSystem\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\DrivingSchoolManagementSystem\DrivingSchoolManagementSystem\DAL\obj\Debug\DAL.dll
+D:\DrivingSchoolManagementSystem\DrivingSchoolManagementSystem\DAL\obj\Debug\DAL.pdb
